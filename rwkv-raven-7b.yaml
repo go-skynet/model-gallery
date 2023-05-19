@@ -23,8 +23,8 @@ config_file: |
     system: "Alice:"
     assistant: "Alice:"
   template:
-    completion: rwkv_completion
-    chat: rwkv_chat
+    completion: rwkv-completion
+    chat: rwkv-chat
 files:
 - filename: "Q8_0-RWKV-4-Raven-7B-v11x-Eng99-Other1-20230429-ctx8192"
   sha256: "75d252da63405e9897bff2957f9b6b1c94d496a50e4772d5fc1ec22fb048f9b5"
