@@ -1,0 +1,30 @@
+name: "base"
+
+description: |
+    A Base model definition
+
+license: "N/A"
+config_file: |
+    parameters:
+      model: model
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: completion
+      chat: chat
+
+prompt_templates:
+- name: "completion"
+  content: |
+      {{.Input}}
+
+- name: "chat"
+  content: |
+    Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+    ### Instruction:
+    {{.Input}}
+
+    ### Response:

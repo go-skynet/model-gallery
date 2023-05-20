@@ -1,0 +1,30 @@
+name: "koala"
+
+description: |
+    Koala: A Dialogue Model for Academic Research
+
+license: "LLaMA"
+urls:
+- https://bair.berkeley.edu/blog/2023/04/03/koala/
+- https://github.com/young-geng/EasyLM
+
+config_file: |
+    backend: llama
+    parameters:
+      model: koala
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: "koala-completion"
+      chat: koala-chat
+
+prompt_templates:
+- name: "koala-completion"
+  content: |
+      {{.Input}}
+
+- name: "koala-chat"
+  content: |
+    BEGINNING OF CONVERSATION: USER: {{.Input}} GPT:
