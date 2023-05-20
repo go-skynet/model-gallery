@@ -1,0 +1,34 @@
+name: "vicuna"
+
+description: |
+    Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90% ChatGPT Quality
+
+license: "LLaMA"
+urls:
+- https://github.com/lm-sys/FastChat
+
+config_file: |
+    backend: llama
+    parameters:
+      model: vicuna
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: vicuna-completion
+      chat: vicuna-chat
+
+prompt_templates:
+- name: "vicuna-completion"
+  content: |
+      {{.Input}}
+
+- name: "vicuna-chat"
+  content: |
+    Below is an instruction that describes a task. Write a response that appropriately completes the request.
+
+    ### Instruction:
+    {{.Input}}
+
+    ### Response:

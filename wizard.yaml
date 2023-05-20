@@ -1,0 +1,31 @@
+name: "wizardlm"
+
+description: |
+    WizardLM: An Instruction-following LLM Using Evol-Instruct
+
+license: "LLaMA"
+urls:
+- https://github.com/nlpxucan/WizardLM
+
+config_file: |
+    backend: llama
+    parameters:
+      model: wizardlm
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: wizardlm-completion
+      chat: wizardlm-chat
+
+prompt_templates:
+- name: "wizardlm-completion"
+  content: |
+      Complete the following sentence: {{.Input}}
+
+- name: "wizardlm-chat"
+  content: |
+    {{.Input}}
+
+    ### Response:
