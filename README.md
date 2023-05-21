@@ -230,6 +230,19 @@ curl $LOCALAI/v1/images/generations -H "Content-Type: application/json" -d '{
 </details>
 
 
+### Whisper
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{         
+     "url": "github:go-skynet/model-gallery/whisper-base.yaml",
+     "name": "whisper-1"
+   }'
+```
+
+</details>
+
 ### Vicuna
 
 This model definition does not contain a URL. It must be provided with the request.
