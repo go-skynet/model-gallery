@@ -172,7 +172,7 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
-## GPT: Airoboros 13B
+### GPT: Airoboros 13B
 
 <details>
 
@@ -193,7 +193,7 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
-## GPT: Airoboros 7B
+### GPT: Airoboros 7B
 
 <details>
 
