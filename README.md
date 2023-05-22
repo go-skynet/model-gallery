@@ -112,12 +112,13 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 ## Models
 
-### Bert embeddings
+Note: replace `$LOCALAI` with your LocalAI API endpoint.
+
+### Embeddings: Bert
 
 <details>
 
 ```bash
-LOCALAI=http://localhost:8080
 curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
      "url": "github:go-skynet/model-gallery/bert-embeddings.yaml",
      "name": "text-embedding-ada-002"
@@ -136,7 +137,83 @@ curl $LOCALAI/v1/embeddings -H "Content-Type: application/json" -d '{
 
 </details>
 
-### GPT4ALL-J
+### Image generation: Stable diffusion
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{         
+     "url": "github:go-skynet/model-gallery/stablediffusion.yaml"
+   }'
+```
+
+Test it:
+
+```
+curl $LOCALAI/v1/images/generations -H "Content-Type: application/json" -d '{
+            "prompt": "floating hair, portrait, ((loli)), ((one girl)), cute face, hidden hands, asymmetrical bangs, beautiful detailed eyes, eye shadow, hair ornament, ribbons, bowties, buttons, pleated skirt, (((masterpiece))), ((best quality)), colorful|((part of the head)), ((((mutated hands and fingers)))), deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, Octane renderer, lowres, bad anatomy, bad hands, text",
+            "mode": 2,  "seed":9000,
+            "size": "256x256", "n":2
+}'
+```
+</details>
+
+
+### Audio transcription: Whisper
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{         
+     "url": "github:go-skynet/model-gallery/whisper-base.yaml",
+     "name": "whisper-1"
+   }'
+```
+
+</details>
+
+## GPT: Airoboros 13B
+
+<details>
+
+```bash
+ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/airoboros.yaml",
+     "name": "gpt-3.5-turbo",
+     "overrides": { "parameters": {"model": "airoboros-13B.q5_1.bin" }, "f16": true },
+     "files": [
+        {
+            "uri": "xxx",        
+            "sha256": "68ec4f4434ce4b01512506446a816500fa81ad4cde89f4e61d9ce982774bec06", 
+            "filename": "airoboros-13B.q5_1.bin"       
+        }
+     ]
+   }'
+```
+
+</details>
+
+## GPT: Airoboros 7B
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/airoboros.yaml",
+     "name": "gpt-3.5-turbo",
+     "overrides": { "parameters": {"model": "airoboros-7b-ggml-q8_0.bin" }, "f16": true }, 
+     "files": [
+        {
+            "uri": "xxx",
+            "sha256": "a197f49b53865e7e41953ad4d77f2169a6d7d599b21f87bea36858c2d76a0369", 
+            "filename": "airoboros-7b-ggml-q8_0.bin"
+        }
+     ]
+   }'
+```
+</details>
+
+### GPT: GPT4ALL-J
 
 <details>
 
@@ -160,7 +237,30 @@ curl $LOCALAI/v1/chat/completions -H "Content-Type: application/json" -d '{
 
 </details>
 
-### RWKV-7b
+### GPT: Manticore 13B
+
+This model definition does not contain a URL. It must be provided with the request.
+
+<details>
+
+```
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/manticore.yaml",
+     "name": "manticore",
+     "overrides": { "parameters": {"model": "Manticore-13B.ggmlv3.q5_1.bin" }, "f16": true }, 
+     "files": [
+        {
+            "uri": "xxxx",                            
+            "sha256": "7d2c76516bcfdedc0d6282e3c352e2423964989fc871e21b1922f0f1b8acc1db", 
+            "filename": "Manticore-13B.ggmlv3.q5_1.bin" 
+        }
+     ]
+   }'
+```
+
+</details>
+
+### GPT: RWKV-7b
 
 <details>
 
@@ -185,7 +285,7 @@ curl $LOCALAI/v1/chat/completions -H "Content-Type: application/json" -d '{
 
 </details>
 
-### Koala
+### GPT: Koala
 
 This model definition does not contain a URL. It must be provided with the request.
 
@@ -208,42 +308,8 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
-### Stable diffusion
 
-<details>
-
-```bash
-curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{         
-     "url": "github:go-skynet/model-gallery/stablediffusion.yaml"
-   }'
-```
-
-Test it:
-
-```
-curl $LOCALAI/v1/images/generations -H "Content-Type: application/json" -d '{
-            "prompt": "floating hair, portrait, ((loli)), ((one girl)), cute face, hidden hands, asymmetrical bangs, beautiful detailed eyes, eye shadow, hair ornament, ribbons, bowties, buttons, pleated skirt, (((masterpiece))), ((best quality)), colorful|((part of the head)), ((((mutated hands and fingers)))), deformed, blurry, bad anatomy, disfigured, poorly drawn face, mutation, mutated, extra limb, ugly, poorly drawn hands, missing limb, blurry, floating limbs, disconnected limbs, malformed hands, blur, out of focus, long neck, long body, Octane renderer, lowres, bad anatomy, bad hands, text",
-            "mode": 2,  "seed":9000,
-            "size": "256x256", "n":2
-}'
-```
-</details>
-
-
-### Whisper
-
-<details>
-
-```bash
-curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{         
-     "url": "github:go-skynet/model-gallery/whisper-base.yaml",
-     "name": "whisper-1"
-   }'
-```
-
-</details>
-
-### Vicuna
+### GPT: Vicuna
 
 This model definition does not contain a URL. It must be provided with the request.
 
@@ -266,7 +332,7 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
-### WizardLM
+### GPT: WizardLM
 
 This model definition does not contain a URL. It must be provided with the request.
 

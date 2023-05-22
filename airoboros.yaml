@@ -1,0 +1,34 @@
+name: "airoboros"
+
+description: |
+     Airoboros 13B
+
+license: "LLaMA"
+
+config_file: |
+    backend: llama
+    parameters:
+      model: airoboros
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    roles:
+      user: "USER:"
+      system: "SYSTEM:"
+      assistant: "ASSISTANT:"
+    f16: true
+    template:
+      completion: airoboros-completion
+      chat: airoboros-chat
+
+prompt_templates:
+- name: "airoboros-completion"
+  content: |
+      Complete the following sentence: {{.Input}}
+- name: "airoboros-chat"
+  content: |
+    A chat between a curious user and an artificial intelligence assistant.  The assistant gives helpful, detailed and polite answers to the user's instructions.
+
+    {{.Input}}
+    ASSISTANT:

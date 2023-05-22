@@ -1,0 +1,31 @@
+name: "manticore"
+
+description: |
+     Manticore 13B - (previously Wizard Mega) 
+
+license: "N/A"
+
+config_file: |
+    backend: llama
+    parameters:
+      model: manticore
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    f16: true
+    template:
+      completion: manticore-completion
+      chat: manticore-chat
+
+prompt_templates:
+- name: "manticore-completion"
+  content: |
+      ### Instruction: Complete the following sentence: {{.Input}}
+
+      ### Assistant:
+- name: "manticore-chat"
+  content: |
+      ### Instruction: {{.Input}}
+
+      ### Assistant:
