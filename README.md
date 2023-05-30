@@ -315,6 +315,31 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
+### GPT: RWKV-1b
+
+<details>
+
+```bash
+LOCALAI=http://localhost:8080
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/rwkv-raven-1b.yaml",
+     "name": "rwkv"
+   }'  
+```
+
+To test it:
+
+```bash
+curl $LOCALAI/v1/chat/completions -H "Content-Type: application/json" -d '{
+     "model": "rwkv",            
+     "messages": [{"role": "user", "content": "How are you?"}],
+     "temperature": 0.9, "top_p": 0.8, "top_k": 80
+   }'
+# {"object":"chat.completion","model":"rwkv","choices":[{"message":{"role":"assistant","content":" I am very well! Thank you! How about you?"}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0}}
+```
+
+</details>
+
 ### GPT: RWKV-7b
 
 <details>
