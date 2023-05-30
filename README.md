@@ -193,7 +193,9 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
 
 </details>
 
-### GPT: Airoboros 7B
+### GPT: Airoboros
+
+This model definition does not contain a URL. It must be provided with the request.
 
 <details>
 
@@ -207,6 +209,59 @@ curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
             "uri": "xxx",
             "sha256": "a197f49b53865e7e41953ad4d77f2169a6d7d599b21f87bea36858c2d76a0369", 
             "filename": "airoboros-7b-ggml-q8_0.bin"
+        }
+     ]
+   }'
+```
+</details>
+
+### GPT: Gorilla
+
+> "Gorilla enables LLMs to use tools by invoking APIs. Given a natural language query, Gorilla can write a semantically- and syntactically- correct API to invoke. With Gorilla, we are the first to demonstrate how to use LLMs to invoke 1,600+ (and growing) API calls accurately while reducing hallucination. "
+
+URL: https://shishirpatil.github.io/gorilla/
+
+This model definition does not contain a URL. It must be provided with the request.
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/gorilla.yaml",
+     "name": "gpt-3.5-turbo",
+     "overrides": { "parameters": {"model": "Gorilla-7B.ggmlv3.q5_0.bin" }, "f16": true }, 
+     "files": [
+        {
+            "uri": "xxx",
+            "sha256": "	c322b772a33c2f5fc038909293d594dd0b79bf7857e3f54affe3d8d368fb9950", 
+            "filename": "Gorilla-7B.ggmlv3.q5_0.bin"
+        }
+     ]
+   }'
+```
+</details>
+
+
+### GPT: Guanaco
+
+> Guanaco is an advanced instruction-following language model built on Meta's LLaMA 7B model. Expanding upon the initial 52K dataset from the Alpaca model, an additional 534,530 entries have been incorporated, covering English, Simplified Chinese, Traditional Chinese (Taiwan), Traditional Chinese (Hong Kong), Japanese, Deutsch, and various linguistic and grammatical tasks. This wealth of data enables Guanaco to perform exceptionally well in multilingual environments.
+
+URL: https://github.com/Guanaco-Model/Guanaco-Model.github.io
+
+This model definition does not contain a URL. It must be provided with the request.
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/guanaco.yaml",
+     "name": "gpt-3.5-turbo",
+     "overrides": { "parameters": {"model": "guanaco-7B.ggmlv3.q5_0.bin" }, "f16": true }, 
+     "files": [
+        {
+            "uri": "xxx",
+            "sha256": "49cd83ffbbd77452e279aea1e0e6c9e434b517c3347b10b593faf691e6115953", 
+            "filename": "guanaco-7B.ggmlv3.q5_0.bin"
         }
      ]
    }'
@@ -283,6 +338,31 @@ curl $LOCALAI/v1/chat/completions -H "Content-Type: application/json" -d '{
 # {"object":"chat.completion","model":"rwkv","choices":[{"message":{"role":"assistant","content":" I am very well! Thank you! How about you?"}}],"usage":{"prompt_tokens":0,"completion_tokens":0,"total_tokens":0}}
 ```
 
+</details>
+
+
+### GPT: Samantha
+
+URL: https://erichartford.com/meet-samantha
+
+This model definition does not contain a URL. It must be provided with the request.
+
+<details>
+
+```bash
+curl $LOCALAI/models/apply -H "Content-Type: application/json" -d '{
+     "url": "github:go-skynet/model-gallery/samantha.yaml",
+     "name": "gpt-3.5-turbo",
+     "overrides": { "parameters": {"model": "Samantha-7B.ggmlv3.q5_0.bin" }, "f16": true }, 
+     "files": [
+        {
+            "uri": "xxx",
+            "sha256": "237ae2ca2757ac985f17f3c5842557a6b27e5d5659a82c850dadbb6c85b38bd0", 
+            "filename": "Samantha-7B.ggmlv3.q5_0.bin"
+        }
+     ]
+   }'
+```
 </details>
 
 ### GPT: Koala

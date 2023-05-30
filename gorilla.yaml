@@ -1,0 +1,26 @@
+name: "gorilla"
+
+description: |
+  Gorilla is a LLM that can provide the appropriate API calls. It is trained on three massive machine learning hub datasets: Torch Hub, TensorFlow Hub and HuggingFace. Zero-shot Gorilla outperforms GPT-4, Chat-GPT and Claude. Gorilla is extremely reliable, and significantly reduces the hallucination errors.
+urls:
+- https://shishirpatil.github.io/gorilla/
+license: "N/A"
+
+config_file: |
+    backend: llama
+    parameters:
+      model: gorilla
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    f16: true
+    template:
+      completion: gorilla
+      chat: gorilla
+
+prompt_templates:
+- name: "gorilla"
+  content: |
+    ###USER: {{.Input}}
+    ###ASSISTANT:
