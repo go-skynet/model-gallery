@@ -19,6 +19,10 @@ config_file: |
     template:
       completion: "koala-completion"
       chat: koala-chat
+    roles:
+      user: "USER:"
+      system: "SYSTEM:"
+      assistant: "GPT:"
 
 prompt_templates:
 - name: "koala-completion"
@@ -27,4 +31,4 @@ prompt_templates:
 
 - name: "koala-chat"
   content: |
-    BEGINNING OF CONVERSATION: USER: {{.Input}} GPT:
+    BEGINNING OF CONVERSATION: {{.Input}} GPT:
