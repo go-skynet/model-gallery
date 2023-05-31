@@ -1,0 +1,24 @@
+name: "mpt-7b-base"
+
+description: |
+  MPT-7B is a decoder-style transformer pretrained from scratch on 1T tokens of English text and code. This model was trained by MosaicML.
+
+license: "CC-By-SA-3.0"
+
+config_file: |
+    backend: gpt4all-mpt
+    parameters:
+      model: ggml-mpt-7b-base.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    f16: true
+    template:
+      completion: "mpt-completion"
+      chat: mpt-chat
+
+files:
+    - filename: "ggml-mpt-7b-base.bin"
+      sha256: "1c612d7a8553f0f367197d323f4c3d68a07c204353e772a3b2fda436669f1ea0"
+      uri: "https://gpt4all.io/models/ggml-mpt-7b-base.bin"

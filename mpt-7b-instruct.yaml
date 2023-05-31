@@ -1,0 +1,32 @@
+name: "mpt-7b-instruct"
+
+description: |
+    MPT-7B-Instruct is a model for short-form instruction following. It is built by finetuning MPT-7B on a dataset derived from the Databricks Dolly-15k and the Anthropic Helpful and Harmless (HH-RLHF) datasets. 
+
+license: "CC-By-SA-3.0"
+
+config_file: |
+    backend: gpt4all-mpt
+    parameters:
+      model: ggml-mpt-7b-instruct.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    f16: true
+    template:
+      completion: "mpt-completion"
+      chat: mpt-instruct-chat
+
+files:
+    - filename: "ggml-mpt-7b-instruct.bin"
+      sha256: "3e55408392233201f7b2a2e2822d3292ff1dcc50ff74c101c2e47342664a9b34"
+      uri: "https://gpt4all.io/models/ggml-mpt-7b-instruct.bin"
+
+prompt_templates:
+- name: "mpt-completion"
+  content: |
+    Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: Complete the following sentence: {{.Input}} ### Response:
+- name: "mpt-instruct-chat"
+  content: |
+    Below is an instruction that describes a task. Write a response that appropriately completes the request. ### Instruction: {{.Input}} ### Response:
