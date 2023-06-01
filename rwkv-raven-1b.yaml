@@ -9,7 +9,7 @@ description: |
     This version is quantized for ggml to work with rwkv.cpp.
 config_file: |
   parameters:
-    model: "RWKV-4-Raven-1B5"
+    model: "RWKV-4-Raven-1B5-v11-Eng99%2525-Other1%2525-20230425-ctx4096_Q4_0.bin"
     top_k: 80
     temperature: 0.9
     max_tokens: 100
@@ -26,10 +26,10 @@ config_file: |
     completion: rwkv-completion
     chat: rwkv-chat
 files:
-- filename: "RWKV-4-Raven-1B5"
+- filename: "RWKV-4-Raven-1B5-v11-Eng99%2525-Other1%2525-20230425-ctx4096_Q4_0.bin"
   sha256: "17619d5139bf01b2393b6d1629d6bc51f3293f3729d0077837bc12935c6b72f5"
   uri: "https://huggingface.co/mudler/rwkv-4-raven-1.5B-ggml/resolve/main/RWKV-4-Raven-1B5-v11-Eng99%2525-Other1%2525-20230425-ctx4096_Q4_0.bin"
-- filename: "Q8_0-RWKV-4-Raven-7B-v11x-Eng99-Other1-20230429-ctx8192.tokenizer.json"
+- filename: "RWKV-4-Raven-1B5-v11-Eng99%2525-Other1%2525-20230425-ctx4096_Q4_0.bin.tokenizer.json"
   sha256: "56ac4821e129d2c520fdaba60abd920fa852ada51b45c0dd52bbb6bd8c985ade"
   uri: "https://raw.githubusercontent.com/saharNooby/rwkv.cpp/5eb8f09c146ea8124633ab041d9ea0b1f1db4459/rwkv/20B_tokenizer.json"
 prompt_templates:
