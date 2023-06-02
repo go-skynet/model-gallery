@@ -1,0 +1,35 @@
+name: "manticore-chat-pyg-guanaco"
+
+description: |
+    Manticore-13b-Chat-Pyg by openaccess-ai-collective with the Guanaco 13b qLoRa by TimDettmers applied through Monero, quantized by mindrage, uncensored
+
+license: "N/A"
+
+config_file: |
+    backend: llama
+    parameters:
+      model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0.bin
+      top_k: 40
+      temperature: 0.15
+      top_p: 0.1
+    context_size: 1024
+    f16: true
+    template:
+      completion: manticore-chat-pyg-guanaco-completion
+      chat: manticore-chat-pyg-guanaco-chat
+    roles:
+      user: "USER:"
+      system: "SYSTEM:"
+      assistant: "ASSISTANT:"
+prompt_templates:
+- name: "manticore-chat-pyg-guanaco-completion"
+  content: |
+      ### Instruction: {{.Input}}
+
+      ### Assistant:
+- name: "manticore-chat-pyg-guanaco-chat"
+  content: |
+      This is a conversation between an advanced AI and a human user.
+
+      {{.Input}}
+      ASSISTANT: 
