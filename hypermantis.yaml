@@ -1,0 +1,41 @@
+name: "hypermantis"
+
+description: |
+    is a weight-sum multi model-merge comprised of:
+
+    ((MantiCore3E+VicunaCocktail)+(SuperCOT+(StorytellingV2+BluemoonRP))) [All 13B Models]
+
+license: ""
+
+config_file: |
+    backend: llama
+    parameters:
+      model: hypermantis
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 2048
+    template:
+      completion: hypermantis-completion
+      chat: hypermantis-chat
+    roles:
+      user: "USER:"
+      system: "SYSTEM:"
+      assistant: "ASSISTANT:"
+
+prompt_templates:
+- name: "hypermantis-completion"
+  content: |
+      Complete the following text: {{.Input}}
+
+- name: "hypermantis-chat"
+  content: |
+    ### Instruction:
+
+    This is a chat between a user and an assistant.
+
+    {{.Input}}
+
+    ### Response:
+
+    ASSISTANT:
