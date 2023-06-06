@@ -1,0 +1,36 @@
+name: "gpt4all-l13b-snoozy"
+description: |
+  LLaMA 13B finetuned by Nomic AI on the latest GPT4All dataset. Cannot be used commercially. Slower responses but higher quality.
+license: ""
+urls:
+- https://gpt4all.io
+config_file: |
+    backend: gpt4all-llama
+    parameters:
+      model: ggml-gpt4all-j-v1.3-groovy.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: "gpt4all-completion"
+      chat: gpt4all-chat
+
+# files:
+#     - filename: "ggml-gpt4all-l13b-snoozy.bin"
+#       sha256: "997072bd77078c82131e7becf3fc4b090efec43a1f480bbde0e401ffe5145688"
+# 
+
+prompt_templates:
+- name: "gpt4all-completion"
+  content: |
+    Complete the prompt
+    ### Prompt:
+    {{.Input}}
+    ### Response:
+- name: "gpt4all-chat"
+  content: |
+    The prompt below is a question to answer, a task to complete, or a conversation to respond to; decide which and write an appropriate response.
+    ### Prompt:
+    {{.Input}}
+    ### Response:
