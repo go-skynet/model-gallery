@@ -1,0 +1,37 @@
+name: "openllama-3b"
+
+description: |
+  OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset 
+
+license: "Apache 2.0"
+urls:
+- https://github.com/openlm-research/open_llama
+
+config_file: |
+    backend: llama
+    parameters:
+      model: open-llama-3b-q4_0.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: openllama-completion
+      chat: openllama-chat
+
+files:
+    - filename: "open-llama-3b-q4_0.bin"
+      sha256: "ec0460668c7fa50eee4d96b8687dbb29fa42b91c634151fe9c0c53cace0ab81a"
+      uri: "https://huggingface.co/SlyEcho/open_llama_3b_ggml/resolve/main/open-llama-3b-q4_0.bin"
+
+prompt_templates:
+- name: "openllama-completion"
+  content: |
+      {{.Input}}
+
+- name: "openllama-chat"
+  content: |
+    ### Instruction:
+    {{.Input}}
+
+    ### Response:
