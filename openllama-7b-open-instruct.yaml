@@ -1,0 +1,38 @@
+name: "openllama-7b"
+
+description: |
+  OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset 
+
+license: "cc-by-sa-3.0"
+urls:
+- https://github.com/openlm-research/open_llama
+- https://huggingface.co/datasets/VMware/open-instruct-v1-oasst-dolly-hhrlhf
+- https://huggingface.co/TheBloke/open-llama-7b-open-instruct-GGML
+
+config_file: |
+    backend: llama
+    parameters:
+      model: open-llama-7B-open-instruct.ggmlv3.q4_0.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: openllama-instruct-completion
+      chat: openllama-instruct-chat
+
+files:
+    - filename: "open-llama-7B-open-instruct.ggmlv3.q4_0.bin"
+      sha256: "	7c9b21f889d181dedab298ff3e494bce01af8a4e828fc0945985e90c96434a4d"
+      uri: "https://huggingface.co/TheBloke/open-llama-7b-open-instruct-GGML/resolve/main/open-llama-7B-open-instruct.ggmlv3.q4_0.bin"
+
+prompt_templates:
+- name: "openllama-instruct-completion"
+  content: |
+    {{.Input}}
+- name: "openllama-instruct-chat"
+  content: |
+    Below is an instruction that describes a task. Write a response that appropriately completes the request
+
+    ### Instruction: {{.Input}}
+    ### Response:
