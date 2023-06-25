@@ -1,24 +1,50 @@
 package main
 
 import (
-	"crypto/sha256"
 	"encoding/json"
 	"fmt"
-	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
-	"os"
-	"path/filepath"
+	"regexp"
 	"strings"
+
+	. "github.com/go-skynet/LocalAI/pkg/gallery"
+	"gopkg.in/yaml.v3"
 )
+
+var baseGalleryURL string = "github:go-skynet/model-gallery"
+var baseConfig string = baseGalleryURL + "/base.yaml"
+
+var baseURLs map[string]string = map[string]string{
+	// This maps the key to a file into the repository
+	"koala":       "koala",
+	"manticore":   "manticore",
+	"vicuna":      "vicuna",
+	"airoboros":   "airoboros",
+	"hypermantis": "hypermantis",
+	"guanaco":     "guanaco",
+	"openllama":   "openllama_3b",
+	"rwkv":        "rwkv-raven-1b",
+	"wizard":      "wizard",
+}
 
 type Model struct {
 	ModelID string `json:"modelId"`
 	Author  string `json:"author"`
 }
 
-type ModelFiles struct {
+type CardData struct{}
+
+type HFModel struct {
+	Author   string `json:"author"`
+	CardData struct {
+		Inference bool   `json:"inference"`
+		License   string `json:"license"`
+	} `json:"cardData"`
+	Tags     []string  `json:"tags"`
 	Siblings []Sibling `json:"siblings"`
+	Files    []File
 }
 
 type Sibling struct {
@@ -39,31 +65,66 @@ func main() {
 		log.Fatal(err)
 	}
 
+	gallery := []GalleryModel{}
 	// Step 2: Process each model and retrieve its files (siblings)
 	for _, model := range modelList {
 		fmt.Println("Model ID:", model.ModelID)
 
 		// Step 3: Retrieve model files (siblings)
-		modelFiles, err := getModelFiles(model.ModelID)
+		m, err := getModel(model.ModelID)
 		if err != nil {
 			log.Println("Failed to retrieve files for model", model.ModelID)
 			continue
 		}
 
 		// Step 4: Save the model files
-		err = saveModelFiles(model.ModelID, modelFiles)
+		mm, err := getModelFiles(model.ModelID, m)
 		if err != nil {
 			log.Println("Failed to save files for model", model.ModelID)
 			continue
 		}
 
-		fmt.Println("Files saved for model", model.ModelID)
-		fmt.Println()
+		for _, m := range mm.Files {
+			url := baseConfig
+
+			for k, v := range baseURLs {
+				// Check if the model name or ID contains the key
+				// TODO: This is a bit hacky, we should probably use a regex(?)
+				if strings.Contains(strings.ToLower(m.Filename), k) || strings.Contains(strings.ToLower(model.ModelID), k) {
+					url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v)
+					break
+				}
+			}
+
+			gallery = append(gallery, GalleryModel{
+				Name:        m.Filename,
+				Description: model.ModelID,
+				URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
+				License:     mm.CardData.License,
+				Icon:        "",
+				Overrides: map[string]interface{}{
+					"params": map[string]interface{}{
+						"model": m.Filename,
+					},
+				},
+				AdditionalFiles: []File{m},
+				URL:             url,
+				Tags:            mm.Tags,
+			})
+			fmt.Println("Found", m)
+		}
+
+		// Step 5: Save the gallery
+		galleryYAML, err := yaml.Marshal(gallery)
+		if err != nil {
+			log.Fatal(err)
+		}
+		ioutil.WriteFile("index.yaml", galleryYAML, 0644)
 	}
 }
 
-func getModelFiles(modelID string) (ModelFiles, error) {
-	var files ModelFiles
+func getModel(modelID string) (HFModel, error) {
+	var files HFModel
 
 	resp, err := http.Get(fmt.Sprintf("https://huggingface.co/api/models/%s", modelID))
 	if err != nil {
@@ -79,34 +140,31 @@ func getModelFiles(modelID string) (ModelFiles, error) {
 	return files, nil
 }
 
-func getETag(url string) (string, error) {
-	resp, err := http.Head(url)
-	if err != nil {
-		return "", err
-	}
-	defer resp.Body.Close()
+func getSHA256(url string) (string, error) {
 
-	etag := resp.Header.Get("ETag")
-	return etag, nil
-}
-func getETagSHA256(url string) (string, error) {
 	resp, err := http.Get(url)
 	if err != nil {
-		return "", err
+		return "", fmt.Errorf("Failed to fetch the web page: %v\n", err)
 	}
 	defer resp.Body.Close()
 
-	// Compute SHA256 hash of the response body
-	hash := sha256.New()
-	if _, err := io.Copy(hash, resp.Body); err != nil {
-		return "", err
+	htmlData, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return "", fmt.Errorf("Failed to read the response body: %v\n", err)
 	}
-	etag := fmt.Sprintf("%x", hash.Sum(nil))
 
-	return etag, nil
+	shaRegex := regexp.MustCompile(`(?s)<strong>SHA256:</strong>\s+(.+?)</li>`)
+	match := shaRegex.FindSubmatch(htmlData)
+	if len(match) < 2 {
+		return "", fmt.Errorf("SHA256 value not found in the HTML")
+	}
+
+	sha := string(match[1])
+	return sha, nil
 }
 
-func saveModelFiles(modelID string, modelFiles ModelFiles) error {
+func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
+	f := []File{}
 	for _, sibling := range modelFiles.Siblings {
 		if !strings.HasSuffix(sibling.RFileName, ".bin") {
 			fmt.Println("not a bin ", sibling.RFileName)
@@ -118,45 +176,23 @@ func saveModelFiles(modelID string, modelFiles ModelFiles) error {
 
 			continue
 		}
-		fileURL := fmt.Sprintf("https://huggingface.co/models/%s/raw/main/%s", modelID, sibling.RFileName)
-
-		etag, err := getETag(fileURL)
+		fileURL := fmt.Sprintf("https://huggingface.co/%s/resolve/main/%s", repository, sibling.RFileName)
+		shaURL := fmt.Sprintf("https://huggingface.co/%s/blob/main/%s", repository, sibling.RFileName)
+		sha, err := getSHA256(shaURL)
 		if err != nil {
 
 			fmt.Println("Failed to get etag", sibling.RFileName, err)
 			continue
 		}
 
-		fmt.Println("Saving file", sibling.RFileName, etag)
+		f = append(f, File{
+			Filename: sibling.RFileName,
+			SHA256:   sha,
+			URI:      fileURL,
+		})
+		fmt.Println("Saving file", sibling.RFileName, sha)
 
-		continue
-		// Retrieve the sibling file
-		resp, err := http.Get(fmt.Sprintf("https://huggingface.co/models/%s/raw/main/%s", modelID, sibling.RFileName))
-		if err != nil {
-			return err
-		}
-		defer resp.Body.Close()
-
-		// Create the directory to save the files if it doesn't exist
-		err = os.MkdirAll(modelID, os.ModePerm)
-		if err != nil {
-			return err
-		}
-
-		// Create the file
-		filePath := filepath.Join(modelID, sibling.RFileName)
-		file, err := os.Create(filePath)
-		if err != nil {
-			return err
-		}
-		defer file.Close()
-
-		// Save the file content
-		_, err = io.Copy(file, resp.Body)
-		if err != nil {
-			return err
-		}
 	}
-
-	return nil
+	modelFiles.Files = f
+	return modelFiles, nil
 }
