@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"regexp"
+	"sort"
 	"strings"
 
 	. "github.com/go-skynet/LocalAI/pkg/gallery"
@@ -49,78 +50,6 @@ type HFModel struct {
 
 type Sibling struct {
 	RFileName string `json:"rfilename"`
-}
-
-func main() {
-	// Step 1: Get a list of all models
-	resp, err := http.Get("https://huggingface.co/api/models?search=TheBloke")
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer resp.Body.Close()
-
-	var modelList []Model
-	err = json.NewDecoder(resp.Body).Decode(&modelList)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	gallery := []GalleryModel{}
-	// Step 2: Process each model and retrieve its files (siblings)
-	for _, model := range modelList {
-		fmt.Println("Model ID:", model.ModelID)
-
-		// Step 3: Retrieve model files (siblings)
-		m, err := getModel(model.ModelID)
-		if err != nil {
-			log.Println("Failed to retrieve files for model", model.ModelID)
-			continue
-		}
-
-		// Step 4: Save the model files
-		mm, err := getModelFiles(model.ModelID, m)
-		if err != nil {
-			log.Println("Failed to save files for model", model.ModelID)
-			continue
-		}
-
-		for _, m := range mm.Files {
-			url := baseConfig
-
-			for k, v := range baseURLs {
-				// Check if the model name or ID contains the key
-				// TODO: This is a bit hacky, we should probably use a regex(?)
-				if strings.Contains(strings.ToLower(m.Filename), k) || strings.Contains(strings.ToLower(model.ModelID), k) {
-					url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v)
-					break
-				}
-			}
-
-			gallery = append(gallery, GalleryModel{
-				Name:        m.Filename,
-				Description: model.ModelID,
-				URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
-				License:     mm.CardData.License,
-				Icon:        "",
-				Overrides: map[string]interface{}{
-					"params": map[string]interface{}{
-						"model": m.Filename,
-					},
-				},
-				AdditionalFiles: []File{m},
-				URL:             url,
-				Tags:            mm.Tags,
-			})
-			fmt.Println("Found", m)
-		}
-
-		// Step 5: Save the gallery
-		galleryYAML, err := yaml.Marshal(gallery)
-		if err != nil {
-			log.Fatal(err)
-		}
-		ioutil.WriteFile("index.yaml", galleryYAML, 0644)
-	}
 }
 
 func getModel(modelID string) (HFModel, error) {
@@ -195,4 +124,120 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 	}
 	modelFiles.Files = f
 	return modelFiles, nil
+}
+
+func scrapeHuggingFace(term string) {
+	// Step 1: Get a list of all models
+	resp, err := http.Get(fmt.Sprintf("https://huggingface.co/api/models?search=%s", term))
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer resp.Body.Close()
+
+	var modelList []Model
+	err = json.NewDecoder(resp.Body).Decode(&modelList)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	currentGallery := []GalleryModel{}
+	currentGalleryMap := map[string]GalleryModel{}
+
+	dat, err := ioutil.ReadFile("index.yaml")
+	if err == nil {
+		err = yaml.Unmarshal(dat, &currentGallery)
+		if err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	for _, model := range currentGallery {
+		currentGalleryMap[model.Name] = model
+	}
+
+	gallery := []GalleryModel{}
+	// Step 2: Process each model and retrieve its files (siblings)
+	for _, model := range modelList {
+		fmt.Println("Model ID:", model.ModelID)
+
+		// Step 3: Retrieve model files (siblings)
+		m, err := getModel(model.ModelID)
+		if err != nil {
+			log.Println("Failed to retrieve files for model", model.ModelID)
+			continue
+		}
+
+		// Step 4: Save the model files
+		mm, err := getModelFiles(model.ModelID, m)
+		if err != nil {
+			log.Println("Failed to save files for model", model.ModelID)
+			continue
+		}
+
+		for _, m := range mm.Files {
+			url := baseConfig
+
+			for k, v := range baseURLs {
+				// Check if the model name or ID contains the key
+				// TODO: This is a bit hacky, we should probably use a regex(?)
+				if strings.Contains(strings.ToLower(m.Filename), k) || strings.Contains(strings.ToLower(model.ModelID), k) {
+					url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v)
+					break
+				}
+			}
+
+			modelName := fmt.Sprintf("%s/%s", mm.Author, m.Filename)
+			currentGalleryMap[modelName] = GalleryModel{
+				Name:        modelName,
+				Description: model.ModelID,
+				URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
+				License:     mm.CardData.License,
+				Icon:        "",
+				Overrides: map[string]interface{}{
+					"params": map[string]interface{}{
+						"model": m.Filename,
+					},
+				},
+				AdditionalFiles: []File{m},
+				URL:             url,
+				Tags:            mm.Tags,
+			}
+
+			// gallery = append(gallery, GalleryModel{
+			// 	Name:        m.Filename,
+			// 	Description: model.ModelID,
+			// 	URLs:        []string{fmt.Sprintf("https://huggingface.co/%s", model.ModelID)},
+			// 	License:     mm.CardData.License,
+			// 	Icon:        "",
+			// 	Overrides: map[string]interface{}{
+			// 		"params": map[string]interface{}{
+			// 			"model": m.Filename,
+			// 		},
+			// 	},
+			// 	AdditionalFiles: []File{m},
+			// 	URL:             url,
+			// 	Tags:            mm.Tags,
+			// })
+			fmt.Println("Found", m)
+		}
+
+		for _, g := range currentGalleryMap {
+			gallery = append(gallery, g)
+		}
+
+		sort.Slice(gallery, func(i, j int) bool {
+			return gallery[i].Name < gallery[j].Name
+		})
+
+		// Step 5: Save the gallery
+		galleryYAML, err := yaml.Marshal(gallery)
+		if err != nil {
+			log.Fatal(err)
+		}
+		ioutil.WriteFile("index.yaml", galleryYAML, 0644)
+	}
+}
+
+func main() {
+	scrapeHuggingFace("TheBloke")
 }
