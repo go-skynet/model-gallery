@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"regexp"
 	"sort"
 	"strconv"
@@ -101,7 +102,8 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 		if !strings.HasSuffix(sibling.RFileName, ".bin") {
 			continue
 		}
-		if strings.HasPrefix(sibling.RFileName, "pytorch") {
+		basePath := filepath.Base(sibling.RFileName)
+		if strings.HasPrefix(basePath, "pytorch") {
 			continue
 		}
 		fileURL := fmt.Sprintf("https://huggingface.co/%s/resolve/main/%s", repository, sibling.RFileName)
@@ -194,7 +196,7 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 				}
 			}
 
-			modelName := fmt.Sprintf("%s/%s", mm.Author, m.Filename)
+			modelName := fmt.Sprintf("%s/%s", model, m.Filename)
 			g <- GalleryModel{
 				Name:    modelName,
 				URLs:    []string{fmt.Sprintf("https://huggingface.co/%s", model)},
@@ -284,4 +286,5 @@ func main() {
 		concurrency = parallelism
 	}
 	scrapeHuggingFace("TheBloke", concurrency)
+	scrapeHuggingFace("ggml", concurrency)
 }
