@@ -1,0 +1,33 @@
+name: "hippogriff"
+
+description: |
+     Hippogriff
+
+license: "N/A"
+
+config_file: |
+    backend: llama
+    parameters:
+      model: hippogriff
+      top_k: 40
+      temperature: 0.1
+      top_p: 0.95
+    context_size: 1024
+    roles:
+      user: "USER:"
+      system: "SYSTEM:"
+      assistant: "ASSISTANT:"
+    f16: true
+    mmap: true
+    template:
+      completion: hippogriff-completion
+      chat: hippogriff-chat
+
+prompt_templates:
+- name: "hippogriff-chat"
+  content: |
+    {{.Input}}
+    ASSISTANT:
+- name: "hippogriff-completion"
+  content: |
+    {{.Input}}
