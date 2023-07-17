@@ -34,6 +34,7 @@ var baseURLs map[string]string = map[string]string{
 	"openllama":   "openllama_3b",
 	"rwkv":        "rwkv-raven-1b",
 	"wizard":      "wizard",
+	"hippogriff":  "hippogriff",
 }
 
 type Model struct {
