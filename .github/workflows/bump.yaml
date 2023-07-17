@@ -1,0 +1,27 @@
+name: Checking models on huggingface
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: 0 20 * * *
+  workflow_dispatch:
+jobs:
+  automatic-updates:
+    runs-on: ubuntu-latest
+
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check updates 🔧
+        run: |
+          go get github.com/go-skynet/LocalAI@master
+          go mod tidy
+          go run ./main.go
+
+      # Commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v4

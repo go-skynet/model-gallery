@@ -18,6 +18,8 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+const indexFile = "huggingface.yaml"
+
 var baseGalleryURL string = "github:go-skynet/model-gallery"
 var baseConfig string = baseGalleryURL + "/base.yaml"
 
@@ -232,7 +234,7 @@ func scrapeHuggingFace(term string, concurrency int) {
 	currentGallery := []GalleryModel{}
 	currentGalleryMap := map[string]GalleryModel{}
 
-	dat, err := ioutil.ReadFile("index.yaml")
+	dat, err := ioutil.ReadFile(indexFile)
 	if err == nil {
 		err = yaml.Unmarshal(dat, &currentGallery)
 		if err != nil {
@@ -274,7 +276,7 @@ func scrapeHuggingFace(term string, concurrency int) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	ioutil.WriteFile("index.yaml", galleryYAML, 0644)
+	ioutil.WriteFile(indexFile, galleryYAML, 0644)
 
 }
 
@@ -285,6 +287,8 @@ func main() {
 	if err == nil {
 		concurrency = parallelism
 	}
-	scrapeHuggingFace("TheBloke", concurrency)
-	scrapeHuggingFace("ggml", concurrency)
+
+	for _, term := range []string{"TheBloke", "ggml"} {
+		scrapeHuggingFace(term, concurrency)
+	}
 }
