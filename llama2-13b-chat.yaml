@@ -1,0 +1,37 @@
+name: "llama2-13b-chat"
+
+description: |
+Llama 2 13B Chat -> Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. 
+
+license: "https://ai.meta.com/llama/license/"
+urls:
+- https://ai.meta.com/llama/
+
+config_file: |
+  name: llama2-13b-chat
+  backend: "llama"
+  parameters:
+    model: llama2-chat.bin
+    top_k: 80
+    temperature: 0.2
+    top_p: 0.7
+  context_size: 4096
+  stopwords:
+  - "[INST]:"
+  - "[/INST]:"
+  template:
+    chat_message: llama2-chat-message
+  system_prompt: |
+    You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.
+    If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.
+
+prompt_templates:
+- name: "llama2-chat-message"
+  content: |
+    {{if eq .RoleName "assistant"}}{{.Content}}{{else}}
+    [INST]
+    {{if .SystemPrompt}}{{.SystemPrompt}}{{else if eq .RoleName "system"}}<<SYS>>{{.Content}}<</SYS>>
+
+    {{else if .Content}}{{.Content}}{{end}}
+    [/INST] 
+    {{end}}
