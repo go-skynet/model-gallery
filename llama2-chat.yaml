@@ -11,14 +11,10 @@ config_file: |
   name: llama2-13b-chat
   backend: "llama"
   parameters:
-    model: llama2-chat.bin
     top_k: 80
     temperature: 0.2
     top_p: 0.7
   context_size: 4096
-  stopwords:
-  - "[INST]:"
-  - "[/INST]:"
   template:
     chat_message: llama2-chat-message
   system_prompt: |
