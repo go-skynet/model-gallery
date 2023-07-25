@@ -23,18 +23,73 @@ const indexFile = "huggingface.yaml"
 var baseGalleryURL string = "github:go-skynet/model-gallery"
 var baseConfig string = baseGalleryURL + "/base.yaml"
 
-var baseURLs map[string]string = map[string]string{
-	// This maps the key to a file into the repository
-	"koala":       "koala",
-	"manticore":   "manticore",
-	"vicuna":      "vicuna",
-	"airoboros":   "airoboros",
-	"hypermantis": "hypermantis",
-	"guanaco":     "guanaco",
-	"openllama":   "openllama_3b",
-	"rwkv":        "rwkv-raven-1b",
-	"wizard":      "wizard",
-	"hippogriff":  "hippogriff",
+func StripErrorFromPointer[T any](value *T, errs ...error) *T {
+	if len(errs) > 0 && errs[0] != nil {
+		return nil
+	}
+	return value
+}
+
+type BaseDefinition struct {
+	Name  string
+	Path  string
+	Match *regexp.Regexp
+}
+
+// Currently these are matched top to bottom, with a break statement.
+// What that means is if a model is named something like "LLama-Koala-Manticore-Wizard", whichever of those currently appears first in this list will "win".
+// TODO: do we need a more sophisticated model than this?
+// TODO: is the current list order even correct!
+var baseDefinitions []BaseDefinition = []BaseDefinition{
+	{
+		Name: "koala",
+		Path: "koala",
+	},
+	{
+		Name: "koala",
+		Path: "koala",
+	},
+	{
+		Name: "manticore",
+		Path: "manticore",
+	},
+	{
+		Name: "vicuna",
+		Path: "vicuna",
+	},
+	{
+		Name: "airoboros",
+		Path: "airoboros",
+	},
+	{
+		Name: "hypermantis",
+		Path: "hypermantis",
+	},
+	{
+		Name: "guanaco",
+		Path: "guanaco",
+	},
+	{
+		Name: "openllama",
+		Path: "openllama_3b",
+	},
+	{
+		Name: "rwkv",
+		Path: "rwkv-raven-1b",
+	},
+	{
+		Name: "wizard",
+		Path: "wizard",
+	},
+	{
+		Name: "hippogriff",
+		Path: "hippogriff",
+	},
+	{
+		Name:  "llama2-chat",
+		Path:  "llama2-chat",
+		Match: StripErrorFromPointer(regexp.Compile(`llama-*2-*([\d]+b)?-*chat`)),
+	},
 }
 
 type Model struct {
@@ -80,13 +135,13 @@ func getSHA256(url string) (string, error) {
 
 	resp, err := http.Get(url)
 	if err != nil {
-		return "", fmt.Errorf("Failed to fetch the web page: %v\n", err)
+		return "", fmt.Errorf("failed to fetch the web page: %v\n", err)
 	}
 	defer resp.Body.Close()
 
 	htmlData, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		return "", fmt.Errorf("Failed to read the response body: %v\n", err)
+		return "", fmt.Errorf("failed to read the response body: %v\n", err)
 	}
 
 	shaRegex := regexp.MustCompile(`(?s)<strong>SHA256:</strong>\s+(.+?)</li>`)
@@ -190,12 +245,20 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 		for _, m := range mm.Files {
 			url := baseConfig
 
-			for k, v := range baseURLs {
-				// Check if the model name or ID contains the key
-				// TODO: This is a bit hacky, we should probably use a regex(?)
-				if strings.Contains(strings.ToLower(m.Filename), k) || strings.Contains(strings.ToLower(model), k) {
-					url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v)
-					break
+			for _, v := range baseDefinitions {
+				// Check if the model name or filename matches this baseDefinition
+				if v.Match != nil {
+					// If an explicit Match regex exists, prefer that.
+					if v.Match.MatchString((strings.ToLower(m.Filename))) || v.Match.MatchString((strings.ToLower(model))) { // TODO Do we need anything fancier than a boolean match? Might be interesting to capture group the # of parameters and feed that into a template somehow...
+						url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v.Path)
+						break
+					}
+				} else {
+					// Otherwise, fallback on the existing string match
+					if strings.Contains(strings.ToLower(m.Filename), v.Name) || strings.Contains(strings.ToLower(model), v.Name) {
+						url = fmt.Sprintf("%s/%s.yaml", baseGalleryURL, v.Path)
+						break
+					}
 				}
 			}
 
@@ -218,7 +281,7 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 	}
 }
 
-func scrapeHuggingFace(term string, concurrency int) {
+func scrapeHuggingFace(term string, concurrency int, indexFile string) {
 	// Step 1: Get a list of all models
 	resp, err := http.Get(fmt.Sprintf("https://huggingface.co/api/models?search=%s", term))
 	if err != nil {
@@ -281,6 +344,12 @@ func scrapeHuggingFace(term string, concurrency int) {
 
 }
 
+func parallelSearch(terms []string, concurrency int, indexFile string) {
+	for _, term := range terms {
+		scrapeHuggingFace(term, concurrency, indexFile)
+	}
+}
+
 func main() {
 	concurrency := 10
 	c := os.Getenv("CONCURRENCY")
@@ -288,8 +357,5 @@ func main() {
 	if err == nil {
 		concurrency = parallelism
 	}
-
-	for _, term := range []string{"TheBloke", "ggml"} {
-		scrapeHuggingFace(term, concurrency)
-	}
+	parallelSearch([]string{"TheBloke", "ggml"}, concurrency, indexFile)
 }
