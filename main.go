@@ -281,7 +281,7 @@ func scraperWorker(wg *sync.WaitGroup, c chan string, g chan GalleryModel) {
 	}
 }
 
-func scrapeHuggingFace(term string, concurrency int) {
+func scrapeHuggingFace(term string, concurrency int, indexFile string) {
 	// Step 1: Get a list of all models
 	resp, err := http.Get(fmt.Sprintf("https://huggingface.co/api/models?search=%s", term))
 	if err != nil {
@@ -344,6 +344,12 @@ func scrapeHuggingFace(term string, concurrency int) {
 
 }
 
+func parallelSearch(terms []string, concurrency int, indexFile string) {
+	for _, term := range terms {
+		scrapeHuggingFace(term, concurrency, indexFile)
+	}
+}
+
 func main() {
 	concurrency := 10
 	c := os.Getenv("CONCURRENCY")
@@ -351,8 +357,5 @@ func main() {
 	if err == nil {
 		concurrency = parallelism
 	}
-
-	for _, term := range []string{"TheBloke", "ggml"} {
-		scrapeHuggingFace(term, concurrency)
-	}
+	parallelSearch([]string{"TheBloke", "ggml"}, concurrency, indexFile)
 }
