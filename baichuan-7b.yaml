@@ -1,0 +1,34 @@
+name: "baichuan-7b"
+
+description: |
+  Baichuan-7B is an open-source large-scale pre-trained model developed by Baichuan Intelligent Technology. Based on the Transformer architecture, it is a model with 7 billion parameters trained on approximately 1.2 trillion tokens. It supports both Chinese and English, with a context window length of 4096. 
+
+license: "Apache 2.0"
+urls:
+- https://github.com/baichuan-inc/Baichuan-7B
+
+config_file: |
+    backend: llama
+    parameters:
+      model: baichuan-vicuna-7b.ggmlv3.q4_0.bin
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: baichuan-completion
+      chat: baichuan-chat
+files:
+    - filename: "baichuan-vicuna-7b.ggmlv3.q4_0.bin"
+      sha256: "d7c12bccc40098830a18d2f3a42020d243396d240b6020a0f2daace6b203d444"
+      uri: "https://huggingface.co/TheBloke/baichuan-vicuna-7B-GGML/resolve/main/baichuan-vicuna-7b.ggmlv3.q4_0.bin"
+
+prompt_templates:
+- name: "baichuan-completion"
+  content: |
+      USER: Complete the following text: {{.Input}}
+      ASSISTANT: 
+- name: "baichuan-chat"
+  content: |
+    USER: {{.Input}}
+    ASSISTANT:

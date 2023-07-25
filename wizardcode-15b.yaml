@@ -1,0 +1,45 @@
+name: "wizardcode-15b"
+
+description: |
+  Empowering Code Large Language Models with Evol-Instruct
+
+license: "Apache 2.0"
+
+urls:
+- https://github.com/nlpxucan/WizardLM
+
+config_file: |
+  name: wizardcode13b
+  # Default model parameters
+  parameters:
+    # Relative to the models path
+    model: WizardCoder-15B-1.0.ggmlv3.q4_1.bin
+    temperature: 0.9
+    top_k: 50
+    top_p: 0.95
+  backend: starcoder
+  context_size: 8192
+  template:
+    completion: wizardcode-completion
+    chat: wizardcode-chat
+  stopwords:
+  - "<unk>"
+  - <|endoftext|>
+  - <|end|>
+files:
+    - filename: "WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
+      sha256: "b70164bc0b58a472c0987905133735ab3b27e2c439dedf8174a43951c51c3229"
+      uri: "https://huggingface.co/TheBloke/WizardCoder-Guanaco-15B-V1.0-GGML/resolve/main/WizardCoder-15B-1.0.ggmlv3.q4_0.bin"
+
+prompt_templates:
+- name: "wizardcode-completion"
+  content: |
+      {{.Input}}
+
+- name: "wizardcode-chat"
+  content: |
+      Below is an instruction that describes a task. Write a response that appropriately completes the request
+
+      ### Instruction: {{.Input}}
+
+      ### Response:
