@@ -6801,6 +6801,78 @@
     - filename: pygmalion-ggml-model-f32.bin
       sha256: 2f7422f00a94c7f41a5232c5ef6d42fa02ae1a3809d13726cbc9fcc0e15693ff
       uri: https://huggingface.co/ifonlyiweresmarter/pygmalion-ggml-model-f32/resolve/main/pygmalion-ggml-model-f32.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_30b_ggml__ggml-model-q3_k.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_30b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q3_K.bin
+  files:
+    - filename: ggml-model-q3_K.bin
+      sha256: 0e6e6aebcf87be02be0a4f755af13e62a2a85e12c4a7a9303b49f367e709cd61
+      uri: https://huggingface.co/IlyaGusev/saiga_30b_ggml/resolve/main/ggml-model-q3_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_30b_ggml__ggml-model-q4_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_30b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q4_1.bin
+  files:
+    - filename: ggml-model-q4_1.bin
+      sha256: 0eb6457060e501fb9001daf160f282b92a32a3b6e555bc69fe046283d4e95d80
+      uri: https://huggingface.co/IlyaGusev/saiga_30b_ggml/resolve/main/ggml-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_30b_ggml__ggml-model-q5_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_30b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q5_1.bin
+  files:
+    - filename: ggml-model-q5_1.bin
+      sha256: e8088ae5153fb7514f22b705a4b43109757cee25c645923fcc59c2e3e5b7ad67
+      uri: https://huggingface.co/IlyaGusev/saiga_30b_ggml/resolve/main/ggml-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_30b_ggml__ggml-model-q8_0.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_30b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q8_0.bin
+  files:
+    - filename: ggml-model-q8_0.bin
+      sha256: bef447bd53d6b1882b3a8fa2ad801fad577621f1b5ecf8fbb5434894655c440f
+      uri: https://huggingface.co/IlyaGusev/saiga_30b_ggml/resolve/main/ggml-model-q8_0.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: jahaz__multi-lora-llama-7b-ggml-q5-1__13b-ggml-model-wizardvicunaunsensored-starcoderq5_1.bin
   urls:
@@ -66549,6 +66621,272 @@
     - filename: wizardlm-13b-v1.1.ggmlv3.q8_0.bin
       sha256: d8c1d3838b4b4cd67d5ecaf16de08ec5e7e5aef25a4537ea9d86494277871f14
       uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.1-GGML/resolve/main/wizardlm-13b-v1.1.ggmlv3.q8_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q2_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q2_K.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q2_K.bin
+      sha256: c584da97137a39ce8522cda02f580b06d11add777b8be5d090655ac3bbc80115
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q3_k_l.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q3_K_L.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q3_K_L.bin
+      sha256: 9026eee726ec82931eed6a4c65bfc53e1c8d020f217fb6a5e0f632003d2f4106
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q3_K_L.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q3_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q3_K_M.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q3_K_M.bin
+      sha256: 27a20088b66cb0df1e193672386c84cb02f020328f69e74c961b913daa14e92d
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q3_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q3_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q3_K_S.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q3_K_S.bin
+      sha256: 2f4a258a9647941b056fe1a6fc0ccd297db49b86b6d752eef2f6c8e2eae9a5ce
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q3_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q4_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q4_0.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q4_0.bin
+      sha256: 04b958b2cd320f667b19e20fdb31208f4d1eb2c790e42d33ff6e7a12e7cd02e1
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q4_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q4_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q4_1.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q4_1.bin
+      sha256: 0e1be46e052f4587b232c073d055c35474a440e03bd421554935cc54404dfe33
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q4_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q4_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q4_K_M.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q4_K_M.bin
+      sha256: 915670b9d7b622580dad74c8639af30df29dc7866bfc16ed9917742b0e00c7aa
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q4_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q4_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q4_K_S.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q4_K_S.bin
+      sha256: 13ba97606bf9534aab94bd47d5bd456875d2914d36fe28fe1604b55853f3ee04
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q4_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q5_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q5_0.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q5_0.bin
+      sha256: 244701553e02547b61882a7a1c9a20642b3c64e5d0d73fd4f54a1efe6f61be7f
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q5_0.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q5_1.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q5_1.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q5_1.bin
+      sha256: 6442d743d866817a96cbe305d56e8e287c8ed29d586e94a603962db142f1f9e3
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q5_1.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q5_k_m.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q5_K_M.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q5_K_M.bin
+      sha256: 2209a68428f5b01d47a145401cfb91780d0e1d9643eeda71ff5708ff12f93a47
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q5_K_M.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q5_k_s.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q5_K_S.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q5_K_S.bin
+      sha256: f8cde5d5ca0ab8690eff77b0553c88dc8f38698d14911eff997e29e3467e21c8
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q5_K_S.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q6_k.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q6_K.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q6_K.bin
+      sha256: 758f33d18a6fbd9519386629c158b7906fee14fcbe24941ca71523d8d744bf7d
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q6_K.bin
+- url: github:go-skynet/model-gallery/wizard.yaml
+  name: thebloke__wizardlm-13b-v1.2-ggml__wizardlm-13b-v1.2.ggmlv3.q8_0.bin
+  license: other
+  urls:
+    - https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML
+  tags:
+    - llama
+    - arxiv:2304.12244
+    - transformers
+    - license:other
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: wizardlm-13b-v1.2.ggmlv3.q8_0.bin
+  files:
+    - filename: wizardlm-13b-v1.2.ggmlv3.q8_0.bin
+      sha256: d34589051d1bc9b181ea262112f251598c9b2e8dd4da6c8fc346dced772acc9b
+      uri: https://huggingface.co/TheBloke/WizardLM-13B-V1.2-GGML/resolve/main/wizardlm-13b-v1.2.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/wizard.yaml
   name: thebloke__wizardlm-30b-ggml__wizardlm-30b.ggmlv3.q2_k.bin
   license: other
