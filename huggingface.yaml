@@ -786,6 +786,7 @@
     - https://huggingface.co/Bleak/ggml-vic13b-uncensored-q4
   tags:
     - license:openrail
+    - region:us
   overrides:
     parameters:
         model: ggml-vic13b-uncensored-q4_2.bin
@@ -2968,7 +2969,7 @@
     - filename: legacy-ggml-vicuna-7B-1.1-q8_0.bin
       sha256: 35abb80d0bf2cde932a1e1a2e8fe50b746941e63eb0cdd216cfb0d2c8dfc2256
       uri: https://huggingface.co/CRD716/ggml-vicuna-1.1-quantized/resolve/main/legacy-ggml-vicuna-7B-1.1-q8_0.bin
-- url: github:go-skynet/model-gallery/wizard.yaml
+- url: github:go-skynet/model-gallery/vicuna.yaml
   name: creative420__wizard-vicuna-13b-uncensored_old_ggml__ehartford_wizard-vicuna-13b-uncensored_old_ggml_q5_1.bin
   urls:
     - https://huggingface.co/creative420/Wizard-Vicuna-13b-Uncensored_old_ggml
@@ -6802,6 +6803,60 @@
       sha256: 2f7422f00a94c7f41a5232c5ef6d42fa02ae1a3809d13726cbc9fcc0e15693ff
       uri: https://huggingface.co/ifonlyiweresmarter/pygmalion-ggml-model-f32/resolve/main/pygmalion-ggml-model-f32.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_13b_ggml__ggml-model-q4_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_13b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q4_1.bin
+  files:
+    - filename: ggml-model-q4_1.bin
+      sha256: 61f1b160e769b3bc8971d8d02bde50e9b3db6fb18fa3f29dba023e9eb9848242
+      uri: https://huggingface.co/IlyaGusev/saiga_13b_ggml/resolve/main/ggml-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_13b_ggml__ggml-model-q5_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_13b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q5_1.bin
+  files:
+    - filename: ggml-model-q5_1.bin
+      sha256: a44ecb301859ae987353eb1b0b4b67bc337a9b04c59563d9fe75942834d1c00a
+      uri: https://huggingface.co/IlyaGusev/saiga_13b_ggml/resolve/main/ggml-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_13b_ggml__ggml-model-q8_0.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_13b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q8_0.bin
+  files:
+    - filename: ggml-model-q8_0.bin
+      sha256: e267bdfcc3218c9b06e0d1cf2e15475502f971eeaf6a1d80676e00b79dbf4d01
+      uri: https://huggingface.co/IlyaGusev/saiga_13b_ggml/resolve/main/ggml-model-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: ilyagusev__saiga_30b_ggml__ggml-model-q3_k.bin
   urls:
     - https://huggingface.co/IlyaGusev/saiga_30b_ggml
@@ -6873,6 +6928,60 @@
     - filename: ggml-model-q8_0.bin
       sha256: bef447bd53d6b1882b3a8fa2ad801fad577621f1b5ecf8fbb5434894655c440f
       uri: https://huggingface.co/IlyaGusev/saiga_30b_ggml/resolve/main/ggml-model-q8_0.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_7b_ggml__ggml-model-q4_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_7b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q4_1.bin
+  files:
+    - filename: ggml-model-q4_1.bin
+      sha256: 388d91eb71cecb96dc0dbe813b39481e8e5e8411e0a9664531f33e2e19506578
+      uri: https://huggingface.co/IlyaGusev/saiga_7b_ggml/resolve/main/ggml-model-q4_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_7b_ggml__ggml-model-q5_1.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_7b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q5_1.bin
+  files:
+    - filename: ggml-model-q5_1.bin
+      sha256: 44eb88ac6ade56d7b47bc22e2617613853055e39c3f2993360b8cc8f94078b88
+      uri: https://huggingface.co/IlyaGusev/saiga_7b_ggml/resolve/main/ggml-model-q5_1.bin
+- url: github:go-skynet/model-gallery/base.yaml
+  name: ilyagusev__saiga_7b_ggml__ggml-model-q8_0.bin
+  urls:
+    - https://huggingface.co/IlyaGusev/saiga_7b_ggml
+  tags:
+    - ru
+    - dataset:IlyaGusev/ru_turbo_alpaca
+    - dataset:IlyaGusev/ru_turbo_saiga
+    - dataset:IlyaGusev/ru_sharegpt_cleaned
+    - conversational
+    - region:us
+  overrides:
+    parameters:
+        model: ggml-model-q8_0.bin
+  files:
+    - filename: ggml-model-q8_0.bin
+      sha256: 4687930562b945f360aea0bc9ee8b18effc8179e2eb856fe10327652dc058b87
+      uri: https://huggingface.co/IlyaGusev/saiga_7b_ggml/resolve/main/ggml-model-q8_0.bin
 - url: github:go-skynet/model-gallery/vicuna.yaml
   name: jahaz__multi-lora-llama-7b-ggml-q5-1__13b-ggml-model-wizardvicunaunsensored-starcoderq5_1.bin
   urls:
@@ -10150,6 +10259,9 @@
     - manticore
     - guanaco
     - uncensored
+    - has_space
+    - text-generation-inference
+    - region:us
   overrides:
     parameters:
         model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q2_K.bin
@@ -10168,6 +10280,9 @@
     - manticore
     - guanaco
     - uncensored
+    - has_space
+    - text-generation-inference
+    - region:us
   overrides:
     parameters:
         model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q3_K_M.bin
@@ -10186,6 +10301,9 @@
     - manticore
     - guanaco
     - uncensored
+    - has_space
+    - text-generation-inference
+    - region:us
   overrides:
     parameters:
         model: Manticore-13B-Chat-Pyg-Guanaco-GGML-q4_0.bin
@@ -10790,6 +10908,7 @@
   tags:
     - gpt-neox
     - transformers
+    - region:us
   overrides:
     parameters:
         model: ggml-model.bin
@@ -10804,6 +10923,7 @@
   tags:
     - gpt-neox
     - transformers
+    - region:us
   overrides:
     parameters:
         model: kullm-polyglot-12.8B-v2.ggmlv3.q4_0.bin
@@ -10818,6 +10938,7 @@
   tags:
     - gpt-neox
     - transformers
+    - region:us
   overrides:
     parameters:
         model: kullm-polyglot-12.8B-v2.ggmlv3.q4_1.bin
@@ -13490,6 +13611,7 @@
     - https://huggingface.co/rombodawg/Working-with-text-gen-web-ui-wizard-mega-13B.ggml.q4_0.bin
   tags:
     - license:other
+    - region:us
   overrides:
     parameters:
         model: wizard-mega-13B.ggml.q4_0.bin
@@ -16321,6 +16443,7 @@
     - ggml
     - license:mit
     - text-generation
+    - region:us
   overrides:
     parameters:
         model: dolly-v2-3b-q5_1.bin
@@ -16341,6 +16464,7 @@
     - ggml
     - license:mit
     - text-generation
+    - region:us
   overrides:
     parameters:
         model: dolly-v2-7b-f16.bin
@@ -16604,6 +16728,7 @@
     - ggml
     - license:apache-2.0
     - text-generation
+    - region:us
   overrides:
     parameters:
         model: gpt4all-j-q5_1-ggjt.bin
@@ -16624,6 +16749,7 @@
     - ggml
     - license:apache-2.0
     - text-generation
+    - region:us
   overrides:
     parameters:
         model: gpt4all-j-q5_1.bin
@@ -19862,6 +19988,7 @@
     - https://huggingface.co/SlyEcho/open_llama_3b_ggml
   tags:
     - license:apache-2.0
+    - region:us
   overrides:
     parameters:
         model: open-llama-3b-q5_0.bin
@@ -19876,6 +20003,7 @@
     - https://huggingface.co/SlyEcho/open_llama_3b_ggml
   tags:
     - license:apache-2.0
+    - region:us
   overrides:
     parameters:
         model: open-llama-3b-q5_1.bin
@@ -19890,6 +20018,7 @@
     - https://huggingface.co/SlyEcho/open_llama_3b_ggml
   tags:
     - license:apache-2.0
+    - region:us
   overrides:
     parameters:
         model: open-llama-3b-q8_0.bin
