@@ -9,7 +9,8 @@ description: |
 config_file: |
   name: stablediffusion
   backend: stablediffusion
-  asset_dir: stablediffusion_assets
+  parameters:
+    model: stablediffusion_assets
 
 files:
 - filename: "stablediffusion_assets/AutoencoderKL-256-256-fp16-opt.param"
