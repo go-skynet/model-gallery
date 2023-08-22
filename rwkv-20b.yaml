@@ -1,0 +1,50 @@
+name: "rwkv-20b"
+license: "Apache 2.0"
+urls:
+- https://github.com/BlinkDL/RWKV-LM
+description: |
+    RWKV is an RNN with Transformer-level LLM performance, which can also be directly trained like a GPT transformer (parallelizable).
+    And it's 100% attention-free. You only need the hidden state at position t to compute the state at position t+1. 
+    You can use the "GPT" mode to quickly compute the hidden state for the "RNN" mode.
+    This version is quantized for ggml to work with rwkv.cpp.
+config_file: |
+  parameters:
+    top_k: 80
+    temperature: 0.9
+    max_tokens: 100
+    top_p: 0.8
+    tokenizer: "20B_tokenizer.json"
+  context_size: 1024
+  backend: "rwkv"
+  cutwords:
+  - "Bob:.*"
+  roles:
+    user: "Bob:"
+    system: "Alice:"
+    assistant: "Alice:"
+  template:
+    completion: rwkv-completion
+    chat: rwkv-chat
+files:
+- filename: "20B_tokenizer.json"
+  sha256: "56ac4821e129d2c520fdaba60abd920fa852ada51b45c0dd52bbb6bd8c985ade"
+  uri: "https://raw.githubusercontent.com/saharNooby/rwkv.cpp/e0684e81043e47c97b2a53e71a9c99648c8ed881/rwkv/20B_tokenizer.json"
+prompt_templates:
+- name: "rwkv-completion"
+  content: |
+    Complete the following sentence: {{.Input}} 
+- name: "rwkv-chat"
+  content: |
+    The following is a verbose detailed conversation between Bob and a woman, Alice. Alice is intelligent, friendly and likeable. Alice is likely to agree with Bob.
+
+    Bob: Hello Alice, how are you doing?
+
+    Alice: Hi Bob! Thanks, I'm fine. What about you?
+
+    Bob: I am very good! It's nice to see you. Would you mind me chatting with you for a while?
+
+    Alice: Not at all! I'm listening.
+
+    {{.Input}}
+
+    Alice: 
