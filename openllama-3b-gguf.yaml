@@ -1,0 +1,32 @@
+name: "openllama-3b-gguf"
+
+description: |
+  OpenLLaMA, a permissively licensed open source reproduction of Meta AI’s LLaMA 7B trained on the RedPajama dataset 
+
+license: "Apache 2.0"
+urls:
+- https://github.com/openlm-research/open_llama
+
+config_file: |
+    backend: llama
+    parameters:
+      model: openllama-3b-v2-q4_0.gguf
+      top_k: 80
+      temperature: 0.2
+      top_p: 0.7
+    context_size: 1024
+    template:
+      completion: openllama-completion
+      chat: openllama-chat
+files:
+    - filename: openllama-3b-v2-q4_0.gguf
+      sha256: "d129ff53c9451490144ec24ad4bb690eff51a6c32d21905b37cb9921da756a26"
+      uri: "https://huggingface.co/klosax/openllama-3b-v2-gguf/resolve/main/openllama-3b-v2-q4_0.gguf"
+
+prompt_templates:
+- name: "openllama-completion"
+  content: |
+      Q: Complete the following text: {{.Input}}\nA: 
+- name: "openllama-chat"
+  content: |
+    Q: {{.Input}}\nA: 
