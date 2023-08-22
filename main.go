@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -74,8 +74,18 @@ var baseDefinitions []BaseDefinition = []BaseDefinition{
 		Path: "openllama_3b",
 	},
 	{
+		Name:  "llama2-chat",
+		Path:  "llama2-chat",
+		Match: StripErrorFromPointer(regexp.Compile(`llama-*2-*([\d]+b)?-*chat`)),
+	},
+	{
+		Name:  "rwkv-world",
+		Path:  "rwkv-world",
+		Match: StripErrorFromPointer(regexp.Compile(`rwkv.*world`)),
+	},
+	{
 		Name: "rwkv",
-		Path: "rwkv-raven-1b",
+		Path: "rwkv-20b",
 	},
 	{
 		Name: "wizard",
@@ -84,11 +94,6 @@ var baseDefinitions []BaseDefinition = []BaseDefinition{
 	{
 		Name: "hippogriff",
 		Path: "hippogriff",
-	},
-	{
-		Name:  "llama2-chat",
-		Path:  "llama2-chat",
-		Match: StripErrorFromPointer(regexp.Compile(`llama-*2-*([\d]+b)?-*chat`)),
 	},
 }
 
@@ -139,7 +144,7 @@ func getSHA256(url string) (string, error) {
 	}
 	defer resp.Body.Close()
 
-	htmlData, err := ioutil.ReadAll(resp.Body)
+	htmlData, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return "", fmt.Errorf("failed to read the response body: %v\n", err)
 	}
@@ -147,7 +152,7 @@ func getSHA256(url string) (string, error) {
 	shaRegex := regexp.MustCompile(`(?s)<strong>SHA256:</strong>\s+(.+?)</li>`)
 	match := shaRegex.FindSubmatch(htmlData)
 	if len(match) < 2 {
-		return "", fmt.Errorf("SHA256 value not found in the HTML")
+		return "", fmt.Errorf("SHA256 value not found in the HTML. HTTP Status: %d", resp.StatusCode)
 	}
 
 	sha := string(match[1])
@@ -298,7 +303,7 @@ func scrapeHuggingFace(term string, concurrency int, indexFile string) {
 	currentGallery := []GalleryModel{}
 	currentGalleryMap := map[string]GalleryModel{}
 
-	dat, err := ioutil.ReadFile(indexFile)
+	dat, err := os.ReadFile(indexFile)
 	if err == nil {
 		err = yaml.Unmarshal(dat, &currentGallery)
 		if err != nil {
@@ -340,7 +345,7 @@ func scrapeHuggingFace(term string, concurrency int, indexFile string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	ioutil.WriteFile(indexFile, galleryYAML, 0644)
+	os.WriteFile(indexFile, galleryYAML, 0644)
 
 }
 

@@ -1,0 +1,44 @@
+name: "rwkv-20b"
+license: "Apache 2.0"
+urls:
+- https://github.com/BlinkDL/RWKV-LM
+description: |
+    RWKV is an RNN with Transformer-level LLM performance, which can also be directly trained like a GPT transformer (parallelizable).
+    And it's 100% attention-free. You only need the hidden state at position t to compute the state at position t+1. 
+    You can use the "GPT" mode to quickly compute the hidden state for the "RNN" mode.
+    This version is quantized for ggml to work with rwkv.cpp.
+config_file: |
+  parameters:
+    top_k: 80
+    temperature: 0.9
+    max_tokens: 100
+    top_p: 0.8
+    tokenizer: "rwkv_vocab_v20230424.txt"
+  context_size: 1024
+  backend: "rwkv"
+  cutwords:
+  - "Answer:.*"
+  roles:
+    user: "Question:"
+    system: "Answer:"
+    assistant: "Answer:"
+  template:
+    completion: rwkv-completion
+    chat: rwkv-chat
+files:
+- filename: "rwkv_vocab_v20230424.txt"
+  sha256: ""
+  uri: "https://raw.githubusercontent.com/saharNooby/rwkv.cpp/master/rwkv/rwkv_vocab_v20230424.txt"
+prompt_templates:
+- name: "rwkv-completion"
+  content: |
+    Complete the following sentence: {{.Input}} 
+- name: "rwkv-chat"
+  content: |
+    User: hi
+
+    Assistant: Hi. I am your assistant and I will provide expert full response in full details. Please feel free to ask any question and I will always answer it.
+
+    User: {{.Input}}
+
+    Assistant:
