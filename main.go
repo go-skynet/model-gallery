@@ -152,7 +152,7 @@ func getSHA256(url string) (string, error) {
 	shaRegex := regexp.MustCompile(`(?s)<strong>SHA256:</strong>\s+(.+?)</li>`)
 	match := shaRegex.FindSubmatch(htmlData)
 	if len(match) < 2 {
-		return "", fmt.Errorf("SHA256 value not found in the HTML")
+		return "", fmt.Errorf("SHA256 value not found in the HTML. HTTP Status: %d", resp.StatusCode)
 	}
 
 	sha := string(match[1])
