@@ -44055,6 +44055,11 @@
     - https://huggingface.co/TheBloke/GodziLLa2-70B-GGML
   tags:
     - llama
+    - dataset:mlabonne/guanaco-llama2-1k
+    - arxiv:2009.03300
+    - arxiv:1803.05457
+    - arxiv:1905.07830
+    - arxiv:2109.07958
     - transformers
     - merge
     - mix
@@ -44077,6 +44082,11 @@
     - https://huggingface.co/TheBloke/GodziLLa2-70B-GGML
   tags:
     - llama
+    - dataset:mlabonne/guanaco-llama2-1k
+    - arxiv:2009.03300
+    - arxiv:1803.05457
+    - arxiv:1905.07830
+    - arxiv:2109.07958
     - transformers
     - merge
     - mix
@@ -57362,6 +57372,24 @@
       sha256: 7390fd2f9f413c071eeae336fb401dd2e0ea53fa8d34880a6e8afcddfc3ae5a5
       uri: https://huggingface.co/TheBloke/llama2-22B-daydreamer-v2-GGML/resolve/main/llama2-22b-daydreamer-v2.ggmlv3.q8_0.bin
 - url: github:go-skynet/model-gallery/base.yaml
+  name: thebloke__llama2-22b-daydreamer-v3-ggml__llama2-22b-daydreamer-v3.ggmlv3.q2_k.bin
+  license: llama2
+  urls:
+    - https://huggingface.co/TheBloke/Llama2-22B-Daydreamer-v3-GGML
+  tags:
+    - llama
+    - transformers
+    - license:llama2
+    - text-generation-inference
+    - region:us
+  overrides:
+    parameters:
+        model: llama2-22b-daydreamer-v3.ggmlv3.q2_K.bin
+  files:
+    - filename: llama2-22b-daydreamer-v3.ggmlv3.q2_K.bin
+      sha256: 769de7d467441b29e3c3d81b083bbe76ed2299379a1b1c45c896fabf1bb56830
+      uri: https://huggingface.co/TheBloke/Llama2-22B-Daydreamer-v3-GGML/resolve/main/llama2-22b-daydreamer-v3.ggmlv3.q2_K.bin
+- url: github:go-skynet/model-gallery/base.yaml
   name: thebloke__llama2-22b-gplatty-ggml__llama2-22b-gplatty.ggmlv3.q2_k.bin
   license: llama2
   urls:
@@ -70410,6 +70438,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70430,6 +70459,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70450,6 +70480,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70470,6 +70501,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70490,6 +70522,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70510,6 +70543,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70530,6 +70564,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70550,6 +70585,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70570,6 +70606,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70590,6 +70627,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70610,6 +70648,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70630,6 +70669,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70650,6 +70690,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
@@ -70670,6 +70711,7 @@
     - arxiv:2306.02707
     - transformers
     - license:other
+    - has_space
     - text-generation-inference
     - region:us
   overrides:
