@@ -7,8 +7,10 @@ urls:
 - https://ai.meta.com/llama/
 - https://huggingface.co/codellama/CodeLlama-7b-instruct-hf
 - https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF
+
 config_file: |
   parameters:
+    model: codellama-7b-instruct.Q4_K_M.gguf
     top_k: 80
     temperature: 0.2
     top_p: 0.7
