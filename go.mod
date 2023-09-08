@@ -1,6 +1,6 @@
 module github.com/go-skynet/model-gallery
 
-go 1.20
+go 1.21
 
 require (
 	github.com/go-skynet/LocalAI v1.25.1-0.20230901172253-d5cad7d3aee0
