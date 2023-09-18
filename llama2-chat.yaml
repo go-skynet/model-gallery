@@ -1,14 +1,14 @@
-name: "llama2-13b-chat"
+name: "llama2-chat"
 
 description: |
-  Llama 2 13B Chat -> Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. 
+  Llama 2 Chat -> Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. 
 
 license: "https://ai.meta.com/llama/license/"
 urls:
 - https://ai.meta.com/llama/
 
 config_file: |
-  name: llama2-13b-chat
+  name: llama2-chat
   backend: "llama"
   parameters:
     top_k: 80
