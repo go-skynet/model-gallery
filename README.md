@@ -15,7 +15,7 @@ We encourage contributions to the gallery! However, please note that if you are 
 To load a model from main onto localhost
 
 ```shell
-bash  ./load.sh wizard
+bash ./load.sh wizard
 ```
 
 ## More 
