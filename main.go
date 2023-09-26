@@ -362,5 +362,5 @@ func main() {
 	if err == nil {
 		concurrency = parallelism
 	}
-	parallelSearch([]string{"TheBloke", "ggml"}, concurrency, indexFile)
+	parallelSearch([]string{"TheBloke", "ggml", "gguf"}, concurrency, indexFile)
 }
