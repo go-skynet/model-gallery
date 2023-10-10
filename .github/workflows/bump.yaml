@@ -1,11 +1,16 @@
 name: Checking models on huggingface
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: 0 20 * * *
+  # push:
+    # branches:
+      # - main
+  # schedule:
+    # - cron: 0 20 * * *
   workflow_dispatch:
+
+env:
+  PROCESS_COUNT: 8
+  DOWNLOAD_ROOT: "https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/"
+
 jobs:
   automatic-updates:
     runs-on: ubuntu-latest
@@ -19,9 +24,16 @@ jobs:
       - uses: actions/checkout@v3
       - name: Check updates 🔧
         run: |
-          go get github.com/go-skynet/LocalAI@master
-          go mod tidy
-          go run ./main.go
+          # For now, still launch the golang scraper with this config
+          # cd gallery_scrapers/go_huggingface
+          # go get github.com/go-skynet/LocalAI@master
+          # go mod tidy
+          # go run ./main.go
+
+          # Launch the new one
+          cd gallery_scrapers/huggingface
+          . venv/Scripts/activate
+          python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v4

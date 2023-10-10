@@ -1,6 +1,8 @@
-module github.com/go-skynet/model-gallery
+module github.com/go-skynet/model-gallery/gallery-scrapers/go_huggingface
 
-go 1.20
+go 1.21
+
+toolchain go1.21.0
 
 require (
 	github.com/go-skynet/LocalAI v1.24.2-0.20230824165806-215a51c4c193
