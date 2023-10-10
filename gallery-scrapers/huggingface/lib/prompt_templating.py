@@ -66,8 +66,8 @@ class PromptTemplateCache:
         self.downloadableFileCache: Dict[str, DownloadableFile] = {}
         self.id = random.random()   # TODO CLEANUP, FOR INIT TESTING
 
-    def __str__(self):
-        return f"[PromptTemplateCache {self.id}]\ntemplateRoot: {self.templateRoot}\ndownloadRoot: {self.downloadRoot}\ncached entries: {"\n".join(self.downloadableFileCache.keys())}"
+    # def __str__(self):
+    #     return f"[PromptTemplateCache {self.id}]\ntemplateRoot: {self.templateRoot}\ndownloadRoot: {self.downloadRoot}\ncached entries: {"\n".join(self.downloadableFileCache.keys())}"
 
     def write_prompt_template_to_file(self, outputPath: Path, template: str):
         with open(outputPath, 'x') as outputFile:
