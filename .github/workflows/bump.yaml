@@ -21,25 +21,29 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        # with:
-        #   ref: feat-experimental-python-hf-scraper
+
       # - uses: actions/setup-go@v4
       #   with:
       #     go-version: '>=1.21.0'
-      - name: Check updates 🔧
-        run: |
-          # For now, still launch the golang scraper with this config
-          # cd gallery-scrapers/go_huggingface
-          # go get github.com/go-skynet/LocalAI@master
-          # go mod tidy
-          # go run ./main.go
 
-          # Launch the new one
-          pwd
-          ls
-          cd gallery-scrapers/huggingface
-          . venv/Scripts/activate
-          python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install virtualenv
+        run: pip install virtualenv
+  
+      - name: Create virtual environment
+        run: python -m venv venv
+  
+      - name: Activate the virtual environment
+        run: source venv/bin/activate
+  
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Launch Scraper 🔧
+        run: python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v4
