@@ -95,7 +95,7 @@ class HFGalleryScraper:
 
                 # TODO: This is a first draft. Improvements to follow
                 galleryModel: GalleryModel = GalleryModel(
-                    name=f"{modelInfo.modelId.replace("/", "__")}__{repoFile.rfilename}",
+                    name=f"{cleaned_model_id}__{repoFile.rfilename}",
                     urls=[f"https://huggingface.co/{modelInfo.modelId}"],
                     config_file= always_merger.merge(baseConfig.config_file.copy(), {
                         "parameters": {
@@ -120,5 +120,7 @@ class HFGalleryScraper:
         with open(config_path, 'x') as configFile:
             yaml.dump(gallery, configFile, default_flow_style=False, explicit_start=True)
 
-        # update the SHAless symlink
-        Path( hf_config_path / f"{cleaned_model_id}.yaml").symlink_to(config_path)
+        # update the reference file - a symlink to a file within a temporary builder action isn't very useful, so create this link instead which we can follow on the LocalAI side.
+        with open(Path(hf_config_path / f"{cleaned_model_id}.ref"), 'w') as referenceFile:
+            referenceFile.write(f"{cleaned_model_id}--{modelInfo.sha}.yaml")
+       
