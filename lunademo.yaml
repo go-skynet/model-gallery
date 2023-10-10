@@ -1,31 +1,30 @@
 name: "lunademo"
 
 description: |
-  This is a model used for the lunademo on the localai how tos
+  This is a model used for the lunademo on the localai how tos - THIS MODEL YAML FILE IS NOT READY YET, PLEASE USE THE ONE ON THE HOW TO, THANK YOU!
 
 license: "https://ai.meta.com/llama/license/"
 urls:
 - https://localai.io/howtos/easy-setup-full/
 
 config_file: |
-  name: lunademo
-  backend: "llama"
-  parameters:
-    top_k: 80
-    temperature: 0.2
-    top_p: 0.7
+  backend: llama
   context_size: 4096
+  f16: true
+  gpu_layers: 4
+  threads: 4
+  low_vram: true
+  mmap: false
+  mmlock: false
+  name: lunademo
+  parameters:
+    temperature: 0.2
   template:
     chat_message: llama2-chat-message
-  system_prompt: |
-    Rebecca is a helpful Ai that helps the user by using Localai to do what what ever task the user asks them to do.
 
 prompt_templates:
 - name: "llama2-chat-message"
   content: |
-    {{if eq .RoleName "assistant"}}{{.Content}}{{else}}
-    [INST]
-    {{if eq .RoleName "system"}}<<SYS>>{{.Content}}<</SYS>>{{else if and (.SystemPrompt) (eq .MessageIndex 0)}}<<SYS>>{{.SystemPrompt}}<</SYS>>{{end}}
-    {{if .Content}}{{.Content}}{{end}}
-    [/INST] 
-    {{end}}
+    {{.Input}}
+
+    ASSISTANT:
