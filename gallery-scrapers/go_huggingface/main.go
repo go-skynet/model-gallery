@@ -174,7 +174,7 @@ func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 		sha, err := getSHA256(shaURL)
 		if err != nil {
 			fmt.Println("Failed to get SHA for", sibling.RFileName, err)
-			continue
+			// continue
 		}
 		f = append(f, File{
 			Filename: sibling.RFileName,
@@ -362,5 +362,5 @@ func main() {
 	if err == nil {
 		concurrency = parallelism
 	}
-	parallelSearch([]string{"TheBloke", "ggml"}, concurrency, indexFile)
+	parallelSearch([]string{"TheBloke", "ggml", "gguf"}, concurrency, indexFile)
 }

@@ -21,7 +21,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      # - uses: actions/setup-go@v4
+      #   with:
+      #     go-version: '>=1.21.0'
       - name: Check updates 🔧
         run: |
           # For now, still launch the golang scraper with this config

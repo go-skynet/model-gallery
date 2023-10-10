@@ -1,0 +1,34 @@
+name: "codellama-7b-instruct-gguf"
+
+description: |
+  https://huggingface.co/codellama/CodeLlama-7b-instruct-hf
+license: "https://ai.meta.com/llama/license/"
+urls:
+- https://ai.meta.com/llama/
+- https://huggingface.co/codellama/CodeLlama-7b-instruct-hf
+- https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF
+
+config_file: |
+  parameters:
+    model: codellama-7b-instruct.Q4_K_M.gguf
+    top_k: 80
+    temperature: 0.2
+    top_p: 0.7
+  context_size: 4096
+  template:
+    chat_message: llama2-chat-message
+
+files:
+    - filename: "codellama-7b-instruct.Q4_K_M.gguf"
+      sha256: "0701500c591c2c1b910516658e58044cdfa07b2e8b5a2e3b6808d983441daf1a"
+      uri: "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q4_K_M.gguf"
+
+prompt_templates:
+- name: "llama2-chat-message"
+  content: |
+    {{if eq .RoleName "assistant"}}{{.Content}}{{else}}
+    [INST]
+    {{if eq .RoleName "system"}}<<SYS>>{{.Content}}<</SYS>>{{else if and (.SystemPrompt) (eq .MessageIndex 0)}}<<SYS>>{{.SystemPrompt}}<</SYS>>{{end}}
+    {{if .Content}}{{.Content}}{{end}}
+    [/INST] 
+    {{end}}
