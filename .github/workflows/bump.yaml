@@ -18,13 +18,11 @@ jobs:
       # Give the default GITHUB_TOKEN write permission to commit and push the
       # added or changed files to the repository.
       contents: write
-
+    defaults:
+        run:
+          working-directory: ./gallery-scrapers/huggingface
     steps:
       - uses: actions/checkout@v4
-
-      # - uses: actions/setup-go@v4
-      #   with:
-      #     go-version: '>=1.21.0'
 
       - uses: actions/setup-python@v4
         with:
@@ -42,8 +40,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Launch Scraper 🔧
-        run: python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
+      - name: Launch Scraper
+        working-directory: .
+        run: python ./gallery-scrapers/huggingface/main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v4
