@@ -21,15 +21,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: feat-experimental-python-hf-scraper
+        # with:
+        #   ref: feat-experimental-python-hf-scraper
       # - uses: actions/setup-go@v4
       #   with:
       #     go-version: '>=1.21.0'
       - name: Check updates 🔧
         run: |
           # For now, still launch the golang scraper with this config
-          # cd gallery_scrapers/go_huggingface
+          # cd gallery-scrapers/go_huggingface
           # go get github.com/go-skynet/LocalAI@master
           # go mod tidy
           # go run ./main.go
@@ -37,7 +37,7 @@ jobs:
           # Launch the new one
           pwd
           ls
-          cd gallery_scrapers/huggingface
+          cd gallery-scrapers/huggingface
           . venv/Scripts/activate
           python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
 
