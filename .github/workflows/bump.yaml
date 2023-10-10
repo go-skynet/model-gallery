@@ -34,7 +34,8 @@ jobs:
           # go run ./main.go
 
           # Launch the new one
-          cd gallery_scrapers/huggingface
+          pwd
+          cd model-gallery/gallery_scrapers/huggingface
           . venv/Scripts/activate
           python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
 
