@@ -37,7 +37,7 @@ llamaConfigRecognizer = ConfigRecognizer(
         },
     )), 
     perFile=llama_recognizer_repo_file, 
-    autoPromptEndpoints=["chat"]
+    autoPromptEndpoints=["chat", "completion"]
 )
 
 
