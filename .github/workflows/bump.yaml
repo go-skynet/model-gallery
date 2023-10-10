@@ -10,9 +10,6 @@ on:
 env:
   PROCESS_COUNT: 8
   DOWNLOAD_ROOT: "https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/"
-  # Fix these, especially this one, to become input?
-  CHECKOUT_BRANCH: "feat-experimental-python-hf-scraper"
-
 jobs:
   automatic-updates:
     runs-on: ubuntu-latest
@@ -25,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: $CHECKOUT_BRANCH
+          ref: feat-experimental-python-hf-scraper
       # - uses: actions/setup-go@v4
       #   with:
       #     go-version: '>=1.21.0'
