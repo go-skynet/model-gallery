@@ -97,7 +97,7 @@ class HFGalleryScraper:
                 galleryModel: GalleryModel = GalleryModel(
                     name=f"{modelInfo.modelId.replace("/", "__")}__{repoFile.rfilename}",
                     urls=[f"https://huggingface.co/{modelInfo.modelId}"],
-                    config_file= always_merger.merge(baseConfig.config_file, {
+                    config_file= always_merger.merge(baseConfig.config_file.copy(), {
                         "parameters": {
                             "model": repoFile.rfilename
                         }

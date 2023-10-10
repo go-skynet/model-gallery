@@ -13,10 +13,6 @@ from config_recognizers.llama import llamaConfigRecognizer, llama2ChatConfigReco
 
 from prompt_recognizers.the_bloke import the_bloke_style
 
-
-
-
-
 def scraper_process_atrocity_initializer():
     # I am sorry, everyone. This is the best solution I've found. Please send help if you're a real python expert, this can't be the intended method.
     global perProcessClient # Yes, this is a global variable... but if I'm right it's a global that's scoped to each child process - so its more of a singleton than a global
