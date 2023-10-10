@@ -35,6 +35,8 @@ jobs:
 
           # Launch the new one
           pwd
+          ls
+          ls model-gallery
           cd model-gallery/gallery_scrapers/huggingface
           . venv/Scripts/activate
           python main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
