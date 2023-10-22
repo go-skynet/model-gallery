@@ -162,7 +162,7 @@ func getSHA256(url string) (string, error) {
 func getModelFiles(repository string, modelFiles HFModel) (HFModel, error) {
 	f := []File{}
 	for _, sibling := range modelFiles.Siblings {
-		if !strings.HasSuffix(sibling.RFileName, ".bin") {
+		if !strings.HasSuffix(sibling.RFileName, ".bin") && !strings.HasSuffix(sibling.RFileName, ".gguf") {
 			continue
 		}
 		basePath := filepath.Base(sibling.RFileName)
