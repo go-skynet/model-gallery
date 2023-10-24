@@ -1,0 +1,433 @@
+---
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q2_K.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q2_K.gguf
+    sha256: 471f9b9f6f090ebc765c62a0cbbdaf38d3e58c4715a4bebafb37e3c49db61541
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q3_K_L.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q3_K_L.gguf
+    sha256: f32e6e46e03adf7a6388161f09faa61181928ae40b39032f1bf009814bb24560
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q3_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q3_K_M.gguf
+    sha256: 7ee05318da34b893aa6fcc5765622c4132bbe5ac4b00b6441095d892cf501c87
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q3_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q3_K_S.gguf
+    sha256: 5646950559654556d915b9070be8b11ee0d85ef62c163d4edf9596139f92368a
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q4_0.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q4_0.gguf
+    sha256: 95adf897a4211d798d14ece512d75e2e20341eb47589f4b1468ae8cd64d6b2b5
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q4_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q4_K_M.gguf
+    sha256: 752114cd73d6e7acbdab07a4067e15d9d2b015441742470d538d36f52afbf07f
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q4_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q4_K_S.gguf
+    sha256: eeda5fd9db628c5788fc5e68c2eb7c1ab23eda7e5716ec7158caacf03e6ff43b
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q5_0.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q5_0.gguf
+    sha256: 565425c49c731d441eb03862757ec5ce45a1aaefab74b05c2d3eba7483f70870
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q5_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q5_K_M.gguf
+    sha256: 5be86ff8fe264adaea468bfe8865bc46aaf53168caf576716c433f4df92054c0
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q5_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q5_K_S.gguf
+    sha256: 4e5b297b898e29d50e4164b06f6518ae9a18dd0317ff53f848897fd9a7f0f679
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q6_K.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q6_K.gguf
+    sha256: 325b0fe3f6ce07a41ca854a2d994dbe705cdf443f7d1db0031588c6ee8c6d9be
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: em_german_mistral_v01.Q8_0.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_mistral_v01-GGUF - mistral configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_mistral_v01.Q8_0.gguf
+    sha256: 3202bfb8e474670045c990dcea3575e2ac06d6bf2352d4fbe022097890befa85
+    uri: 
+      https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__em_german_mistral_v01-GGUF__em_german_mistral_v01.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - pytorch
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF

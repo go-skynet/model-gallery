@@ -52,3 +52,15 @@ llama2ChatConfigRecognizer = ConfigRecognizer(
     perFile=llama_recognizer_repo_file,
     autoPromptEndpoints={LocalAIEndpoints.CHAT}
 )
+
+mistralConfigRecognizer = ConfigRecognizer(
+    id="mistral",
+    filter=partial(tag_based_filter_for_model, {"mistral"}, '(?i)mistral'),
+    perRepo=partial(fixed_BaseConfigData_handler, data=BaseConfigData(
+        config_file= {
+            "context_size": 8000    # is this right?
+        },
+    )),
+    perFile=llama_recognizer_repo_file, 
+    autoPromptEndpoints={LocalAIEndpoints.CHAT, LocalAIEndpoints.COMPLETION}
+)

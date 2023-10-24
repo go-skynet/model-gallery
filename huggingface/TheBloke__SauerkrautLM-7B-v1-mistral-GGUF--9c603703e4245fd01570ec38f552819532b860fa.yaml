@@ -1,0 +1,416 @@
+---
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q2_K.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q2_K.gguf
+    sha256: 64ce9ab7fad8071d2781725e33531f8887b07ee35deb129d103588878fea5b31
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q3_K_L.gguf
+    sha256: 6b27ebedc8a62b64770eff5a7aed371f67057f585263bebf2cf91c8a98c5d04e
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q3_K_M.gguf
+    sha256: eaea8f1d80d99c218fa1fc60d3b7a78ca53b3dae254651d01bf0cd8fe4a2f430
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q3_K_S.gguf
+    sha256: ed93b96a6ec4703ce6324620f3f0ee3ce6fb899d6eebbd4412413b9b4e433d85
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q4_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q4_0.gguf
+    sha256: a1ab0bb090bf036edabc11a5db1528c1af7227c037eea4cb6eaa8d9c933ad51c
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q4_K_M.gguf
+    sha256: 86d602ece2fa3e7a704c0661bbde7fa03463235560cbb667916e520529edfaef
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q4_K_S.gguf
+    sha256: c753a02123c2453d147e957fb65b4c882eb8b1effd929cf448349bcfb7568dd5
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q5_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q5_0.gguf
+    sha256: 101d987dec8aea481b8ea18163584114430d63298e148c6f552aa4591acc62b9
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q5_K_M.gguf
+    sha256: b1779f1d2a8aaa6720da6e16aa603a319be7b343afc7445f38c87f58890b7a2c
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q5_K_S.gguf
+    sha256: e1b72c7f71c746e2d5177b3882190474bd81b2b6f7ce6fac9596b1fbdb014ec0
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q6_K.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q6_K.gguf
+    sha256: 480f62aa1afa954aa5383e42c59d2496a8047a2034592032bce031188d611f85
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF
+- config_file:
+    backend: llama
+    context_size: 8000
+    parameters:
+      model: sauerkrautlm-7b-v1-mistral.Q8_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-7b-v1-mistral.Q8_0.gguf
+    sha256: 31a8582204b5345ee63d66c5913f9b71871c763106df50d54ac8a49db6c63ea1
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF/resolve/main/sauerkrautlm-7b-v1-mistral.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SauerkrautLM-7B-v1-mistral-GGUF__sauerkrautlm-7b-v1-mistral.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - de
+  - en
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-7B-v1-mistral-GGUF

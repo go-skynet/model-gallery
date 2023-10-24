@@ -15,7 +15,7 @@ from lib.prompt_templating import PromptTemplateCache, PromptTemplateRecognizer
 from lib.gallery_scraper import HFGalleryScraper
 from lib.utils import purge_folder
 
-from config_recognizers.llama import llamaConfigRecognizer, llama2ChatConfigRecognizer
+from config_recognizers.llama import llamaConfigRecognizer, llama2ChatConfigRecognizer, mistralConfigRecognizer
 from config_recognizers.bert import bertCppConfigRecognizer
 from config_recognizers.rwkv import rwkvConfigRecognizer
 
@@ -50,6 +50,7 @@ if __name__ == "__main__":
     configRecognizers: List[ConfigRecognizer] = [
         llama2ChatConfigRecognizer,
         llamaConfigRecognizer,
+        mistralConfigRecognizer,
         bertCppConfigRecognizer,
         rwkvConfigRecognizer
     ]
