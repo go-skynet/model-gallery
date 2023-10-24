@@ -1,0 +1,409 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q2_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q2_K.gguf
+    sha256: 6168327b6120809b686532860678b31c86d32aee7887cc070118d36aa6ef202e
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q3_K_L.gguf
+    sha256: 4bb7f8ec916e6234f51e8e1c2ea42dae14e0820d47099a6e4be2beb0bcc5b6b5
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q3_K_M.gguf
+    sha256: 5158a429d7e695db303bc9f528b233e4a15896e11d8533a77b62f68b731e643c
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q3_K_S.gguf
+    sha256: 4857a3e8a7c0dd8bc7876076ceb3158601b91c2098d52aaafde9fb525bbe451b
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q4_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q4_0.gguf
+    sha256: d49560e96f9e2c426150a83beef99576155fec2503f1b168ce75006fe8335138
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q4_K_M.gguf
+    sha256: 51aca5a1ec2c52c6243f306d8d977e3bc1cb2f69ada04dac78a4c72ebea07037
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q4_K_S.gguf
+    sha256: 368ebdc39e4fdc1ffeaecdc81fdc22a6cda593ac7f7ab89b1474c7a09ef946ea
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q5_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q5_0.gguf
+    sha256: 56ce77ee912811ad784b66c6593c9111216a5741d1a2c4e7b0183c6b55f6c313
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q5_K_M.gguf
+    sha256: ef5acb47be48dc761175459364a07ecde6d6fa20ccb85f5cc4f9a86a5ef8c2bc
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q5_K_S.gguf
+    sha256: 60605a9e8968041fb915e3d9f15596d218f6a4887be472fbd6532303914af468
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q6_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q6_K.gguf
+    sha256: f6be69863bfc1848deabae4890d5dd993e18876790581e401f9695ea2e12dc8b
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: pygmalion-2-13b-supercot.Q8_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Pygmalion-2-13B-SuperCOT-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: pygmalion-2-13b-supercot.Q8_0.gguf
+    sha256: 292f8b74dcf2cccb8532b8b4dfb7e46d43465f47e1972dfa4b9cb79701e31414
+    uri: 
+      https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF/resolve/main/pygmalion-2-13b-supercot.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Pygmalion-2-13B-SuperCOT-GGUF__pygmalion-2-13b-supercot.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Pygmalion-2-13B-SuperCOT-GGUF

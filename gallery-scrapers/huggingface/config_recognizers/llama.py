@@ -3,7 +3,7 @@ from huggingface_hub.hf_api import ModelInfo, RepoFile
 from deepmerge import conservative_merger
 from functools import partial
 
-from lib.base_models import BaseConfigData
+from lib.base_models import BaseConfigData, LocalAIEndpoints
 from lib.config_recognizer import ConfigRecognizer, tag_based_filter_for_model, fixed_BaseConfigData_handler
 
 
@@ -30,25 +30,25 @@ def llama_recognizer_repo_file(_: ModelInfo, repoFile: RepoFile, baseConfig: Bas
    
 llamaConfigRecognizer = ConfigRecognizer(
     id="llama", 
-    filter=partial(tag_based_filter_for_model, ["llama", "llama-2"], '(?i)llama'),
+    filter=partial(tag_based_filter_for_model, {"llama", "llama-2"}, '(?i)llama'),
     perRepo=partial(fixed_BaseConfigData_handler, data=BaseConfigData(
         config_file= {
             "context_size": 1024
         },
     )), 
     perFile=llama_recognizer_repo_file, 
-    autoPromptEndpoints=["chat", "completion"]
+    autoPromptEndpoints={LocalAIEndpoints.CHAT, LocalAIEndpoints.COMPLETION}
 )
 
 
 llama2ChatConfigRecognizer = ConfigRecognizer(
     id="llama", 
-    filter=partial(tag_based_filter_for_model, ["llama2-chat"], '(?i)llama2-chat'),
+    filter=partial(tag_based_filter_for_model, {"llama2-chat"}, '(?i)llama2-chat'),
     perRepo=partial(fixed_BaseConfigData_handler, data=BaseConfigData(
        config_file= {
             "context_size": 4096
         },
     )),
     perFile=llama_recognizer_repo_file,
-    autoPromptEndpoints=["chat"]
+    autoPromptEndpoints={LocalAIEndpoints.CHAT}
 )

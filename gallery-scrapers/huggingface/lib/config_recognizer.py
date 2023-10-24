@@ -1,4 +1,4 @@
-from typing import Callable, List, Dict, Any, Optional
+from typing import Callable, Set, Optional
 from huggingface_hub.hf_api import ModelInfo, RepoFile
 
 from lib.base_models import BaseConfigData
@@ -11,16 +11,19 @@ PerFileRecognizerFunctionType = Callable[[ModelInfo, RepoFile, BaseConfigData], 
 
 # Pickling lambdas doesn't work, pickling closures doesn't work.
 # However, we _can_ pickle functools.partial the arguments - recognizedTags and fallbackRegex must be captured.
-def tag_based_filter_for_model(recognizedTags: List[str], fallbackRegex: str, modelInfo: ModelInfo) -> bool:
+def tag_based_filter_for_model(recognizedTags: Set[str], fallbackRegex: str, modelInfo: ModelInfo) -> bool:
     if modelInfo == None:
         return False
     elif len(modelInfo.tags) > 0:
-        return any(item in recognizedTags for item in modelInfo.tags)
+        return bool(recognizedTags.intersection(modelInfo.tags))
     else:
         return regex.match(fallbackRegex, modelInfo.modelId) != None
     
 def model_author_filter(author: str, model: ModelInfo) -> bool:
     return model.author == author
+
+def model_multi_author_filter(authors: Set[str], model: ModelInfo) -> bool:
+    return model.author in authors
 
 # these three "nop" functions exist to avoid issues with Pickle, which is used by the multiprocessing stuff.
 # This is perhaps not the pythonic way to do this. Please help.
@@ -43,9 +46,9 @@ def fixed_BaseConfigData_handler(*args, data: BaseConfigData):
     return data
 
 class ConfigRecognizer:
-    def __init__(self, id: str, filter: ModelInfoFilterFunctionType, perRepo: PerRepoRecognizerFunctionType, perFile: PerFileRecognizerFunctionType, autoPromptEndpoints: Optional[List[str]]):
+    def __init__(self, id: str, filter: ModelInfoFilterFunctionType, perRepo: PerRepoRecognizerFunctionType, perFile: PerFileRecognizerFunctionType, autoPromptEndpoints: Optional[Set[str]]):
         self.id = id
         self.filter = filter or neverModelInfoFilter # Must be overriden for your ConfigRecognizer to be useful.
         self.perRepo = perRepo or nopConfigRecognizerPerRepoFn # If perRepo action isn't set, return None. This can then be detected.
         self.perFile = perFile or nopConfigRecognizerPerFileFn # If perFile action isn't set, return the BaseConfigData parameter unmodified. This will be the result of perRepo, which may itself be None.
-        self.autoPromptEndpoints = autoPromptEndpoints # If this is None, automatic prompt templating is skipped and the perRepo action must handle that. If it is set to a list of string, auto will put the selected prompt template in each listed endpoint for the generated config.
+        self.autoPromptEndpoints = autoPromptEndpoints # If this is None, automatic prompt templating is skipped and the perRepo action must handle that. If it is a set of strings, auto will put the selected prompt template in each listed endpoint for the generated config.

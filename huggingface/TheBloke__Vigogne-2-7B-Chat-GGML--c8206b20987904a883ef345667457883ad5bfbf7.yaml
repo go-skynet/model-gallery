@@ -1,0 +1,491 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q2_K.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q2_K.bin
+    sha256: d6373a5650bfe1ce1b4c428c28ce994a4957a370e720fcfb0d10e5d8685f9809
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q3_K_L.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q3_K_L.bin
+    sha256: 6cb17aa72d2b8a0194927cc28bf6fe6346d5aa8f8fab093bff54cf7aad47eb92
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q3_K_M.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q3_K_M.bin
+    sha256: 9308805ed8cfa1ab7e77735d958cceeb19cd4d0886919ee33dc5551f6c3dbe77
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q3_K_S.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q3_K_S.bin
+    sha256: c756532138a99d50dcf861e51ee6cb869c9f7a3d21a4a60508f147dde5286feb
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q4_0.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q4_0.bin
+    sha256: 4fa6ae8b01b05c39b0130bc2de2b8d284fb3ddc60727e7d07c91e9763d840bb7
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q4_1.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q4_1.bin
+    sha256: ab3c61aa82e964d3cea45d0489d4da332e0917ee2b4d7dd4d50e15cb1c10f950
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q4_K_M.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q4_K_M.bin
+    sha256: 88946494ed28fb992f1e31ad8acc2d0296023f0f08885725e7abe17cc1e6cf1b
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q4_K_S.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q4_K_S.bin
+    sha256: a351b6e1d8369cac5871316055fd979cad903d75700f98a6fdf6ab9491bb8f22
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q5_0.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q5_0.bin
+    sha256: e7cff4f09604bea89d1069267ac5875fea6bd7f08e635561d09abc03cdb9c5a4
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q5_1.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q5_1.bin
+    sha256: bec9edd8f716661e85e6bf5727c1f8d25349d7a8726cabf72ae392d3b9b228ce
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q5_K_M.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q5_K_M.bin
+    sha256: 0d95bdb2bb0ed52832c5d66c15283f2f820712597b9b69cfbaf2a5e8eb8f9126
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q5_K_S.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q5_K_S.bin
+    sha256: 0bceff7bd186710f6b06d0e99967a9e7886cd5147a9d686b8e6f71874e5062cf
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q6_K.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q6_K.bin
+    sha256: 6318b2073077382aeb59084724f7a09b8e8fb78960da870b681fa96574d473f9
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vigogne-2-7b-chat.ggmlv3.q8_0.bin
+    template:
+      ? - chat
+      : Vigogne-Chat.tmpl
+      ? - completion
+      : Vigogne-Chat.tmpl
+  description: TheBloke/Vigogne-2-7B-Chat-GGML - llama configuration
+  files:
+  - filename: Vigogne-Chat.tmpl
+    sha256: 36531293aa2631677b2d93909cad60ebc3f0da2bbc8456aa9600c5f98aa8af41
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vigogne-Chat.tmpl
+  - filename: vigogne-2-7b-chat.ggmlv3.q8_0.bin
+    sha256: e7e466c122c90208263ef1e1ece29c3a6ecddc7096f82b953789b0a262fc5697
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML/resolve/main/vigogne-2-7b-chat.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-7B-Chat-GGML__vigogne-2-7b-chat.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-7B-Chat-GGML

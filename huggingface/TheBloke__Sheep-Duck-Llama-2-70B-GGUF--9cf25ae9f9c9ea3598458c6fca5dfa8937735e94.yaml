@@ -1,0 +1,361 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q2_K.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q2_K.gguf
+    sha256: eacbdb77ed81eaa08f5712cce6a51816b692073f469ce4a1cee3617a6101cda0
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q3_K_L.gguf
+    sha256: 083590dee31a671b48c6717e321996909b9aed6278feb54e154c070a8a3be8cf
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q3_K_M.gguf
+    sha256: e380db60feac3d80bc6ddacc93f64bd28a27f99c69cf290e3314026b645e2fe0
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q3_K_S.gguf
+    sha256: 546225aa0e6e7fdf835e3e7065133a805b02d1048c84c63a1a7e37dafd5deedf
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q4_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q4_0.gguf
+    sha256: a22cb282e0d67ca0be67cf4a1ab8e35b9adadc1013fcbc227dff6b1e3ad21fb7
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q4_K_M.gguf
+    sha256: 5f8d23a9efe5b6bc71abea18809292cd0a4f9f0a593032bd454c4303f01ce09c
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q4_K_S.gguf
+    sha256: 740a543622bf2c3d8853172ad07e83d5169a0b4e3a027ed177415875be105b51
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q5_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q5_0.gguf
+    sha256: ad4107c7e4fabfd46b7230f28274cbd01a6e19ffb3359c202987f0942f1de68c
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q5_K_M.gguf
+    sha256: e0b7652931be4949993c0bb40b372033b69727b3c0aaf7ba65a755642b262ede
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sheep-duck-llama-2.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: sheep-duck-llama-2.Q5_K_S.gguf
+    sha256: 8ab8dc37272243e79b9e4675e8e75ea98f1b514a794e77fd3cd3754206e78481
+    uri: 
+      https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF/resolve/main/sheep-duck-llama-2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Sheep-Duck-Llama-2-70B-GGUF__sheep-duck-llama-2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - Riiid
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Sheep-Duck-Llama-2-70B-GGUF

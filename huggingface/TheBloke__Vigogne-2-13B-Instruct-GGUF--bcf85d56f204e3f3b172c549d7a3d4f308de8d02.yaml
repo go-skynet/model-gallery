@@ -1,0 +1,421 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q2_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q2_K.gguf
+    sha256: 96fbb78b7f27630402cd3b9e42aa12428d68b19ce2e451a291548ab18245956d
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q3_K_L.gguf
+    sha256: 9d781d9b7432d1c621283910227d3331bfb537968aa9e3b3b83bd58eb0896365
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q3_K_M.gguf
+    sha256: 4fab8394f66a9a0d97f771bb0ccfa76a8ccd43306c9efb22701d4944cf47a72e
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q3_K_S.gguf
+    sha256: e4559d907bf0093c088e8001268f81c950e28253ad1f94f177b52efd3fe3b439
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q4_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q4_0.gguf
+    sha256: bfdd44c379fd0122bac6310046c474f39fa8242738996e7d75e59c90c79cfda0
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q4_K_M.gguf
+    sha256: c8c0c12acd6d478944907429853f7a0fa1b150e21c066feab98c4207e19862bd
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q4_K_S.gguf
+    sha256: 779133f016cd1b103863ab470a63454a3ba09bbabe3a3aefc4c4fee203b25598
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q5_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q5_0.gguf
+    sha256: c207f8b6cc0e2a10eceb59e56611e1a8dc22a654647156bf1fb41dfb4d8f14b1
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q5_K_M.gguf
+    sha256: 7ea00e431f9cd3cf1f0bfba862ffe996f0844e6ed98c0462d52edadaf7f4e495
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q5_K_S.gguf
+    sha256: 529700716b59cf6f8756ac7cd649915aca28f8da12a0de2e4ac7282628005a4d
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q6_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q6_K.gguf
+    sha256: 974c431bdc6be9d0599efbb8859eadffd95a05bb0f0b3d4b4751d6b59c5ff3ce
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: vigogne-2-13b-instruct.Q8_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Vigogne-2-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: vigogne-2-13b-instruct.Q8_0.gguf
+    sha256: 3d5ee633ca16a961f7441294493c466a599220d6ff18fa0aec42d500977867ed
+    uri: 
+      https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF/resolve/main/vigogne-2-13b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Vigogne-2-13B-Instruct-GGUF__vigogne-2-13b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - LLM
+  - llama-2
+  - text-generation
+  - fr
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Vigogne-2-13B-Instruct-GGUF

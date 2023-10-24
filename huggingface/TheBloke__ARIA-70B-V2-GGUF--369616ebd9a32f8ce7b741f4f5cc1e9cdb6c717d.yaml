@@ -1,0 +1,431 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q2_K.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q2_K.gguf
+    sha256: 7ae168574385cdbd94d2f35b57bc72ea1c86d18c3c827285c5f4d08441b7734a
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q3_K_L.gguf
+    sha256: 401c8ae5a4cd73613aa93ad7868363dd8bbb98b560b3ded2baeb32ecbf5d4d00
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q3_K_M.gguf
+    sha256: 0032dc8ba6c4f91dc7448b493e3cf56f8ba7e43ae05bffa1db7b50b7c458644b
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q3_K_S.gguf
+    sha256: 6b238926858e5b7915de66ae86d374c03fd9362e38bb8779fb552685c831aea2
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q4_0.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q4_0.gguf
+    sha256: d2cf95aab99228df0e7b32c7aa881e147ed46bb386573974b418dc80aa7342e5
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q4_K_M.gguf
+    sha256: a4d97d2b6a3819c486837990981783c8f66962c7e05f5c346f08784fa44bb95e
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q4_K_S.gguf
+    sha256: 4a3879fad88c05e4fa0c1062cb7944a49fd4808fb85e7e0ae8edc1709ccd66df
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q5_0.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q5_0.gguf
+    sha256: 8285e041e58ec7c59afa77e22bb8b1a604a1413c5b57ca3af50a669ce89feca5
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q5_K_M.gguf
+    sha256: fb2947c81a62ca6e6e1ae33b54bd401f53f270f9d881a8eb016dd81d56fa939d
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: aria-70b-v2.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: aria-70b-v2.Q5_K_S.gguf
+    sha256: 096aa00fedac789fbb7015ec1335bcd174660b711207474af341b56dcb441426
+    uri: 
+      https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF/resolve/main/aria-70b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__ARIA-70B-V2-GGUF__aria-70b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - text-generation-inference
+  - 'Meta '
+  - facebook
+  - pytorch
+  - openassistant
+  - data
+  - education
+  - languages
+  - text-generation
+  - fr
+  - en
+  - arxiv:2307.09288
+  - license:llama2
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ARIA-70B-V2-GGUF

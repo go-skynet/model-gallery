@@ -1,0 +1,409 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q2_K.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q2_K.gguf
+    sha256: 9bc144cdc77aff94f490d88fd361f1760d0ac9bd23013775ab342b5ece43d34f
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q3_K_L.gguf
+    sha256: 3acfbe16bb4945dadbc47f625615ead8780c946c9933841ce43936040062826f
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q3_K_M.gguf
+    sha256: af70a1ba54c106bbf97c864c5100b149f9f778e7368f6ed1b284c7a5e4a70397
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q3_K_S.gguf
+    sha256: f0ebd8636a25ebadafd4eef0f16c25a4796f10fb1f065101625a3973068d9cb0
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q4_0.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q4_0.gguf
+    sha256: de28e053afa2d03900d700b365f145c9909997536855003beba9c12a67c76453
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q4_K_M.gguf
+    sha256: 3020764beb9d42eca0d4edc36261dfe55089c4482d3572385f32057da114c26d
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q4_K_S.gguf
+    sha256: 9f206836bdfafd3cf177b4adf84967884cfea4299342999df662da5e9f9373d1
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q5_0.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q5_0.gguf
+    sha256: 92b20b9fb7f1449c619842a0a990d0dcd1eaaea7a9d392c0cae429a4e7419093
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q5_K_M.gguf
+    sha256: 1488dc36dca8e7b54fb53692c8138c90b14377a72a75e4ce684f7e782e01e48f
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q5_K_S.gguf
+    sha256: 47610abe6c300271b6b5265927cd895db53d87a22b700f451b0af627211b47a2
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q6_K.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q6_K.gguf
+    sha256: 181173d7ce373fbb3d116d52820e18452cacdcf06ad24c2a8c1ba0bff08fe39d
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronoboros-grad-l2-13b.Q8_0.gguf
+    template:
+      ? - chat
+      : Custom.tmpl
+      ? - completion
+      : Custom.tmpl
+  description: TheBloke/Chronoboros-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Custom.tmpl
+    sha256: 93310ba22de384814ff424be4161104b29625fbbd8092b5bb5ca8e0cfc7bb8a1
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Custom.tmpl
+  - filename: chronoboros-grad-l2-13b.Q8_0.gguf
+    sha256: 2f1f5554e354e5c962a6e069e81a55ec6f3f8a946a7043d6cdc60e1b9354a2ca
+    uri: 
+      https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF/resolve/main/chronoboros-grad-l2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Chronoboros-Grad-L2-13B-GGUF__chronoboros-grad-l2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronoboros-Grad-L2-13B-GGUF

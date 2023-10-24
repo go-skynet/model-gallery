@@ -1,0 +1,171 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puma-3b.ggmlv3.q4_0.bin
+    template:
+      ? - chat
+      : Human-Response.tmpl
+      ? - completion
+      : Human-Response.tmpl
+  description: TheBloke/Puma-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: puma-3b.ggmlv3.q4_0.bin
+    sha256: bc07c81de745696fdf5afca05e065818a8149fb0c77266fb584d9b2cba3711ab
+    uri: 
+      https://huggingface.co/TheBloke/Puma-3b-GGML/resolve/main/puma-3b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Puma-3b-GGML__puma-3b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/sharegpt-hyperfiltered-3k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Puma-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puma-3b.ggmlv3.q4_1.bin
+    template:
+      ? - chat
+      : Human-Response.tmpl
+      ? - completion
+      : Human-Response.tmpl
+  description: TheBloke/Puma-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: puma-3b.ggmlv3.q4_1.bin
+    sha256: a463d7a6a0b493bbc263a7dea93746fd13039c22583b12291c10ca38099e09b9
+    uri: 
+      https://huggingface.co/TheBloke/Puma-3b-GGML/resolve/main/puma-3b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Puma-3b-GGML__puma-3b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/sharegpt-hyperfiltered-3k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Puma-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puma-3b.ggmlv3.q5_0.bin
+    template:
+      ? - chat
+      : Human-Response.tmpl
+      ? - completion
+      : Human-Response.tmpl
+  description: TheBloke/Puma-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: puma-3b.ggmlv3.q5_0.bin
+    sha256: 3c73aea29fe0ca8e6e9c5316b58d79f44e4121a29a13d576697e90112e0da0b8
+    uri: 
+      https://huggingface.co/TheBloke/Puma-3b-GGML/resolve/main/puma-3b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Puma-3b-GGML__puma-3b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/sharegpt-hyperfiltered-3k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Puma-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puma-3b.ggmlv3.q5_1.bin
+    template:
+      ? - chat
+      : Human-Response.tmpl
+      ? - completion
+      : Human-Response.tmpl
+  description: TheBloke/Puma-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: puma-3b.ggmlv3.q5_1.bin
+    sha256: 3d86d683e3fa5285e1a9a9272485f4eb9cda8a3149f0f7f1bf3a6d29e01c4e24
+    uri: 
+      https://huggingface.co/TheBloke/Puma-3b-GGML/resolve/main/puma-3b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Puma-3b-GGML__puma-3b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/sharegpt-hyperfiltered-3k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Puma-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puma-3b.ggmlv3.q8_0.bin
+    template:
+      ? - chat
+      : Human-Response.tmpl
+      ? - completion
+      : Human-Response.tmpl
+  description: TheBloke/Puma-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: puma-3b.ggmlv3.q8_0.bin
+    sha256: 3dd4020498750680edc05ac066786824bd63f6e8e898c68c595d94737dad37ea
+    uri: 
+      https://huggingface.co/TheBloke/Puma-3b-GGML/resolve/main/puma-3b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Puma-3b-GGML__puma-3b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/sharegpt-hyperfiltered-3k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Puma-3b-GGML

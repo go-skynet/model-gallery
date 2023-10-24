@@ -1,0 +1,391 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q2_K.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q2_K.gguf
+    sha256: f8780db6d3bfa4cf85433275b965072c9cde433905fcec3aa28ca4597896edf8
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q3_K_L.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q3_K_L.gguf
+    sha256: 9805061622cac75ffd25ab5cb7e0bfd18a4729d3f789ee48f3f398f3206e8028
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q3_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q3_K_M.gguf
+    sha256: 4d6d6c1c5d1b42b607a4d23926e75e7771ff96439bcb3efba92e183179fa4825
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q3_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q3_K_S.gguf
+    sha256: 6cead3d5b438e6bf3f381b10ad99daaf5620d69aeb081aa62c1b98612caa1df6
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q4_0.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q4_0.gguf
+    sha256: 14a329b8051b89613efcdea0d4b9240ded50d4caac257af0a433b5fdc583afca
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q4_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q4_K_M.gguf
+    sha256: f95deee396dae978f39b745217babc51b734c81e6087cc377666e1b51579cf13
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q4_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q4_K_S.gguf
+    sha256: 709cd7dadd266d27aaeea221b99c64f366c2a12cea5a84ad56003e6166ce846e
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q5_0.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q5_0.gguf
+    sha256: ec1e636f47bdcabe9ec49bd9f6f3219a183c0753b1267645de064246f03b7dce
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q5_K_M.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q5_K_M.gguf
+    sha256: 3741dedb281c156eb76518685c78d867b75709e6820cefa757157573d849c44d
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: em_german_70b_v01.Q5_K_S.gguf
+    template:
+      ? - chat
+      : EmGerman.tmpl
+      ? - completion
+      : EmGerman.tmpl
+  description: TheBloke/em_german_70b_v01-GGUF - llama configuration
+  files:
+  - filename: EmGerman.tmpl
+    sha256: 3f6345fb69e3fbf4fe1f7df18b3f9adc5c31b47b924361a421f5bfab3f589260
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/EmGerman.tmpl
+  - filename: em_german_70b_v01.Q5_K_S.gguf
+    sha256: b07784591ea0f33111eae078b4e16467537da04caff910d646b53d47556c5293
+    uri: 
+      https://huggingface.co/TheBloke/em_german_70b_v01-GGUF/resolve/main/em_german_70b_v01.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__em_german_70b_v01-GGUF__em_german_70b_v01.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - german
+  - deutsch
+  - text-generation
+  - de
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/em_german_70b_v01-GGUF

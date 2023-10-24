@@ -1,0 +1,171 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-3b-v1.Q4_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-3B-v1-GGUF - llama configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-3b-v1.Q4_0.gguf
+    sha256: e8fcaed1d178fa785367e9994346ccd40f9aa79e5218452874e49672cc2d2431
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF/resolve/main/sauerkrautlm-3b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SauerkrautLM-3B-v1-GGUF__sauerkrautlm-3b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - de
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-3b-v1.Q4_1.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-3B-v1-GGUF - llama configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-3b-v1.Q4_1.gguf
+    sha256: c6e96107112e66438ed5e69f13696759d0b6c023306fa11499f08449936dfe30
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF/resolve/main/sauerkrautlm-3b-v1.Q4_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SauerkrautLM-3B-v1-GGUF__sauerkrautlm-3b-v1.Q4_1.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - de
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-3b-v1.Q5_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-3B-v1-GGUF - llama configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-3b-v1.Q5_0.gguf
+    sha256: 43bbe89c64e55d490d9a858246002651374fb96a30be0b770fb8b71e366d0604
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF/resolve/main/sauerkrautlm-3b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SauerkrautLM-3B-v1-GGUF__sauerkrautlm-3b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - de
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-3b-v1.Q5_1.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-3B-v1-GGUF - llama configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-3b-v1.Q5_1.gguf
+    sha256: 9100d644df569e884ab0d5adcb97bc2c20d11260442bfd80c9f887266672262f
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF/resolve/main/sauerkrautlm-3b-v1.Q5_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SauerkrautLM-3B-v1-GGUF__sauerkrautlm-3b-v1.Q5_1.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - de
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: sauerkrautlm-3b-v1.Q8_0.gguf
+    template:
+      ? - chat
+      : Sauerkraut.tmpl
+      ? - completion
+      : Sauerkraut.tmpl
+  description: TheBloke/SauerkrautLM-3B-v1-GGUF - llama configuration
+  files:
+  - filename: Sauerkraut.tmpl
+    sha256: de2c9e0bc5e74ea7316d1d00941fac0c0d862b504fdb837cd4d35df7fe9d84c9
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Sauerkraut.tmpl
+  - filename: sauerkrautlm-3b-v1.Q8_0.gguf
+    sha256: eb118e3b3a0f7f6f9e3167b2ed7f4b43bd05dae27b514b3e8efd118e93f848c3
+    uri: 
+      https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF/resolve/main/sauerkrautlm-3b-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SauerkrautLM-3B-v1-GGUF__sauerkrautlm-3b-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - de
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SauerkrautLM-3B-v1-GGUF

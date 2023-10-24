@@ -1,5 +1,11 @@
 from typing import List, Dict, Any, Optional
 
+from enum import StrEnum
+
+class LocalAIEndpoints(StrEnum):
+    CHAT = 'chat'
+    COMPLETION = 'completion'
+
 ## Shared Models
 
 class Gallery:
@@ -53,6 +59,22 @@ class BaseConfigData:
     ):
         self.config_file = config_file or {}
         self.files = files or []
+
+class ScrapeResultStatus(StrEnum):
+    SUCCESS = 'success'
+    EMPTY = 'empty'
+    UNCHANGED = 'unchanged'
+    ERROR = 'error'
+
+class ScrapeResult:
+    def __init__(self, filename: str, gallery: List[GalleryModel], status: ScrapeResultStatus, message: str = ""):
+        self.filename = filename
+        self.gallery = gallery
+        self.status = status
+        self.message = message or ""
+
+
+
 
 # Not in use currently, but was earlier and may come back?
 # The jury is still out if its better to generate base files and overrides or full files

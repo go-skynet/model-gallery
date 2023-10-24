@@ -1,0 +1,477 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q2_K.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q2_K.bin
+    sha256: 8199ea741ce180b31d7225793507a4d1541c77a2a81b6c27104a41e3f6e412cd
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q3_K_L.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q3_K_L.bin
+    sha256: ff5c871e76a73abf2a0b39abe99caa080476ac5aec03f74d317075f31b15a25b
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q3_K_M.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q3_K_M.bin
+    sha256: 0d538062679f5b09438fa99579012fe8707727911af95f31ba33805a58a6fc9a
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q3_K_S.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q3_K_S.bin
+    sha256: d35d92096edfb40b6120115530f60d464d7771feccd161eeacf28f925f4dd060
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q4_0.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q4_0.bin
+    sha256: 6235b7fd6b020cdb000006c845ec0631f4f065f676aed63331bd251dfa3c151a
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q4_1.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q4_1.bin
+    sha256: 37348830d147d5d207079db155d1c87150ae1ab30790004d5c58386640a4dfa2
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q4_K_M.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q4_K_M.bin
+    sha256: cac3291866d6e0601faae2d26cdd94ef02fc771670079774764b85a016d6d186
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q4_K_S.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q4_K_S.bin
+    sha256: e5f9cdfeed61256f5241f95e089cf3f7fe2ffe09a36a6318c53d4306be294d1c
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q5_0.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q5_0.bin
+    sha256: 588e3be4208b0bcae67478d3f87b65ced4dfba90f1282a43cd0d364592db5c05
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q5_1.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q5_1.bin
+    sha256: 9fe3c36a92399647531d321b6a59df0c658b1a237d7067b95fff7da9bf02d93a
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q5_K_M.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q5_K_M.bin
+    sha256: b79210fa50679f3eab9a023630944084b22b42dcd98e281652658b2c954f7530
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q5_K_S.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q5_K_S.bin
+    sha256: e497465270c622486712fbbbb0c0bf8630b7100caab3bd1cf72c2c7c7cf4267e
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q6_K.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q6_K.bin
+    sha256: 3b5ff633353c646fa2b79b5c05ac3ea977db780603a2230c665fe2c9e3215355
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: synthia-13b.ggmlv3.q8_0.bin
+    template:
+      ? - chat
+      : Orca-Vicuna.tmpl
+      ? - completion
+      : Orca-Vicuna.tmpl
+  description: TheBloke/Synthia-13B-GGML - llama configuration
+  files:
+  - filename: Orca-Vicuna.tmpl
+    sha256: 8848e8a37940c583f21a77a8d16de68c1e89617d8cb37f08ce773de835fcadfa
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Vicuna.tmpl
+  - filename: synthia-13b.ggmlv3.q8_0.bin
+    sha256: 76632835d39f30ba31fc8c4655be19fbfa968d0957509721e26fe54e91ebc845
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-13B-GGML/resolve/main/synthia-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-13B-GGML__synthia-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-13B-GGML

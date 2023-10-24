@@ -1,0 +1,493 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q2_K.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q2_K.gguf
+    sha256: b6e8ecf762bb25a486e2acdacf4444ffc21fec9277630f2b47eace1aac216940
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q3_K_L.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q3_K_L.gguf
+    sha256: f4c45cbe64e658dcbf3415f4ba743ee64892925c026f80da760229f0ab137284
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q3_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q3_K_M.gguf
+    sha256: cb9116bba9a04735a43bcc496841846beba7a28b2daf51dd6e06a81d56b960bd
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q3_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q3_K_S.gguf
+    sha256: 9025bd3b2287eb971e9e91942fcbe5c5ec456f780e6c8ff3d383fb8f40764d17
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q4_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q4_0.gguf
+    sha256: a0fb0d92b16f7a5e945dc70866349056ed1555c39f83ba7576eaa49ea857865f
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q4_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q4_K_M.gguf
+    sha256: 3194f517e59baf147cee31d6316a6152458bb6b1e20b99efa65233ba7370cf80
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q4_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q4_K_S.gguf
+    sha256: 4118f6db12d54483e3436f5ed7097a04a39690e4be85c573fb59d3bc432466f0
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q5_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q5_0.gguf
+    sha256: 4a380f1489534b9d79acace01cc1c1f329706470b68b0d202d4758b3eb9f8743
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q5_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q5_K_M.gguf
+    sha256: 1c22e193b6644f67c874781bb9d854dc06df90202bd56c154e095823917989d7
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q5_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q5_K_S.gguf
+    sha256: 60910f6122ea58a17be3d375150109ee0067afd72d4c4276d178b1801a26a6a8
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q6_K.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q6_K.gguf
+    sha256: ebf8cf9b68dc40b94b0d2c110e886e21f7cd3e282af0b4ea45abe0960fff3f25
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-coder-34b-v11-bf16.Q8_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/openbuddy-coder-34b-v11-bf16-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-coder-34b-v11-bf16.Q8_0.gguf
+    sha256: 96af980f7738bdb9c232009bf6b71849e8edc8226d2384c801e42101f7c804f3
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF/resolve/main/openbuddy-coder-34b-v11-bf16.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__openbuddy-coder-34b-v11-bf16-GGUF__openbuddy-coder-34b-v11-bf16.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-coder-34b-v11-bf16-GGUF

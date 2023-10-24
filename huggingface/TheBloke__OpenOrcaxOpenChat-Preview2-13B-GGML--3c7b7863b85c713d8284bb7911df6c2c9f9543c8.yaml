@@ -1,0 +1,533 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q2_K.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q2_K.bin
+    sha256: 2c246b3de69e2ab2f2eb97e5dec3c3777e3fd98018a3848fb858363e3d435386
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_L.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_L.bin
+    sha256: aaf853a90450f9e74c22e6ed3cff50dadef89c9b1672e414e0d90e3b479590ec
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_M.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_M.bin
+    sha256: c74bf72d36d3e9265cb668eee862520f078f4c5b6d978bac20019a6323c70a12
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_S.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q3_K_S.bin
+    sha256: 03f839756030e6e724d83b3d6ae682711e7ec4f9aad28d71defacd87bbcd545d
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q4_0.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q4_0.bin
+    sha256: 857ac10a54bbf4c203b8a914c746b5e9f211a7a6d91449e81a06878bc4da4a5a
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q4_1.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q4_1.bin
+    sha256: 2cc086b9a2206b3c3ec30d4c96fbb59d4c33f777e7a443dc3e41b574e224bdf5
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q4_K_M.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q4_K_M.bin
+    sha256: d8a024ad3d71c558652f0b18d711d425ec3a4fb7b379be3000487ea2f78af9a0
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q4_K_S.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q4_K_S.bin
+    sha256: aac0077821e87d43c5eadcc6539acf120a08a131040b452501410262e9bfa172
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q5_0.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q5_0.bin
+    sha256: 8b1fe40d7b6c0013292d41d8f6b567d128b97c9fa2d71ebfce32051d9c58579e
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q5_1.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q5_1.bin
+    sha256: 661d8857f5163732d4ed01ff3741a0ca85f7719f484023d30e5d92c8d367d5a4
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q5_K_M.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q5_K_M.bin
+    sha256: 60b2b08bf505d964718c29fad4ca108c00098886975ccae38571d0504b2aa99b
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q5_K_S.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q5_K_S.bin
+    sha256: 8a0579fd10a435172e429be462f113acb2e744e4b1cd99b85abfa7490d19fdc0
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q6_K.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q6_K.bin
+    sha256: 2a9256b07019ab4b4edfda5d807c7945e924a9fa85775e1cd1bb6ac825c82069
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openorcaxopenchat-preview2-13b.ggmlv3.q8_0.bin
+    template:
+      ? - chat
+      : OpenChat Llama2 V1.tmpl
+      ? - completion
+      : OpenChat Llama2 V1.tmpl
+  description: TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML - llama configuration
+  files:
+  - filename: OpenChat Llama2 V1.tmpl
+    sha256: 1a11b1b301bccfde888ac23fc92f46aafd250d73b4d5c85e41cffe14530df80c
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenChat
+      Llama2 V1.tmpl
+  - filename: openorcaxopenchat-preview2-13b.ggmlv3.q8_0.bin
+    sha256: 057eca617f48c219d420379ba611cddc09c0e1b053f4776b0cd971a0e041ceb3
+    uri: 
+      https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML/resolve/main/openorcaxopenchat-preview2-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__OpenOrcaxOpenChat-Preview2-13B-GGML__openorcaxopenchat-preview2-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenOrcaxOpenChat-Preview2-13B-GGML

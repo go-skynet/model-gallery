@@ -1,0 +1,381 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q2_K.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q2_K.gguf
+    sha256: ce9dbc65f98d0881ace86ff421e804f68d8a0c5448b021874bfc312a879e7926
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q3_K_L.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q3_K_L.gguf
+    sha256: b29307c5522e66303c6a769bcd1c48524dd8ac5db92c8ef1221e2fca61e8857e
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q3_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q3_K_M.gguf
+    sha256: e2433fc996685d4727ac0208eb4435a2439524a228ec76777fdaa05d8c3e0e02
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q3_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q3_K_S.gguf
+    sha256: a615c79e29c8cb51ebd52462fe510a0eb6f4661b8d6ea2b60dfc92f12bcc4249
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q4_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q4_0.gguf
+    sha256: 729c21061608cf998a28378a0e393c07eb70df97a278109a1e171e8a1f8f7e86
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q4_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q4_K_M.gguf
+    sha256: 4484e03db3c30ecf55f3980f7e70f9fa43d321654b188466907f5a218c546d29
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q4_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q4_K_S.gguf
+    sha256: 86685b77fdff62919e1b4c974f1cdb4adef0c57919c6ce5be21f65f9ec209038
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q5_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q5_0.gguf
+    sha256: 7a5fd1856a8c3c5083cb0738074409b2e0631aa46fe7c1d5374b949b37b12b9d
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q5_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q5_K_M.gguf
+    sha256: 2088c1f02e208df35713e006355268ac7d2cdb6217987a5698d8e30abb5ea74c
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-70b-oasst-sft-v10.Q5_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llama2-70b-oasst-sft-v10.Q5_K_S.gguf
+    sha256: ed452c9a435c9fb1513a77094229c060b2e103c985a8e81e88133f0527e1a0b6
+    uri: 
+      https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF/resolve/main/llama2-70b-oasst-sft-v10.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama2-70B-OASST-SFT-v10-GGUF__llama2-70b-oasst-sft-v10.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - text-generation
+  - en
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - dataset:argilla/databricks-dolly-15k-curated-multilingual
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama2-70B-OASST-SFT-v10-GGUF

@@ -1,0 +1,409 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q2_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q2_K.gguf
+    sha256: ebff4451016b6af9f9c1ab91caeff0014054346b70b8a115ca21c34f258e172d
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q3_K_L.gguf
+    sha256: b4e9113154044eb91c7fe9902162c4af749c4582e87ed136f932f3eb781fee8e
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q3_K_M.gguf
+    sha256: cb310f0f1d5888fc80b63a95ecc0ae1288539181b575c4b6e8a6927a2da79abe
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q3_K_S.gguf
+    sha256: 2e890f706f10443875f4a6d6ed0bcec263a98621858fb997411bbed6d4cb9990
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q4_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q4_0.gguf
+    sha256: 6051dbdae6fc62c50366a7cae6bb6385076c2ed275c94374076e10fed4283ef3
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q4_K_M.gguf
+    sha256: 7fc6e5333fbb30b9aed267b26b4319b128b6878dde0d78156a17dd74da2a5a16
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q4_K_S.gguf
+    sha256: dba06544d5ae337cd05ec0f8e91ef7ed28b2e18d7da4e4c77b332698ad0fbb18
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q5_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q5_0.gguf
+    sha256: fc056f4093a5f5689de86a47c319a2a22aa91775338f90b37823d17478e2914d
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q5_K_M.gguf
+    sha256: 16171e9b104e0f3d6f6c04dcb32ff2675ca8156c497589039b39350e2823b8e8
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q5_K_S.gguf
+    sha256: 17566b4ead3b37527136c030c53a604f103ccd6b42ffd7f903af45c48265b186
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q6_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q6_K.gguf
+    sha256: 0cdf3b92a1cd5e2db5bb672adc5a16dff5e3239f9e70e7fd44a86fb066004e99
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.Q8_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.Q8_0.gguf
+    sha256: 9e0986e795337a01ff43a316ac1da316d5b33b8b1ddf2c1cd941549ce656248e
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF/resolve/main/chronohermes-grad-l2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Chronohermes-Grad-L2-13B-GGUF__chronohermes-grad-l2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGUF

@@ -1,0 +1,433 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q2_K.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q2_K.gguf
+    sha256: 1e0abb55eeda3b8818e018bbefd0bb86aefe58664c9dba649ce99db4e704a171
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q3_K_L.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q3_K_L.gguf
+    sha256: ff7acb128828649d9ff1300671ec736c81c84be9ee50591c027183ce7cd03605
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q3_K_M.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q3_K_M.gguf
+    sha256: a80eda728f064acee84d9c87a14e8f5f8fd716a6bb007cfd9e492db18df2bf53
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q3_K_S.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q3_K_S.gguf
+    sha256: 59477eae936c5c267db7d6c533dc31a5d044ddb040f3833e1f284569f5fbb680
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q4_0.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q4_0.gguf
+    sha256: fd3b492f3ee9ddfe0de200dbd3e82e23553dde6788e1b301722f86b3b18b9202
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q4_K_M.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q4_K_M.gguf
+    sha256: 2bf7c50b7b5cc0484290b104caebff7d559f9e6f72d497941eb05c0c95661388
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q4_K_S.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q4_K_S.gguf
+    sha256: 74ad642faa541742435c52b2f29b392922bb258d70014c7c6929664eb563ac60
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q5_0.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q5_0.gguf
+    sha256: 71fa426fba1c1333605f57f46b3bee1c5caf77f0ffc1ac1cb784beaa6691f223
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q5_K_M.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q5_K_M.gguf
+    sha256: f616329e71e51da808f6232c03e056dd018f5cdde2e5c6d1a51f3320af56bdd9
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q5_K_S.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q5_K_S.gguf
+    sha256: 70926513adc846fd042a4555907939b26dd914c4f478accaca1ba80641abb626
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q6_K.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q6_K.gguf
+    sha256: a90fbc5b64327f3ce1dcc9ac23ddbcb210d5dd7b27b601adbbfe574a3f12f630
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-coder-7b.Q8_0.gguf
+    template:
+      ? - chat
+      : CodingAssistant.tmpl
+      ? - completion
+      : CodingAssistant.tmpl
+  description: TheBloke/Llama-2-Coder-7B-GGUF - llama configuration
+  files:
+  - filename: CodingAssistant.tmpl
+    sha256: e96841f3cc1b6706e197db9636e0b1b5d9dda681e13d09fccbde19501d9d0ca2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodingAssistant.tmpl
+  - filename: llama-2-coder-7b.Q8_0.gguf
+    sha256: 86d2e636476307023ee4c4c64eb9d965389f5dd95a6cfa8c7b76f8b8e82a97f5
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF/resolve/main/llama-2-coder-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-Coder-7B-GGUF__llama-2-coder-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - generated_from_trainer
+  - code
+  - coding
+  - text-generation
+  - dataset:HuggingFaceH4/CodeAlpaca_20K
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-Coder-7B-GGUF

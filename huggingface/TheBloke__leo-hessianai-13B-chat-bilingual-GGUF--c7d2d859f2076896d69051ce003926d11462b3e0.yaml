@@ -1,0 +1,529 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q2_K.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q2_K.gguf
+    sha256: 063f1fad64f80db36ade9685b94a39cf44325fa76d9c74dd79a3e0f40d6905ff
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q3_K_L.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q3_K_L.gguf
+    sha256: 86032c95e792db0f3dea2da2a0a547f64a144fe9a849fbccf88c015cb961261a
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q3_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q3_K_M.gguf
+    sha256: bb8ae8b3a2e0e5071d4342918e585d2e43966244936ac5547b9a394606d96022
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q3_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q3_K_S.gguf
+    sha256: ed1fdac749b33eacf9e482a7b90525fcdcac3ca928fa97807ffb65054ba8e913
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q4_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q4_0.gguf
+    sha256: 8bfa6d5a8b8bdf6df94919be2a3fb0fe0b3f34909450d5463ad06af0b288f626
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q4_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q4_K_M.gguf
+    sha256: e4dcdde73bd4ea6975a588c0ace974734cd7419d68ba5d58efa12b37f7eb802f
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q4_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q4_K_S.gguf
+    sha256: 67e89aeb0aa809ed38a62426d8b843bcef15ba837b0a90b4eb49d4f15f9e1523
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q5_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q5_0.gguf
+    sha256: 8a327975e1364149ec3b6f6d668c5d8841e343430ad0ad9388daff91a854d7d2
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q5_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q5_K_M.gguf
+    sha256: 76d1aaeecfb65c665d0a70229b11472a63fcadf961faaa427cbc40dc7ec7c018
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q5_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q5_K_S.gguf
+    sha256: a6c5727923b531542209be439e1988a71451421a265517e8333f06f821671a5f
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q6_K.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q6_K.gguf
+    sha256: e82802dae55a8384ee862700c0f633e86db233704f47bc93dfac9e6526e3e0d7
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-hessianai-13b-chat-bilingual.Q8_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/leo-hessianai-13B-chat-bilingual-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-hessianai-13b-chat-bilingual.Q8_0.gguf
+    sha256: 602a70364d67510f1002ec0f1f132c5d99761c3f4d675699a57a70a5c6c199b2
+    uri: 
+      https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF/resolve/main/leo-hessianai-13b-chat-bilingual.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__leo-hessianai-13B-chat-bilingual-GGUF__leo-hessianai-13b-chat-bilingual.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:WizardLM/WizardLM_evol_instruct_70k
+  - dataset:bjoernp/oasst25-08-23-filtered
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/leo-hessianai-13B-chat-bilingual-GGUF

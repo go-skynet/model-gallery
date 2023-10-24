@@ -1,0 +1,562 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q2_K.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q2_K.bin
+    sha256: 7b6ccb4ccbf5a386178fa75305ed0e6b94a144954378748b7667481cacab9ce6
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q3_K_L.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q3_K_L.bin
+    sha256: 22864e02a9e5b91d187b853c1c9e171d4b2119b4d2a4d2d28a3ebcd333c38490
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q3_K_M.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q3_K_M.bin
+    sha256: 0e07f2cad72777c6849288e290a8cd72c6869292cd9e476f311cfab49d77a8f4
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q3_K_S.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q3_K_S.bin
+    sha256: de6c3b9ebb39827ad2d0086d6fb2d31e98fa2ccda307d467dfdbeb91d1966af2
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q4_0.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q4_0.bin
+    sha256: 210f40c591939b755eff66dc9f377ddc0e5dcd1b34456b6e07e62c8d96078cac
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q4_1.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q4_1.bin
+    sha256: 586f1eecf06e21ff7961741c6cb3a75edf869c9d166ea17a92fadd8bb08fe65d
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q4_K_M.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q4_K_M.bin
+    sha256: 96f9e63932463a97b5dfcce68c034ea704812a40c23ccfadaa395fc807e56901
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q4_K_S.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q4_K_S.bin
+    sha256: 6d826c72ebf86166304af824feb3acd1d640e524570d88347eb04090f7eddd1e
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q5_0.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q5_0.bin
+    sha256: af35cf28c5fc13cb7bd369d5b9b147d3d01a3491a6a6c550056235a7ae460aed
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q5_1.z01
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q5_1.z01
+    sha256: d38744c02020430e3a8ce3d86393ff801ffce58d57f11547272547dbc23c6871
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q5_1.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q5_1.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q5_1.zip
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q5_1.zip
+    sha256: 31eeec409d902762448cbfc804c0bc929693a834825a0cab299bbae061ed04a6
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q5_1.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q5_1.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q5_K_M.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q5_K_M.bin
+    sha256: 57662795778fb81f7ec54ee8cfac4af8f9d09bf5e9aa2812cee0ecf2ad8c288c
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q5_K_S.bin
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q5_K_S.bin
+    sha256: 0b2a1e024440f2c0f31647c4de31a6f5e1dcd9cf3ac06c73e4c041f1a3325bc1
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q6_K.z01
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q6_K.z01
+    sha256: 8fae1094c47618f0c854f88efdd20e7d6789652a029430c843d92ecf64e63105
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q6_K.zip
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q6_K.zip
+    sha256: edda660853e6b1aba3a66a4810b96851fd477ac1058b1539c3c03d24f3d7ed8f
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q8_0.z01
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q8_0.z01
+    sha256: fc12d08a40da3a662b4e389d9ac258f3095f2a7436d785d6de48cbbf34d4dd5a
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: genz-70b.ggmlv3.Q8_0.zip
+    template:
+      ? - chat
+      : User-Assistant-Newlines.tmpl
+      ? - completion
+      : User-Assistant-Newlines.tmpl
+  description: TheBloke/Genz-70b-GGML - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-70b.ggmlv3.Q8_0.zip
+    sha256: 3385b324c7546ec43ca96f80c5e3e8bd7de88427fb5bd05eaba48b2f98fffc1c
+    uri: 
+      https://huggingface.co/TheBloke/Genz-70b-GGML/resolve/main/genz-70b.ggmlv3.Q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Genz-70b-GGML__genz-70b.ggmlv3.Q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Genz-70b-GGML

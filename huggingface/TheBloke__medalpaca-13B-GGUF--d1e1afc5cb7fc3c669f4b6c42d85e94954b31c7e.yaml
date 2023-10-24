@@ -1,0 +1,421 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q2_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q2_K.gguf
+    sha256: 81220bd4fa1423c8e4a70596b487c21b0821a9a7de0fde5b4af504f05a56479f
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q3_K_L.gguf
+    sha256: a78e28dc00ee43e2f29b904475d04017a6e7892793954f9a828797c810564c3b
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q3_K_M.gguf
+    sha256: 0a8d0660b4b6f9dce8e8a5512c9c7cb0e8fb0bf6913badac0e20510934f9550a
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q3_K_S.gguf
+    sha256: 56e834038e41f0094cb36104d60f1b4941a98fe93972f766eae611bedc0e2250
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q4_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q4_0.gguf
+    sha256: d24a4bc280c62a8e13db06394cc2b12789f28dff0330fd8ece459b7850cea31a
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q4_K_M.gguf
+    sha256: 61ca17a0f02a894b708eef592aef22cad29337ff5ac2e5a95f6b5aec8a870dcd
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q4_K_S.gguf
+    sha256: 01992bcdec6d37ec6519f96af9bb389a7ac6d0f25fe5bd461b5ab77c856e62eb
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q5_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q5_0.gguf
+    sha256: 0203353c4122f33a3d2fa87eb8eb0787c327c7761f2d651a9d13bfb8705b9769
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q5_K_M.gguf
+    sha256: fb2b18ed213df7e74c854205288d34748b0b7b214add00021dad9a6357172d04
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q5_K_S.gguf
+    sha256: d57e18292f6961d9c3195e36710b984e2ec0968e9a8ab388e10890cd8fc16578
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q6_K.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q6_K.gguf
+    sha256: 5269763e08b4499f304a3afd17092439ead5305d2c1938f871cf3421378126b1
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: medalpaca-13b.Q8_0.gguf
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/medalpaca-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: medalpaca-13b.Q8_0.gguf
+    sha256: 8da423da03d0a9de308aa687b8363740ba7348c91801620f89874a3ed1e2e850
+    uri: 
+      https://huggingface.co/TheBloke/medalpaca-13B-GGUF/resolve/main/medalpaca-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__medalpaca-13B-GGUF__medalpaca-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text-generation
+  - en
+  - arxiv:2303.14070
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/medalpaca-13B-GGUF

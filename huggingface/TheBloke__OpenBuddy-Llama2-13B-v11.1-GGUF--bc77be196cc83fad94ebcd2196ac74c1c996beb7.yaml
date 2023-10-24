@@ -1,0 +1,500 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q2_K.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q2_K.gguf
+    sha256: 959d9d6108fff0151968eb7370d47825eaa5b8669cbcafa9b223f53f7885899f
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q3_K_L.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q3_K_L.gguf
+    sha256: 34eb80ee62730cf656db50f53f46053d077032c57b045a369e9c414a96244ef9
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q3_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q3_K_M.gguf
+    sha256: dc0bafa34a0db563811edffe1bef072a440f08bd9d1cb9fc37fa87e2a87b8f01
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q3_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q3_K_S.gguf
+    sha256: d9eaff61e6ce88e22e2dbb40cc11bb78a3b762a5d16767d21f228ef7ee654603
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q4_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q4_0.gguf
+    sha256: 7f66504235f4dc1001479f9bbe6307008339f93e42544a5c0c3a0ff0d51d1434
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q4_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q4_K_M.gguf
+    sha256: 9c54a99069df3d35ab6c21cf845b4a9b6360372167abe0a4b56e6e47e9e8ab58
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q4_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q4_K_S.gguf
+    sha256: 2c8a193069cbd8e25cb3e3394b17088a81701cf55bc25be9e9b6c111e2a5e03d
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q5_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q5_0.gguf
+    sha256: cd8caa2a9abe6b43aea0a73bab375dccbc2bab6176a6a2a461add0a1c3050d04
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q5_K_M.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q5_K_M.gguf
+    sha256: 76f229ff7db01f7e81b25a2939942dcf1f22bd42cb4cdd071eb82d4af1f51b91
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q5_K_S.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q5_K_S.gguf
+    sha256: 83e6e8aa35c1c35677eeb8f0a89294abb060e68036a5da56e870eddd224d8c5d
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q6_K.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q6_K.gguf
+    sha256: fe3b1aaf6f51427c8000d7c7ac3180881c9195d6066340ed22a7d167afa81294
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.Q8_0.gguf
+    template:
+      ? - chat
+      : OpenBuddy.tmpl
+      ? - completion
+      : OpenBuddy.tmpl
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF - llama configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.Q8_0.gguf
+    sha256: 8e82da2057c90e49f6a151fdb2cb5ac440c88a3e8d74c75a6e26e22891a35004
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF/resolve/main/openbuddy-llama2-13b-v11.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__OpenBuddy-Llama2-13B-v11.1-GGUF__openbuddy-llama2-13b-v11.1.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGUF

@@ -1,0 +1,571 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q2_K.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q2_K.bin
+    sha256: 21fd2c14c71ca54162ee873bc5d19a31ab152221272bb628d427333462b6f31f
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q3_K_L.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q3_K_L.bin
+    sha256: 22a028e5ee418b3705d00c6b393535e438b3122d9988799f3f2af9d9799a4f69
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q3_K_M.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q3_K_M.bin
+    sha256: 229f7b4e61240f890b9914f688de9c1f8a65655b713d1560ba4763136892b529
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q3_K_S.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q3_K_S.bin
+    sha256: 31e6fa2f45426e5dae8c67bfa89ee91d1ff79712994facffa2a0ed22d82584e7
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q4_0.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q4_0.bin
+    sha256: e707461b94861228bb81092f6c60898eaf86719f5c1849a4c4d0cecea7c18f75
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q4_1.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q4_1.bin
+    sha256: beb2ad3c42cf9a17f8bc80874f3bf7491871493977391b34a7d73723ae8fb278
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q4_K_M.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q4_K_M.bin
+    sha256: d9431996efe6898dc1af3f7e074eb73b8d618af2563bba0a10a960ac07e96ed2
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q4_K_S.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q4_K_S.bin
+    sha256: f803f003bb97d62caf4f84c4ad4fc0ff5eb4f5e9eec1cdcb100efa480d5b8e5d
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q5_0.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q5_0.bin
+    sha256: 8a6e6d51ca1bcf6d9d9badab2d6954677d6d1f089e1475a50f09786fbe6b31d0
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q5_K_M.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q5_K_M.bin
+    sha256: 9ed1bf62e05c6b6d2142d9fb542774df961db0345700b62b6fd010ecfe5dbbd8
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q5_K_S.bin
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q5_K_S.bin
+    sha256: f8c0dd8ac9030b17aee8421f769da061ec39e44637fffa21781ca0f46a1b0e2c
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q6_K.z01
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q6_K.z01
+    sha256: e3569f212f52711fb3be7acd42fec15effd5653a4745adae67e2723fbdf5bb0d
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q6_K.zip
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q6_K.zip
+    sha256: 1a1aa5f494c80564f9e8772dc65a329ebe64d606af60ef564edc23fb384cbeca
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q8_0.z01
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q8_0.z01
+    sha256: 7badf1583a6e5f739e13c57e6a89f00e166705d110ec40be093fcf8726ae20df
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-chat.ggmlv3.q8_0.zip
+    template:
+      ? - chat
+      : Llama-2-Chat.tmpl
+      ? - completion
+      : Llama-2-Chat.tmpl
+  description: TheBloke/Llama-2-70B-Chat-GGML - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: llama-2-70b-chat.ggmlv3.q8_0.zip
+    sha256: 9f777020b0e9d6b08131b3e834b25552cd5f554f6d596c712bddd5751c38246f
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML/resolve/main/llama-2-70b-chat.ggmlv3.q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Llama-2-70B-Chat-GGML__llama-2-70b-chat.ggmlv3.q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2307.09288
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-Chat-GGML

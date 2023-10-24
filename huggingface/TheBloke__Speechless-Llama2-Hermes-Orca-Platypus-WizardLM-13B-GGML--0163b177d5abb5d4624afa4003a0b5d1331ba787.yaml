@@ -1,0 +1,575 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q2_K.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q2_K.bin
+    sha256: 3f7cf9a3b9ce983fceda4d20293c2a31fb76234b33743e41188af42330a22d3f
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_L.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_L.bin
+    sha256: 1102ab6a80f2d1760c378b4a70556b53a1929e789ae6f1bab6fd405942f6dc1b
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_M.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_M.bin
+    sha256: 1361516a5d80e512e10d215343ea2da16e9de60eabc60b87921c4cac6a013ad3
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_S.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_S.bin
+    sha256: dcfeff99b8734900630c17528b1f4f38244c863bfd3f70fd3f8f7f1bc521c618
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_0.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_0.bin
+    sha256: af72dee848a962e5ac687e2e2888e1998a9446b09d6682fd080922b08b243f58
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_1.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_1.bin
+    sha256: 3232afb26544b31bba459b5b2f08c5e8ba2643338e7d5e9885d9851325937f75
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_M.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_M.bin
+    sha256: 9fb862c160378facf21e3bdf0b4d16b42c8e3a4c1170a73594fa5ed5631f11ca
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_S.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_S.bin
+    sha256: 4973e9178e835063c63bab9fd96c629fff208b9b745606be17c77c385ad22932
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_0.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_0.bin
+    sha256: 68f2f03a87fd9be58041783722d526953e103597306cffbe9c7ec1328d4c4a6c
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_1.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_1.bin
+    sha256: a51905fc85bf32ad3b4d6f52b89899c95d19a6f3c076a22f20ffdf7e497a5fda
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_M.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_M.bin
+    sha256: 73fba54a7ea7832d4aa5d00f23a3b7f5de2b03d1f4396d77dd94359da2f17b7b
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_S.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_S.bin
+    sha256: 6449ffee629c7310a7492f5024e5960e33519283225a3b4ef98b311c2f0599f3
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q6_K.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q6_K.bin
+    sha256: 259c7cf5ebff224197859c2a8ca7f4d1b8c588e736c4e6b67352db5b0314e089
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q8_0.bin
+    template:
+      ? - chat
+      : Alpaca.tmpl
+      ? - completion
+      : Alpaca.tmpl
+  description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
+    llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q8_0.bin
+    sha256: adbaf178db2fbca49a51674903fba0c486652e41f71cad1d143ce5d8f80fac3a
+    uri: 
+      https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML/resolve/main/speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML__speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - facebook
+  - meta
+  - pytorch
+  - llama-2
+  - text-generation
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML

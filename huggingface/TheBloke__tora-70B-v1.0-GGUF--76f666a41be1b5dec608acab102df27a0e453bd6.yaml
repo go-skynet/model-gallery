@@ -1,0 +1,381 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q2_K.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q2_K.gguf
+    sha256: f4def872960fe25e6e0d62f4b735024d8c424849d9275faa67f455051ef6a497
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q3_K_L.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q3_K_L.gguf
+    sha256: 1392d5a6cf348f0b2da8bfed45da4a9c21d5ff2e7bc1a539c86144500f98ed6d
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q3_K_M.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q3_K_M.gguf
+    sha256: c5c2a0b309c8c2799a5443b745c1268f772dd4e4fa11cc3260498acec1bbd7ef
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q3_K_S.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q3_K_S.gguf
+    sha256: 10d5de46242fe49bd5a4f1f978a6c62c7d578ecab9aa2c96656b9450487e7990
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q4_0.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q4_0.gguf
+    sha256: 3ccec7bfd1a6a433a4aca89f4052a2e549d3fd8386d09b4fb0bddfff6704b4d2
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q4_K_M.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q4_K_M.gguf
+    sha256: eee5ad8d339d3fe2a7a8c0e1352270599bf1e78e26b4d939e3c2c54cf46d264c
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q4_K_S.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q4_K_S.gguf
+    sha256: ec4357a709d055bf4cbba4f727c1d206b647a0dece470f2c06a90bb549d4709b
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q5_0.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q5_0.gguf
+    sha256: f6ca37184e57da1a8238361e5abe3a47a33b46c72b40cd62b08c76b8a145c566
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q5_K_M.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q5_K_M.gguf
+    sha256: 02f57f2d0540692b03170736efff1a8a852d2b8bcb2ac712c53abe5023704aaa
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tora-70b-v1.0.Q5_K_S.gguf
+    template:
+      ? - chat
+      : ToRA.tmpl
+      ? - completion
+      : ToRA.tmpl
+  description: TheBloke/tora-70B-v1.0-GGUF - llama configuration
+  files:
+  - filename: ToRA.tmpl
+    sha256: f36076273352263392052d2d8bd408086f6d641e365753ac726bd6f3803b6da2
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ToRA.tmpl
+  - filename: tora-70b-v1.0.Q5_K_S.gguf
+    sha256: 7e88658746588a0478c43eeb34bb26e47d0676d38a5b6394964b22632f2f5772
+    uri: 
+      https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF/resolve/main/tora-70b-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__tora-70B-v1.0-GGUF__tora-70b-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - code
+  - math
+  - text-generation
+  - en
+  - dataset:gsm8k
+  - dataset:competition_math
+  - arxiv:2309.17452
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/tora-70B-v1.0-GGUF

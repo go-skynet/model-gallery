@@ -1,0 +1,421 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q2_K.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q2_K.gguf
+    sha256: 0f0a0983e2c166eb87c37cf2f9a171c2848d033baeed204783c80d61e3df60cb
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q3_K_L.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q3_K_L.gguf
+    sha256: 09f483b4cf2170b6e1578d0af16825695ab6bd5033c06b681d3b322664f06fe2
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q3_K_M.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q3_K_M.gguf
+    sha256: 8ef7492aae4efc4b902faf2bb35236fee6430633c0568f719db9e25a0bad1e47
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q3_K_S.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q3_K_S.gguf
+    sha256: 6e0ca7e48cbeb37fa537d06bd5fe78212d9f884a96fcf39116f0e38c0a0cb128
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q4_0.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q4_0.gguf
+    sha256: bfbe8bc0cde299ee0b117246d4af6dd254d67202d2c34a3828054742bf9d1ae6
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q4_K_M.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q4_K_M.gguf
+    sha256: f82db1a16829aadadbb6215ed81b043488f215b8f8b95c79954930974949cc1d
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q4_K_S.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q4_K_S.gguf
+    sha256: f5819f57f989139e4044fa4f66052f95e4e2d3fd579595cdf87b622fdbbd8195
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q5_0.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q5_0.gguf
+    sha256: 8bd3b9219bc1d41ced416db32dd66931cc8b8f11fad6f1cf3f7bb00c54f89451
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q5_K_M.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q5_K_M.gguf
+    sha256: 3295f72fa8208cf04d6e19e5692b4723e044aadfc1b9c8171cd47400613b384d
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q5_K_S.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q5_K_S.gguf
+    sha256: 4befad643813bbfe57d43fb10500fbd92c3d183de32bd11409c97c48cdd78dc9
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q6_K.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q6_K.gguf
+    sha256: ad4b9ad8f78ce23e9de7cdde236ead7026f3c55748622f1d3ccf9693a1727b6a
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-13b-chat-limarp-v2-merged.Q8_0.gguf
+    template:
+      ? - chat
+      : LimaRP-Alpaca.tmpl
+      ? - completion
+      : LimaRP-Alpaca.tmpl
+  description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: llama-2-13b-chat-limarp-v2-merged.Q8_0.gguf
+    sha256: 62f97938c3e8ff5a1067f7fce1ef7863d425d7663cb297a8ff2b1787ad96456b
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF/resolve/main/llama-2-13b-chat-limarp-v2-merged.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: 
+    TheBloke__llama-2-13B-chat-limarp-v2-merged-GGUF__llama-2-13b-chat-limarp-v2-merged.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF

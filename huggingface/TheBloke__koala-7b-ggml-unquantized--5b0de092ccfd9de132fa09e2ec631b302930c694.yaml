@@ -1,0 +1,28 @@
+---
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: koala-7b.ggml.unquantized.pr613.bin
+  description: TheBloke/koala-7b-ggml-unquantized - llama configuration
+  files:
+  - filename: koala-7b.ggml.unquantized.pr613.bin
+    sha256: c478ceced3b38800cb768225b1e759a32c9e89bd33606fb38eeff3b811e28371
+    uri: 
+      https://huggingface.co/TheBloke/koala-7b-ggml-unquantized/resolve/main/koala-7b.ggml.unquantized.pr613.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__koala-7b-ggml-unquantized__koala-7b.ggml.unquantized.pr613.bin
+  tags:
+  - transformers
+  - koala
+  - ShareGPT
+  - llama
+  - gptq
+  - text-generation
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:Hello-SimpleAI/HC3
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/koala-7b-ggml-unquantized

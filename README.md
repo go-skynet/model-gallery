@@ -7,7 +7,7 @@
 
 The model gallery is a curated collection of models created by the community and tested with [LocalAI](https://github.com/go-skynet/LocalAI).
 
-We encourage contributions to the gallery! However, please note that if you are submitting a pull request (PR), we cannot accept PRs that include URLs to models based on LLaMA or models with licenses that do not allow redistribution. Nevertheless, you can submit a PR with the configuration file without including the downloadable URL.
+We encourage contributions to the gallery! However, please note that if you are submitting a pull request (PR), we cannot accept PRs that include URLs to models based on LLaMA 1 or other models with licenses that do not allow redistribution. Nevertheless, you can submit a PR with the configuration file without including the downloadable URL.
 
 
 ## Helper tool
@@ -18,5 +18,8 @@ To load a model from main onto localhost
 bash ./load.sh wizard
 ```
 
-## More 
+## HuggingFace Scraper
+For more info about the new python-based HuggingFace scraper used to generate best-effort model galleries, see the [dedicated README file](/gallery-scrapers/huggingface/README.md)
+
+## Using the Model Gallery 
 For how to use the files in this repository, see the [Documentation](https://localai.io/models/)

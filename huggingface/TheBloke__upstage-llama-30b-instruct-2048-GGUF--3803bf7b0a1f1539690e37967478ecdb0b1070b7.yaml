@@ -1,0 +1,505 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q2_K.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q2_K.gguf
+    sha256: 2a0fb4cc8ef44a8f0ef4a5089a23c4a82c758615d657ce3d2c246318e51ac27c
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q3_K_L.gguf
+    sha256: 8d1674e5fa16f80d7398f4c62d950c8eef4ed3586a3ec8a93444a1ad88c1f959
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q3_K_M.gguf
+    sha256: 7cd9e62653b205f89d3d55339ce8d082a6269a97cde15081b536851780d71b76
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q3_K_S.gguf
+    sha256: 63c9b13bc421af779cc7303192e9ab41854264703917a308da8e0c194babbf9c
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q4_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q4_0.gguf
+    sha256: aae6da1e84e0d823e8020562dc60388304d9cff6b8d0ecf3e4678b92dda815de
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q4_K_M.gguf
+    sha256: f2c44452daefddd3ea09e70ae46bb22ad0c0799c0de37f4c3ebb0111a4feb4ca
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q4_K_S.gguf
+    sha256: ce33a83e231da640e1c5823963f81e46304e02bc4afe877954663b8da215bae8
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q5_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q5_0.gguf
+    sha256: 8d63207ba0543a54448f19fd60aef9c9652ee76070f928feb1f15bc8556c0b37
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q5_K_M.gguf
+    sha256: 7d39c1c57b1f94ef45a63925514782764bd1fe06d72216d1d8031030e92aadc5
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q5_K_S.gguf
+    sha256: d7c51a1d666645051a8466c7f3ca08ee815bd0814b21be690c47d109db5e104e
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q6_K.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q6_K.gguf
+    sha256: 25ff4936472f9513b7c58cf388dcdfc04a4d79ea8c2543f921ed6d1d4d2bbe3f
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-30b-instruct-2048.Q8_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/upstage-llama-30b-instruct-2048-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-30b-instruct-2048.Q8_0.gguf
+    sha256: d2f44460b1e323605aefa045e2ca5e8e23b8266b1d4729e9509d2e240bca7478
+    uri: 
+      https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF/resolve/main/upstage-llama-30b-instruct-2048.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__upstage-llama-30b-instruct-2048-GGUF__upstage-llama-30b-instruct-2048.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - dataset:sciq
+  - dataset:metaeval/ScienceQA_text_only
+  - dataset:GAIR/lima
+  - dataset:Open-Orca/OpenOrca
+  - dataset:openbookqa
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/upstage-llama-30b-instruct-2048-GGUF

@@ -1,0 +1,445 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q2_K.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q2_K.gguf
+    sha256: 4de3efc7bee8e8f27c0103cc865bf2bf51771e2082f24a1817df1cda5c843245
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q3_K_L.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q3_K_L.gguf
+    sha256: 20c14986eb4600efd33e155252658e4818b3897553e896753c858291f779a694
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q3_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q3_K_M.gguf
+    sha256: da1f157e4d185070967b69cae73ba889187d92bbb726c01406325212bb5c5963
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q3_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q3_K_S.gguf
+    sha256: e5afc17418560534066c7c239587ca6d2cc334e7cc7e76156222cf1641490ed4
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q4_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q4_0.gguf
+    sha256: 8d7a24fb4e2eea6c04e785e7fdc00ab7eba97e6ba27604aefcd33c001f4154bc
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q4_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q4_K_M.gguf
+    sha256: 3bf94f722233d34d05878370afd754435f0fbe88100e84c565fe282438e08559
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q4_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q4_K_S.gguf
+    sha256: 0c2c8dffee3420e34de659dcdbc0cd739a3b415c83e2e822de500060175fb70e
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q5_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q5_0.gguf
+    sha256: e9a17c40c2f98d14e25c80550b41ba689286e853dc2ebca89a8bb0d4b54cb518
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q5_K_M.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q5_K_M.gguf
+    sha256: 9f441ab14d2258d0535c9e083538856eb53aad5cf2c72613fc2d2d2de9a61ec4
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q5_K_S.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q5_K_S.gguf
+    sha256: c8f43865b3fdfcc38aae6779267e0f253505a7203456ed51f68c844670d16e60
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q6_K.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q6_K.gguf
+    sha256: 7f4608e31eb642c619d3ebe7870cd6af23e36f71aace1f1de7702d8f55081078
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llongorca-13b-16k.Q8_0.gguf
+    template:
+      ? - chat
+      : ChatML.tmpl
+      ? - completion
+      : ChatML.tmpl
+  description: TheBloke/LlongOrca-13B-16K-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 0bc3bf263d9f46bce56f78ffd4d8b9e262404437d1a1feb830744770c1c58722
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: llongorca-13b-16k.Q8_0.gguf
+    sha256: 379168fdaf04b6d1d931f6c9bdf2457fc52c4046fb762fb8aad9f5bbbaa4fdc2
+    uri: 
+      https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF/resolve/main/llongorca-13b-16k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LlongOrca-13B-16K-GGUF__llongorca-13b-16k.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - arxiv:2307.09288
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LlongOrca-13B-16K-GGUF

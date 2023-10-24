@@ -1,0 +1,421 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q2_K.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q2_K.gguf
+    sha256: f6fb7fcf2db8520149d72b7ac04f3f85d63a40519af8392f2cacea1d586599cc
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q3_K_L.gguf
+    sha256: 34182756d3443450d86e758d36a7fa5983b2510e485ba8ceac9d8d6d04390693
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q3_K_M.gguf
+    sha256: 2ba372e972be5e75acb51879ae82985f50c2cf117349e12041af00be3b410d7a
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q3_K_S.gguf
+    sha256: 07de4997e7bfa8743399ccf86338d116bb23ef770853dbf3b79e66807a494c81
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q4_0.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q4_0.gguf
+    sha256: 6879626d298b1024d64e6cd81f0a66fe1c0567f79777b7b1a22521be8c01a88e
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q4_K_M.gguf
+    sha256: 52ce9642bb4626ca7f38d45d91c3b811ed4f8a980d61efad65f3dee28e04244a
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q4_K_S.gguf
+    sha256: 212166864181f9adb1e827c8336e7bb1694ac3e91b8b9b2d4e12e1995a9861da
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q5_0.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q5_0.gguf
+    sha256: 47a81dffed2b7b2f08b3d97efc32ec2a806ec8ecc15b5d72dc346c99224bc36b
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q5_K_M.gguf
+    sha256: 6ba69c4c1ee9d4998604c575a462ad6f732664fe2c92dae658b2a8c55808a10d
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q5_K_S.gguf
+    sha256: d8f17aa68c987c894254c9db3f662b78ab269c733526f502fe40fafae78062cd
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q6_K.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q6_K.gguf
+    sha256: 28126f9fc7f0da1f2bb35884e9ef03f2d81cc5d395ade469af3f11fb6525c6d8
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: ziya-coding-34b-v1.0.Q8_0.gguf
+    template:
+      ? - chat
+      : Ziya.tmpl
+      ? - completion
+      : Ziya.tmpl
+  description: TheBloke/Ziya-Coding-34B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Ziya.tmpl
+    sha256: 3750a94473a5da149f6b3c4aaf1aa9591f987955e60e41262658862d5702fdb7
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Ziya.tmpl
+  - filename: ziya-coding-34b-v1.0.Q8_0.gguf
+    sha256: f9214db6556e82f7a2526f80acc88649fb79d6ca003b0c7efcf5ba8b7b0eae1c
+    uri: 
+      https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF/resolve/main/ziya-coding-34b-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: gpl-3.0
+  name: TheBloke__Ziya-Coding-34B-v1.0-GGUF__ziya-coding-34b-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - arxiv:2210.08590
+  - license:gpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Ziya-Coding-34B-v1.0-GGUF

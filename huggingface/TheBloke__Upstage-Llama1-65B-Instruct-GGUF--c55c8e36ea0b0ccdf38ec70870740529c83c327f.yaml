@@ -1,0 +1,368 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q2_K.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q2_K.gguf
+    sha256: 5b39232eee3d385e33419ef4122378f16ad78b8eb0bf725081a2e725e08dcff9
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q3_K_L.gguf
+    sha256: 1a6424a08d8953b08db5d2e36dadfbb145ed18ee5c7bb11ba68a3b2163b19146
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q3_K_M.gguf
+    sha256: f4ae30c26b38d1b5f367ffebfea25e033541d6e43641e420b3d46ab0385c2796
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q3_K_S.gguf
+    sha256: 98eb5d6312f10bfe5226f135d27ee8ab08d534a26808512e0352efe52cc15016
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q4_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q4_0.gguf
+    sha256: 960a4f274084767d3d0d8126a25f2d74f898554d82bcfce75bc09e727ef6a015
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q4_K_M.gguf
+    sha256: 6008ccd45b0bafdf6e571793684d4d54020380f70b63ddd0ead7b832174085f6
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q4_K_S.gguf
+    sha256: 880ac98e234971907d48d63df2a5e680f9a70d8f795a4b11615fc9ef8f9bd08b
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q5_0.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q5_0.gguf
+    sha256: b2defc28ff775d97145532a3362c360b806b6f15dbda8c7066339dcedfa7549d
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q5_K_M.gguf
+    sha256: 383c81bc84e50a3d1e101286e836d46aa6f10ddd98ac4a9adffd11f7854a4348
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: upstage-llama-65b-instruct.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Orca-Hashes.tmpl
+      ? - completion
+      : Orca-Hashes.tmpl
+  description: TheBloke/Upstage-Llama1-65B-Instruct-GGUF - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: ab8225ab5dff30dbdf1cd05555acda5dd7917a9d1a8ba0aa6a3d12dc88ea4c27
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: upstage-llama-65b-instruct.Q5_K_S.gguf
+    sha256: eccc5f80bbdcc8b144eb6f0a8efaf8ef99f2059f452690eddd7f6aef6d480189
+    uri: 
+      https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF/resolve/main/upstage-llama-65b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__Upstage-Llama1-65B-Instruct-GGUF__upstage-llama-65b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - upstage
+  - instruct
+  - instruction
+  - text-generation
+  - en
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Upstage-Llama1-65B-Instruct-GGUF

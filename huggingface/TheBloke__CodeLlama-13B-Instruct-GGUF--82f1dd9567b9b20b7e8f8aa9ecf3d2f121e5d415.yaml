@@ -1,0 +1,433 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q2_K.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q2_K.gguf
+    sha256: 93224011d01cce6b6bf13c1c3d7a90d0a3561b7ffc330b5e83eaf0c3f6a00acf
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q3_K_L.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q3_K_L.gguf
+    sha256: 5c820eb6dcb010b0886a87690a8388c9014106179767536fa26d7095c3f216b4
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q3_K_M.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q3_K_M.gguf
+    sha256: 68357eb6af266639528c632483d86db554b1f3346dc9d2afc67702a1623b1a99
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q3_K_S.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q3_K_S.gguf
+    sha256: c71f87db67bb60f947c7c386bb4eb1936d50a0ca62f4bd4f7175805f2f2b8dee
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q4_0.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q4_0.gguf
+    sha256: 693021fa3a170a348b0a6104ab7d3a8c523331826a944dc0371fecd922df89dd
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q4_K_M.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q4_K_M.gguf
+    sha256: 48cc5600c5e35b1226208a53b1871f50efb15764232babaef23e2264c285d7d9
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q4_K_S.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q4_K_S.gguf
+    sha256: f87177cd220475a80ec940880a50dccbf49541b8e5ca17f9cc609285956ba1c0
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q5_0.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q5_0.gguf
+    sha256: b87e7de764cba99e99a76c4202c04d437cd351e5161a9a501c88b2cfbc8bb3fa
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q5_K_M.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q5_K_M.gguf
+    sha256: 4a2d7aff1a5aea3efa727274fca39f5c8fbea9f4925813feb788190f9fd084bc
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q5_K_S.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q5_K_S.gguf
+    sha256: 479efb2ae658a2183b09cd20852bd61b4725c1227ffd4e52544ae2d996e98a1c
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q6_K.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q6_K.gguf
+    sha256: 11ef0211f2f6a486d8d64e5419b2dbb7e34f23693f19a0e29902bfb91e5b934e
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-instruct.Q8_0.gguf
+    template:
+      ? - chat
+      : CodeLlama.tmpl
+      ? - completion
+      : CodeLlama.tmpl
+  description: TheBloke/CodeLlama-13B-Instruct-GGUF - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-instruct.Q8_0.gguf
+    sha256: 97c5a3aaae76ccbc69800cd2fd73ba6a94cd14a7d26d6be1d3c38163f449bdd6
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF/resolve/main/codellama-13b-instruct.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Instruct-GGUF__codellama-13b-instruct.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Instruct-GGUF

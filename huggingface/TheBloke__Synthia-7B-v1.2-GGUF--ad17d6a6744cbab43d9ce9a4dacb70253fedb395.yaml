@@ -1,0 +1,409 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q2_K.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q2_K.gguf
+    sha256: cd8422d13df7b91065bfbe230552ca0a477b55771776d9946a3b2fc7d7634f48
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q3_K_L.gguf
+    sha256: b5d0c77e0ffcdb2619b67832616b3a396d420210419420e0f3a5791b8d393cd2
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q3_K_M.gguf
+    sha256: c943ddd8f133b531f9b01e39ce4587b6ed690b81e1bbe6bd533385810eeeadc1
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q3_K_S.gguf
+    sha256: 975b5e4f86fdf201efeb3c34e2714affb4821389db12f93a5e1f497d535c8192
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q4_0.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q4_0.gguf
+    sha256: b155ad02620b9f67d7adb9173b3054a5e92c05734d19d8666057d98331331406
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q4_K_M.gguf
+    sha256: 006dae2e2ee6f4a973077cb67a6c847fb886f3b4c71a4f989ef0e5e83d5960a1
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q4_K_S.gguf
+    sha256: baf0f8db97e3780c1efa72868e0f5b2c7f3cc0ff5a378d34dbca8a4b9fc8aefb
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q5_0.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q5_0.gguf
+    sha256: ff490bb5b8e3545423d0681081c9fcf5571013ab93e7551f6efe160ca9e87940
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q5_K_M.gguf
+    sha256: 6ca951d325a7e615fd9d98c299beb7595976354871ea97dbd1a68d48955cb81c
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q5_K_S.gguf
+    sha256: 0eaa28ed014e96640507531362f9c24bc2cbdd57ed77c6e2c3b50c62186f9259
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q6_K.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q6_K.gguf
+    sha256: b667aa38a1a8f1bb21f9ece57898b00fe2567ae78281d937724d5472f902a764
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v1.2.Q8_0.gguf
+    template:
+      ? - chat
+      : Synthia.tmpl
+      ? - completion
+      : Synthia.tmpl
+  description: TheBloke/Synthia-7B-v1.2-GGUF - llama configuration
+  files:
+  - filename: Synthia.tmpl
+    sha256: 0b98c533bf7fac894b422c4d6f135dc6f5e338e4acdb74378b539d1c787f14e3
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Synthia.tmpl
+  - filename: synthia-7b-v1.2.Q8_0.gguf
+    sha256: dfe99d19cfe89b3ad2672d53ddb0c6d4baab4c47f4713fea34d1606436cb0557
+    uri: 
+      https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF/resolve/main/synthia-7b-v1.2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Synthia-7B-v1.2-GGUF__synthia-7b-v1.2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - arxiv:2306.02707
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Synthia-7B-v1.2-GGUF

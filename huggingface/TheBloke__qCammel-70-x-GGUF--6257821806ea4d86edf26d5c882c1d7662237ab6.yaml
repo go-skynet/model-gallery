@@ -1,0 +1,391 @@
+---
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q2_K.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q2_K.gguf
+    sha256: abbafd3a42f9c611911ae8f1b795969852375e47bfdfcde38897ab4dab1e19e4
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q3_K_L.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q3_K_L.gguf
+    sha256: 6e004edbffcb890cf028639a59ce36c3a901c407b4294381488be1c20efaa3bd
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q3_K_M.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q3_K_M.gguf
+    sha256: 72cbaa60f258e0c1cbc9a814633d87da8d41669aa37186322e2ea0b2f47eff26
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q3_K_S.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q3_K_S.gguf
+    sha256: 72362e2ada56e9270497f0371b5723637f687166217b73a851a58a866bbdc800
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q4_0.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q4_0.gguf
+    sha256: a0e9bb622aad2f67c5d4d68eccaa11199fdc13317f92594dbeb5b5e459e402b5
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q4_K_M.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q4_K_M.gguf
+    sha256: 7f0ee9366261ec9454702a25ddfe19c91f76ccc2afac386f35a4d00611cfb5d5
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q4_K_S.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q4_K_S.gguf
+    sha256: a4716219dbcf93c9e04f0b54e682646cad43f8884fc033b65619307b2cf8786b
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q5_0.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q5_0.gguf
+    sha256: f9fcf89fd717ec1907355e7d905e629acc86a013d9751f9cb04e593cdfe4f0c6
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q5_K_M.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q5_K_M.gguf
+    sha256: 33ccb859b138886c677364ee812943bd08880899fea250b02539d205434bf526
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: qcammel-70-x.Q5_K_S.gguf
+    template:
+      ? - chat
+      : Vicuna.tmpl
+      ? - completion
+      : Vicuna.tmpl
+  description: TheBloke/qCammel-70-x-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: qcammel-70-x.Q5_K_S.gguf
+    sha256: 3220472de57d4d05d5ab3ff7768fa33bcbd504902ab3c93ff678e443efee3b7e
+    uri: 
+      https://huggingface.co/TheBloke/qCammel-70-x-GGUF/resolve/main/qcammel-70-x.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__qCammel-70-x-GGUF__qcammel-70-x.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - pytorch
+  - llama-2
+  - qCammel-70
+  - text-generation
+  - en
+  - arxiv:2305.12031
+  - arxiv:2305.14314
+  - arxiv:2302.70971
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/qCammel-70-x-GGUF
