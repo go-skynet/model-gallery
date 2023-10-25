@@ -143,7 +143,7 @@ class HFGalleryScraper:
 
             # dump that file we checked for at the very start
             with open(config_path, 'x') as configFile:
-                yaml.dump(gallery, configFile, default_flow_style=False, explicit_start=True)
+                yaml.dump(gallery, configFile, default_flow_style=False, explicit_start=False)
 
             # update the reference file - a symlink to a file within a temporary builder action isn't very useful, so create this link instead which we can follow on the LocalAI side.
             with open(Path(hf_config_path / f"{cleaned_model_id}.ref"), 'w') as referenceFile:
