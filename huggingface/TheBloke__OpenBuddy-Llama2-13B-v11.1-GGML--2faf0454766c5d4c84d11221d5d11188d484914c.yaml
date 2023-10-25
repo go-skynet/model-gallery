@@ -5,10 +5,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -46,10 +44,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -87,10 +83,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -128,10 +122,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -169,10 +161,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -210,10 +200,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -251,10 +239,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -292,10 +278,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -333,10 +317,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -374,10 +356,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -415,10 +395,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -456,10 +434,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -497,10 +473,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl
@@ -538,10 +512,8 @@
     parameters:
       model: openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
     template:
-      ? - chat
-      : Vicuna-Short.tmpl
-      ? - completion
-      : Vicuna-Short.tmpl
+      chat: Vicuna-Short
+      completion: Vicuna-Short
   description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
   files:
   - filename: Vicuna-Short.tmpl

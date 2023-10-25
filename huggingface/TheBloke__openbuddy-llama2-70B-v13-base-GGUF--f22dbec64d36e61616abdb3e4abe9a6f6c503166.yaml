@@ -5,10 +5,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q2_K.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -46,10 +44,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q3_K_L.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -87,10 +83,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q3_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -128,10 +122,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q3_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -169,10 +161,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q4_0.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -210,10 +200,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q4_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -251,10 +239,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q4_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -292,10 +278,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q5_0.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -333,10 +317,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q5_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -374,10 +356,8 @@
     parameters:
       model: openbuddy-llama2-70b-v13-base.Q5_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/openbuddy-llama2-70B-v13-base-GGUF - llama configuration
   files:
   - filename: None.tmpl

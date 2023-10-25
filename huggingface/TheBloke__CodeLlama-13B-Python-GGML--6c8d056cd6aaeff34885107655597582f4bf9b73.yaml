@@ -5,10 +5,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q2_K.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -41,10 +39,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q3_K_L.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -77,10 +73,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q3_K_M.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -113,10 +107,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q3_K_S.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -149,10 +141,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q4_0.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -185,10 +175,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q4_1.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -221,10 +209,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q4_K_M.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -257,10 +243,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q4_K_S.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -293,10 +277,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q5_0.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -329,10 +311,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q5_1.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -365,10 +345,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q5_K_M.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -401,10 +379,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q5_K_S.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -437,10 +413,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q6_K.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -473,10 +447,8 @@
     parameters:
       model: codellama-13b-python.ggmlv3.Q8_0.bin
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
   files:
   - filename: CodeLlama.tmpl

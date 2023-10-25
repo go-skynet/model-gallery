@@ -1,7 +1,7 @@
 from typing import Callable, Set, Optional
 from huggingface_hub.hf_api import ModelInfo, RepoFile
 
-from lib.base_models import BaseConfigData
+from lib.base_models import BaseConfigData, LocalAIEndpoints
 
 import regex
 
@@ -46,7 +46,7 @@ def fixed_BaseConfigData_handler(*args, data: BaseConfigData):
     return data
 
 class ConfigRecognizer:
-    def __init__(self, id: str, filter: ModelInfoFilterFunctionType, perRepo: PerRepoRecognizerFunctionType, perFile: PerFileRecognizerFunctionType, autoPromptEndpoints: Optional[Set[str]]):
+    def __init__(self, id: str, filter: ModelInfoFilterFunctionType, perRepo: PerRepoRecognizerFunctionType, perFile: PerFileRecognizerFunctionType, autoPromptEndpoints: Optional[Set[LocalAIEndpoints]]):
         self.id = id
         self.filter = filter or neverModelInfoFilter # Must be overriden for your ConfigRecognizer to be useful.
         self.perRepo = perRepo or nopConfigRecognizerPerRepoFn # If perRepo action isn't set, return None. This can then be detected.

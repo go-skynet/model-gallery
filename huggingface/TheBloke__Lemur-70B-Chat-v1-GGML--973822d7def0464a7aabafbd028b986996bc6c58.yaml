@@ -5,10 +5,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q2_K.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q3_K_L.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -73,10 +69,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q3_K_M.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -107,10 +101,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q3_K_S.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -141,10 +133,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q4_0.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -175,10 +165,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q4_1.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -209,10 +197,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q4_K_M.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -243,10 +229,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q4_K_S.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -277,10 +261,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q5_0.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -311,10 +293,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q5_1.z01
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -345,10 +325,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q5_1.zip
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -379,10 +357,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q5_K_M.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -413,10 +389,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q5_K_S.bin
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -447,10 +421,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q6_K.z01
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -481,10 +453,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q6_K.zip
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -515,10 +485,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q8_0.z01
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -549,10 +517,8 @@
     parameters:
       model: lemur-70b-chat-v1.ggmlv3.Q8_0.zip
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Lemur-70B-Chat-v1-GGML - llama configuration
   files:
   - filename: ChatML.tmpl

@@ -5,10 +5,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -45,10 +43,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -85,10 +81,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -125,10 +119,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -165,10 +157,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -205,10 +195,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -245,10 +233,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -285,10 +271,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -325,10 +309,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -365,10 +347,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -405,10 +385,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q6_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -445,10 +423,8 @@
     parameters:
       model: leo-hessianai-7b-chat.Q8_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl

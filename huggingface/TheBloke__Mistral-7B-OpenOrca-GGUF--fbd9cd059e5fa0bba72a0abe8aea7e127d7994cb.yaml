@@ -5,10 +5,8 @@
     parameters:
       model: mistral-7b-openorca.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -42,10 +40,8 @@
     parameters:
       model: mistral-7b-openorca.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -79,10 +75,8 @@
     parameters:
       model: mistral-7b-openorca.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -116,10 +110,8 @@
     parameters:
       model: mistral-7b-openorca.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -153,10 +145,8 @@
     parameters:
       model: mistral-7b-openorca.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -190,10 +180,8 @@
     parameters:
       model: mistral-7b-openorca.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -227,10 +215,8 @@
     parameters:
       model: mistral-7b-openorca.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -264,10 +250,8 @@
     parameters:
       model: mistral-7b-openorca.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -301,10 +285,8 @@
     parameters:
       model: mistral-7b-openorca.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -338,10 +320,8 @@
     parameters:
       model: mistral-7b-openorca.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -375,10 +355,8 @@
     parameters:
       model: mistral-7b-openorca.Q6_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -412,10 +390,8 @@
     parameters:
       model: mistral-7b-openorca.Q8_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Mistral-7B-OpenOrca-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl

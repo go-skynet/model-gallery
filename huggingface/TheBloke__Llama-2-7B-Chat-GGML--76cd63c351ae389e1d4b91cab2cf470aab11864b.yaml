@@ -5,10 +5,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -44,10 +42,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -83,10 +79,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -122,10 +116,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -161,10 +153,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -200,10 +190,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -239,10 +227,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -278,10 +264,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -317,10 +301,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -356,10 +338,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -395,10 +375,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -434,10 +412,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -473,10 +449,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -512,10 +486,8 @@
     parameters:
       model: llama-2-7b-chat.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/Llama-2-7B-Chat-GGML - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl

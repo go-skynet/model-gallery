@@ -5,10 +5,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q2_K.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -45,10 +43,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q3_K_L.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -85,10 +81,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q3_K_M.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -125,10 +119,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q3_K_S.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -165,10 +157,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q4_0.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -205,10 +195,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q4_K_M.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -245,10 +233,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q4_K_S.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -285,10 +271,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q5_0.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -325,10 +309,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q5_K_M.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -365,10 +347,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q5_K_S.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -405,10 +385,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q6_K.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl
@@ -445,10 +423,8 @@
     parameters:
       model: openassistant-llama2-13b-orca-8k-3319.Q8_0.gguf
     template:
-      ? - chat
-      : OpenAssistant-System.tmpl
-      ? - completion
-      : OpenAssistant-System.tmpl
+      chat: OpenAssistant-System
+      completion: OpenAssistant-System
   description: TheBloke/OpenAssistant-Llama2-13B-Orca-8K-3319-GGUF - llama configuration
   files:
   - filename: OpenAssistant-System.tmpl

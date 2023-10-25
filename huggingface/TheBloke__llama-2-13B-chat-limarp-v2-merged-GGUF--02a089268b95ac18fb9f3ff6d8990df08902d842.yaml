@@ -5,10 +5,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q2_K.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -40,10 +38,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q3_K_L.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -75,10 +71,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q3_K_M.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -110,10 +104,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q3_K_S.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -145,10 +137,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q4_0.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -180,10 +170,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q4_K_M.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -215,10 +203,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q4_K_S.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -250,10 +236,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q5_0.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -285,10 +269,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q5_K_M.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -320,10 +302,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q5_K_S.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -355,10 +335,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q6_K.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl
@@ -390,10 +368,8 @@
     parameters:
       model: llama-2-13b-chat-limarp-v2-merged.Q8_0.gguf
     template:
-      ? - chat
-      : LimaRP-Alpaca.tmpl
-      ? - completion
-      : LimaRP-Alpaca.tmpl
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
   description: TheBloke/llama-2-13B-chat-limarp-v2-merged-GGUF - llama configuration
   files:
   - filename: LimaRP-Alpaca.tmpl

@@ -5,10 +5,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q2_K.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -43,10 +41,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q3_K_L.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -81,10 +77,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q3_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -119,10 +113,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q3_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -157,10 +149,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q4_0.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -195,10 +185,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q4_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -233,10 +221,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q4_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -271,10 +257,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q5_0.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -309,10 +293,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q5_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -347,10 +329,8 @@
     parameters:
       model: upstage-llama-2-70b-instruct-v2.Q5_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Upstage-Llama-2-70B-instruct-v2-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl

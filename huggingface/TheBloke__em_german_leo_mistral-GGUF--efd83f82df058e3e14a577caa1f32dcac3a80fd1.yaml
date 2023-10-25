@@ -5,10 +5,8 @@
     parameters:
       model: em_german_leo_mistral.Q2_K.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -42,10 +40,8 @@
     parameters:
       model: em_german_leo_mistral.Q3_K_L.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -79,10 +75,8 @@
     parameters:
       model: em_german_leo_mistral.Q3_K_M.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -116,10 +110,8 @@
     parameters:
       model: em_german_leo_mistral.Q3_K_S.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -153,10 +145,8 @@
     parameters:
       model: em_german_leo_mistral.Q4_0.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -190,10 +180,8 @@
     parameters:
       model: em_german_leo_mistral.Q4_K_M.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -227,10 +215,8 @@
     parameters:
       model: em_german_leo_mistral.Q4_K_S.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -264,10 +250,8 @@
     parameters:
       model: em_german_leo_mistral.Q5_0.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -301,10 +285,8 @@
     parameters:
       model: em_german_leo_mistral.Q5_K_M.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -338,10 +320,8 @@
     parameters:
       model: em_german_leo_mistral.Q5_K_S.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -375,10 +355,8 @@
     parameters:
       model: em_german_leo_mistral.Q6_K.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl
@@ -412,10 +390,8 @@
     parameters:
       model: em_german_leo_mistral.Q8_0.gguf
     template:
-      ? - chat
-      : EmGerman.tmpl
-      ? - completion
-      : EmGerman.tmpl
+      chat: EmGerman
+      completion: EmGerman
   description: TheBloke/em_german_leo_mistral-GGUF - mistral configuration
   files:
   - filename: EmGerman.tmpl

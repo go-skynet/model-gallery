@@ -5,10 +5,8 @@
     parameters:
       model: aria-70b-v2.Q2_K.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -48,10 +46,8 @@
     parameters:
       model: aria-70b-v2.Q3_K_L.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -91,10 +87,8 @@
     parameters:
       model: aria-70b-v2.Q3_K_M.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -134,10 +128,8 @@
     parameters:
       model: aria-70b-v2.Q3_K_S.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -177,10 +169,8 @@
     parameters:
       model: aria-70b-v2.Q4_0.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -220,10 +210,8 @@
     parameters:
       model: aria-70b-v2.Q4_K_M.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -263,10 +251,8 @@
     parameters:
       model: aria-70b-v2.Q4_K_S.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -306,10 +292,8 @@
     parameters:
       model: aria-70b-v2.Q5_0.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -349,10 +333,8 @@
     parameters:
       model: aria-70b-v2.Q5_K_M.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl
@@ -392,10 +374,8 @@
     parameters:
       model: aria-70b-v2.Q5_K_S.gguf
     template:
-      ? - chat
-      : Llama-2-Chat.tmpl
-      ? - completion
-      : Llama-2-Chat.tmpl
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
   description: TheBloke/ARIA-70B-V2-GGUF - llama configuration
   files:
   - filename: Llama-2-Chat.tmpl

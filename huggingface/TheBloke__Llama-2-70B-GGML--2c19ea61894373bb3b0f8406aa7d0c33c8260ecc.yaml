@@ -5,10 +5,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -44,10 +42,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -83,10 +79,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -122,10 +116,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -161,10 +153,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -200,10 +190,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -239,10 +227,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -278,10 +264,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -317,10 +301,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -356,10 +338,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -395,10 +375,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -434,10 +412,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q6_K.z01
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -473,10 +449,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q6_K.zip
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -512,10 +486,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q8_0.z01
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl
@@ -551,10 +523,8 @@
     parameters:
       model: llama-2-70b.ggmlv3.q8_0.zip
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/Llama-2-70B-GGML - llama configuration
   files:
   - filename: None.tmpl

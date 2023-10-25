@@ -5,10 +5,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -46,10 +44,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -87,10 +83,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -128,10 +122,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -169,10 +161,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -210,10 +200,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -251,10 +239,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -292,10 +278,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -333,10 +317,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -374,10 +356,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -415,10 +395,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q6_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl
@@ -456,10 +434,8 @@
     parameters:
       model: leo-mistral-hessianai-7b-chat.Q8_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
   files:
   - filename: ChatML.tmpl

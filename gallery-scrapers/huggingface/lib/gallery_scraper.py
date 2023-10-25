@@ -75,14 +75,14 @@ class HFGalleryScraper:
                                 promptTemplateFile = self.promptTemplateCache.get_downloadable_file(promptTemplateResults)
                                 aptDict: Dict[str, str] = {}
                                 for endpoint in cr.autoPromptEndpoints.intersection(aPRecognizer.permittedEndpoints):
-                                    aptDict[endpoint] = f"{promptTemplateResults.templateName}.tmpl"
+                                    aptDict[endpoint.value] = promptTemplateResults.templateName # f"{promptTemplateResults.templateName}.tmpl"
 
                                 modelRepoBaseConfig.files.append(promptTemplateFile)
                                 modelRepoBaseConfig.config_file = conservative_merger.merge(modelRepoBaseConfig.config_file, {
                                     "template": aptDict
                                 })
                     else:
-                        # print("WARNING: Active Prompt Template Recognition has failed, attempting fallback to existing templates")
+                        print("WARNING: Active Prompt Template Recognition has failed, attempting fallback to existing templates")
                         tempPTDict = {}
                         # Fallback: No matching prompt recognizers for this config, but we have holes to fill.
                         # This code is not efficient, but checks for file name based matches.
@@ -92,10 +92,10 @@ class HFGalleryScraper:
                                 if bool(modelInfo.modelId.index(templateName)):
                                     for ep in cr.autoPromptEndpoints:
                                         if templateName[:(-1 - len(ep.value))] == f"-{ep.value}":
-                                            tempPTDict[ep.name] = templateName
+                                            tempPTDict[ep.value] = templateName
 
                                     for mEp in cr.autoPromptEndpoints.difference(tempPTDict.keys()):
-                                        tempPTDict[mEp.name] = templateName
+                                        tempPTDict[mEp.value] = templateName
 
                             modelRepoBaseConfig.config_file = conservative_merger.merge(modelRepoBaseConfig.config_file, {
                                 "template": tempPTDict

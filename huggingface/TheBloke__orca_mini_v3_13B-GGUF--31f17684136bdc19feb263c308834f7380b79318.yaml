@@ -5,10 +5,8 @@
     parameters:
       model: orca_mini_v3_13b.Q2_K.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -41,10 +39,8 @@
     parameters:
       model: orca_mini_v3_13b.Q3_K_L.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -77,10 +73,8 @@
     parameters:
       model: orca_mini_v3_13b.Q3_K_M.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -113,10 +107,8 @@
     parameters:
       model: orca_mini_v3_13b.Q3_K_S.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -149,10 +141,8 @@
     parameters:
       model: orca_mini_v3_13b.Q4_0.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -185,10 +175,8 @@
     parameters:
       model: orca_mini_v3_13b.Q4_K_M.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -221,10 +209,8 @@
     parameters:
       model: orca_mini_v3_13b.Q4_K_S.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -257,10 +243,8 @@
     parameters:
       model: orca_mini_v3_13b.Q5_0.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -293,10 +277,8 @@
     parameters:
       model: orca_mini_v3_13b.Q5_K_M.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -329,10 +311,8 @@
     parameters:
       model: orca_mini_v3_13b.Q5_K_S.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -365,10 +345,8 @@
     parameters:
       model: orca_mini_v3_13b.Q6_K.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -401,10 +379,8 @@
     parameters:
       model: orca_mini_v3_13b.Q8_0.gguf
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGUF - llama configuration
   files:
   - filename: orca_mini.tmpl

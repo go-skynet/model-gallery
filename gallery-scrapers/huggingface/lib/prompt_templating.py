@@ -7,11 +7,10 @@ from huggingface_hub.hf_api import ModelInfo
 from mistletoe import Document, ast_renderer
 from multiprocessing import Lock
 
-from lib.base_models import BaseConfigData, DownloadableFile
+from lib.base_models import BaseConfigData, DownloadableFile, LocalAIEndpoints
 from lib.config_recognizer import ModelInfoFilterFunctionType, ConfigRecognizer, neverModelInfoFilter, nopConfigRecognizerPerFileFn
 
 import regex
-import random
 import hashlib
 
 promptTemplateCacheLock = Lock()
@@ -29,7 +28,7 @@ def nopAdapterFn(orig):
     return orig
 
 class PromptTemplateRecognizer:
-    def __init__(self, id: str, filter: PromptTemplateRecognizerFilterFn, recognizePrompt: PromptTemplateRecognizerFn, adaptPrompt: PromptTemplateAdapterFn, permittedEndpoints: Set[str]):
+    def __init__(self, id: str, filter: PromptTemplateRecognizerFilterFn, recognizePrompt: PromptTemplateRecognizerFn, adaptPrompt: PromptTemplateAdapterFn, permittedEndpoints: Set[LocalAIEndpoints]):
         self.id = id
         self.filter = filter or neverModelInfoFilter    # Close Enough since it's just lambda: false
         self.recognizePrompt = recognizePrompt or nopConfigRecognizerPerFileFn

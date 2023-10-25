@@ -5,10 +5,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -49,10 +47,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -93,10 +89,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -137,10 +131,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -181,10 +173,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -225,10 +215,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -269,10 +257,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -313,10 +299,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -357,10 +341,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -401,10 +383,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -445,10 +425,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q6_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -489,10 +467,8 @@
     parameters:
       model: leo-hessianai-7b-chat-bilingual.Q8_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/leo-hessianai-7B-chat-bilingual-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl

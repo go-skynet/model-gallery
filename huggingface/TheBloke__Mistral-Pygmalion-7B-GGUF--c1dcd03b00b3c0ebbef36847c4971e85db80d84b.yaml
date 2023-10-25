@@ -5,10 +5,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q2_K.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -42,10 +40,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q3_K_L.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -79,10 +75,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q3_K_M.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -116,10 +110,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q3_K_S.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -153,10 +145,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q4_0.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -190,10 +180,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q4_K_M.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -227,10 +215,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q4_K_S.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -264,10 +250,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q5_0.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -301,10 +285,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q5_K_M.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -338,10 +320,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q5_K_S.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -375,10 +355,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q6_K.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl
@@ -412,10 +390,8 @@
     parameters:
       model: mistral-pygmalion-7b.Q8_0.gguf
     template:
-      ? - chat
-      : Instruction-Assistant-Hashes.tmpl
-      ? - completion
-      : Instruction-Assistant-Hashes.tmpl
+      chat: Instruction-Assistant-Hashes
+      completion: Instruction-Assistant-Hashes
   description: TheBloke/Mistral-Pygmalion-7B-GGUF - llama configuration
   files:
   - filename: Instruction-Assistant-Hashes.tmpl

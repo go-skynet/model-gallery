@@ -5,10 +5,8 @@
     parameters:
       model: causallm_7b.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -61,10 +59,8 @@
     parameters:
       model: causallm_7b.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -117,10 +113,8 @@
     parameters:
       model: causallm_7b.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -173,10 +167,8 @@
     parameters:
       model: causallm_7b.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -229,10 +221,8 @@
     parameters:
       model: causallm_7b.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -285,10 +275,8 @@
     parameters:
       model: causallm_7b.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -341,10 +329,8 @@
     parameters:
       model: causallm_7b.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -397,10 +383,8 @@
     parameters:
       model: causallm_7b.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -453,10 +437,8 @@
     parameters:
       model: causallm_7b.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -509,10 +491,8 @@
     parameters:
       model: causallm_7b.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -565,10 +545,8 @@
     parameters:
       model: causallm_7b.Q6_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -621,10 +599,8 @@
     parameters:
       model: causallm_7b.Q8_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/CausalLM-7B-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl

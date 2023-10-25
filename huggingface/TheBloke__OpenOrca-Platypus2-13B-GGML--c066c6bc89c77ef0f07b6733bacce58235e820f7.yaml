@@ -5,10 +5,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -43,10 +41,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -81,10 +77,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -119,10 +113,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -157,10 +149,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -195,10 +185,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -233,10 +221,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -271,10 +257,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -309,10 +293,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -347,10 +329,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -385,10 +365,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -423,10 +401,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -461,10 +437,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl
@@ -499,10 +473,8 @@
     parameters:
       model: openorca-platypus2-13b.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Alpaca-InstructOnly.tmpl
-      ? - completion
-      : Alpaca-InstructOnly.tmpl
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
   description: TheBloke/OpenOrca-Platypus2-13B-GGML - llama configuration
   files:
   - filename: Alpaca-InstructOnly.tmpl

@@ -5,10 +5,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q2_K.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -51,10 +49,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q3_K_L.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -97,10 +93,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q3_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -143,10 +137,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q3_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -189,10 +181,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q4_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -235,10 +225,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q4_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -281,10 +269,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q4_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -327,10 +313,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q5_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -373,10 +357,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q5_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -419,10 +401,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q5_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -465,10 +445,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q6_K.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -511,10 +489,8 @@
     parameters:
       model: manticore-13b-chat-pyg.Q8_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/manticore-13b-chat-pyg-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl

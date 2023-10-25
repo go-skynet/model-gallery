@@ -5,10 +5,8 @@
     parameters:
       model: genz-70b.Q2_K.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -37,10 +35,8 @@
     parameters:
       model: genz-70b.Q3_K_L.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -69,10 +65,8 @@
     parameters:
       model: genz-70b.Q3_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -101,10 +95,8 @@
     parameters:
       model: genz-70b.Q3_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -133,10 +125,8 @@
     parameters:
       model: genz-70b.Q4_0.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -165,10 +155,8 @@
     parameters:
       model: genz-70b.Q4_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -197,10 +185,8 @@
     parameters:
       model: genz-70b.Q4_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -229,10 +215,8 @@
     parameters:
       model: genz-70b.Q5_0.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -261,10 +245,8 @@
     parameters:
       model: genz-70b.Q5_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -293,10 +275,8 @@
     parameters:
       model: genz-70b.Q5_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/Genz-70b-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl

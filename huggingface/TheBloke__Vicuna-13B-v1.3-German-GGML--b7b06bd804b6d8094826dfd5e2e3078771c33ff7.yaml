@@ -5,10 +5,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -41,10 +39,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -77,10 +73,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -113,10 +107,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -149,10 +141,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -185,10 +175,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -221,10 +209,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -257,10 +243,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -293,10 +277,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -329,10 +311,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -365,10 +345,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -401,10 +379,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -437,10 +413,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -473,10 +447,8 @@
     parameters:
       model: vicuna-13b-v1.3-german.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/Vicuna-13B-v1.3-German-GGML - llama configuration
   files:
   - filename: Vicuna.tmpl

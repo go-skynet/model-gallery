@@ -5,10 +5,8 @@
     parameters:
       model: codellama-7b-instruct.Q2_K.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -41,10 +39,8 @@
     parameters:
       model: codellama-7b-instruct.Q3_K_L.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -77,10 +73,8 @@
     parameters:
       model: codellama-7b-instruct.Q3_K_M.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -113,10 +107,8 @@
     parameters:
       model: codellama-7b-instruct.Q3_K_S.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -149,10 +141,8 @@
     parameters:
       model: codellama-7b-instruct.Q4_0.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -185,10 +175,8 @@
     parameters:
       model: codellama-7b-instruct.Q4_K_M.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -221,10 +209,8 @@
     parameters:
       model: codellama-7b-instruct.Q4_K_S.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -257,10 +243,8 @@
     parameters:
       model: codellama-7b-instruct.Q5_0.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -293,10 +277,8 @@
     parameters:
       model: codellama-7b-instruct.Q5_K_M.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -329,10 +311,8 @@
     parameters:
       model: codellama-7b-instruct.Q5_K_S.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -365,10 +345,8 @@
     parameters:
       model: codellama-7b-instruct.Q6_K.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl
@@ -401,10 +379,8 @@
     parameters:
       model: codellama-7b-instruct.Q8_0.gguf
     template:
-      ? - chat
-      : CodeLlama.tmpl
-      ? - completion
-      : CodeLlama.tmpl
+      chat: CodeLlama
+      completion: CodeLlama
   description: TheBloke/CodeLlama-7B-Instruct-GGUF - llama configuration
   files:
   - filename: CodeLlama.tmpl

@@ -5,10 +5,8 @@
     parameters:
       model: genz-13b-v2.Q2_K.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -38,10 +36,8 @@
     parameters:
       model: genz-13b-v2.Q3_K_L.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -71,10 +67,8 @@
     parameters:
       model: genz-13b-v2.Q3_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -104,10 +98,8 @@
     parameters:
       model: genz-13b-v2.Q3_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -137,10 +129,8 @@
     parameters:
       model: genz-13b-v2.Q4_0.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -170,10 +160,8 @@
     parameters:
       model: genz-13b-v2.Q4_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -203,10 +191,8 @@
     parameters:
       model: genz-13b-v2.Q4_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -236,10 +222,8 @@
     parameters:
       model: genz-13b-v2.Q5_0.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -269,10 +253,8 @@
     parameters:
       model: genz-13b-v2.Q5_K_M.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -302,10 +284,8 @@
     parameters:
       model: genz-13b-v2.Q5_K_S.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -335,10 +315,8 @@
     parameters:
       model: genz-13b-v2.Q6_K.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl
@@ -368,10 +346,8 @@
     parameters:
       model: genz-13b-v2.Q8_0.gguf
     template:
-      ? - chat
-      : User-Assistant-Newlines.tmpl
-      ? - completion
-      : User-Assistant-Newlines.tmpl
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
   description: TheBloke/genz-13B-v2-GGUF - llama configuration
   files:
   - filename: User-Assistant-Newlines.tmpl

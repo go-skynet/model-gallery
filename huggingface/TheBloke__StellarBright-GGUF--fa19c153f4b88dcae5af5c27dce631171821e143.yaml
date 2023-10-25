@@ -5,10 +5,8 @@
     parameters:
       model: stellarbright.Q2_K.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -42,10 +40,8 @@
     parameters:
       model: stellarbright.Q3_K_L.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -79,10 +75,8 @@
     parameters:
       model: stellarbright.Q3_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -116,10 +110,8 @@
     parameters:
       model: stellarbright.Q3_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -153,10 +145,8 @@
     parameters:
       model: stellarbright.Q4_0.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -190,10 +180,8 @@
     parameters:
       model: stellarbright.Q4_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -227,10 +215,8 @@
     parameters:
       model: stellarbright.Q4_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -264,10 +250,8 @@
     parameters:
       model: stellarbright.Q5_0.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -301,10 +285,8 @@
     parameters:
       model: stellarbright.Q5_K_M.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl
@@ -338,10 +320,8 @@
     parameters:
       model: stellarbright.Q5_K_S.gguf
     template:
-      ? - chat
-      : None.tmpl
-      ? - completion
-      : None.tmpl
+      chat: None
+      completion: None
   description: TheBloke/StellarBright-GGUF - llama configuration
   files:
   - filename: None.tmpl

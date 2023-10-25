@@ -5,10 +5,8 @@
     parameters:
       model: qcammel-70-x.Q2_K.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -44,10 +42,8 @@
     parameters:
       model: qcammel-70-x.Q3_K_L.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -83,10 +79,8 @@
     parameters:
       model: qcammel-70-x.Q3_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -122,10 +116,8 @@
     parameters:
       model: qcammel-70-x.Q3_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -161,10 +153,8 @@
     parameters:
       model: qcammel-70-x.Q4_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -200,10 +190,8 @@
     parameters:
       model: qcammel-70-x.Q4_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -239,10 +227,8 @@
     parameters:
       model: qcammel-70-x.Q4_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -278,10 +264,8 @@
     parameters:
       model: qcammel-70-x.Q5_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -317,10 +301,8 @@
     parameters:
       model: qcammel-70-x.Q5_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -356,10 +338,8 @@
     parameters:
       model: qcammel-70-x.Q5_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/qCammel-70-x-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl

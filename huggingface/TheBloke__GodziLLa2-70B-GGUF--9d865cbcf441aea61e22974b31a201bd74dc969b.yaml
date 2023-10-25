@@ -5,10 +5,8 @@
     parameters:
       model: godzilla2-70b.Q2_K.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -45,10 +43,8 @@
     parameters:
       model: godzilla2-70b.Q3_K_L.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -85,10 +81,8 @@
     parameters:
       model: godzilla2-70b.Q3_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -125,10 +119,8 @@
     parameters:
       model: godzilla2-70b.Q3_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -165,10 +157,8 @@
     parameters:
       model: godzilla2-70b.Q4_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -205,10 +195,8 @@
     parameters:
       model: godzilla2-70b.Q4_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -245,10 +233,8 @@
     parameters:
       model: godzilla2-70b.Q4_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -285,10 +271,8 @@
     parameters:
       model: godzilla2-70b.Q5_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -325,10 +309,8 @@
     parameters:
       model: godzilla2-70b.Q5_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -365,10 +347,8 @@
     parameters:
       model: godzilla2-70b.Q5_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -405,10 +385,8 @@
     parameters:
       model: godzilla2-70b.Q8_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/GodziLLa2-70B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl

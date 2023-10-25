@@ -5,10 +5,8 @@
     parameters:
       model: sheep-duck-llama-2.Q2_K.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -41,10 +39,8 @@
     parameters:
       model: sheep-duck-llama-2.Q3_K_L.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -77,10 +73,8 @@
     parameters:
       model: sheep-duck-llama-2.Q3_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -113,10 +107,8 @@
     parameters:
       model: sheep-duck-llama-2.Q3_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -149,10 +141,8 @@
     parameters:
       model: sheep-duck-llama-2.Q4_0.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -185,10 +175,8 @@
     parameters:
       model: sheep-duck-llama-2.Q4_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -221,10 +209,8 @@
     parameters:
       model: sheep-duck-llama-2.Q4_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -257,10 +243,8 @@
     parameters:
       model: sheep-duck-llama-2.Q5_0.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -293,10 +277,8 @@
     parameters:
       model: sheep-duck-llama-2.Q5_K_M.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl
@@ -329,10 +311,8 @@
     parameters:
       model: sheep-duck-llama-2.Q5_K_S.gguf
     template:
-      ? - chat
-      : Orca-Hashes.tmpl
-      ? - completion
-      : Orca-Hashes.tmpl
+      chat: Orca-Hashes
+      completion: Orca-Hashes
   description: TheBloke/Sheep-Duck-Llama-2-70B-GGUF - llama configuration
   files:
   - filename: Orca-Hashes.tmpl

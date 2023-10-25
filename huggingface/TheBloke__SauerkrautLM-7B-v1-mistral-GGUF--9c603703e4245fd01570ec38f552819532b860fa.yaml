@@ -5,10 +5,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q2_K.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q3_K_L.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -74,10 +70,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q3_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -109,10 +103,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q3_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -144,10 +136,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q4_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -178,10 +168,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q4_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -213,10 +201,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q4_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -248,10 +234,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q5_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -282,10 +266,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q5_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -317,10 +299,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q5_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -352,10 +332,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q6_K.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -386,10 +364,8 @@
     parameters:
       model: sauerkrautlm-7b-v1-mistral.Q8_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-mistral-GGUF - mistral configuration
   files:
   - filename: Sauerkraut.tmpl

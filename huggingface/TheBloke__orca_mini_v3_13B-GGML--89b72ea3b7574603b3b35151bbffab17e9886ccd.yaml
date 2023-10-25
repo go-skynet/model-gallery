@@ -5,10 +5,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -42,10 +40,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -79,10 +75,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -116,10 +110,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -153,10 +145,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -190,10 +180,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -227,10 +215,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -264,10 +250,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -301,10 +285,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -338,10 +320,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -375,10 +355,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -412,10 +390,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -449,10 +425,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl
@@ -486,10 +460,8 @@
     parameters:
       model: orca_mini_v3_13b.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : orca_mini.tmpl
-      ? - completion
-      : orca_mini.tmpl
+      chat: orca_mini
+      completion: orca_mini
   description: TheBloke/orca_mini_v3_13B-GGML - llama configuration
   files:
   - filename: orca_mini.tmpl

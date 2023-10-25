@@ -5,10 +5,8 @@
     parameters:
       model: hippogriff-30b.Q2_K.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -47,10 +45,8 @@
     parameters:
       model: hippogriff-30b.Q3_K_L.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -89,10 +85,8 @@
     parameters:
       model: hippogriff-30b.Q3_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -131,10 +125,8 @@
     parameters:
       model: hippogriff-30b.Q3_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -173,10 +165,8 @@
     parameters:
       model: hippogriff-30b.Q4_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -215,10 +205,8 @@
     parameters:
       model: hippogriff-30b.Q4_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -257,10 +245,8 @@
     parameters:
       model: hippogriff-30b.Q4_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -299,10 +285,8 @@
     parameters:
       model: hippogriff-30b.Q5_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -341,10 +325,8 @@
     parameters:
       model: hippogriff-30b.Q5_K_M.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -383,10 +365,8 @@
     parameters:
       model: hippogriff-30b.Q5_K_S.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -425,10 +405,8 @@
     parameters:
       model: hippogriff-30b.Q6_K.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl
@@ -467,10 +445,8 @@
     parameters:
       model: hippogriff-30b.Q8_0.gguf
     template:
-      ? - chat
-      : Vicuna.tmpl
-      ? - completion
-      : Vicuna.tmpl
+      chat: Vicuna
+      completion: Vicuna
   description: TheBloke/hippogriff-30b-chat-GGUF - llama configuration
   files:
   - filename: Vicuna.tmpl

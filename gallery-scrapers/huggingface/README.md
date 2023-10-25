@@ -8,11 +8,9 @@ Documentation is currently very incomplete, but here's some quick notes:
 
 The `lib` directory holds the code that implements this scraping / conversion. This should only need to be edited if you like python and want to help improve the scraper or fix bugs
 
-The `prompt_recognizers` directory currently only has a single format known to it, which is the one used by the model cards of prolific model converter TheBloke. Currently it comes in a strict form that actually checks its one of his, and a "style of" form that doesn't enforce any filtering. Please add more formats here if your model card uses a different style!
+The `prompt_recognizers` directory currently only has a single known-working format in it, which is the one used by the model cards of prolific model converter TheBloke. Currently it comes in a strict form that actually checks its one of his, and a "style of" form that doesn't enforce any filtering. Please add more formats here if your model card uses a different style!
 
 The `config_recognizers` directory has more to it, but is similarly incomplete. Files here are responsible for identifying the different model types used on huggingface, so please look at the examples in here and add more as new models come out every day.
-
-
 
 
 ### Dave's Junk Drawer

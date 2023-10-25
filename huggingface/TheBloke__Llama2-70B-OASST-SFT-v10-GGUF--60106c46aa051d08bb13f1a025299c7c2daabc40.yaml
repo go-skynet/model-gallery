@@ -5,10 +5,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q2_K.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -43,10 +41,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q3_K_L.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -81,10 +77,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q3_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -119,10 +113,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q3_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -157,10 +149,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q4_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -195,10 +185,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q4_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -233,10 +221,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q4_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -271,10 +257,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q5_0.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -309,10 +293,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q5_K_M.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl
@@ -347,10 +329,8 @@
     parameters:
       model: llama2-70b-oasst-sft-v10.Q5_K_S.gguf
     template:
-      ? - chat
-      : ChatML.tmpl
-      ? - completion
-      : ChatML.tmpl
+      chat: ChatML
+      completion: ChatML
   description: TheBloke/Llama2-70B-OASST-SFT-v10-GGUF - llama configuration
   files:
   - filename: ChatML.tmpl

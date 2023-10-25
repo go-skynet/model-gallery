@@ -5,10 +5,8 @@
     parameters:
       model: marx-3b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Human-Response.tmpl
-      ? - completion
-      : Human-Response.tmpl
+      chat: Human-Response
+      completion: Human-Response
   description: TheBloke/Marx-3b-GGML - llama configuration
   files:
   - filename: Human-Response.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: marx-3b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Human-Response.tmpl
-      ? - completion
-      : Human-Response.tmpl
+      chat: Human-Response
+      completion: Human-Response
   description: TheBloke/Marx-3b-GGML - llama configuration
   files:
   - filename: Human-Response.tmpl
@@ -73,10 +69,8 @@
     parameters:
       model: marx-3b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Human-Response.tmpl
-      ? - completion
-      : Human-Response.tmpl
+      chat: Human-Response
+      completion: Human-Response
   description: TheBloke/Marx-3b-GGML - llama configuration
   files:
   - filename: Human-Response.tmpl
@@ -107,10 +101,8 @@
     parameters:
       model: marx-3b.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Human-Response.tmpl
-      ? - completion
-      : Human-Response.tmpl
+      chat: Human-Response
+      completion: Human-Response
   description: TheBloke/Marx-3b-GGML - llama configuration
   files:
   - filename: Human-Response.tmpl
@@ -141,10 +133,8 @@
     parameters:
       model: marx-3b.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Human-Response.tmpl
-      ? - completion
-      : Human-Response.tmpl
+      chat: Human-Response
+      completion: Human-Response
   description: TheBloke/Marx-3b-GGML - llama configuration
   files:
   - filename: Human-Response.tmpl

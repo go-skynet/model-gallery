@@ -5,10 +5,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -74,10 +70,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -109,10 +103,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -144,10 +136,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -178,10 +168,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -212,10 +200,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -247,10 +233,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -282,10 +266,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -316,10 +298,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -350,10 +330,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -385,10 +363,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -420,10 +396,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl
@@ -454,10 +428,8 @@
     parameters:
       model: chronoboros-grad-l2-13b.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Chronoboros-Grad-L2-13B-GGML - llama configuration
   files:
   - filename: Custom.tmpl

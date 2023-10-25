@@ -5,10 +5,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q2_K.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -46,10 +44,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_L.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -87,10 +83,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_M.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -128,10 +122,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q3_K_S.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -169,10 +161,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_0.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -210,10 +200,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_1.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -251,10 +239,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_M.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -292,10 +278,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q4_K_S.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -333,10 +317,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_0.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -374,10 +356,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_1.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -415,10 +395,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_M.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -456,10 +434,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q5_K_S.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -497,10 +473,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q6_K.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:
@@ -538,10 +512,8 @@
     parameters:
       model: speechless-llama2-hermes-orca-platypus-wizardlm-13b.ggmlv3.Q8_0.bin
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Speechless-Llama2-Hermes-Orca-Platypus-WizardLM-13B-GGML -
     llama configuration
   files:

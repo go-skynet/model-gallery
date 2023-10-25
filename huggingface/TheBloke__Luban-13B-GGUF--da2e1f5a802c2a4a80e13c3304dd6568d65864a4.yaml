@@ -5,10 +5,8 @@
     parameters:
       model: luban-13b.Q2_K.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -38,10 +36,8 @@
     parameters:
       model: luban-13b.Q3_K_L.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -72,10 +68,8 @@
     parameters:
       model: luban-13b.Q3_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -106,10 +100,8 @@
     parameters:
       model: luban-13b.Q3_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -140,10 +132,8 @@
     parameters:
       model: luban-13b.Q4_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -173,10 +163,8 @@
     parameters:
       model: luban-13b.Q4_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -207,10 +195,8 @@
     parameters:
       model: luban-13b.Q4_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -241,10 +227,8 @@
     parameters:
       model: luban-13b.Q5_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -274,10 +258,8 @@
     parameters:
       model: luban-13b.Q5_K_M.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -308,10 +290,8 @@
     parameters:
       model: luban-13b.Q5_K_S.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -342,10 +322,8 @@
     parameters:
       model: luban-13b.Q6_K.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl
@@ -375,10 +353,8 @@
     parameters:
       model: luban-13b.Q8_0.gguf
     template:
-      ? - chat
-      : Alpaca.tmpl
-      ? - completion
-      : Alpaca.tmpl
+      chat: Alpaca
+      completion: Alpaca
   description: TheBloke/Luban-13B-GGUF - llama configuration
   files:
   - filename: Alpaca.tmpl

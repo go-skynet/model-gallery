@@ -5,10 +5,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q2_K.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -45,10 +43,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q3_K_L.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -86,10 +82,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q3_K_M.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -127,10 +121,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q3_K_S.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -168,10 +160,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q4_0.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -208,10 +198,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q4_K_M.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -249,10 +237,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q4_K_S.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -290,10 +276,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q5_0.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -330,10 +314,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q5_K_M.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl
@@ -371,10 +353,8 @@
     parameters:
       model: openbuddy-llama2-70b-v10.1.Q5_K_S.gguf
     template:
-      ? - chat
-      : OpenBuddy.tmpl
-      ? - completion
-      : OpenBuddy.tmpl
+      chat: OpenBuddy
+      completion: OpenBuddy
   description: TheBloke/OpenBuddy-Llama2-70b-v10.1-GGUF - llama configuration
   files:
   - filename: OpenBuddy.tmpl

@@ -5,10 +5,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q2_K.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q3_K_L.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -73,10 +69,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q3_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -107,10 +101,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q3_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -141,10 +133,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q4_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -175,10 +165,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q4_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -209,10 +197,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q4_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -243,10 +229,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q5_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -277,10 +261,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q5_K_M.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -311,10 +293,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q5_K_S.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -345,10 +325,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q6_K.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl
@@ -379,10 +357,8 @@
     parameters:
       model: sauerkrautlm-7b-v1.Q8_0.gguf
     template:
-      ? - chat
-      : Sauerkraut.tmpl
-      ? - completion
-      : Sauerkraut.tmpl
+      chat: Sauerkraut
+      completion: Sauerkraut
   description: TheBloke/SauerkrautLM-7B-v1-GGUF - llama configuration
   files:
   - filename: Sauerkraut.tmpl

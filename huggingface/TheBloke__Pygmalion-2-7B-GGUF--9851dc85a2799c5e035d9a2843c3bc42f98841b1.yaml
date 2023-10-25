@@ -5,10 +5,8 @@
     parameters:
       model: pygmalion-2-7b.Q2_K.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -45,10 +43,8 @@
     parameters:
       model: pygmalion-2-7b.Q3_K_L.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -85,10 +81,8 @@
     parameters:
       model: pygmalion-2-7b.Q3_K_M.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -125,10 +119,8 @@
     parameters:
       model: pygmalion-2-7b.Q3_K_S.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -165,10 +157,8 @@
     parameters:
       model: pygmalion-2-7b.Q4_0.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -205,10 +195,8 @@
     parameters:
       model: pygmalion-2-7b.Q4_K_M.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -245,10 +233,8 @@
     parameters:
       model: pygmalion-2-7b.Q4_K_S.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -285,10 +271,8 @@
     parameters:
       model: pygmalion-2-7b.Q5_0.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -325,10 +309,8 @@
     parameters:
       model: pygmalion-2-7b.Q5_K_M.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -365,10 +347,8 @@
     parameters:
       model: pygmalion-2-7b.Q5_K_S.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -405,10 +385,8 @@
     parameters:
       model: pygmalion-2-7b.Q6_K.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl
@@ -445,10 +423,8 @@
     parameters:
       model: pygmalion-2-7b.Q8_0.gguf
     template:
-      ? - chat
-      : Custom.tmpl
-      ? - completion
-      : Custom.tmpl
+      chat: Custom
+      completion: Custom
   description: TheBloke/Pygmalion-2-7B-GGUF - llama configuration
   files:
   - filename: Custom.tmpl

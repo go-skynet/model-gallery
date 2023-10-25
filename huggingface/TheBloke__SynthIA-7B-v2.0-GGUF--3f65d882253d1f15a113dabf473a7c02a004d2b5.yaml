@@ -5,10 +5,8 @@
     parameters:
       model: synthia-7b-v2.0.Q2_K.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -38,10 +36,8 @@
     parameters:
       model: synthia-7b-v2.0.Q3_K_L.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -71,10 +67,8 @@
     parameters:
       model: synthia-7b-v2.0.Q3_K_M.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -104,10 +98,8 @@
     parameters:
       model: synthia-7b-v2.0.Q3_K_S.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -137,10 +129,8 @@
     parameters:
       model: synthia-7b-v2.0.Q4_0.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -170,10 +160,8 @@
     parameters:
       model: synthia-7b-v2.0.Q4_K_M.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -203,10 +191,8 @@
     parameters:
       model: synthia-7b-v2.0.Q4_K_S.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -236,10 +222,8 @@
     parameters:
       model: synthia-7b-v2.0.Q5_0.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -269,10 +253,8 @@
     parameters:
       model: synthia-7b-v2.0.Q5_K_M.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -302,10 +284,8 @@
     parameters:
       model: synthia-7b-v2.0.Q5_K_S.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -335,10 +315,8 @@
     parameters:
       model: synthia-7b-v2.0.Q6_K.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl
@@ -368,10 +346,8 @@
     parameters:
       model: synthia-7b-v2.0.Q8_0.gguf
     template:
-      ? - chat
-      : Synthia-CoT.tmpl
-      ? - completion
-      : Synthia-CoT.tmpl
+      chat: Synthia-CoT
+      completion: Synthia-CoT
   description: TheBloke/SynthIA-7B-v2.0-GGUF - mistral configuration
   files:
   - filename: Synthia-CoT.tmpl

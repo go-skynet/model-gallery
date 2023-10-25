@@ -5,10 +5,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q2_K.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -39,10 +37,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q3_K_L.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -73,10 +69,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q3_K_M.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -107,10 +101,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q3_K_S.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -141,10 +133,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q4_0.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -175,10 +165,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q4_1.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -209,10 +197,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q4_K_M.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -243,10 +229,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q4_K_S.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -277,10 +261,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q5_0.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -311,10 +293,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q5_1.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -345,10 +325,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q5_K_M.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -379,10 +357,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q5_K_S.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -413,10 +389,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q6_K.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
@@ -447,10 +421,8 @@
     parameters:
       model: synthia-13b.ggmlv3.q8_0.bin
     template:
-      ? - chat
-      : Orca-Vicuna.tmpl
-      ? - completion
-      : Orca-Vicuna.tmpl
+      chat: Orca-Vicuna
+      completion: Orca-Vicuna
   description: TheBloke/Synthia-13B-GGML - llama configuration
   files:
   - filename: Orca-Vicuna.tmpl
