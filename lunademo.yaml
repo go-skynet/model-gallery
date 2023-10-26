@@ -5,26 +5,28 @@ description: |
 
 license: "https://ai.meta.com/llama/license/"
 urls:
-- https://localai.io/howtos/easy-setup-full/
+- https://localai.io/howtos
 
 config_file: |
   backend: llama
   context_size: 4096
   f16: true
-  gpu_layers: 4
-  threads: 4
-  low_vram: true
-  mmap: false
-  mmlock: false
+  gpu_layers: 0
+  threads: 10
   name: lunademo
   parameters:
     temperature: 0.2
   template:
-    chat_message: llama2-chat-message
+    chat_message: luna-chat-message
 
 prompt_templates:
-- name: "llama2-chat-message"
+- name: "luna-chat-message"
   content: |
     {{.Input}}
 
     ASSISTANT:
+    
+files:
+- filename: "luna-ai-llama2-uncensored.Q4_K_M.gguf"
+  sha256: "6a9dc401c84f0d48996eaa405174999c3a33bf12c2bfd8ea4a1e98f376de1f15"
+  uri: "https://huggingface.co/TheBloke/Luna-AI-Llama2-Uncensored-GGUF/resolve/main/luna-ai-llama2-uncensored.Q4_K_M.gguf"
