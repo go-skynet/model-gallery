@@ -3,7 +3,7 @@ module github.com/go-skynet/model-gallery
 go 1.21
 
 require (
-	github.com/go-skynet/LocalAI v1.30.1-0.20231014102922-d22069c59e77
+	github.com/go-skynet/LocalAI v1.30.1-0.20231026191340-fc0bc328143e
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -23,6 +23,6 @@ require (
 	github.com/rs/zerolog v1.31.0 // indirect
 	github.com/ulikunitz/xz v0.5.9 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
-	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
