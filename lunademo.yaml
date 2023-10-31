@@ -1,7 +1,7 @@
 name: "lunademo"
 
 description: |
-  This is a model used for the lunademo on the localai how tos - THIS MODEL YAML FILE IS NOT READY YET, PLEASE USE THE ONE ON THE HOW TO, THANK YOU!
+  This is a model used for the lunademo on the localai how tos - DO NOT USE THIS YAML, IT IS FOR THE GALLERY API ONLY, PLEASE USE THE HOW TO, TO SETUP THE MODEL! THANK YOU!
 
 license: "https://ai.meta.com/llama/license/"
 urls:
@@ -11,7 +11,7 @@ config_file: |
   backend: llama
   context_size: 4096
   f16: true
-  gpu_layers: 0
+  gpu_layers: 35
   threads: 10
   name: lunademo
   parameters:
