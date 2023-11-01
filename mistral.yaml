@@ -1,0 +1,45 @@
+name: "mistral"
+
+description: |
+  This is a mistral model
+
+license: "https://ai.meta.com/llama/license/"
+urls:
+- https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF
+
+config_file: |
+  name: mistral
+  context_size: 4096
+  f16: true
+  mmap: true
+  threads: 4
+  parameters:
+    model: mistral-7b-openorca.Q6_K.gguf
+    temperature: 0.2
+    top_k: 40
+    top_p: 0.95
+  template:
+    chat_message: chatml
+    chat: chatml-block
+    completion: completion
+  stopwords:
+  - <|im_end|>
+
+prompt_templates:
+- name: "chatml"
+  content: |
+    <|im_start|>{{if eq .RoleName "assistant"}}assistant{{else if eq .RoleName "system"}}system{{else if eq .RoleName "user"}}user{{end}}
+    {{if .Content}}{{.Content}}{{end}}
+    <|im_end|>
+- name: "chatml-block"
+  content: |
+    {{.Input}}
+    <|im_start|>assistant
+- name: "completion"
+  content: |
+    {{.Input}}
+    
+files:
+- filename: "mistral-7b-openorca.Q6_K.gguf"
+  sha256: "21dd6b5a62e18dcc2e859315d485707d5df98b6b3a7b2a57ed378bcf790109f9"
+  uri: "https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/resolve/main/mistral-7b-openorca.Q6_K.gguf"
