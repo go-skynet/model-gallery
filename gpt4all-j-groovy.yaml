@@ -6,12 +6,12 @@ urls:
 - https://gpt4all.io
 config_file: |
     backend: gpt4all-j
+    context_size: 1024
     parameters:
       model: ggml-gpt4all-j-v1.3-groovy.bin
       top_k: 80
       temperature: 0.2
       top_p: 0.7
-    context_size: 1024
     template:
       completion: "gpt4all-completion"
       chat: gpt4all-chat
