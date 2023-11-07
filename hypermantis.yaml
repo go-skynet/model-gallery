@@ -9,12 +9,12 @@ license: ""
 
 config_file: |
     backend: llama
+    context_size: 2048
     parameters:
       model: hypermantis
       top_k: 80
       temperature: 0.2
       top_p: 0.7
-    context_size: 2048
     template:
       completion: hypermantis-completion
       chat: hypermantis-chat
