@@ -8,12 +8,12 @@ urls:
 
 config_file: |
     backend: llama
+    context_size: 1024
     parameters:
       model: guanaco
       top_k: 80
       temperature: 0.2
       top_p: 0.7
-    context_size: 1024
     template:
       completion: guanaco-completion
       chat: guanaco-chat
