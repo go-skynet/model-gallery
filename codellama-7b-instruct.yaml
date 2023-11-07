@@ -9,12 +9,13 @@ urls:
 - https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF
 
 config_file: |
+  backend: llama
+  context_size: 4096
   parameters:
     model: codellama-7b-instruct.Q4_K_M.gguf
     top_k: 80
     temperature: 0.2
     top_p: 0.7
-  context_size: 4096
   template:
     chat_message: llama2-chat-message
 
