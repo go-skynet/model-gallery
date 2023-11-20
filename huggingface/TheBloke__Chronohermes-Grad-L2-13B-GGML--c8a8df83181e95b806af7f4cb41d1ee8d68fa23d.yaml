@@ -1,0 +1,952 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+    sha256: 7e35db095fa0ba03a0d4eec9f93da0d18b21811e5ed570076eed5a0823433cfd
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+    sha256: 84bd264e07c57df0a3a48bc2a8387f7ccaaa434e1dc34aa0635cd72a6e0787bb
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+    sha256: d7f63795d22acf4554b40803e3d2bd218d9d8dc6239f8b152e2674e08e84b4bf
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+    sha256: 2524879d92f1d3daf380e1115babd58e3ae71256721993f04e4cc52db976fdaa
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+    sha256: 5e81488374b492608f868118f3389f066bc1949b6edbdbf3daad780c96556db1
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+    sha256: a4f4c89b701aaaabca86a4619a5523fc55b1b73b7fcf1c6ad56fd77b665dd61f
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+    sha256: 2c4195910c78e891f87c7ee46ec9cacdb7f143d2ab7f1c3b5724d081d935a20d
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+    sha256: 79a0395927ce42a5dbb8fa3d583758e95b400934373f540ce9d85bf1267ff939
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+    sha256: e41d072b9139a64fdd3c5f1254957f98e73f3978e99e498289954fbbc4548877
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+    sha256: 0049a74e62cf8adf28583b625f36b8f8bcb57e4a681811b41cc66849110e9e31
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+    sha256: e430cb69323f34fe3d8d3c7a6d94dfd3e6c8aa9f6ce49a4114220ba187fa943e
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+    sha256: 7e70d6f49ae0b7796cfc177dd901a49c2067a6e2ff9faff4fb77e687fc0637ea
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+    sha256: d85d49825045d92ad5f22d24194d6c110bdcb3b77b1bba3731f02f275ccbc0a8
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+    sha256: 374a64023e40e547db52ab365a4681c3d90971d853fd6058cec83df65c4c5af3
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+    sha256: 7e35db095fa0ba03a0d4eec9f93da0d18b21811e5ed570076eed5a0823433cfd
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+    sha256: 84bd264e07c57df0a3a48bc2a8387f7ccaaa434e1dc34aa0635cd72a6e0787bb
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+    sha256: d7f63795d22acf4554b40803e3d2bd218d9d8dc6239f8b152e2674e08e84b4bf
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+    sha256: 2524879d92f1d3daf380e1115babd58e3ae71256721993f04e4cc52db976fdaa
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+    sha256: 5e81488374b492608f868118f3389f066bc1949b6edbdbf3daad780c96556db1
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+    sha256: a4f4c89b701aaaabca86a4619a5523fc55b1b73b7fcf1c6ad56fd77b665dd61f
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+    sha256: 2c4195910c78e891f87c7ee46ec9cacdb7f143d2ab7f1c3b5724d081d935a20d
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+    sha256: 79a0395927ce42a5dbb8fa3d583758e95b400934373f540ce9d85bf1267ff939
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+    sha256: e41d072b9139a64fdd3c5f1254957f98e73f3978e99e498289954fbbc4548877
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+    sha256: 0049a74e62cf8adf28583b625f36b8f8bcb57e4a681811b41cc66849110e9e31
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+    sha256: e430cb69323f34fe3d8d3c7a6d94dfd3e6c8aa9f6ce49a4114220ba187fa943e
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+    sha256: 7e70d6f49ae0b7796cfc177dd901a49c2067a6e2ff9faff4fb77e687fc0637ea
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+    sha256: d85d49825045d92ad5f22d24194d6c110bdcb3b77b1bba3731f02f275ccbc0a8
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronohermes-Grad-L2-13B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+    sha256: 374a64023e40e547db52ab365a4681c3d90971d853fd6058cec83df65c4c5af3
+    uri: 
+      https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML/resolve/main/chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Chronohermes-Grad-L2-13B-GGML__chronohermes-grad-l2-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - base_model:Doctor-Shotgun/Chronohermes-Grad-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronohermes-Grad-L2-13B-GGML

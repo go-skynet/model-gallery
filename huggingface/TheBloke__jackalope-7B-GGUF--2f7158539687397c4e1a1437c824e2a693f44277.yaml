@@ -1,0 +1,1032 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q2_K.gguf
+    sha256: 5d5583b4ef7106f36be1756e2df6bafd826c3efce33d9464dff18f088ea130e4
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_L.gguf
+    sha256: bd5591e33751fb03a369a68715ea0abb2bd27b95e43fe4a45e33d65a5f2d2e2e
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_M.gguf
+    sha256: a912eb005053f8167a7f86e8b297381a34f6d0354a3af179c4ce1db547c30b9f
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_S.gguf
+    sha256: 41a49208a31a27016496388e214d56361ca123b5240bcd0ead6b3989a941dd14
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_0.gguf
+    sha256: 45e153ec6cfe0e3a69a2f6e37aeed7170e30bb273f2ca118163f1820d4136d8a
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_K_M.gguf
+    sha256: 409915fae2b9f01177d6e4dfda89e4911624219787b6f07164604ea4253ac332
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_K_S.gguf
+    sha256: 5a41d39b414a6b438bffd0f5b607ff15f81d1ce6aa83db7ce3298c7f993ae713
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_0.gguf
+    sha256: 6839e46958c59abac00b0ee6cbc80d751a0522804f92c02a872f8f844e01d953
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_K_M.gguf
+    sha256: 8179a22631e267e7c89e3d593f1171f2df66876bf8dc274697ac1d7cc4dbdfac
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_K_S.gguf
+    sha256: 2ed856c446748c3c1354c7cb09fadedaa5ed32c62ceaa395ae28780cfce7c314
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q6_K.gguf
+    sha256: 7f0011bbe58c5bd2b3aa81abaa595d0e2181d7fa287a39a5899e7bb9a3117262
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: jackalope-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q8_0.gguf
+    sha256: 0568a3c5f890bd854db5729defc61a863327c9101ebe0770c73798f06bee3818
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q2_K.gguf
+    sha256: 5d5583b4ef7106f36be1756e2df6bafd826c3efce33d9464dff18f088ea130e4
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_L.gguf
+    sha256: bd5591e33751fb03a369a68715ea0abb2bd27b95e43fe4a45e33d65a5f2d2e2e
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_M.gguf
+    sha256: a912eb005053f8167a7f86e8b297381a34f6d0354a3af179c4ce1db547c30b9f
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q3_K_S.gguf
+    sha256: 41a49208a31a27016496388e214d56361ca123b5240bcd0ead6b3989a941dd14
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_0.gguf
+    sha256: 45e153ec6cfe0e3a69a2f6e37aeed7170e30bb273f2ca118163f1820d4136d8a
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_K_M.gguf
+    sha256: 409915fae2b9f01177d6e4dfda89e4911624219787b6f07164604ea4253ac332
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q4_K_S.gguf
+    sha256: 5a41d39b414a6b438bffd0f5b607ff15f81d1ce6aa83db7ce3298c7f993ae713
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_0.gguf
+    sha256: 6839e46958c59abac00b0ee6cbc80d751a0522804f92c02a872f8f844e01d953
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_K_M.gguf
+    sha256: 8179a22631e267e7c89e3d593f1171f2df66876bf8dc274697ac1d7cc4dbdfac
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q5_K_S.gguf
+    sha256: 2ed856c446748c3c1354c7cb09fadedaa5ed32c62ceaa395ae28780cfce7c314
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q6_K.gguf
+    sha256: 7f0011bbe58c5bd2b3aa81abaa595d0e2181d7fa287a39a5899e7bb9a3117262
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: jackalope-7b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/jackalope-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: jackalope-7b.Q8_0.gguf
+    sha256: 0568a3c5f890bd854db5729defc61a863327c9101ebe0770c73798f06bee3818
+    uri: 
+      https://huggingface.co/TheBloke/jackalope-7B-GGUF/resolve/main/jackalope-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__jackalope-7B-GGUF__jackalope-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - dataset:PygmalionAI/PIPPA
+  - dataset:meta-math/MetaMathQA
+  - dataset:riddle_sense
+  - arxiv:2306.02707
+  - arxiv:2301.13688
+  - base_model:openaccess-ai-collective/jackalope-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/jackalope-7B-GGUF

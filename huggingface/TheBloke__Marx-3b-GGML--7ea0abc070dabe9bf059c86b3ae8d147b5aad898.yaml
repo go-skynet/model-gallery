@@ -1,0 +1,330 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q4_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q4_0.bin
+    sha256: 5551abb08028b84b1f5a7d14b1b607b545511d0f7922b5ae5efda1baea5d511e
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q4_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q4_1.bin
+    sha256: a756f2c60a95c7bfa958152c570a8214b1ad997072a05c9224a9a871c7a13185
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q5_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q5_0.bin
+    sha256: 88d6aa83cc83f788c33c48940247567f709e230269eeff5a2839fc2ef272974d
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q5_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q5_1.bin
+    sha256: 63d7232699fb87ea6c465e6c645b93dc859965e009541c3ef464555e99a9f83c
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q8_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q8_0.bin
+    sha256: 814dd06817ae884c568d2f3f46c14d9251c269c9ebb32306515e2c433e5aabf7
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q4_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q4_0.bin
+    sha256: 5551abb08028b84b1f5a7d14b1b607b545511d0f7922b5ae5efda1baea5d511e
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q4_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q4_1.bin
+    sha256: a756f2c60a95c7bfa958152c570a8214b1ad997072a05c9224a9a871c7a13185
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q5_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q5_0.bin
+    sha256: 88d6aa83cc83f788c33c48940247567f709e230269eeff5a2839fc2ef272974d
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q5_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q5_1.bin
+    sha256: 63d7232699fb87ea6c465e6c645b93dc859965e009541c3ef464555e99a9f83c
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: marx-3b.ggmlv3.q8_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Marx-3b-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: marx-3b.ggmlv3.q8_0.bin
+    sha256: 814dd06817ae884c568d2f3f46c14d9251c269c9ebb32306515e2c433e5aabf7
+    uri: 
+      https://huggingface.co/TheBloke/Marx-3b-GGML/resolve/main/marx-3b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Marx-3b-GGML__marx-3b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:totally-not-an-llm/everything-sharegptformat-morecleaned
+  - base_model:acrastt/marx-3b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marx-3b-GGML

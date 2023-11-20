@@ -1,0 +1,912 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q2_K.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q2_K.gguf
+    sha256: cd573f906e21b8e60bb813f7aac1b95ad684e623088b443b69be93e8c7032ef8
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_L.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_L.gguf
+    sha256: 556926a0c28df99256021c1b9129a8df107060773af40cc314ba37c0032e5de9
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_M.gguf
+    sha256: 49026426b6f52757c7619e5b63a94ee6392fcfef6b392fecb4801a74d830fea3
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_S.gguf
+    sha256: 66bbd028f5344c97441f1be9e2b6da1c71a392a5fbef33dc27dce688c714a1d6
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_0.gguf
+    sha256: 5cead52fd887bd7c6ebd55a266f76a0f18b0a1c0097ebb321b0440305a940ad1
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_K_M.gguf
+    sha256: 70eb10449065146c4c1e9653c99a3b10a1e9c33f3dfb650555b895764ea3950d
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_K_S.gguf
+    sha256: e5998d05eb8096bd69ea29b86e9de4880f9cc5f56eecc3ef4b0a0bc7e16a0126
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_0.gguf
+    sha256: 1d08f80fd5a7be61632a185d8613797079fb503a377d1426969560b39bf86a9a
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_K_M.gguf
+    sha256: 0c58de99177367da7abf7a0bb7b182d778ddcb5b2e907c08b31403fb62c3c433
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_K_S.gguf
+    sha256: a8db2200450ee77f5d0ef0cd6244f0d4672b64772780136a6e012b5bfd62b094
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q6_K.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q6_K.gguf
+    sha256: 3f349bfff0eeedc9c1e63c3baff44f0d11f6e643fb5889ca75af6c41a26ef034
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q8_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llama configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q8_0.gguf
+    sha256: 3283a7e0a8beabaa1f42531ff9892321859be3a22eebbbf10ad27513916ffac4
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q2_K.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q2_K.gguf
+    sha256: cd573f906e21b8e60bb813f7aac1b95ad684e623088b443b69be93e8c7032ef8
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_L.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_L.gguf
+    sha256: 556926a0c28df99256021c1b9129a8df107060773af40cc314ba37c0032e5de9
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_M.gguf
+    sha256: 49026426b6f52757c7619e5b63a94ee6392fcfef6b392fecb4801a74d830fea3
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q3_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q3_K_S.gguf
+    sha256: 66bbd028f5344c97441f1be9e2b6da1c71a392a5fbef33dc27dce688c714a1d6
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_0.gguf
+    sha256: 5cead52fd887bd7c6ebd55a266f76a0f18b0a1c0097ebb321b0440305a940ad1
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_K_M.gguf
+    sha256: 70eb10449065146c4c1e9653c99a3b10a1e9c33f3dfb650555b895764ea3950d
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q4_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q4_K_S.gguf
+    sha256: e5998d05eb8096bd69ea29b86e9de4880f9cc5f56eecc3ef4b0a0bc7e16a0126
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_0.gguf
+    sha256: 1d08f80fd5a7be61632a185d8613797079fb503a377d1426969560b39bf86a9a
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_K_M.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_K_M.gguf
+    sha256: 0c58de99177367da7abf7a0bb7b182d778ddcb5b2e907c08b31403fb62c3c433
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q5_K_S.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q5_K_S.gguf
+    sha256: a8db2200450ee77f5d0ef0cd6244f0d4672b64772780136a6e012b5bfd62b094
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q6_K.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q6_K.gguf
+    sha256: 3f349bfff0eeedc9c1e63c3baff44f0d11f6e643fb5889ca75af6c41a26ef034
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: trurl-2-7b.Q8_0.gguf
+    template:
+      chat: Llama-2-Chat
+      completion: Llama-2-Chat
+  description: TheBloke/Trurl-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Llama-2-Chat.tmpl
+    sha256: fa150e302c2642eeab220ab085c885ae3b47f96c62421ba6199455298be466cd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Chat.tmpl
+  - filename: trurl-2-7b.Q8_0.gguf
+    sha256: 3283a7e0a8beabaa1f42531ff9892321859be3a22eebbbf10ad27513916ffac4
+    uri: 
+      https://huggingface.co/TheBloke/Trurl-2-7B-GGUF/resolve/main/trurl-2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Trurl-2-7B-GGUF__trurl-2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - voicelab
+  - pytorch
+  - llama-2
+  - trurl
+  - trurl-2
+  - text-generation
+  - en
+  - pl
+  - base_model:Voicelab/trurl-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trurl-2-7B-GGUF

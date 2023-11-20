@@ -1,0 +1,175 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: octocoder.ggmlv1.q4_0.bin
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Octocoder-GGML - llamaFallback configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: octocoder.ggmlv1.q4_0.bin
+    sha256: c465b079341640915ee6db9678eeac3b9f1aec30608b9dbb7d319a8f4806c223
+    uri: 
+      https://huggingface.co/TheBloke/Octocoder-GGML/resolve/main/octocoder.ggmlv1.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: bigcode-openrail-m
+  name: TheBloke__Octocoder-GGML__octocoder.ggmlv1.q4_0.bin
+  tags:
+  - transformers
+  - starcoder
+  - code
+  - text-generation
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/oasst-octopack
+  - arxiv:2308.07124
+  - base_model:bigcode/octocoder
+  - license:bigcode-openrail-m
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Octocoder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: octocoder.ggmlv1.q4_1.bin
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Octocoder-GGML - llamaFallback configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: octocoder.ggmlv1.q4_1.bin
+    sha256: e1717a05b096009492565ecfa12f79bdb8b978bc1d44e35c38beb9c2d8d539e5
+    uri: 
+      https://huggingface.co/TheBloke/Octocoder-GGML/resolve/main/octocoder.ggmlv1.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: bigcode-openrail-m
+  name: TheBloke__Octocoder-GGML__octocoder.ggmlv1.q4_1.bin
+  tags:
+  - transformers
+  - starcoder
+  - code
+  - text-generation
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/oasst-octopack
+  - arxiv:2308.07124
+  - base_model:bigcode/octocoder
+  - license:bigcode-openrail-m
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Octocoder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: octocoder.ggmlv1.q5_0.bin
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Octocoder-GGML - llamaFallback configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: octocoder.ggmlv1.q5_0.bin
+    sha256: 4050cbaa8154fe73ade8ce112aa80e051b2b9650e441f89bcc8c2fabc989fe97
+    uri: 
+      https://huggingface.co/TheBloke/Octocoder-GGML/resolve/main/octocoder.ggmlv1.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: bigcode-openrail-m
+  name: TheBloke__Octocoder-GGML__octocoder.ggmlv1.q5_0.bin
+  tags:
+  - transformers
+  - starcoder
+  - code
+  - text-generation
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/oasst-octopack
+  - arxiv:2308.07124
+  - base_model:bigcode/octocoder
+  - license:bigcode-openrail-m
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Octocoder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: octocoder.ggmlv1.q5_1.bin
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Octocoder-GGML - llamaFallback configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: octocoder.ggmlv1.q5_1.bin
+    sha256: f7427b85bacb772fd72b0061c16c3029361ad3cd20492cab4d2e60eddf42185e
+    uri: 
+      https://huggingface.co/TheBloke/Octocoder-GGML/resolve/main/octocoder.ggmlv1.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: bigcode-openrail-m
+  name: TheBloke__Octocoder-GGML__octocoder.ggmlv1.q5_1.bin
+  tags:
+  - transformers
+  - starcoder
+  - code
+  - text-generation
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/oasst-octopack
+  - arxiv:2308.07124
+  - base_model:bigcode/octocoder
+  - license:bigcode-openrail-m
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Octocoder-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: octocoder.ggmlv1.q8_0.bin
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Octocoder-GGML - llamaFallback configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: octocoder.ggmlv1.q8_0.bin
+    sha256: e4fbfd584adf2b668e7129bea5b47a148614c4b19ed875eaa451e6d9b866fc42
+    uri: 
+      https://huggingface.co/TheBloke/Octocoder-GGML/resolve/main/octocoder.ggmlv1.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: bigcode-openrail-m
+  name: TheBloke__Octocoder-GGML__octocoder.ggmlv1.q8_0.bin
+  tags:
+  - transformers
+  - starcoder
+  - code
+  - text-generation
+  - dataset:bigcode/commitpackft
+  - dataset:bigcode/oasst-octopack
+  - arxiv:2308.07124
+  - base_model:bigcode/octocoder
+  - license:bigcode-openrail-m
+  - model-index
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Octocoder-GGML

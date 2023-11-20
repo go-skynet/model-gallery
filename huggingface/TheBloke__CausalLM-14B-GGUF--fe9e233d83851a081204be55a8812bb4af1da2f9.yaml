@@ -1,0 +1,550 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q4_0.gguf
+    sha256: 2aa3371df982403cc3942ae2a0c3917985a45c1731998dcbe1061e5456e4bcb5
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q4_1.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q4_1.gguf
+    sha256: d504a4ee5a1adc47b09ef490eb172d0e60465f2de4d335c5c8b53cbd458638f4
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q4_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q4_1.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q5_0.gguf
+    sha256: de244bd7911d75bae3481c98d810d54a29af7d86e3f5198258ae96ff00136994
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q5_1.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q5_1.gguf
+    sha256: 8ddb4c04e6f0c06971e9b6723688206bf9a5b8ffc85611cc7843c0e8c8a66c4e
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q5_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q5_1.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q8_0.gguf
+    sha256: bd15e851b848c3db7e869956cd4408fe65e37c814131ab28fb9dddcc0377c912
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q4_0.gguf
+    sha256: 2aa3371df982403cc3942ae2a0c3917985a45c1731998dcbe1061e5456e4bcb5
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q4_1.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q4_1.gguf
+    sha256: d504a4ee5a1adc47b09ef490eb172d0e60465f2de4d335c5c8b53cbd458638f4
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q4_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q4_1.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q5_0.gguf
+    sha256: de244bd7911d75bae3481c98d810d54a29af7d86e3f5198258ae96ff00136994
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q5_1.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q5_1.gguf
+    sha256: 8ddb4c04e6f0c06971e9b6723688206bf9a5b8ffc85611cc7843c0e8c8a66c4e
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q5_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q5_1.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: causallm_14b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CausalLM-14B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: causallm_14b.Q8_0.gguf
+    sha256: bd15e851b848c3db7e869956cd4408fe65e37c814131ab28fb9dddcc0377c912
+    uri: 
+      https://huggingface.co/TheBloke/CausalLM-14B-GGUF/resolve/main/causallm_14b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: wtfpl
+  name: TheBloke__CausalLM-14B-GGUF__causallm_14b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - qwen
+  - text-generation
+  - en
+  - zh
+  - dataset:JosephusCheung/GuanacoDataset
+  - dataset:Open-Orca/OpenOrca
+  - dataset:stingning/ultrachat
+  - dataset:meta-math/MetaMathQA
+  - dataset:liuhaotian/LLaVA-Instruct-150K
+  - dataset:jondurbin/airoboros-3.1
+  - dataset:WizardLM/WizardLM_evol_instruct_V2_196k
+  - dataset:RyokoAI/ShareGPT52K
+  - dataset:RyokoAI/Fandom23K
+  - dataset:milashkaarshif/MoeGirlPedia_wikitext_raw_archive
+  - dataset:wikipedia
+  - dataset:wiki_lingua
+  - dataset:fnlp/moss-003-sft-data
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:LDJnr/Puffin
+  - dataset:openbmb/llava_zh
+  - dataset:BAAI/COIG
+  - dataset:TigerResearch/tigerbot-zhihu-zh-10k
+  - dataset:liwu/MNBVC
+  - dataset:teknium/openhermes
+  - base_model:CausalLM/14B
+  - license:wtfpl
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CausalLM-14B-GGUF

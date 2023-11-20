@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q2_K.bin
+    sha256: 6889037dfcbd87b04cba28813a8f541579f34dcfd2ae6d6f57c804d5c5c38cb3
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q2_K.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q3_K_L.bin
+    sha256: 1fd0c7e0323a55eae90154106f14108732c14ba10a540fccb2f94b52e48d6599
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q3_K_L.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q3_K_M.bin
+    sha256: 2a1708b85f7273620cd2d40f4c67c234951883202f8c3fc140f7d4a660d98d11
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q3_K_M.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q3_K_S.bin
+    sha256: 8f1b96ecec0d37d1fd3620759e02171f6b370ca5eede3074a05cadd684ed3ad3
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q3_K_S.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q4_0.bin
+    sha256: 26dc347319a396103bace1df310abffdd474a0ea934b89e37ae574578be7ad76
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q4_0.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q4_1.bin
+    sha256: 88e860f94bf04b3b1c1cefa88e436ab9504d4672e6bb7c0b4f4fb7d354d6d48d
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q4_1.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q4_K_M.bin
+    sha256: ee86aab13807c5b165bcf42b69ec5348ea786caadfd06fee1eff5cd32999e4b6
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q4_K_M.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q4_K_S.bin
+    sha256: 01a1063e9e1c21763a68786bdadb7a30a3b0c8dad63eff543c4e77c37b553646
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q4_K_S.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q5_0.bin
+    sha256: 028202ce6ecf5290e49ffa226b95876b7577e720eba6244ddf624b48206a7ffe
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q5_0.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q5_1.bin
+    sha256: f54d27f214205e7bb1858f327f08b8bf8399601c4bc41827f1a92b1d82073910
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q5_1.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q5_K_M.bin
+    sha256: d72617d7d91e171affd223823cb966539521b3bee2fe73ccbebb0d6133fd7bb2
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q5_K_M.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q5_K_S.bin
+    sha256: 3df7272b90516832851b1fd95488aa2ce9a3b74071d5f4b640124dc992a0d9e5
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q5_K_S.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q6_K.bin
+    sha256: 8708d9e0358d2b4083072e50261b5b257e9e856ddf40f8e90ba6d72683e43e92
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q6_K.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: godzilla-30b.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/GodziLLa-30B-GGML - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: godzilla-30b.ggmlv3.q8_0.bin
+    sha256: 9417cdc9ba1cb92a17df1dbdc7db54be8e756289d9753887495a614263c2bc99
+    uri: 
+      https://huggingface.co/TheBloke/GodziLLa-30B-GGML/resolve/main/godzilla-30b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__GodziLLa-30B-GGML__godzilla-30b.ggmlv3.q8_0.bin
+  tags:
+  - merge
+  - mix
+  - cot
+  - text-generation
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/GodziLLa-30B-GGML

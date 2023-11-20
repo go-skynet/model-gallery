@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q2_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q2_K.gguf
+    sha256: b362b38d3075473254aea89b6e988800a764662a1757c7f23363ddfc3447a9e2
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_L.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_L.gguf
+    sha256: 69c47378207f8cca11e9be0069264e4a3389a3cc4e23028108dfbec8224700a7
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_M.gguf
+    sha256: e1c63f34c2a2e35752d329d3ae711d5959f62c030d0679ba50627c9f2dd1ea7a
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_S.gguf
+    sha256: ee7ee2659c0f6ac8549078a71eb860f4d86ac7680257c4a624954cea468c8ba8
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_0.gguf
+    sha256: 4684c1159d6fdcdd68bd0e5d4e564aae7f6a0cae01202ab64aea1f9db335ecb4
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_K_M.gguf
+    sha256: bb5e24dcefccd490556c4a78a07843f83a5a4f274f9bdba2b8a758cbb297f81b
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_K_S.gguf
+    sha256: 8ab146e8b107b41234fece4aee9d08dbfb994a3f37bc24d4c215243efde99075
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_0.gguf
+    sha256: 712d9f1feb3bf5545b907355fffdca46730b42805d51d3ae9ab35345e35049f8
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_K_M.gguf
+    sha256: b6b07c282c5f469753746e82300a5dd92ade67f5a40d1fe1b97e95c58a107b1f
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_K_S.gguf
+    sha256: 7df006d1743388056dc4657b0116b516ff6b513c1b2b3bf39e9f2b6889d60815
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q6_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q6_K.gguf
+    sha256: a17909594ab2080bc91f9cb3a571f4b5fc751cb53e55274f8a441ac986e6c294
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q8_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llama configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q8_0.gguf
+    sha256: 332ccb8430192f164606606256f8687b7baf958b95cff57294f79b45503d440e
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q2_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q2_K.gguf
+    sha256: b362b38d3075473254aea89b6e988800a764662a1757c7f23363ddfc3447a9e2
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_L.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_L.gguf
+    sha256: 69c47378207f8cca11e9be0069264e4a3389a3cc4e23028108dfbec8224700a7
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_M.gguf
+    sha256: e1c63f34c2a2e35752d329d3ae711d5959f62c030d0679ba50627c9f2dd1ea7a
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q3_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q3_K_S.gguf
+    sha256: ee7ee2659c0f6ac8549078a71eb860f4d86ac7680257c4a624954cea468c8ba8
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_0.gguf
+    sha256: 4684c1159d6fdcdd68bd0e5d4e564aae7f6a0cae01202ab64aea1f9db335ecb4
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_K_M.gguf
+    sha256: bb5e24dcefccd490556c4a78a07843f83a5a4f274f9bdba2b8a758cbb297f81b
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q4_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q4_K_S.gguf
+    sha256: 8ab146e8b107b41234fece4aee9d08dbfb994a3f37bc24d4c215243efde99075
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_0.gguf
+    sha256: 712d9f1feb3bf5545b907355fffdca46730b42805d51d3ae9ab35345e35049f8
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_K_M.gguf
+    sha256: b6b07c282c5f469753746e82300a5dd92ade67f5a40d1fe1b97e95c58a107b1f
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q5_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q5_K_S.gguf
+    sha256: 7df006d1743388056dc4657b0116b516ff6b513c1b2b3bf39e9f2b6889d60815
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q6_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q6_K.gguf
+    sha256: a17909594ab2080bc91f9cb3a571f4b5fc751cb53e55274f8a441ac986e6c294
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calliopeds-l2-13b.Q8_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/CalliopeDS-L2-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: calliopeds-l2-13b.Q8_0.gguf
+    sha256: 332ccb8430192f164606606256f8687b7baf958b95cff57294f79b45503d440e
+    uri: 
+      https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF/resolve/main/calliopeds-l2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: agpl-3.0
+  name: TheBloke__CalliopeDS-L2-13B-GGUF__calliopeds-l2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - en
+  - arxiv:2306.01708
+  - base_model:Doctor-Shotgun/CalliopeDS-L2-13B
+  - license:agpl-3.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CalliopeDS-L2-13B-GGUF

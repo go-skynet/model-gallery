@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q2_K.gguf
+    sha256: 40fab9decce72baf5ddf4bfee4c9aff8a21250cf0edc3ff76c0f025163afd8ca
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_L.gguf
+    sha256: 59ab5732078ec95d47d8690082cea858f17f4f6ad57e722ec0bf96eb404a0969
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_M.gguf
+    sha256: 5b3c3f44d79b1cafe49ed8c695812e694053ddd7ad19b4ba5379d12428c4a728
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_S.gguf
+    sha256: 1b5f670ffa7f8b12c8989f15c4d694c0646b65f3d249d552df212d75aa2813a0
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_0.gguf
+    sha256: 5ed9cc12a456cf5c723cf282003739caf9f6edb36c589a9324ad60fdb32ba69e
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_K_M.gguf
+    sha256: 0d773d8f68d5e2f184d519a03210d76d4357c62f05f381152fabebb30a2e678b
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_K_S.gguf
+    sha256: e0d3f21fd9fd2eebd5c4245be657aca44c7efddefe9373cf056a226448968544
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_0.gguf
+    sha256: 9cb7b6f09911ec06e84898efd26d34dbcf1c4265268b015f8136eadfdc11dcb1
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_K_M.gguf
+    sha256: 7faee92a6abd0066f6a0526fd23fa2ce5fc593da1c70e7b2389455574f926930
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_K_S.gguf
+    sha256: 105416a4be0ee099c1e1c308c6b0615c326ce445d05e7819fb8a86853ce4a604
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q6_K.gguf
+    sha256: c7b5903c6ef60ddd44325f8e2588810ae25e7c9b4092ca7e9f8539cba5acc209
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephrp-m7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q8_0.gguf
+    sha256: 2ab2d340b4223dfdb770e9396a417460fb10b5bd8d7407056367cb5dcb6802c0
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q2_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q2_K.gguf
+    sha256: 40fab9decce72baf5ddf4bfee4c9aff8a21250cf0edc3ff76c0f025163afd8ca
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q3_K_L.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_L.gguf
+    sha256: 59ab5732078ec95d47d8690082cea858f17f4f6ad57e722ec0bf96eb404a0969
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q3_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_M.gguf
+    sha256: 5b3c3f44d79b1cafe49ed8c695812e694053ddd7ad19b4ba5379d12428c4a728
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q3_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q3_K_S.gguf
+    sha256: 1b5f670ffa7f8b12c8989f15c4d694c0646b65f3d249d552df212d75aa2813a0
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q4_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_0.gguf
+    sha256: 5ed9cc12a456cf5c723cf282003739caf9f6edb36c589a9324ad60fdb32ba69e
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q4_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_K_M.gguf
+    sha256: 0d773d8f68d5e2f184d519a03210d76d4357c62f05f381152fabebb30a2e678b
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q4_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q4_K_S.gguf
+    sha256: e0d3f21fd9fd2eebd5c4245be657aca44c7efddefe9373cf056a226448968544
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q5_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_0.gguf
+    sha256: 9cb7b6f09911ec06e84898efd26d34dbcf1c4265268b015f8136eadfdc11dcb1
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q5_K_M.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_K_M.gguf
+    sha256: 7faee92a6abd0066f6a0526fd23fa2ce5fc593da1c70e7b2389455574f926930
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q5_K_S.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q5_K_S.gguf
+    sha256: 105416a4be0ee099c1e1c308c6b0615c326ce445d05e7819fb8a86853ce4a604
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q6_K.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q6_K.gguf
+    sha256: c7b5903c6ef60ddd44325f8e2588810ae25e7c9b4092ca7e9f8539cba5acc209
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: zephrp-m7b.Q8_0.gguf
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/ZephRP-m7b-GGUF - llamaFallback configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: zephrp-m7b.Q8_0.gguf
+    sha256: 2ab2d340b4223dfdb770e9396a417460fb10b5bd8d7407056367cb5dcb6802c0
+    uri: 
+      https://huggingface.co/TheBloke/ZephRP-m7b-GGUF/resolve/main/zephrp-m7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__ZephRP-m7b-GGUF__zephrp-m7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:royallab/ZephRP-m7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ZephRP-m7b-GGUF

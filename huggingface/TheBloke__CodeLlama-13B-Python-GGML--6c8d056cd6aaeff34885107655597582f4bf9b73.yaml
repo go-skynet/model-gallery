@@ -1,0 +1,980 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q2_K.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q2_K.bin
+    sha256: 19b8236f81c7d4b7997a5a75706dd3ce993b4d88f048116b144bc7534bfa8ef1
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_L.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_L.bin
+    sha256: 95d30cb23f253f47e4482764ec81908d91ecbd202d611a64dc2993fc03a5443a
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_M.bin
+    sha256: f91c3005664a7f86984daacd8c93a6ba155a9f18a859f0314c303422236ce980
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_S.bin
+    sha256: 010d5b78830680ae4c75bfd6248a5e63d2ccc9bccdc5931cdb5264a32395bfd5
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_0.bin
+    sha256: 913c957ac36c892d3cecefda6d80819d09e64d7886cbc242c1bef65893917ff8
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_1.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_1.bin
+    sha256: 6c6d263a9b3941e0698d6deb612e5ea491dd5654a174d0dbfcd2473719bea2d3
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_K_M.bin
+    sha256: abd436355ace512e43277747a1aaaa7e52b27b22623d393ca242dcb5f77ff9f8
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_K_S.bin
+    sha256: 99674b96103d022dc6f94af8e413cfd1a229c49713b86b8546d63cea9ad15b30
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_0.bin
+    sha256: 5b17d09f26992a3d896e28e84a2b14d6096bd0cedb46262aca76910aefe60e96
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_1.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_1.bin
+    sha256: 9bed54ad829bef3578fb81cbca6ae84182cdff55ed3e2df23c6c55e4ea0eef44
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_K_M.bin
+    sha256: 46eee4048ae334ef3cba3297f364d98eeae228266ec832d2d9c04ac82a58f603
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_K_S.bin
+    sha256: a6486530072403971486d25837a5a1bf4791a0730eaf64d300208c91f1c36d64
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q6_K.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q6_K.bin
+    sha256: 27d972d3ce8cc7d38e22dcc239414743cb1b2e4e64dda86606c14569295fedec
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q8_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llama configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q8_0.bin
+    sha256: 44e0a4ade1e0e30e572388e37ae3193148d9d1296509ec274e657bd5b1d85f3c
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q2_K.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q2_K.bin
+    sha256: 19b8236f81c7d4b7997a5a75706dd3ce993b4d88f048116b144bc7534bfa8ef1
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_L.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_L.bin
+    sha256: 95d30cb23f253f47e4482764ec81908d91ecbd202d611a64dc2993fc03a5443a
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_M.bin
+    sha256: f91c3005664a7f86984daacd8c93a6ba155a9f18a859f0314c303422236ce980
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q3_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q3_K_S.bin
+    sha256: 010d5b78830680ae4c75bfd6248a5e63d2ccc9bccdc5931cdb5264a32395bfd5
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_0.bin
+    sha256: 913c957ac36c892d3cecefda6d80819d09e64d7886cbc242c1bef65893917ff8
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_1.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_1.bin
+    sha256: 6c6d263a9b3941e0698d6deb612e5ea491dd5654a174d0dbfcd2473719bea2d3
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_K_M.bin
+    sha256: abd436355ace512e43277747a1aaaa7e52b27b22623d393ca242dcb5f77ff9f8
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q4_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q4_K_S.bin
+    sha256: 99674b96103d022dc6f94af8e413cfd1a229c49713b86b8546d63cea9ad15b30
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_0.bin
+    sha256: 5b17d09f26992a3d896e28e84a2b14d6096bd0cedb46262aca76910aefe60e96
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_1.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_1.bin
+    sha256: 9bed54ad829bef3578fb81cbca6ae84182cdff55ed3e2df23c6c55e4ea0eef44
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_K_M.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_K_M.bin
+    sha256: 46eee4048ae334ef3cba3297f364d98eeae228266ec832d2d9c04ac82a58f603
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q5_K_S.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q5_K_S.bin
+    sha256: a6486530072403971486d25837a5a1bf4791a0730eaf64d300208c91f1c36d64
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q6_K.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q6_K.bin
+    sha256: 27d972d3ce8cc7d38e22dcc239414743cb1b2e4e64dda86606c14569295fedec
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codellama-13b-python.ggmlv3.Q8_0.bin
+    template:
+      chat: CodeLlama
+      completion: CodeLlama
+  description: TheBloke/CodeLlama-13B-Python-GGML - llamaFallback configuration
+  files:
+  - filename: CodeLlama.tmpl
+    sha256: e3d5d5e1b39fca7445ffe9e8285ce48bbae9f4faac6667562dba6de2a6bb0efd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/CodeLlama.tmpl
+  - filename: codellama-13b-python.ggmlv3.Q8_0.bin
+    sha256: 44e0a4ade1e0e30e572388e37ae3193148d9d1296509ec274e657bd5b1d85f3c
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML/resolve/main/codellama-13b-python.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__CodeLlama-13B-Python-GGML__codellama-13b-python.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-generation
+  - code
+  - arxiv:2308.12950
+  - base_model:codellama/CodeLlama-13b-python-hf
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-Python-GGML

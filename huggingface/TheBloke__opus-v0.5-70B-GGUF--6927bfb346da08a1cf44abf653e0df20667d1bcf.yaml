@@ -1,0 +1,640 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q2_K.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q2_K.gguf
+    sha256: dd47ad29fc23d1262c046af2d1fb137d249bd8ffc2749f1da754d686c9fcf201
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_L.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_L.gguf
+    sha256: bd9bfe92b1fb1368d39f2a4b3448b730c1a7234413e0b1ccc9289148f47d0a47
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_M.gguf
+    sha256: 9cb5403ca6b14419d40453c44c30aaad69a90662a1cbb7d09831f806d6b505fb
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_S.gguf
+    sha256: 6bcf641acee2349a85f7c2775c05fb01f85da05a14c59341841ed2149aecff99
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_0.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_0.gguf
+    sha256: 7a43fc739012baacddbd4329a8fe63fa8e76a0459b2ed62ef3649775ec855413
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_K_M.gguf
+    sha256: 5dd6dfd1f7c56270fd69976f13cf894869ff3708776667086121b6c79935ab9a
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_K_S.gguf
+    sha256: 4fb38776fe32cf8700594a921ed21c5961666b29481bbd306140c5ae9bdd4efb
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_0.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_0.gguf
+    sha256: 3f00e4717b26bb3e70868a3f9e79a70a9798976bf0f464308da73ec2eaf1109e
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_K_M.gguf
+    sha256: 3c12b9851531bc5af123c0d1bef78891ffc47e759785fc430f4041bbc45bd51f
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llama configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_K_S.gguf
+    sha256: a5ba562b61fbed1e5b05b6bbab5b0fd2305c81661892432a5941fbb7a3e8aba6
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q2_K.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q2_K.gguf
+    sha256: dd47ad29fc23d1262c046af2d1fb137d249bd8ffc2749f1da754d686c9fcf201
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_L.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_L.gguf
+    sha256: bd9bfe92b1fb1368d39f2a4b3448b730c1a7234413e0b1ccc9289148f47d0a47
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_M.gguf
+    sha256: 9cb5403ca6b14419d40453c44c30aaad69a90662a1cbb7d09831f806d6b505fb
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q3_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q3_K_S.gguf
+    sha256: 6bcf641acee2349a85f7c2775c05fb01f85da05a14c59341841ed2149aecff99
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_0.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_0.gguf
+    sha256: 7a43fc739012baacddbd4329a8fe63fa8e76a0459b2ed62ef3649775ec855413
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_K_M.gguf
+    sha256: 5dd6dfd1f7c56270fd69976f13cf894869ff3708776667086121b6c79935ab9a
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q4_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q4_K_S.gguf
+    sha256: 4fb38776fe32cf8700594a921ed21c5961666b29481bbd306140c5ae9bdd4efb
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_0.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_0.gguf
+    sha256: 3f00e4717b26bb3e70868a3f9e79a70a9798976bf0f464308da73ec2eaf1109e
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_K_M.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_K_M.gguf
+    sha256: 3c12b9851531bc5af123c0d1bef78891ffc47e759785fc430f4041bbc45bd51f
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: opus-v0.5-70b.Q5_K_S.gguf
+    template:
+      chat: DreamGen
+      completion: DreamGen
+  description: TheBloke/opus-v0.5-70B-GGUF - llamaFallback configuration
+  files:
+  - filename: DreamGen.tmpl
+    sha256: 6d194cf13fc819b3c967532a237f219e42b3b2e62831c9945dcaa66cb69479e7
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/DreamGen.tmpl
+  - filename: opus-v0.5-70b.Q5_K_S.gguf
+    sha256: a5ba562b61fbed1e5b05b6bbab5b0fd2305c81661892432a5941fbb7a3e8aba6
+    uri: 
+      https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF/resolve/main/opus-v0.5-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__opus-v0.5-70B-GGUF__opus-v0.5-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:dreamgen/opus-v0.5-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/opus-v0.5-70B-GGUF

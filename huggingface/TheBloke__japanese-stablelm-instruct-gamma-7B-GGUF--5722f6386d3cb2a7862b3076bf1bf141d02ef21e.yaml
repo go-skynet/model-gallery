@@ -1,0 +1,912 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+    sha256: d19f20121a2aa836b2dcf554a86be99c290c18c364eb219706da6a2022f9095e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+    sha256: b857e01bffda9f58c2d687c061a2d17538bf70ea527daf992999892cebba6312
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+    sha256: 36f4ad2ecdd4feaab8536e836eb05c231c6eceb2f433d9d564aca7f519828d4f
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+    sha256: 57e095e3a2416c85df631ecf769a96aec7da5740260b2a31032c4821424367d1
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+    sha256: fdac3d8cd3d3979ab8fb7e35264fd3b95ac564d6d3befa3833d0a833353060be
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+    sha256: 25d1b7ce83274506130be53bdfae55fc3db5b5b453e741cb3e638a3f23c95248
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+    sha256: d0729e31027f9c381abff4f9f4f9869242b2c7d4b72fa5064af5c83bc04d6926
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+    sha256: 48b3ff56bfc3dba297e35d7ab2de4140e9038b83e3f975f0810b5a79a8489fe9
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+    sha256: b0c0a450d48250738abe39e9e989fede705a2879f0bd63d2a41330d7213ae5aa
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+    sha256: 136295ebd7a82b68433430906eb28e4a6f6d0ee890a710ae8a66e643de26d3bc
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+    sha256: ed7c722f8e58fc2dad5f070a8e6abaf54145489ac34f29fd1dc703465131f92e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - mistral configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+    sha256: 4d409bbe8b56678ca0434da32c51f30bd0b320d740a6cc487dfcb7c937f3a0a4
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+    sha256: d19f20121a2aa836b2dcf554a86be99c290c18c364eb219706da6a2022f9095e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+    sha256: b857e01bffda9f58c2d687c061a2d17538bf70ea527daf992999892cebba6312
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+    sha256: 36f4ad2ecdd4feaab8536e836eb05c231c6eceb2f433d9d564aca7f519828d4f
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+    sha256: 57e095e3a2416c85df631ecf769a96aec7da5740260b2a31032c4821424367d1
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+    sha256: fdac3d8cd3d3979ab8fb7e35264fd3b95ac564d6d3befa3833d0a833353060be
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+    sha256: 25d1b7ce83274506130be53bdfae55fc3db5b5b453e741cb3e638a3f23c95248
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+    sha256: d0729e31027f9c381abff4f9f4f9869242b2c7d4b72fa5064af5c83bc04d6926
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+    sha256: 48b3ff56bfc3dba297e35d7ab2de4140e9038b83e3f975f0810b5a79a8489fe9
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+    sha256: b0c0a450d48250738abe39e9e989fede705a2879f0bd63d2a41330d7213ae5aa
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+    sha256: 136295ebd7a82b68433430906eb28e4a6f6d0ee890a710ae8a66e643de26d3bc
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+    sha256: ed7c722f8e58fc2dad5f070a8e6abaf54145489ac34f29fd1dc703465131f92e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+    template:
+      chat: Japanese-StableLM-Instruct
+      completion: Japanese-StableLM-Instruct
+  description: TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Instruct.tmpl
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Instruct.tmpl
+  - filename: japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+    sha256: 4d409bbe8b56678ca0434da32c51f30bd0b320d740a6cc487dfcb7c937f3a0a4
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF/resolve/main/japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__japanese-stablelm-instruct-gamma-7B-GGUF__japanese-stablelm-instruct-gamma-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - arxiv:2310.06825
+  - base_model:stabilityai/japanese-stablelm-instruct-gamma-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-gamma-7B-GGUF

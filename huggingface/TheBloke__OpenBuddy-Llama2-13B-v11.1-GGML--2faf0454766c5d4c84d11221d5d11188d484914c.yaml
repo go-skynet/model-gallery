@@ -1,0 +1,1120 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+    sha256: e9c21547ecd61cc44620711c49b39c83c01e9322e7920060807a978c0be7ba43
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+    sha256: 38a18ecba18aa50efc179fdd6d3dfd1a000d03036b92877ea91c621c77cb430b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+    sha256: d5700cffcc92248d6e241b2284d5132fd6fc2a7f6507aadb2676d65999a17643
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+    sha256: 1f07522180f95768bf195038c150eac4866b87e36b5cc28d38416c2e97fdd9df
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+    sha256: 6cf140c79cf1fe47c51fcda2199049175f5f63794dc0d4a9cb5a285af962ae3d
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+    sha256: b940aee6761183a30acdd0dae3e457073b76473425ca31a4a98a64cce648247b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+    sha256: 318781fe1a407e2335a9cf3cca07e81446ec79e228eef480ed772038410b46d7
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+    sha256: d36936459c2133814459035712ce7584c5948c33713da14bae617e0d878647fa
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+    sha256: 664cacc69645d1dd8f1faec082df0846b4edd6293c3909951cb09158a22c0f2b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+    sha256: adade77a03a5450fcc5a7568268c8b4f25f567f5f2efbb9c8c494e92e2882fb5
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+    sha256: 765d8e2b04221066212d071ccba7ae74a341dc8254f53225bd0dfdb82bd5d4df
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+    sha256: c94a663b72c8a8a268f95f83f3ffa2b140dd080400c21429144a0a9963cd6346
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+    sha256: 0a0de58ae56a754e1a572e2e18883e7e61bd8f4e778475a841327fd65640a352
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+    sha256: 344d9127ab8efd4f1c913fffe7598b5699f0d102da9c3c3ad0b7a424f969a487
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+    sha256: e9c21547ecd61cc44620711c49b39c83c01e9322e7920060807a978c0be7ba43
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+    sha256: 38a18ecba18aa50efc179fdd6d3dfd1a000d03036b92877ea91c621c77cb430b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+    sha256: d5700cffcc92248d6e241b2284d5132fd6fc2a7f6507aadb2676d65999a17643
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+    sha256: 1f07522180f95768bf195038c150eac4866b87e36b5cc28d38416c2e97fdd9df
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+    sha256: 6cf140c79cf1fe47c51fcda2199049175f5f63794dc0d4a9cb5a285af962ae3d
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+    sha256: b940aee6761183a30acdd0dae3e457073b76473425ca31a4a98a64cce648247b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+    sha256: 318781fe1a407e2335a9cf3cca07e81446ec79e228eef480ed772038410b46d7
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+    sha256: d36936459c2133814459035712ce7584c5948c33713da14bae617e0d878647fa
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+    sha256: 664cacc69645d1dd8f1faec082df0846b4edd6293c3909951cb09158a22c0f2b
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+    sha256: adade77a03a5450fcc5a7568268c8b4f25f567f5f2efbb9c8c494e92e2882fb5
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+    sha256: 765d8e2b04221066212d071ccba7ae74a341dc8254f53225bd0dfdb82bd5d4df
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+    sha256: c94a663b72c8a8a268f95f83f3ffa2b140dd080400c21429144a0a9963cd6346
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+    sha256: 0a0de58ae56a754e1a572e2e18883e7e61bd8f4e778475a841327fd65640a352
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML - llamaFallback configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+    sha256: 344d9127ab8efd4f1c913fffe7598b5699f0d102da9c3c3ad0b7a424f969a487
+    uri: 
+      https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML/resolve/main/openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__OpenBuddy-Llama2-13B-v11.1-GGML__openbuddy-llama2-13b-v11.1.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-llama2-13b-v11.1-bf16
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenBuddy-Llama2-13B-v11.1-GGML

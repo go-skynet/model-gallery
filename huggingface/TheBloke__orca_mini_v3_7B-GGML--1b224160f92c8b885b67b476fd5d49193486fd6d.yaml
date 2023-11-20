@@ -1,0 +1,980 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q2_K.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q2_K.bin
+    sha256: 58a901d574f01cd9d0ac24c990efff59675d2b4558a5b8e1af572fdd6c5f2773
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+    sha256: 148d6700952eff96d842028bbc2f1a39d046eb37a2f3c3e56b2161679e4bd175
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+    sha256: 31fadbbb0a640d19ea714c8c0be7efaa4b8ca4a714ecc857b72d2b1d8735f7f7
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+    sha256: a3b65e38153824c1733a294b57428705081ee384675906907f0c4dd2d23d6aee
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_0.bin
+    sha256: 8e0b683c60b18b640266934837b46658b902d5bc000584fd0d1160fd266a12fb
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_1.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_1.bin
+    sha256: 2bb1692af668d67804caa69d51dadb249065ebff88631ba13cfbd76aea3e3211
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+    sha256: 69662cb7a19ceaf7ad7e7b849e2fd059df09177833dbd7c054344b68756aaf74
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+    sha256: aee63f03a28a8ac4a4da99a8d9bead26d7516bb17f1abcafd5dd7736ae0e27d3
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_0.bin
+    sha256: 29c3ba2585b82c07808f42b72ae329345a7ac266f513182802981d32d04376c0
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_1.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_1.bin
+    sha256: a8ca77ea54878bfa26e6069f6d0120e9ca14501a1cee22ded10f9bed7e8cbbb5
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+    sha256: a469beaa6e72e20c7bf167b8347b65c0cf4f70042059afa2084412866f43ca61
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+    sha256: e19a205ef31af9fb986da9f3bcdaaebbcfc4d89385394b87acad3761e05c9ce0
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q6_K.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q6_K.bin
+    sha256: 2807938b22a429d90cd1e6c66d9f90e510541189df0fd691cc6e87ead90774d5
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q8_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llama configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q8_0.bin
+    sha256: 0f0c17dcac15deab53d2b9252188adce8bf0b13cf2d6344aee30d0a03c8f97f7
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q2_K.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q2_K.bin
+    sha256: 58a901d574f01cd9d0ac24c990efff59675d2b4558a5b8e1af572fdd6c5f2773
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+    sha256: 148d6700952eff96d842028bbc2f1a39d046eb37a2f3c3e56b2161679e4bd175
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+    sha256: 31fadbbb0a640d19ea714c8c0be7efaa4b8ca4a714ecc857b72d2b1d8735f7f7
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+    sha256: a3b65e38153824c1733a294b57428705081ee384675906907f0c4dd2d23d6aee
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_0.bin
+    sha256: 8e0b683c60b18b640266934837b46658b902d5bc000584fd0d1160fd266a12fb
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_1.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_1.bin
+    sha256: 2bb1692af668d67804caa69d51dadb249065ebff88631ba13cfbd76aea3e3211
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+    sha256: 69662cb7a19ceaf7ad7e7b849e2fd059df09177833dbd7c054344b68756aaf74
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+    sha256: aee63f03a28a8ac4a4da99a8d9bead26d7516bb17f1abcafd5dd7736ae0e27d3
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_0.bin
+    sha256: 29c3ba2585b82c07808f42b72ae329345a7ac266f513182802981d32d04376c0
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_1.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_1.bin
+    sha256: a8ca77ea54878bfa26e6069f6d0120e9ca14501a1cee22ded10f9bed7e8cbbb5
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+    sha256: a469beaa6e72e20c7bf167b8347b65c0cf4f70042059afa2084412866f43ca61
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+    sha256: e19a205ef31af9fb986da9f3bcdaaebbcfc4d89385394b87acad3761e05c9ce0
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q6_K.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q6_K.bin
+    sha256: 2807938b22a429d90cd1e6c66d9f90e510541189df0fd691cc6e87ead90774d5
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: orca_mini_v3_7b.ggmlv3.q8_0.bin
+    template:
+      chat: orca_mini
+      completion: orca_mini
+  description: TheBloke/orca_mini_v3_7B-GGML - llamaFallback configuration
+  files:
+  - filename: orca_mini.tmpl
+    sha256: 0b57412727b3aefa8964f0f23b89457df3a3fbe555c946dfe8d611617613e486
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/orca_mini.tmpl
+  - filename: orca_mini_v3_7b.ggmlv3.q8_0.bin
+    sha256: 0f0c17dcac15deab53d2b9252188adce8bf0b13cf2d6344aee30d0a03c8f97f7
+    uri: 
+      https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML/resolve/main/orca_mini_v3_7b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__orca_mini_v3_7B-GGML__orca_mini_v3_7b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:psmathur/orca_mini_v1_dataset
+  - dataset:ehartford/dolphin
+  - arxiv:2306.02707
+  - base_model:psmathur/orca_mini_v3_7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/orca_mini_v3_7B-GGML

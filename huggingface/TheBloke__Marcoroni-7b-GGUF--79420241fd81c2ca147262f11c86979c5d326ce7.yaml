@@ -1,0 +1,792 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q2_K.gguf
+    sha256: 85c88f77d53d669a932b5f556d321bbc36aabba090dd3bbee0b89e356eb42621
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_L.gguf
+    sha256: 5164b61f2e35b9d021cb2717eb9e8b36bac5e2b4c40cac22470063f1e3134865
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_M.gguf
+    sha256: fb5a02e3c3a7769d04f2c9cf8d584fef62894a0f140b484b599758047025063b
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_S.gguf
+    sha256: d6f26f49e76e89c5214a7175955ba3112799e04f6336b02f155ee457c5a0f5bf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_0.gguf
+    sha256: 54e82c089a5f61ac6a7193c9a93cb9c65722cd703200f97c29df64dc65be8cb8
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_K_M.gguf
+    sha256: 28f3f3be066ba26112837085dc6316f03fa5a5441a969814250105f91be3c34a
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_K_S.gguf
+    sha256: bbcc0d9c57fffd438ca31f9fa8476c3b6ab382be09699a01700b26903bbb1916
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_0.gguf
+    sha256: 9a09f60480f5be29d676f34520da0734e86e0f944836c504e4c6df29ddb0a12c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_K_M.gguf
+    sha256: 04dd4ca7a6d769b155f1250062ce6ecd328bdebc895f64d2baf663376724ae6d
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_K_S.gguf
+    sha256: 9dc4e46e59e78f6efff93732ad758a56d9a2b472b8f00569fa5910575be696cf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q6_K.gguf
+    sha256: 5580cc82d45649a2fd776b6ad0e06a2e346a65a08e369b9a0505e25bed80e212
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q8_0.gguf
+    sha256: c5e234641e20bc35fa27f1de4279afbc81769098f0f9cffd48dbef1c97aca000
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q2_K.gguf
+    sha256: 85c88f77d53d669a932b5f556d321bbc36aabba090dd3bbee0b89e356eb42621
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_L.gguf
+    sha256: 5164b61f2e35b9d021cb2717eb9e8b36bac5e2b4c40cac22470063f1e3134865
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_M.gguf
+    sha256: fb5a02e3c3a7769d04f2c9cf8d584fef62894a0f140b484b599758047025063b
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q3_K_S.gguf
+    sha256: d6f26f49e76e89c5214a7175955ba3112799e04f6336b02f155ee457c5a0f5bf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_0.gguf
+    sha256: 54e82c089a5f61ac6a7193c9a93cb9c65722cd703200f97c29df64dc65be8cb8
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_K_M.gguf
+    sha256: 28f3f3be066ba26112837085dc6316f03fa5a5441a969814250105f91be3c34a
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q4_K_S.gguf
+    sha256: bbcc0d9c57fffd438ca31f9fa8476c3b6ab382be09699a01700b26903bbb1916
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_0.gguf
+    sha256: 9a09f60480f5be29d676f34520da0734e86e0f944836c504e4c6df29ddb0a12c
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_K_M.gguf
+    sha256: 04dd4ca7a6d769b155f1250062ce6ecd328bdebc895f64d2baf663376724ae6d
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q5_K_S.gguf
+    sha256: 9dc4e46e59e78f6efff93732ad758a56d9a2b472b8f00569fa5910575be696cf
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q6_K.gguf
+    sha256: 5580cc82d45649a2fd776b6ad0e06a2e346a65a08e369b9a0505e25bed80e212
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: marcoroni-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Marcoroni-7b-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: marcoroni-7b.Q8_0.gguf
+    sha256: c5e234641e20bc35fa27f1de4279afbc81769098f0f9cffd48dbef1c97aca000
+    uri: 
+      https://huggingface.co/TheBloke/Marcoroni-7b-GGUF/resolve/main/marcoroni-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Marcoroni-7b-GGUF__marcoroni-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - base_model:AIDC-ai-business/Marcoroni-7b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Marcoroni-7b-GGUF

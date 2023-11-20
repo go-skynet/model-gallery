@@ -1,0 +1,1008 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q2_K.gguf
+    sha256: d1ade5557486b42cd53544a5257fcf88c661e67fe2df12c9b513bd7bf21e9cd1
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+    sha256: ab2d2423cceee90bb20290f0cd69afe9532989f91f7c8cd299a61c60c17d5545
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+    sha256: 72164ed0738efc86c43347710757496da3cf3fbc749003ea4bfe341e5f259362
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+    sha256: c54856530732ad4745cda9699b9162a738bca0c8c27ae7903271a98b652380ea
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_0.gguf
+    sha256: e324a60daaa8915b66dd12184eb48a46e5a0984516cfd287c146ea7b12cd4974
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+    sha256: f3a85a15a31e21b856a1d4e6204d1c52e99eb9295ac51c5965f32c5d5f8185d3
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+    sha256: 5745d1cf97c0bb9a91b8bfeedcd4e1b3f00bb309039be4901009c0ea67bce9e0
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_0.gguf
+    sha256: 7a4db5a8359967becd9c138852281038d83d053999d09ac7243d68755f7eab1b
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+    sha256: 9fa68a1621f99d387fe0c7f70b47cfecda9be0e7a02255499beb13d240a09210
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+    sha256: 1e05e1c0afe199b503368830a01e24c6435384328e0827ab5da59d4764c54572
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q6_K.gguf
+    sha256: 600ab667c75a59ad9052b320edde7009a1d25ced98432e79c0aa1f75cd083ef5
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q8_0.gguf
+    sha256: 0877f471be7179132d6b237325da188a0a2e07a0c4cd3b89652ce038130e6980
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q2_K.gguf
+    sha256: d1ade5557486b42cd53544a5257fcf88c661e67fe2df12c9b513bd7bf21e9cd1
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+    sha256: ab2d2423cceee90bb20290f0cd69afe9532989f91f7c8cd299a61c60c17d5545
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+    sha256: 72164ed0738efc86c43347710757496da3cf3fbc749003ea4bfe341e5f259362
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+    sha256: c54856530732ad4745cda9699b9162a738bca0c8c27ae7903271a98b652380ea
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_0.gguf
+    sha256: e324a60daaa8915b66dd12184eb48a46e5a0984516cfd287c146ea7b12cd4974
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+    sha256: f3a85a15a31e21b856a1d4e6204d1c52e99eb9295ac51c5965f32c5d5f8185d3
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+    sha256: 5745d1cf97c0bb9a91b8bfeedcd4e1b3f00bb309039be4901009c0ea67bce9e0
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_0.gguf
+    sha256: 7a4db5a8359967becd9c138852281038d83d053999d09ac7243d68755f7eab1b
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+    sha256: 9fa68a1621f99d387fe0c7f70b47cfecda9be0e7a02255499beb13d240a09210
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+    sha256: 1e05e1c0afe199b503368830a01e24c6435384328e0827ab5da59d4764c54572
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q6_K.gguf
+    sha256: 600ab667c75a59ad9052b320edde7009a1d25ced98432e79c0aa1f75cd083ef5
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: leo-mistral-hessianai-7b-chat.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: leo-mistral-hessianai-7b-chat.Q8_0.gguf
+    sha256: 0877f471be7179132d6b237325da188a0a2e07a0c4cd3b89652ce038130e6980
+    uri: 
+      https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF/resolve/main/leo-mistral-hessianai-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Leo-Mistral-Hessianai-7B-Chat-GGUF__leo-mistral-hessianai-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - de
+  - dataset:LeoLM/OpenSchnabeltier
+  - dataset:OpenAssistant/OASST-DE
+  - dataset:FreedomIntelligence/alpaca-gpt4-deutsch
+  - dataset:FreedomIntelligence/evol-instruct-deutsch
+  - dataset:LeoLM/German_Poems
+  - dataset:LeoLM/German_Songs
+  - base_model:LeoLM/leo-mistral-hessianai-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Leo-Mistral-Hessianai-7B-Chat-GGUF

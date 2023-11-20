@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q2_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q2_K.gguf
+    sha256: 27248a23d9a3a43c499f233b04303c2d2e55ed82e7a1c9f0a5dad8f11256b3ee
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_L.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_L.gguf
+    sha256: 9583a4bf7718b70e152b265888acf95f16ec66b3cb745ab13f4d58eed0b1cbbf
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_M.gguf
+    sha256: df6add58cc1ed677b3613475d09eee4f65761de6638114d432069b2fbc82e083
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_S.gguf
+    sha256: 27ee777b2159bd5e36d65e3bc2a839162be44fd9c718048d3699277b53c6debc
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_0.gguf
+    sha256: 78b43c7afec903bb2a4beafb203eb6bbeeb84a089a5244c8bd1003eb996ed0f7
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_K_M.gguf
+    sha256: a60371b80d3ecca2bb72b7be159202088192e34848e6ce9f145b1716bce9acd4
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_K_S.gguf
+    sha256: 0a2223c96a211cb287bcd859b213ff1b5204e5957c51131a0ad3e8ee2a1c1914
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_0.gguf
+    sha256: d9f14933931537f5eefdfc79762b55562ae5be1436c9d09b5213672dadd1bf6c
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_K_M.gguf
+    sha256: c13446b973d3c6a79c7e6ff59431cccd6cf4035a8773182c71d2f377545526d1
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_K_S.gguf
+    sha256: ecfd81bbef64b4aadaba1ab6d0939a963050cc25fd31e9bcbb4680abde420c50
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q6_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q6_K.gguf
+    sha256: 5f083dccf8913c9fc2bccbd21923e497bfea0b8d3dfad310883b812a0ceafa22
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q8_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q8_0.gguf
+    sha256: 485deb65953b8841c1d0b7be2fb3ccb5c1ac4a78840b375772b871f77b3df78d
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q2_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q2_K.gguf
+    sha256: 27248a23d9a3a43c499f233b04303c2d2e55ed82e7a1c9f0a5dad8f11256b3ee
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_L.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_L.gguf
+    sha256: 9583a4bf7718b70e152b265888acf95f16ec66b3cb745ab13f4d58eed0b1cbbf
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_M.gguf
+    sha256: df6add58cc1ed677b3613475d09eee4f65761de6638114d432069b2fbc82e083
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q3_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q3_K_S.gguf
+    sha256: 27ee777b2159bd5e36d65e3bc2a839162be44fd9c718048d3699277b53c6debc
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_0.gguf
+    sha256: 78b43c7afec903bb2a4beafb203eb6bbeeb84a089a5244c8bd1003eb996ed0f7
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_K_M.gguf
+    sha256: a60371b80d3ecca2bb72b7be159202088192e34848e6ce9f145b1716bce9acd4
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q4_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q4_K_S.gguf
+    sha256: 0a2223c96a211cb287bcd859b213ff1b5204e5957c51131a0ad3e8ee2a1c1914
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_0.gguf
+    sha256: d9f14933931537f5eefdfc79762b55562ae5be1436c9d09b5213672dadd1bf6c
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_K_M.gguf
+    sha256: c13446b973d3c6a79c7e6ff59431cccd6cf4035a8773182c71d2f377545526d1
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q5_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q5_K_S.gguf
+    sha256: ecfd81bbef64b4aadaba1ab6d0939a963050cc25fd31e9bcbb4680abde420c50
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q6_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q6_K.gguf
+    sha256: 5f083dccf8913c9fc2bccbd21923e497bfea0b8d3dfad310883b812a0ceafa22
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizard-mega-13B.Q8_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/wizard-mega-13B-GGUF - llamaFallback configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizard-mega-13B.Q8_0.gguf
+    sha256: 485deb65953b8841c1d0b7be2fb3ccb5c1ac4a78840b375772b871f77b3df78d
+    uri: 
+      https://huggingface.co/TheBloke/wizard-mega-13B-GGUF/resolve/main/wizard-mega-13B.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__wizard-mega-13B-GGUF__wizard-mega-13B.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:anon8231489123/ShareGPT_Vicuna_unfiltered
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:openaccess-ai-collective/wizard-mega-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/wizard-mega-13B-GGUF

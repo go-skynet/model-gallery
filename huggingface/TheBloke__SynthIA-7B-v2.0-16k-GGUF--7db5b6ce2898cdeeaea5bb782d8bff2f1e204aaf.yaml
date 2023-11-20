@@ -1,0 +1,816 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q2_K.gguf
+    sha256: a99ebe3fd62ba250942c664e903d6620834f40905642862460377488f43e126d
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_L.gguf
+    sha256: cef4ee2af727d0fa107739dece392aa046109aae675457ef4cad027255ec6d58
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_M.gguf
+    sha256: 4c8b3567b1d3dc374a504dd56ae65714d0ab863e8676f2deca8f674ca627d504
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_S.gguf
+    sha256: c83b5616ffacf22e11c9b3d37c6bedb2223d35671538dae137ef1fcbca9601e3
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_0.gguf
+    sha256: e48f3a1579816325dca19863d9b54bda8eb56934616a0b1eff4ff60481f5dea7
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_K_M.gguf
+    sha256: 96ae96b29f1369ca3583842a8d29b92aa7336b39f7d41de2bd0bbcf521c68eef
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_K_S.gguf
+    sha256: a992f78386924a38400479cfab369f6635cb9ab53170efd9e3806539d1012f41
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_0.gguf
+    sha256: 40617b65f4d4cec45547588994fd0a6e0b6fc4c0e2f238e9927ab8f373606818
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_K_M.gguf
+    sha256: 69d340f733142ab61f06264a677b43b0611bfef4f024bbe99fc698f86a18dfc1
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_K_S.gguf
+    sha256: c918b0c86669feb39dc46eac7544b724d7e4572330b6ea7c77ec311547f44a07
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q6_K.gguf
+    sha256: 7695926c4d42d9b0a0146c3e9dfe166ea63067348c6eb68108bbbc4bd7183134
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: synthia-7b-v2.0-16k.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - mistral configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q8_0.gguf
+    sha256: e627226144cf13798392e3d2690bcd85b659f7d3adbaf53195de2f100d8fa7a4
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q2_K.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q2_K.gguf
+    sha256: a99ebe3fd62ba250942c664e903d6620834f40905642862460377488f43e126d
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_L.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_L.gguf
+    sha256: cef4ee2af727d0fa107739dece392aa046109aae675457ef4cad027255ec6d58
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_M.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_M.gguf
+    sha256: 4c8b3567b1d3dc374a504dd56ae65714d0ab863e8676f2deca8f674ca627d504
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q3_K_S.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q3_K_S.gguf
+    sha256: c83b5616ffacf22e11c9b3d37c6bedb2223d35671538dae137ef1fcbca9601e3
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_0.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_0.gguf
+    sha256: e48f3a1579816325dca19863d9b54bda8eb56934616a0b1eff4ff60481f5dea7
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_K_M.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_K_M.gguf
+    sha256: 96ae96b29f1369ca3583842a8d29b92aa7336b39f7d41de2bd0bbcf521c68eef
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q4_K_S.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q4_K_S.gguf
+    sha256: a992f78386924a38400479cfab369f6635cb9ab53170efd9e3806539d1012f41
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_0.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_0.gguf
+    sha256: 40617b65f4d4cec45547588994fd0a6e0b6fc4c0e2f238e9927ab8f373606818
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_K_M.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_K_M.gguf
+    sha256: 69d340f733142ab61f06264a677b43b0611bfef4f024bbe99fc698f86a18dfc1
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q5_K_S.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q5_K_S.gguf
+    sha256: c918b0c86669feb39dc46eac7544b724d7e4572330b6ea7c77ec311547f44a07
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q6_K.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q6_K.gguf
+    sha256: 7695926c4d42d9b0a0146c3e9dfe166ea63067348c6eb68108bbbc4bd7183134
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: synthia-7b-v2.0-16k.Q8_0.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/SynthIA-7B-v2.0-16k-GGUF - llamaFallback configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: synthia-7b-v2.0-16k.Q8_0.gguf
+    sha256: e627226144cf13798392e3d2690bcd85b659f7d3adbaf53195de2f100d8fa7a4
+    uri: 
+      https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF/resolve/main/synthia-7b-v2.0-16k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__SynthIA-7B-v2.0-16k-GGUF__synthia-7b-v2.0-16k.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - base_model:NurtureAI/SynthIA-7B-v2.0-16k
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF

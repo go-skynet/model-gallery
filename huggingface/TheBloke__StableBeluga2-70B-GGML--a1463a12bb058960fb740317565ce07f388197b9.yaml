@@ -1,0 +1,1326 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q2_K.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q2_K.bin
+    sha256: 5389fc547a2d365566aba34d511d0e4dee19a549412f423b42288e4aed2b0a0c
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_L.bin
+    sha256: 7e56f17796ea4d5bfb1e2a79a23d3af9e16415fac263a45e7ddc9741507d5d51
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_M.bin
+    sha256: 63caa32888b6b2dd1c80639ae1b8b7c92bb7596fef8e9dce445d6fc53c3cd28e
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_S.bin
+    sha256: f14b9e6ed679a3df86e263186afa67cf6c6feec4abd0ab4b291d8b898a9d05f0
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_0.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_0.bin
+    sha256: e8829c65c55481849751d7458f3b6da35383a86b4ba04b0e76c190f79cf2cf2f
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_1.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_1.bin
+    sha256: d19a49d7c5565ce29302dc2cb84ed414d5134288b5bd0a4a8386e119ddd42f9a
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_K_M.bin
+    sha256: 8ccf00b5a7a6a4ab4314482ff37644d0f2ac21fd9b25a5e050fd2330edcf5611
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_K_S.bin
+    sha256: eff9f34a51839a9cead0b516553c777e6d9a52864412886b34475039e6b24bf0
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_0.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_0.bin
+    sha256: bef6ca408d2fb408a1a631743bd3cf1c6ffb5ff307a48068a11961401e2510ab
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_1.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_1.z01
+    sha256: 60d67abef21b8fe3053085ee28cb8c6480b6f265fcd0fbc6055189a3e7ddf597
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_1.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_1.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_1.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_1.zip
+    sha256: 351b3380f93ccb6b14ad24cbf47dd8cf9630e724cda9f067252719bcc2c6f42f
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_1.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_1.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_K_M.bin
+    sha256: f57c0343b85f02d9994d10a17238a7fbb74cd023e749c83a51306f7e3ecc979b
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_K_S.bin
+    sha256: 7a12e2201c8007cd11a495cd6e633e5d35c6aecaf3ccf55f94f0f0aeeacbb390
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q6_K.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q6_K.z01
+    sha256: 73e6c3221b60ce1ff55c9ee241b06a3fa59e2a718795aae1b65856eb07873026
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q6_K.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q6_K.zip
+    sha256: 8b6bd25cf57e187abba628cbb5dcaa8bac74cfeff578563a07b55b0535aa0778
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q8_0.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q8_0.z01
+    sha256: c2f9404d34d6e872feb5f0e5f47ef38c32a015068dc9f5943b54b6c6dd4ccca9
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q8_0.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llama configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q8_0.zip
+    sha256: e040cd675b56fc63d0efb2918947544258a4ba34d3f0c2bb2cc525130c587d20
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q2_K.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q2_K.bin
+    sha256: 5389fc547a2d365566aba34d511d0e4dee19a549412f423b42288e4aed2b0a0c
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_L.bin
+    sha256: 7e56f17796ea4d5bfb1e2a79a23d3af9e16415fac263a45e7ddc9741507d5d51
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_M.bin
+    sha256: 63caa32888b6b2dd1c80639ae1b8b7c92bb7596fef8e9dce445d6fc53c3cd28e
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q3_K_S.bin
+    sha256: f14b9e6ed679a3df86e263186afa67cf6c6feec4abd0ab4b291d8b898a9d05f0
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_0.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_0.bin
+    sha256: e8829c65c55481849751d7458f3b6da35383a86b4ba04b0e76c190f79cf2cf2f
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_1.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_1.bin
+    sha256: d19a49d7c5565ce29302dc2cb84ed414d5134288b5bd0a4a8386e119ddd42f9a
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_K_M.bin
+    sha256: 8ccf00b5a7a6a4ab4314482ff37644d0f2ac21fd9b25a5e050fd2330edcf5611
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q4_K_S.bin
+    sha256: eff9f34a51839a9cead0b516553c777e6d9a52864412886b34475039e6b24bf0
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_0.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_0.bin
+    sha256: bef6ca408d2fb408a1a631743bd3cf1c6ffb5ff307a48068a11961401e2510ab
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_1.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_1.z01
+    sha256: 60d67abef21b8fe3053085ee28cb8c6480b6f265fcd0fbc6055189a3e7ddf597
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_1.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_1.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_1.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_1.zip
+    sha256: 351b3380f93ccb6b14ad24cbf47dd8cf9630e724cda9f067252719bcc2c6f42f
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_1.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_1.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_K_M.bin
+    sha256: f57c0343b85f02d9994d10a17238a7fbb74cd023e749c83a51306f7e3ecc979b
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q5_K_S.bin
+    sha256: 7a12e2201c8007cd11a495cd6e633e5d35c6aecaf3ccf55f94f0f0aeeacbb390
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q6_K.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q6_K.z01
+    sha256: 73e6c3221b60ce1ff55c9ee241b06a3fa59e2a718795aae1b65856eb07873026
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q6_K.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q6_K.zip
+    sha256: 8b6bd25cf57e187abba628cbb5dcaa8bac74cfeff578563a07b55b0535aa0778
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q8_0.z01
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q8_0.z01
+    sha256: c2f9404d34d6e872feb5f0e5f47ef38c32a015068dc9f5943b54b6c6dd4ccca9
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stablebeluga2-70b.ggmlv3.q8_0.zip
+    template:
+      chat: Orca-Hashes
+      completion: Orca-Hashes
+  description: TheBloke/StableBeluga2-70B-GGML - llamaFallback configuration
+  files:
+  - filename: Orca-Hashes.tmpl
+    sha256: 82c0486de83806b66415395a9e41ef514eb4594c995dd663c92905e215593ec0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Orca-Hashes.tmpl
+  - filename: stablebeluga2-70b.ggmlv3.q8_0.zip
+    sha256: e040cd675b56fc63d0efb2918947544258a4ba34d3f0c2bb2cc525130c587d20
+    uri: 
+      https://huggingface.co/TheBloke/StableBeluga2-70B-GGML/resolve/main/stablebeluga2-70b.ggmlv3.q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__StableBeluga2-70B-GGML__stablebeluga2-70b.ggmlv3.q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:conceptofmind/cot_submix_original
+  - dataset:conceptofmind/flan2021_submix_original
+  - dataset:conceptofmind/t0_submix_original
+  - dataset:conceptofmind/niv2_submix_original
+  - arxiv:2307.09288
+  - arxiv:2306.02707
+  - base_model:stabilityai/StableBeluga2
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/StableBeluga2-70B-GGML

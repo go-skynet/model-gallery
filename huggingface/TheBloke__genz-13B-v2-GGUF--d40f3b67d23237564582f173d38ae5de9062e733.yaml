@@ -1,0 +1,768 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q2_K.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q2_K.gguf
+    sha256: b3980b7d8302543465004b3e72e31cdc691a63aaa5130edff9724789eb0fde3d
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_L.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_L.gguf
+    sha256: bcd3b074402f1e849129d9b1311d20e8edcc57a5fc158a69f46a5d9399958d3c
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_M.gguf
+    sha256: 35b8c1debe3c8dc4112a439291c332af3faf33dbd05c3a325ef818ce30bcfc9e
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_S.gguf
+    sha256: d4e80ff2a2c58d61fe5518be998ce2abe96f3a02d3ec9ac606d420f847b55c62
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_0.gguf
+    sha256: a1e1f401da65cb183a7c91fc74b9075465c8ec8ca35f43986500ba5bc16e4ece
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_K_M.gguf
+    sha256: d3daa15ddd0141121012ac5c5b6822e953158a359bebd7ac3d48cafcadff775d
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_K_S.gguf
+    sha256: 13a73ee65f80863dce7e0278d740cef5c4204769479237c7aa9262f9cee4f020
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_0.gguf
+    sha256: a9b565b12f08080b6228a7da7d3d49be13a6b466b614cd9602f78b599465a2dd
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_K_M.gguf
+    sha256: 4423df8b34f9cb629bcf764bb1e3d97fd48e591b5282798e3509a25b80d2928b
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_K_S.gguf
+    sha256: 17419343005db72a2a71596bb74b867d9d58e49e40b05547649cf3b8954b71fe
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q6_K.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q6_K.gguf
+    sha256: 367821b778016983da7032ebc6b9e572c0a3f5c7ccbfe68388670271d58e53c3
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q8_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q8_0.gguf
+    sha256: 54e34fb78b687b3d0924967a3d760b4677d6d2926969bd74b121fa0ca7d577df
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q2_K.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q2_K.gguf
+    sha256: b3980b7d8302543465004b3e72e31cdc691a63aaa5130edff9724789eb0fde3d
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_L.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_L.gguf
+    sha256: bcd3b074402f1e849129d9b1311d20e8edcc57a5fc158a69f46a5d9399958d3c
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_M.gguf
+    sha256: 35b8c1debe3c8dc4112a439291c332af3faf33dbd05c3a325ef818ce30bcfc9e
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q3_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q3_K_S.gguf
+    sha256: d4e80ff2a2c58d61fe5518be998ce2abe96f3a02d3ec9ac606d420f847b55c62
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_0.gguf
+    sha256: a1e1f401da65cb183a7c91fc74b9075465c8ec8ca35f43986500ba5bc16e4ece
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_K_M.gguf
+    sha256: d3daa15ddd0141121012ac5c5b6822e953158a359bebd7ac3d48cafcadff775d
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q4_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q4_K_S.gguf
+    sha256: 13a73ee65f80863dce7e0278d740cef5c4204769479237c7aa9262f9cee4f020
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_0.gguf
+    sha256: a9b565b12f08080b6228a7da7d3d49be13a6b466b614cd9602f78b599465a2dd
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_K_M.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_K_M.gguf
+    sha256: 4423df8b34f9cb629bcf764bb1e3d97fd48e591b5282798e3509a25b80d2928b
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q5_K_S.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q5_K_S.gguf
+    sha256: 17419343005db72a2a71596bb74b867d9d58e49e40b05547649cf3b8954b71fe
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q6_K.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q6_K.gguf
+    sha256: 367821b778016983da7032ebc6b9e572c0a3f5c7ccbfe68388670271d58e53c3
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: genz-13b-v2.Q8_0.gguf
+    template:
+      chat: User-Assistant-Newlines
+      completion: User-Assistant-Newlines
+  description: TheBloke/genz-13B-v2-GGUF - llamaFallback configuration
+  files:
+  - filename: User-Assistant-Newlines.tmpl
+    sha256: 68bde151f2b5b051d528f246eef5e712a9082b828d19f37d688afab928034c18
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant-Newlines.tmpl
+  - filename: genz-13b-v2.Q8_0.gguf
+    sha256: 54e34fb78b687b3d0924967a3d760b4677d6d2926969bd74b121fa0ca7d577df
+    uri: 
+      https://huggingface.co/TheBloke/genz-13B-v2-GGUF/resolve/main/genz-13b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__genz-13B-v2-GGUF__genz-13b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - base_model:budecosystem/genz-13b-v2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/genz-13B-v2-GGUF
