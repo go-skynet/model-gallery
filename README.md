@@ -25,3 +25,5 @@ For more info about the new python-based HuggingFace scraper used to generate be
 
 ## Using the Model Gallery 
 For how to use the files in this repository, see the [Documentation](https://localai.io/models/). This may not be updated yet...
+
+For those used to the original go-skynet/model-gallery, this repository functions a little differently. Rather than have a single "huggingface" gallery containing many unrelated models, in this repository each repo on huggingface has an individual gallery - with options for each quanization level. In order to always track the latest updates for a given HF model, the `.ref` files within this repo provide a stable reference to the latest version of the yaml for that repo.
