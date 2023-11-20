@@ -11,7 +11,7 @@
   - filename: Human-Response.tmpl
     sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
   - filename: griffin-3b.ggmlv3.q4_0.bin
     sha256: 67d112c80594ba409c7bd061e775a251b73678ccf718c04334a67c1350dbfa30
     uri: 
@@ -25,6 +25,7 @@
   - text-generation
   - en
   - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
   - license:apache-2.0
   - text-generation-inference
   - region:us
@@ -43,7 +44,7 @@
   - filename: Human-Response.tmpl
     sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
   - filename: griffin-3b.ggmlv3.q4_1.bin
     sha256: a2985807a719d1c7e985a10a35ca7879122863e8c189ac5472e067beefeb3a24
     uri: 
@@ -57,6 +58,7 @@
   - text-generation
   - en
   - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
   - license:apache-2.0
   - text-generation-inference
   - region:us
@@ -75,7 +77,7 @@
   - filename: Human-Response.tmpl
     sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
   - filename: griffin-3b.ggmlv3.q5_0.bin
     sha256: 4a2c3c9583bddc2190658ce2b97b06fbf70d20040ae831a608ee79f29ed45364
     uri: 
@@ -89,6 +91,7 @@
   - text-generation
   - en
   - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
   - license:apache-2.0
   - text-generation-inference
   - region:us
@@ -107,7 +110,7 @@
   - filename: Human-Response.tmpl
     sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
   - filename: griffin-3b.ggmlv3.q5_1.bin
     sha256: 97fe66a71e4b3eb882b081372829cd77daded0df888bd9e708cdb7ba5187f8a9
     uri: 
@@ -121,6 +124,7 @@
   - text-generation
   - en
   - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
   - license:apache-2.0
   - text-generation-inference
   - region:us
@@ -139,7 +143,7 @@
   - filename: Human-Response.tmpl
     sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/Human-Response.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
   - filename: griffin-3b.ggmlv3.q8_0.bin
     sha256: cd5f24ac2d7cf7ee25a72204e698fc3ee88f2bedb96bd99ecdc679e168bda3ad
     uri: 
@@ -153,6 +157,172 @@
   - text-generation
   - en
   - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Griffin-3B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: griffin-3b.ggmlv3.q4_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Griffin-3B-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: griffin-3b.ggmlv3.q4_0.bin
+    sha256: 67d112c80594ba409c7bd061e775a251b73678ccf718c04334a67c1350dbfa30
+    uri: 
+      https://huggingface.co/TheBloke/Griffin-3B-GGML/resolve/main/griffin-3b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Griffin-3B-GGML__griffin-3b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Griffin-3B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: griffin-3b.ggmlv3.q4_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Griffin-3B-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: griffin-3b.ggmlv3.q4_1.bin
+    sha256: a2985807a719d1c7e985a10a35ca7879122863e8c189ac5472e067beefeb3a24
+    uri: 
+      https://huggingface.co/TheBloke/Griffin-3B-GGML/resolve/main/griffin-3b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Griffin-3B-GGML__griffin-3b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Griffin-3B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: griffin-3b.ggmlv3.q5_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Griffin-3B-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: griffin-3b.ggmlv3.q5_0.bin
+    sha256: 4a2c3c9583bddc2190658ce2b97b06fbf70d20040ae831a608ee79f29ed45364
+    uri: 
+      https://huggingface.co/TheBloke/Griffin-3B-GGML/resolve/main/griffin-3b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Griffin-3B-GGML__griffin-3b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Griffin-3B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: griffin-3b.ggmlv3.q5_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Griffin-3B-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: griffin-3b.ggmlv3.q5_1.bin
+    sha256: 97fe66a71e4b3eb882b081372829cd77daded0df888bd9e708cdb7ba5187f8a9
+    uri: 
+      https://huggingface.co/TheBloke/Griffin-3B-GGML/resolve/main/griffin-3b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Griffin-3B-GGML__griffin-3b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Griffin-3B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: griffin-3b.ggmlv3.q8_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Griffin-3B-GGML - llamaFallback configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: griffin-3b.ggmlv3.q8_0.bin
+    sha256: cd5f24ac2d7cf7ee25a72204e698fc3ee88f2bedb96bd99ecdc679e168bda3ad
+    uri: 
+      https://huggingface.co/TheBloke/Griffin-3B-GGML/resolve/main/griffin-3b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Griffin-3B-GGML__griffin-3b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-generation
+  - en
+  - dataset:LDJnr/Puffin
+  - base_model:acrastt/Griffin-3B
   - license:apache-2.0
   - text-generation-inference
   - region:us

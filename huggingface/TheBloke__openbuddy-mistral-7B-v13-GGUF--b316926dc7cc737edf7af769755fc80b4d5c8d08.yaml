@@ -1,8 +1,12 @@
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -11,7 +15,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q2_K.gguf
     sha256: a634d54bc7a8dd23935180b57d73f2772bfe472a5cfb452b9f85e46437acb62c
     uri: 
@@ -31,17 +35,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -50,7 +59,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q3_K_L.gguf
     sha256: 199e16f46058fa686a85016ee457d69ac4f461e8aa7bc6508ae488da923ba49d
     uri: 
@@ -70,17 +79,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -89,7 +103,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q3_K_M.gguf
     sha256: 4ddcec75dd6573661d409b14dba5075f0b7fdeb9d078f33803b191ce94e4d556
     uri: 
@@ -109,17 +123,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -128,7 +147,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q3_K_S.gguf
     sha256: ec5f6449f7dec2504ccf8552428f2108f53377d79166b39ff9b80840e643ad48
     uri: 
@@ -148,17 +167,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -167,7 +191,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q4_0.gguf
     sha256: 8cd732b92ad5699d8e78a828192c428c60c05779ebe4248074bd8b2d6a24a98f
     uri: 
@@ -187,17 +211,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -206,7 +235,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q4_K_M.gguf
     sha256: 538739967519c1f03e065892c9e3deb79ea0e35266cc80abc03f7116d54a74ce
     uri: 
@@ -226,17 +255,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -245,7 +279,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q4_K_S.gguf
     sha256: 383b69ae8c4b8b3aa8367b04a28b17d4a0189f8ada769b10a26a50e17ba58d9b
     uri: 
@@ -265,17 +299,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -284,7 +323,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q5_0.gguf
     sha256: 00932d86db9a2cf4039a31da3ff3305072817586e7aa68088129f851fb781c47
     uri: 
@@ -304,17 +343,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -323,7 +367,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q5_K_M.gguf
     sha256: cc9beaed03afa39e4e2100bf017fb57cb75dbc4cf905ce22240feb83299c976b
     uri: 
@@ -343,17 +387,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -362,7 +411,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q5_K_S.gguf
     sha256: ad017824306f95b64789db79ee24dcf3cd49e2d070fbe0f8bb1dac76ef7ce12d
     uri: 
@@ -382,17 +431,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -401,7 +455,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q6_K.gguf
     sha256: e2331a56615c1daeaace066ef120f80dbc5552e69b7b5452b565d290e975915c
     uri: 
@@ -421,17 +475,22 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
-  - has_space
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
 - config_file:
     backend: llama
-    context_size: 8000
+    context_size: 4096
+    f16: true
+    mmap: true
     parameters:
       model: openbuddy-mistral-7b-v13.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
     template:
       chat: OpenBuddy
       completion: OpenBuddy
@@ -440,7 +499,7 @@
   - filename: OpenBuddy.tmpl
     sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
     uri: 
-      https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
   - filename: openbuddy-mistral-7b-v13.Q8_0.gguf
     sha256: 00ef2a33d215eb18c0dddfa58edaf6f250d04b136b4cad7720eab9cf9c49ac45
     uri: 
@@ -460,9 +519,490 @@
   - ko
   - it
   - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
   - license:apache-2.0
+  - has_space
   - text-generation-inference
   - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q2_K.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q2_K.gguf
+    sha256: a634d54bc7a8dd23935180b57d73f2772bfe472a5cfb452b9f85e46437acb62c
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
   - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q3_K_L.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q3_K_L.gguf
+    sha256: 199e16f46058fa686a85016ee457d69ac4f461e8aa7bc6508ae488da923ba49d
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q3_K_M.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q3_K_M.gguf
+    sha256: 4ddcec75dd6573661d409b14dba5075f0b7fdeb9d078f33803b191ce94e4d556
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q3_K_S.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q3_K_S.gguf
+    sha256: ec5f6449f7dec2504ccf8552428f2108f53377d79166b39ff9b80840e643ad48
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q4_0.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q4_0.gguf
+    sha256: 8cd732b92ad5699d8e78a828192c428c60c05779ebe4248074bd8b2d6a24a98f
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q4_K_M.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q4_K_M.gguf
+    sha256: 538739967519c1f03e065892c9e3deb79ea0e35266cc80abc03f7116d54a74ce
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q4_K_S.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q4_K_S.gguf
+    sha256: 383b69ae8c4b8b3aa8367b04a28b17d4a0189f8ada769b10a26a50e17ba58d9b
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q5_0.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q5_0.gguf
+    sha256: 00932d86db9a2cf4039a31da3ff3305072817586e7aa68088129f851fb781c47
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q5_K_M.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q5_K_M.gguf
+    sha256: cc9beaed03afa39e4e2100bf017fb57cb75dbc4cf905ce22240feb83299c976b
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q5_K_S.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q5_K_S.gguf
+    sha256: ad017824306f95b64789db79ee24dcf3cd49e2d070fbe0f8bb1dac76ef7ce12d
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q6_K.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q6_K.gguf
+    sha256: e2331a56615c1daeaace066ef120f80dbc5552e69b7b5452b565d290e975915c
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openbuddy-mistral-7b-v13.Q8_0.gguf
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-mistral-7B-v13-GGUF - llamaFallback configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-mistral-7b-v13.Q8_0.gguf
+    sha256: 00ef2a33d215eb18c0dddfa58edaf6f250d04b136b4cad7720eab9cf9c49ac45
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF/resolve/main/openbuddy-mistral-7b-v13.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-mistral-7B-v13-GGUF__openbuddy-mistral-7b-v13.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - zh
+  - en
+  - fr
+  - de
+  - ja
+  - ko
+  - it
+  - ru
+  - base_model:OpenBuddy/openbuddy-mistral-7b-v13
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
   urls:
   - https://huggingface.co/TheBloke/openbuddy-mistral-7B-v13-GGUF

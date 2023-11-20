@@ -1,0 +1,936 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+    sha256: f721abd7e3b25731fe9b9ef2fe3115d7ccb6001db831d51e46e99a3ab011c542
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+    sha256: 9acc0f7ac5a976b44f7bd4cb774646ece30950f3de979ea21ae04269c965b8bc
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+    sha256: 8c2c49f6fffab1dc4c8012d79d7ec99476f98b7e22aa1ee25eb7a570bda03156
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+    sha256: 50e1c704dbcb3e9fe89adb9303b4aaac973ab1f0a41c5e456bd88b2f2266392e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+    sha256: eadfaaa4ecef5d7134cb63677567624c21b6ba8e1db38ee1214116ec9349bd64
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+    sha256: 98ce175d6504c8dee2309b085941bbf20f825d5fd647ad1b44cabd7594dd2544
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+    sha256: 49872328e922fedcc2f7004669947cf52e0ce4fce8f0d0109eda0e3491e93791
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+    sha256: 6494624438fd4cd845024aca513c040579cb7342196bc9bed45a468a1fa9ceb2
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+    sha256: 8a8a65e13492babed2629812238e9343c852f4768c4e359f4edf2455669e1d87
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+    sha256: 45e85690890a8bf4e8e2892f73c7c8484b3bcf357288f6945a09da80f79881ac
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+    sha256: e0e2cad2985c42dbd6cbe218fd76652a40c24be9baaa5ad55394890ae776eaac
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llama configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+    sha256: 12a9aa29279a475caaf874ab5bb9f06d6df4d734dfd1c58a5cb5167ac879bfea
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+    sha256: f721abd7e3b25731fe9b9ef2fe3115d7ccb6001db831d51e46e99a3ab011c542
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+    sha256: 9acc0f7ac5a976b44f7bd4cb774646ece30950f3de979ea21ae04269c965b8bc
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+    sha256: 8c2c49f6fffab1dc4c8012d79d7ec99476f98b7e22aa1ee25eb7a570bda03156
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+    sha256: 50e1c704dbcb3e9fe89adb9303b4aaac973ab1f0a41c5e456bd88b2f2266392e
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+    sha256: eadfaaa4ecef5d7134cb63677567624c21b6ba8e1db38ee1214116ec9349bd64
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+    sha256: 98ce175d6504c8dee2309b085941bbf20f825d5fd647ad1b44cabd7594dd2544
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+    sha256: 49872328e922fedcc2f7004669947cf52e0ce4fce8f0d0109eda0e3491e93791
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+    sha256: 6494624438fd4cd845024aca513c040579cb7342196bc9bed45a468a1fa9ceb2
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+    sha256: 8a8a65e13492babed2629812238e9343c852f4768c4e359f4edf2455669e1d87
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+    sha256: 45e85690890a8bf4e8e2892f73c7c8484b3bcf357288f6945a09da80f79881ac
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+    sha256: e0e2cad2985c42dbd6cbe218fd76652a40c24be9baaa5ad55394890ae776eaac
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+    template:
+      chat: Japanese-StableLM-Llama-2-Chat
+      completion: Japanese-StableLM-Llama-2-Chat
+  description: TheBloke/japanese-stablelm-instruct-beta-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Japanese-StableLM-Llama-2-Chat.tmpl
+    sha256: 31668eb9b4fba9b873114918045cd063133947c70b3be84752682ada460bb7c6
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Japanese-StableLM-Llama-2-Chat.tmpl
+  - filename: japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+    sha256: 12a9aa29279a475caaf874ab5bb9f06d6df4d734dfd1c58a5cb5167ac879bfea
+    uri: 
+      https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF/resolve/main/japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - llama2
+  name: 
+    TheBloke__japanese-stablelm-instruct-beta-7B-GGUF__japanese-stablelm-instruct-beta-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese-stablelm
+  - causal-lm
+  - text-generation
+  - ja
+  - dataset:kunishou/hh-rlhf-49k-ja
+  - dataset:kunishou/databricks-dolly-15k-ja
+  - dataset:kunishou/oasst1-89k-ja
+  - base_model:stabilityai/japanese-stablelm-instruct-beta-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/japanese-stablelm-instruct-beta-7B-GGUF

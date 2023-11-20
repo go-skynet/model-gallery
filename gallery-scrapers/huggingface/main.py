@@ -11,11 +11,11 @@ import tqdm
 
 from lib.base_models import ScrapeResult, ScrapeResultStatus
 from lib.config_recognizer import ConfigRecognizer
-from lib.prompt_templating import PromptTemplateCache, PromptTemplateRecognizer
+from lib.prompt_templating import PromptTemplateCache, AutoPromptTemplateConfig
 from lib.gallery_scraper import HFGalleryScraper
 from lib.utils import purge_folder
 
-from config_recognizers.llama import llamaConfigRecognizer, llama2ChatConfigRecognizer, mistralConfigRecognizer
+from config_recognizers.llama import llamaConfigRecognizer, llama2ChatConfigRecognizer, mistralConfigRecognizer, llamaFallbackConfigRecognizer
 from config_recognizers.bert import bertCppConfigRecognizer
 from config_recognizers.rwkv import rwkvConfigRecognizer
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     parser.add_argument("--root", default=Path.cwd(), type=Path)
     parser.add_argument("--count", default=multiprocessing.cpu_count(), type=int)
     parser.add_argument("--targetFolder", default="huggingface", type=str)
-    parser.add_argument("--downloadRoot", default="https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/", type=str)
+    parser.add_argument("--downloadRoot", default="https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/", type=str)
     parser.add_argument("--promptTemplateFolder", default="prompt-templates", type=str)
     parser.add_argument("--purgeModels", default=False, type=bool)
     parser.add_argument("--purgeTemplates", default=False, type=bool)
@@ -51,11 +51,12 @@ if __name__ == "__main__":
         llama2ChatConfigRecognizer,
         llamaConfigRecognizer,
         mistralConfigRecognizer,
+        llamaFallbackConfigRecognizer,
         bertCppConfigRecognizer,
         rwkvConfigRecognizer
     ]
 
-    prompt_template_recognizers: List[PromptTemplateRecognizer] = [
+    prompt_template_recognizers: List[AutoPromptTemplateConfig] = [
         the_bloke_style,
         rwkv_by_tag
     ]
@@ -75,7 +76,7 @@ if __name__ == "__main__":
         # )
     ]
 
-    promptTemplateCache = PromptTemplateCache(args.root / args.promptTemplateFolder, args.downloadRoot)
+    promptTemplateCache = PromptTemplateCache(args.root / args.promptTemplateFolder, args.downloadRoot, None)
 
     masterProcessAPI = HfApi()   # TODO: token?
 
@@ -90,46 +91,53 @@ if __name__ == "__main__":
     # First Draft: Do a single search at a time, multi-process the results.
     # This may not be the most efficient or effective strategy when all is said and done, but it will be the simplest to reason about in testing
     # Some possibilities include combining all searches to avoid pool creation overhead... or running pools of pools?
+    
+
     for filter in searchFilters:
         print(f"Creating a pool of size {args.count} for {filter}")
         pool = multiprocessing.Pool(processes=args.count, initializer=scraper_process_atrocity_initializer)
-        searchResultIterator = masterProcessAPI.list_models(filter=filter, cardData=True, full=True, fetch_config=True)
+        try:
+            searchResultIterator = masterProcessAPI.list_models(filter=filter, cardData=True, full=True, fetch_config=True)
 
-        # Embarrassingly parallel - individual search results are totally independent and are IO bound anyway
-        results = list(tqdm.tqdm(pool.imap_unordered(HFGalleryScraper(args.root, args.targetFolder, configRecognizers, prompt_template_recognizers, promptTemplateCache, None), searchResultIterator)))
+            # Embarrassingly parallel - individual search results are totally independent and are IO bound anyway
+            results = list(tqdm.tqdm(pool.imap_unordered(HFGalleryScraper(args.root, args.targetFolder, configRecognizers, prompt_template_recognizers, promptTemplateCache, None), searchResultIterator)))
 
-        resultTime = datetime.datetime.now()
+            resultTime = datetime.datetime.now()
 
-        # Sort Results by status to produce results data
-        categorizedResults: Dict[ScrapeResultStatus, List[ScrapeResult]] = {}
-        total = 0
-        for k in ScrapeResultStatus:
-            categorizedResults[k] = []
-        for result in results:
-            total = total + 1
-            categorizedResults[result.status].append(result)
-            
-        summaryResults = [["Status", "Count", "More"]]
+            # Sort Results by status to produce results data
+            categorizedResults: Dict[ScrapeResultStatus, List[ScrapeResult]] = {}
+            total = 0
+            for k in ScrapeResultStatus:
+                categorizedResults[k] = []
+            for result in results:
+                total = total + 1
+                categorizedResults[result.status].append(result)
+                
+            summaryResults = [["Status", "Count", "More"]]
 
-        for k in ScrapeResultStatus:
-            summaryResults.append([k._name_, len(categorizedResults[k]), f"[{k._name_}]"])
+            for k in ScrapeResultStatus:
+                summaryResults.append([k._name_, str(len(categorizedResults[k])), f"[{k._name_}]"])
 
-        summaryResults.append(["Total", total, ""])
+            summaryResults.append(["Total", str(total), ""])
 
-        markdownResults = f"##Summary of Results for {resultTime}\n{tabulate.tabulate(summaryResults, headers="firstrow", tablefmt="github")}"
+            markdownResults = f"##Summary of Results for {resultTime}\n{tabulate.tabulate(summaryResults, headers="firstrow", tablefmt="github")}"
 
-        # TEMPORARY: moved this above the full dump due to size limits. Better solution to follow?
-        os.environ['GITHUB_STEP_SUMMARY'] = markdownResults
+            # TEMPORARY: moved this above the full dump due to size limits. Better solution to follow?
+            os.environ['GITHUB_STEP_SUMMARY'] = markdownResults
 
-        for k in ScrapeResultStatus:
-            groupTableData = [["Name", "Detail"]]
-            for r in categorizedResults[k]:
-                groupTableData.append([r.filename, r.message])
-            markdownResults = f"{markdownResults}\n##{k._name_}\n{tabulate.tabulate(groupTableData, headers="firstrow", tablefmt="github")}"
+            for k in ScrapeResultStatus:
+                groupTableData = [["Name", "Detail"]]
+                for r in categorizedResults[k]:
+                    groupTableData.append([r.filename, r.message])
+                markdownResults = f"{markdownResults}\n##{k._name_}\n{tabulate.tabulate(groupTableData, headers="firstrow", tablefmt="github")}"
 
-        # os.environ['GITHUB_STEP_SUMMARY'] = markdownResults
-        print(markdownResults)
+            # os.environ['GITHUB_STEP_SUMMARY'] = markdownResults
+            print(markdownResults)
 
-        pool.close()
-        pool.join()
+            pool.close()
+            pool.join()
+        except KeyboardInterrupt:
+            print("!!!! TERMINATING POOL AND ABORT")
+            pool.terminate()
+            break
 

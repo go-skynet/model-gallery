@@ -1,0 +1,175 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lince-zero.Q4_0.gguf
+    template:
+      chat: Lince
+      completion: Lince
+  description: TheBloke/lince-zero-GGUF - llamaFallback configuration
+  files:
+  - filename: Lince.tmpl
+    sha256: d77cc76a3a0fdc19a05a06fecc28ab09edf700dce5386b9e256530b4d4804979
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Lince.tmpl
+  - filename: lince-zero.Q4_0.gguf
+    sha256: b480212884651503548c98213693c1a85e4aea5e4132b956e45dc885553d8410
+    uri: 
+      https://huggingface.co/TheBloke/lince-zero-GGUF/resolve/main/lince-zero.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__lince-zero-GGUF__lince-zero.Q4_0.gguf
+  tags:
+  - transformers
+  - falcon
+  - text-generation
+  - es
+  - dataset:tatsu-lab/alpaca
+  - dataset:databricks/databricks-dolly-15k
+  - arxiv:1910.09700
+  - base_model:clibrain/lince-zero
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/lince-zero-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lince-zero.Q4_1.gguf
+    template:
+      chat: Lince
+      completion: Lince
+  description: TheBloke/lince-zero-GGUF - llamaFallback configuration
+  files:
+  - filename: Lince.tmpl
+    sha256: d77cc76a3a0fdc19a05a06fecc28ab09edf700dce5386b9e256530b4d4804979
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Lince.tmpl
+  - filename: lince-zero.Q4_1.gguf
+    sha256: 7d00ac28dceed266f6f19f980e54a98d56cbb8fe372fd5c496f745324f7a3232
+    uri: 
+      https://huggingface.co/TheBloke/lince-zero-GGUF/resolve/main/lince-zero.Q4_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__lince-zero-GGUF__lince-zero.Q4_1.gguf
+  tags:
+  - transformers
+  - falcon
+  - text-generation
+  - es
+  - dataset:tatsu-lab/alpaca
+  - dataset:databricks/databricks-dolly-15k
+  - arxiv:1910.09700
+  - base_model:clibrain/lince-zero
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/lince-zero-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lince-zero.Q5_0.gguf
+    template:
+      chat: Lince
+      completion: Lince
+  description: TheBloke/lince-zero-GGUF - llamaFallback configuration
+  files:
+  - filename: Lince.tmpl
+    sha256: d77cc76a3a0fdc19a05a06fecc28ab09edf700dce5386b9e256530b4d4804979
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Lince.tmpl
+  - filename: lince-zero.Q5_0.gguf
+    sha256: 9c367666dbf53f9cd9a8eb1da3512d02910bc2fbc2239f27ab6901542ebf8447
+    uri: 
+      https://huggingface.co/TheBloke/lince-zero-GGUF/resolve/main/lince-zero.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__lince-zero-GGUF__lince-zero.Q5_0.gguf
+  tags:
+  - transformers
+  - falcon
+  - text-generation
+  - es
+  - dataset:tatsu-lab/alpaca
+  - dataset:databricks/databricks-dolly-15k
+  - arxiv:1910.09700
+  - base_model:clibrain/lince-zero
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/lince-zero-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lince-zero.Q5_1.gguf
+    template:
+      chat: Lince
+      completion: Lince
+  description: TheBloke/lince-zero-GGUF - llamaFallback configuration
+  files:
+  - filename: Lince.tmpl
+    sha256: d77cc76a3a0fdc19a05a06fecc28ab09edf700dce5386b9e256530b4d4804979
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Lince.tmpl
+  - filename: lince-zero.Q5_1.gguf
+    sha256: 443a092961cb39a0ca3ca24e0514bd20e424c0fab6beced36e7fe6606b210ede
+    uri: 
+      https://huggingface.co/TheBloke/lince-zero-GGUF/resolve/main/lince-zero.Q5_1.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__lince-zero-GGUF__lince-zero.Q5_1.gguf
+  tags:
+  - transformers
+  - falcon
+  - text-generation
+  - es
+  - dataset:tatsu-lab/alpaca
+  - dataset:databricks/databricks-dolly-15k
+  - arxiv:1910.09700
+  - base_model:clibrain/lince-zero
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/lince-zero-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: lince-zero.Q8_0.gguf
+    template:
+      chat: Lince
+      completion: Lince
+  description: TheBloke/lince-zero-GGUF - llamaFallback configuration
+  files:
+  - filename: Lince.tmpl
+    sha256: d77cc76a3a0fdc19a05a06fecc28ab09edf700dce5386b9e256530b4d4804979
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Lince.tmpl
+  - filename: lince-zero.Q8_0.gguf
+    sha256: 9e7497ce94314b61b7d5ee71c3453539bd49c8559eee712796efc492a25a0fad
+    uri: 
+      https://huggingface.co/TheBloke/lince-zero-GGUF/resolve/main/lince-zero.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__lince-zero-GGUF__lince-zero.Q8_0.gguf
+  tags:
+  - transformers
+  - falcon
+  - text-generation
+  - es
+  - dataset:tatsu-lab/alpaca
+  - dataset:databricks/databricks-dolly-15k
+  - arxiv:1910.09700
+  - base_model:clibrain/lince-zero
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/lince-zero-GGUF

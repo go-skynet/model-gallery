@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q2_K.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q2_K.gguf
+    sha256: ab4fc989ddd3667841c362e6f7e474b6889038eadb7a38fd652cb94013b65f20
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q2_K.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q3_K_L.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q3_K_L.gguf
+    sha256: 807a3fbca94f789373b172526891950ecbb0ce4493406801d8c8344cc74cb8d4
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q3_K_M.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q3_K_M.gguf
+    sha256: 36ca011a4c72dddd9600c30b35f3b507491634ae56b39c0107d598da0cbd4cf2
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q3_K_S.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q3_K_S.gguf
+    sha256: e90260b74040dddf354e9d3f8239fbeedf62f9e590aa4bf3b20bfa3cad8fdcb4
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q4_0.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q4_0.gguf
+    sha256: 826d926bc2970395842a0e30e4d3fc3c2256884c2040e78df4c74051902b0c62
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q4_0.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q4_K_M.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q4_K_M.gguf
+    sha256: 1d9d387564536122d6e175e967a9ebc95d63db75da3d29c9a7acde3827d0e5d6
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q4_K_S.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q4_K_S.gguf
+    sha256: 52d8dbf0b17df41a39df70357a3d4ab82276daff97607d289109764eaf5f8a54
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q5_0.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q5_0.gguf
+    sha256: ca9c6ff5c59e90849a9a08462c7c7fc7aba96463a9b158e49defc0539afb529f
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q5_0.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q5_K_M.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q5_K_M.gguf
+    sha256: 9da90b839427d42adb0416ee8dab1c903a2f5533f67d5104d0ad893048a75ff9
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q5_K_S.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q5_K_S.gguf
+    sha256: 03f4970c9a1bb8f25a87159196a57f7f5053f783ee0a5eebd785cc7cbcb17097
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q6_K.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q6_K.gguf
+    sha256: 77e2917590d83181e92336abf4b00f7975f67761759a6cc87f5280084478a00e
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q6_K.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: deacon-34b.Q8_0.gguf
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/Deacon-34B-GGUF - llamaFallback configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: deacon-34b.Q8_0.gguf
+    sha256: ba0e1f6ed5d882faedfa978a69a25b8a72f6e7c1819eb05936403f86ec3b72fb
+    uri: 
+      https://huggingface.co/TheBloke/Deacon-34B-GGUF/resolve/main/deacon-34b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Deacon-34B-GGUF__deacon-34b.Q8_0.gguf
+  tags:
+  - transformers
+  - yi
+  - text-generation
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:KnutJaegersberg/Deacon-34B
+  - license:other
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Deacon-34B-GGUF
