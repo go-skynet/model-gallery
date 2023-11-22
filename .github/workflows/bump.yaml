@@ -9,8 +9,6 @@ on:
 
 env:
   PROCESS_COUNT: 8
-  DOWNLOAD_ROOT: "https://raw.githubusercontent.com/dave-gray101/model-gallery/feat-experimental-python-hf-scraper/prompt-templates/"
-    #"https://raw.githubusercontent.com/go-skynet/model-gallery/main/prompt-templates/"
 jobs:
   automatic-updates:
     runs-on: ubuntu-latest
@@ -43,7 +41,7 @@ jobs:
 
       - name: Launch Scraper
         working-directory: .
-        run: python ./gallery-scrapers/huggingface/main.py --count $PROCESS_COUNT --downloadRoot $DOWNLOAD_ROOT
+        run: python ./gallery-scrapers/huggingface/main.py --count $PROCESS_COUNT
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v4
