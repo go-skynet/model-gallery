@@ -1,0 +1,434 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q2_K.bin
+    sha256: 71cdf5d8c1daa6780ad0ba3f9e0c929fc19a5fff4df33cba58c4dc27d05a0920
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q3_K_L.bin
+    sha256: 6a76b684271b2058516cfc4bdb3d0a985c8a1f4cce61ef7998f40db723bca512
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q3_K_M.bin
+    sha256: c094b95c009ef00131fda3e9d14e79979668197b0c3c0552d18df0a0e47c734e
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q3_K_S.bin
+    sha256: 6e2e7a093c4371ae4ebba0c827e99aab984e07089c43ed0bf151abcabc5273c3
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q4_0.bin
+    sha256: fcf792c72a73dd8ca7f3cddabb25e750453b5d399e2a47997694144324453930
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q4_1.bin
+    sha256: a3d59bdb338014bb4eddbd6c3f84e5252d6a3e6145f81a90711f9c3a1e44b9b1
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q4_K_M.bin
+    sha256: 0be1a69ede2dde8a02d19e8f110032a0f60433d97a145d954b9ac5569f17636a
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q4_K_S.bin
+    sha256: 88ca67ace311193b0810cea496bda286d3719a909f3dfa8ec04cded6a42a7f2b
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q5_0.bin
+    sha256: 4bade6e551ac56f2aa0489b555f87ff77bd7ffaea6202cf0cdda39c47e6434a9
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q5_1.bin
+    sha256: 472225cce83a4d5218c67a7b4b8eef538ea41c62be530cd57f3498c09309a387
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q5_K_M.bin
+    sha256: fcd18bdc3f82537dbb0b930cc2e8e2bb874522fb07835c320e808eeb347b73fb
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q5_K_S.bin
+    sha256: 51bc36fbe33ada83f42a808e800c5a4c5faca4b9d2d9465d4da6c8279884b21a
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q6_K.bin
+    sha256: 2e61b74323c9d7ea287dd46f34cdad7cc85895ca2a6402eaa59f276b3fb2ef00
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: stheno-l2-13b.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Stheno-L2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: stheno-l2-13b.ggmlv3.Q8_0.bin
+    sha256: 8be533da30abe5367704d46cffd3f427f21373690e9186a302a42c08feff192e
+    uri: 
+      https://huggingface.co/TheBloke/Stheno-L2-13B-GGML/resolve/main/stheno-l2-13b.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Stheno-L2-13B-GGML__stheno-l2-13b.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Stheno-L2-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Stheno-L2-13B-GGML

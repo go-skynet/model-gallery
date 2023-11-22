@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q2_K.bin
+    sha256: d234c9cf2e6d4a3f6feee0266a9b2ac826c582a0381b3a75866de1fa2e61b2eb
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q3_K_L.bin
+    sha256: 20fd68ce91eeeca512dec8f339733e20b526b7d3f68a3cf491e5a6f7b2c4db9a
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q3_K_M.bin
+    sha256: 299b5a6235fb3e0d20c2fe622a9e62b9114582de0e19158faf6923a70fac5efb
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q3_K_S.bin
+    sha256: ee0ae52ebcb724bcaf00d1b4d0dafb65be04f124aba8fe0a0368fc83622a5c04
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q4_0.bin
+    sha256: 33619c6bb90c2979873a0bf74a0fe58c9eaceb215dec62f3234dc7bb064d9115
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q4_1.bin
+    sha256: 9a9c5399adfda1dad3a15b0b5c98cd71b2d133c5157577e403711c579b8ea096
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q4_K_M.bin
+    sha256: 551e4fca7102a280b4cdf317a5b8178bbe557a37061930d4b91fc8722c93f407
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q4_K_S.bin
+    sha256: 2a31f9b7eabbfc0bf8a1075f8c2654dd7055148fbd121dc2f824651ebe8645ce
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q5_0.bin
+    sha256: 1bc5d0f4d64870d24ddd1a6d5e4a3adcfb7a01bd888701e72c7a454f19bdbaa4
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q5_1.bin
+    sha256: 1a4c54bb798a3958b7db527327a9d06feab1a61b775a5ddf11296ed7bea46263
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q5_K_M.bin
+    sha256: d380e1840cc1734e46c85859933ba1fb0164bae22e8303ae0e2a9dd8c5a1cdb9
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q5_K_S.bin
+    sha256: 3144df28bf3ee6b082cbd32a9de894cb3de8b997a14ecaadc131ba7d5dcf4670
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q6_K.bin
+    sha256: 760b7d382e7fac3abae04ec3762a93809bc57d001d760400e862e45bd47f3299
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: newhope.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/NewHope-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: newhope.ggmlv3.q8_0.bin
+    sha256: 6eac103cd86302d3b0867de82fc0dea62d1993335a9ae6d55ef0608107163bfe
+    uri: 
+      https://huggingface.co/TheBloke/NewHope-GGML/resolve/main/newhope.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__NewHope-GGML__newhope.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:SLAM-group/NewHope
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/NewHope-GGML

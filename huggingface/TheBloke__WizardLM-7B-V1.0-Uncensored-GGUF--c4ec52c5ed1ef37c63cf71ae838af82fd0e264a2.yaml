@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q2_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q2_K.gguf
+    sha256: aeff8867ad2b70f52ce165f31cae234f899e448fc0a1d237186c67b885c00fea
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q3_K_L.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q3_K_L.gguf
+    sha256: 4309b81b0a62c499419110a4b396e2bf1414cc2dd244968e2710b0ed074a7f6e
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q3_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q3_K_M.gguf
+    sha256: 78805101b90a3278d8484642c28e8247b4df0598fdb8d37c5bfc91e0352a4c40
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q3_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q3_K_S.gguf
+    sha256: 47df571c8ade0f6a69c488a9fb9ecd90cea8e725f366a1449ccb6b7de65210c3
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q4_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q4_0.gguf
+    sha256: 9314f5c2881f831bfaf4413abf6e0e34f5e4f6b82dd2d7887187144785110e0e
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q4_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q4_K_M.gguf
+    sha256: 90c9a675f7403daa833ba272c9d17437e53610b6dd62380d4e4c84b7deebd90c
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q4_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q4_K_S.gguf
+    sha256: 87cd7c6c28404c9e2d64d177623153c8b625cdd39588c37cb12c94993c82d2ef
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q5_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q5_0.gguf
+    sha256: 5a644c14a111d47baf7e503f423231556ce233281e485a039bf2e45caaba9e0f
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q5_K_M.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q5_K_M.gguf
+    sha256: 3ef0d681351556466b3fae523e7f687e3bf550d7974b3515520b290f3a8443e2
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q5_K_S.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q5_K_S.gguf
+    sha256: 6e5c92cf7d1dc2a508b4f0607b84604fe8a5b6fc911fdf30e3641e73f0443bc1
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q6_K.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q6_K.gguf
+    sha256: f5b34d9694ee9f71af8f2d67dd55166bee89f1509bf373f9bb22c2f3748b2f83
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: wizardlm-7b-v1.0-uncensored.Q8_0.gguf
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: wizardlm-7b-v1.0-uncensored.Q8_0.gguf
+    sha256: ad635479f5bfe11ba52bfc920a1c4a84c15fd199f010f1e82b17f71d4cab349f
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF/resolve/main/wizardlm-7b-v1.0-uncensored.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__WizardLM-7B-V1.0-Uncensored-GGUF__wizardlm-7b-v1.0-uncensored.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/WizardLM-7B-V1.0-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-7B-V1.0-Uncensored-GGUF

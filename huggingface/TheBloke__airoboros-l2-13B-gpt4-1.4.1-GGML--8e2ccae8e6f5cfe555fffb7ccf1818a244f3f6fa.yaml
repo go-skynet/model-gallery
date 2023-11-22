@@ -1,0 +1,462 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q2_K.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q2_K.bin
+    sha256: 8b7dab823968f9e651bd4a405d3fc182fc2ef7eba648c1e2e97ea7f5538ac01f
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_L.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_L.bin
+    sha256: 9ccc03843ef74c921fd56179922164650869c864b7c40bc9ba4abf77a76885b1
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_M.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_M.bin
+    sha256: 7c753a1335310e0ab1a7be74f5aaf6c47a0661b7d0eddfad07bbdc255cca135a
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_S.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_S.bin
+    sha256: 25005f57aa5719ab842b647b8011e8a1b10f98ffe1ecc87d69d9895ca217e75c
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_0.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_0.bin
+    sha256: 84cd532438c3fc03fd0b75a35e63c780ffb31859644ae1975209fdd578bfe8e9
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_1.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_1.bin
+    sha256: fc634c70e70c0270b9c489a40bedef6f10296439008b1445b82a14f29f7a2a69
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_M.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_M.bin
+    sha256: 07d750bdfc7a19ec1225c18ada25509b6f41ce5c3723a56f0a8eb8e3cc27d8f5
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_S.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_S.bin
+    sha256: 666bcdf1bfdcc9486561b47e65f7a4e0339fc82bfead490cea2b1b29a7915068
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_0.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_0.bin
+    sha256: e4641e5c8b43bbae92a73e683ba2b6003440e1e8dfc668e4e46c23f95dec2ca9
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_1.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_1.bin
+    sha256: 1174337311d7246e77a9ffbff9149b57b5e5e447ce49165e6c565258310371f1
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_M.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_M.bin
+    sha256: e11ed1cc8d194d9c3e986a52a309bc06257f21c87b2fe26e814baa61820ca2c9
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_S.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_S.bin
+    sha256: 3449efafc7033fa5b434f4b3be36105858baf41e7b30a3716b9393ac3583a486
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q6_K.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q6_K.bin
+    sha256: 98ff6c75ea0d2a01d3e747f9105c5ee5407da195b8320eca0cbf8531aa9b64a8
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q8_0.bin
+    template:
+      chat: Airoboros
+      completion: Airoboros
+  description: TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML - llama configuration
+  files:
+  - filename: Airoboros.tmpl
+    sha256: 0af6346b095d43e8d41a70cb028bc372f9c83d55804a85032af03c345f21dc65
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Airoboros.tmpl
+  - filename: airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q8_0.bin
+    sha256: f1cad3fb5c3fb85724a078d344aea907b667938bab0491dc9e342ae859acffaf
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML/resolve/main/airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__airoboros-l2-13B-gpt4-1.4.1-GGML__airoboros-l2-13b-gpt4-1.4.1.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-gpt4-1.4.1
+  - base_model:jondurbin/airoboros-l2-13b-gpt4-1.4.1
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-l2-13B-gpt4-1.4.1-GGML

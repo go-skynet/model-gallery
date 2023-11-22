@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q2_K.gguf
+    sha256: 4699d1b9c15ba14b8f07bc456cd6062ab7aadcc71052086a628df455dfc77745
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q3_K_L.gguf
+    sha256: 06e1e0063b3ccc02de046df1a4c020850c693110ee8964f0b00f70b3c5c8bb57
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q3_K_M.gguf
+    sha256: dfc1aa5342f6cea86a836b489d0b68db990b36373492b08b15867cfdeed6b3ec
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q3_K_S.gguf
+    sha256: 29d27390f78799cf25b8cbef917dfdef539fb132c4349f87d7f6d23d2c417cc2
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q4_0.gguf
+    sha256: 29ee2e3afd0602fce4febb70185db6be7fd181a11702da3221349cb09a37b63a
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q4_K_M.gguf
+    sha256: f1c832c6942fa1e98c38345cfd8344c651a2fd846207cc785158bc2951a447f4
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q4_K_S.gguf
+    sha256: 146eebec3dc38afb35882ecd69b3f39b07cf93f393b3b09a0733280bded48f77
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q5_0.gguf
+    sha256: 5771ed3cb45447e561e27478d6e451a9c3e4b07e525a06781998a64175a95313
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q5_K_M.gguf
+    sha256: 797c1d77f1e3216cb300a5adfaec67eb8a221fca674ceb5555b5233b258c9bc3
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q5_K_S.gguf
+    sha256: e361b0d03795f661baac1832e9ad399c0c8eb5e3913120f0bb0153a2c9832f60
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q6_K.gguf
+    sha256: 8e5f8bb397e9cc410f2fb5a7a3254de444b571b1b260cebc486e085b700e0f37
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-bluemethod.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-BlueMethod-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-bluemethod.Q8_0.gguf
+    sha256: 6ec5ffbb1170d063beb845b0d66a0f594ee90f59d4cddb8ce1d69d374c739f0e
+    uri: 
+      https://huggingface.co/TheBloke/13B-BlueMethod-GGUF/resolve/main/13b-bluemethod.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-BlueMethod-GGUF__13b-bluemethod.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-BlueMethod
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-BlueMethod-GGUF

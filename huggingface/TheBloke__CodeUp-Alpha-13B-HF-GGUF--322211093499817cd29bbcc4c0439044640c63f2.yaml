@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q2_K.gguf
+    sha256: 3db4ea01a67164d57f223ff2c7847ce1a009935f504e8a1eb9144ffe3f8eae4b
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q3_K_L.gguf
+    sha256: 3e330d0172a91864638da333fd475f3f3a593b47f829b2c63acf8d1d4253ace6
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q3_K_M.gguf
+    sha256: d2ba3ec44cf3b795196a3ebcebddd084971025381cbc2688505861786eb0d110
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q3_K_S.gguf
+    sha256: e38d722b14a37bf46cebc677714ee08656e13dd3eeba3c3bf390b980e034e6cb
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q4_0.gguf
+    sha256: 5b3391587600546684d2b616834b56ff35db4546ce8f1fa40a112c867dd15522
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q4_K_M.gguf
+    sha256: 06009b41db80f697eae52eea685d27970c68a152890d732825aff1a0fbbd094c
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q4_K_S.gguf
+    sha256: 1da1bdb9982d13e75240b69b0d1956f86bc881ece3ad893e60349d59a4a2ce58
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q5_0.gguf
+    sha256: ed321fa1f8ded64f17330a6a6f0577b79d3ea1e90f49df2f25dde76a8bbde4b6
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q5_K_M.gguf
+    sha256: 2baf7a211e061d9aa987767d79ce7d784e9500c469212bcd253e52a98d0a2843
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q5_K_S.gguf
+    sha256: 6971130e78047c314d0726bf37acddc4b7e4227b5a340faaf899ebaf909ff974
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q6_K.gguf
+    sha256: 9675d552e723f2348d9c8b496c96a7bbd2c72e9bfdd6f6152b513e6ff04ad899
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codeup-alpha-13b-hf.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Alpha-13B-HF-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-alpha-13b-hf.Q8_0.gguf
+    sha256: 88ae3b08fc78d910f4c5626d3e2a92d132bb9451cc4a0f1ba9ef3d25e477afec
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF/resolve/main/codeup-alpha-13b-hf.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: openrail++
+  name: TheBloke__CodeUp-Alpha-13B-HF-GGUF__codeup-alpha-13b-hf.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - dataset:rombodawg/Legacy_MegaCodeTraining200k
+  - base_model:deepse/CodeUp-alpha-13b-hf
+  - license:openrail++
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Alpha-13B-HF-GGUF

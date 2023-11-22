@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q2_K.gguf
+    sha256: 33aaf22153e08a8759070f0b91718812d2f6f16e74e7b94fa302b7fe3ce55a36
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q3_K_L.gguf
+    sha256: f60cb8877f53049cc10e17ef2b66a4c23c95c25bc376852d2b706108e602fd58
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q3_K_M.gguf
+    sha256: 5a13220f8185533a7e617578d6f67fe1746a46585a89c690ffd72faee348b561
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q3_K_S.gguf
+    sha256: dce1c8b66f4f18c214657578aca71f2e8f5e5e459073bf23de318534d547fe71
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q4_0.gguf
+    sha256: 9e7da84852e3ac5f9b8f5b5d308cc7c9bf549d690b124e4a04fabffc5ddf5629
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q4_K_M.gguf
+    sha256: 0f3c9aced2de6caad52323fea5a92a22fba0b4efddb564fda7a3071e0614443f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q4_K_S.gguf
+    sha256: fd809476e35102fecc4e075c99aec030c606d20f9680d3d995535e3c2455dfbf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q5_0.gguf
+    sha256: cc5d8586a87f4aafd78a4b4854135a87df3ab1f62c54a7fde68c93d02540c3b2
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q5_K_M.gguf
+    sha256: 6dac91c3dbde0920277d1c281c36fab9c6515e8a1f6cc39af038744372c35416
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q5_K_S.gguf
+    sha256: 3761ccbe782f58b6b121bcb7681ce17c1f102d6e866eadc24618f861a4f8bace
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q6_K.gguf
+    sha256: b861868524cddc2d4c68d08ba471d92f3fc97846107abb4c90aa37d6802f0941
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-code-16k-qlora.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-Code-16K-qlora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-code-16k-qlora.Q8_0.gguf
+    sha256: 23c065fb9c815741b667b3784c44206efe6ac77d80589e89fda420e8545a670e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF/resolve/main/mistral-7b-code-16k-qlora.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-Code-16K-qlora-GGUF__mistral-7b-code-16k-qlora.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Nondzu/Mistral-7B-code-16k-qlora
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Code-16K-qlora-GGUF

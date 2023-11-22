@@ -1,0 +1,448 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q2_K.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q2_K.bin
+    sha256: fad430b603eef4896f91b72efa5492a9a84acc640ac4ef31297a44369ca287b4
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q3_K_L.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q3_K_L.bin
+    sha256: 48c6adf3a64f55be6943a2b3b942132198590139d0151cd3fc9eb840b1924c2a
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q3_K_M.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q3_K_M.bin
+    sha256: 62b27ae41deff510764fafcaf152760502d75d0191ed83ba95483972cbdcad6e
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q3_K_S.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q3_K_S.bin
+    sha256: 21e0d767d5d771e8abadb8f78507918265d23af54f7000559eaf405c4563601e
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q4_0.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q4_0.bin
+    sha256: bcee5b00efb52231e8a223edbae58fc559ef1c0eaa1de7ea1d42baec2922a5a0
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q4_1.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q4_1.bin
+    sha256: e75bcf4eb43732a34b5ed526a07cf6c6a776619e97c8c204ea36faec8018cb84
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q4_K_M.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q4_K_M.bin
+    sha256: 3dc88f31c65b65c060a16b16082370b81df18a2dd1d1a5d4466f267a086d09e5
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q4_K_S.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q4_K_S.bin
+    sha256: d4734bdcefdd93ccb78c2dc98740d9ff19a70eef6bb59bd95d4be991b86c85ee
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q5_0.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q5_0.bin
+    sha256: fbb6e7964f1128eaf51b84e9027b3f5974b245420b637e4e02fff81a7ccde3e4
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q5_1.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q5_1.bin
+    sha256: 6ed7e1609abea1623fa0ab80f7e8082353e27f75fbb35b1eb7d09ec5b0e9d59c
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q5_K_M.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q5_K_M.bin
+    sha256: c0c1841065a531c0bb4e1a448a8db4fa21dff8b2a4f71456a68ab6aedac7dc61
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q5_K_S.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q5_K_S.bin
+    sha256: c11612e3e58c7296a5487729e9b656db9b9d1aabde8ac4b5beaddaa324a13224
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q6_K.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q6_K.bin
+    sha256: ca666650effb0cb0cceefad7c9656ed33b09af92e6291ad2a3e99cd2d04e37d3
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: yarn-llama-2-7b-64k.ggmlv3.Q8_0.bin
+    template:
+      chat: TheBloke__Yarn-Llama-2-7B-64K-GGML
+      completion: TheBloke__Yarn-Llama-2-7B-64K-GGML
+  description: TheBloke/Yarn-Llama-2-7B-64K-GGML - llama configuration
+  files:
+  - filename: TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Llama-2-7B-64K-GGML.tmpl
+  - filename: yarn-llama-2-7b-64k.ggmlv3.Q8_0.bin
+    sha256: 2e117302ed420bd86c2202159165e9cb9adb8caf31d75abb1ae7493e6a252a8d
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML/resolve/main/yarn-llama-2-7b-64k.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Yarn-Llama-2-7B-64K-GGML__yarn-llama-2-7b-64k.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:pg19
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Llama-2-7b-64k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Llama-2-7B-64K-GGML

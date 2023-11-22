@@ -28,6 +28,15 @@ def scraper_process_atrocity_initializer():
     perProcessClient = HfApi()
 
 
+ALL_CONFIG_RECOGNIZERS: List[ConfigRecognizer] = [
+    llama2ChatConfigRecognizer,
+    llamaConfigRecognizer,
+    mistralConfigRecognizer,
+    llamaFallbackConfigRecognizer,
+    bertCppConfigRecognizer,
+    rwkvConfigRecognizer
+]
+
 ##############################
 #       MAIN ENTRY POINT
 ##############################
@@ -47,14 +56,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    configRecognizers: List[ConfigRecognizer] = [
-        llama2ChatConfigRecognizer,
-        llamaConfigRecognizer,
-        mistralConfigRecognizer,
-        llamaFallbackConfigRecognizer,
-        bertCppConfigRecognizer,
-        rwkvConfigRecognizer
-    ]
+    configRecognizers: List[ConfigRecognizer] = ALL_CONFIG_RECOGNIZERS
 
     prompt_template_recognizers: List[AutoPromptTemplateConfig] = [
         the_bloke_style,
@@ -67,7 +69,7 @@ if __name__ == "__main__":
         ),
         ModelFilter(
             author="TheBloke",
-            task="text-generation"
+            # task="text-generation"        # Turns out TheBloke forgets this task sometimes for things that should probably have it... so just scrape extra hard I guess
         )
         # RWKV needs work - currently doesn't actually find anything but the python pth files we can't use?
         # ModelFilter(

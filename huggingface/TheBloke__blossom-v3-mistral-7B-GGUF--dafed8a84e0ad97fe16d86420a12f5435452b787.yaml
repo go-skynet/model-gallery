@@ -1,0 +1,480 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q2_K.gguf
+    sha256: a7b1a532206a6c950acf34fc6f8ba66d9e3dc34a2b4dcc438faed6a920932728
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q3_K_L.gguf
+    sha256: 5ac697c9ae3ad63afadea538a86ce3e82d0b5c07a63193f5cf11543083bb2fac
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q3_K_M.gguf
+    sha256: 155f742f34517d0acd095d57d115f01a566fd3b67d0464e3029532813b2779b5
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q3_K_S.gguf
+    sha256: b4e568bdea6772d397ace0b4f0ee639d19eea324744ffb3ac0c8647c5cb2d0ba
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q4_0.gguf
+    sha256: 38e67255d968a7d4fcf183adbf8b2c5a703004246290cc92c5eb2145ab20ca34
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q4_K_M.gguf
+    sha256: 18f74df98827cdb8d3204ff2d19bbe8d8981ad4d4523f5c93bd90fcfd2e8454d
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q4_K_S.gguf
+    sha256: 5100ba4cc745785d26d894501c19262ba88fb04b2466d9b6f724a7d6bc9b0445
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q5_0.gguf
+    sha256: cd5ff8e292ce6a2368817abfd7517d10990f0fecd6aa273642ef876f276aeab0
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q5_K_M.gguf
+    sha256: e67b68fda77c4e7413fff732e8cf7bcf21b791830cacd91c36f506034aa21deb
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q5_K_S.gguf
+    sha256: c8dcdd099927b4ea7b6cb5a626d12b02f37f5595f275ccbc84693ea57a0245e0
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q6_K.gguf
+    sha256: 4c8ec0622d141f7851d91e6193d308d52ac751d041e4b8582b54c3f51c7f2096
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: blossom-v3-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Blossom
+      completion: Blossom
+  description: TheBloke/blossom-v3-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Blossom.tmpl
+    sha256: 1e9313e9cbdf1229269a3fd303f9a70b0f4c5f8961b86e706e5adb171478d285
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Blossom.tmpl
+  - filename: blossom-v3-mistral-7b.Q8_0.gguf
+    sha256: 8243aaed418b63a3e8ec99006b21c50ccb89f66c33cf7021deac89b500bbcf10
+    uri: 
+      https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF/resolve/main/blossom-v3-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__blossom-v3-mistral-7B-GGUF__blossom-v3-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - zh
+  - en
+  - dataset:Azure99/blossom-chat-v1
+  - dataset:Azure99/blossom-math-v2
+  - dataset:Azure99/blossom-wizard-v1
+  - dataset:Azure99/blossom-orca-v1
+  - base_model:Azure99/blossom-v3-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/blossom-v3-mistral-7B-GGUF

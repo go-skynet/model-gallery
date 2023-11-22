@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q2_K.gguf
+    sha256: c69ce63a8589b827ce3b3c8f912c64c6be5c72b7902115ec497321098541a655
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q3_K_L.gguf
+    sha256: 04458b7f04b6bf06d02ccfd0f51c0a232d293b7e889828c92ec4b23e6ea00c93
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q3_K_M.gguf
+    sha256: a38aa5655a83dcb0acb3db0360f3410e755d63b80df8eeff48d23861ee0736f2
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q3_K_S.gguf
+    sha256: ac4fd7e017d654b6109ecec2373087bb53d30d5c8fb476d389f3396277985bc8
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q4_0.gguf
+    sha256: 40e11f14131efd227007c08b55810c6cf03e0906381dd32d8332a52e2fd606fb
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q4_K_M.gguf
+    sha256: edfab4bf71592afe5531a51447d97004b2e2c90c851c05afba4dfaf113ba381a
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q4_K_S.gguf
+    sha256: 7ac2ad33b33dc15eeed6f3eaf4753cc10e21f67a311d06000c00071983db52ed
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q5_0.gguf
+    sha256: 12f6fc74bb6fc3db88e0a9ad56aeee55c551337596b7e15ad9716514df34fd30
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q5_K_M.gguf
+    sha256: a31c5403448501865cc8c87ef4a60334331806377bbd11a69351a095ad7c11f4
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q5_K_S.gguf
+    sha256: b7d3d5cdeb4df489835dfda0d7f19d13bc52fc00259206b3f6e2f0b3ff452133
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q6_K.gguf
+    sha256: 0a6d3351f4f91816d429a29d2ecf080d428fe4055ccd3bbd09c5c3c01e0a30c0
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dolphin2.1-openorca-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Dolphin2.1-OpenOrca-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin2.1-openorca-7b.Q8_0.gguf
+    sha256: ffae66af793c1f19e7aff285ada3e79bf4b348539ab075819282ec07d12e442c
+    uri: 
+      https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF/resolve/main/dolphin2.1-openorca-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Dolphin2.1-OpenOrca-7B-GGUF__dolphin2.1-openorca-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:Weyaxi/Dolphin2.1-OpenOrca-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dolphin2.1-OpenOrca-7B-GGUF

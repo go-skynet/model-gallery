@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q2_K.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q2_K.gguf
+    sha256: 0b478f1e40ace4af5048dadb917d2498d655acc27e86233f85004884f390112d
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q3_K_L.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q3_K_L.gguf
+    sha256: 7b05a167a41f5f98209de362be28a2d46d0b1c1ac3969db6db73265a27b10d0b
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q3_K_M.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q3_K_M.gguf
+    sha256: 26532e0e04c212c397f47b655f3be2cb596c5481e6301d7c65d3ffe68a86e2bd
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q3_K_S.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q3_K_S.gguf
+    sha256: 1a9c2302f533cbf75d7361fce497b740783464e3167434df1f3110ca31e86245
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q4_0.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q4_0.gguf
+    sha256: 3443cd99660fece5b359476ee28920326a842c763a683d73e395f017c92778f0
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q4_K_M.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q4_K_M.gguf
+    sha256: dd58b1fbe5fc424d7cfaaa596b996273231d26e5b6059a323af9e7c6f3823cf4
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q4_K_S.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q4_K_S.gguf
+    sha256: e5c3db1522495d5567dc533f580fec3f0f7ae8a5941a678b0203cfbb6d5530d2
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q5_0.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q5_0.gguf
+    sha256: e9353d2244a3c4948663db755c574d1ae22479ac359d1b49371340afc8221c0c
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q5_K_M.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q5_K_M.gguf
+    sha256: 784dd7cf54329efce5972d6cc9626995285075ffc844961033273c95ec4672bd
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-2-70b-oasst-1-200.Q5_K_S.gguf
+    template:
+      chat: OpenAssistant
+      completion: OpenAssistant
+  description: TheBloke/Llama-2-70B-OASST-1-200-GGUF - llama configuration
+  files:
+  - filename: OpenAssistant.tmpl
+    sha256: 4c04dfad297300270f85b27b8db4bcb0e685883c0a68581331e6d365c299cd83
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenAssistant.tmpl
+  - filename: llama-2-70b-oasst-1-200.Q5_K_S.gguf
+    sha256: 3f7e31f072b0b45220429532c5566faba228fa212b4511d77bd01ca8a228ceda
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF/resolve/main/llama-2-70b-oasst-1-200.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Llama-2-70B-OASST-1-200-GGUF__llama-2-70b-oasst-1-200.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - sft
+  - en
+  - de
+  - es
+  - fr
+  - dataset:OpenAssistant/oasst1
+  - base_model:jordiclive/Llama-2-70b-oasst-1-200
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-70B-OASST-1-200-GGUF

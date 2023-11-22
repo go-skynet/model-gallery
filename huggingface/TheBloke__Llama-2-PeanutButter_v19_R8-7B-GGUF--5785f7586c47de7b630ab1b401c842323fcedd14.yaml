@@ -1,0 +1,391 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q2_K.gguf
+    sha256: 0efffc18fee7207b1d4c0aa3b1d7e369af8cc018f2185e686cde2fa156cbca78
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q3_K_L.gguf
+    sha256: bda56093ad67e87e1864b3357d79db9bbf8b37c049c5b7a93565e87fd97d2ecb
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q3_K_M.gguf
+    sha256: 44c4e77efc14e638158bf0f19deadfd513c1086ef09ae609b26749fc458c1111
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q3_K_S.gguf
+    sha256: 2e16fb020206756299ab3898a19b1125c46723e9bc114352e250891e53dd5714
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q4_0.gguf
+    sha256: 8059a61d33cf07793fb38ae58aedc056f965aeccaead8ddd1df25f329fd0a926
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q4_K_M.gguf
+    sha256: 7907c60fcf89adaf5b7a137d09cc9d5ed615746daf798678563065c8ba7fa7bc
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q4_K_S.gguf
+    sha256: 9a755033e41e0194c70744495a8c9a7aacb94d0e9befcdb118d80720b2714d40
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q5_0.gguf
+    sha256: 03845344063d3745e386e98b37cbd8f04e370ca22c0af6518eb91f987d42bd3a
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q5_K_M.gguf
+    sha256: 56db451f60dcf6ed91291bcc969e1b8649eaf84b441573bb0b805bc2a915a95e
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q5_K_S.gguf
+    sha256: bb9583964187a8ccab8515eb80acd6aadf7cfe1810781e964f83695bca907713
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q6_K.gguf
+    sha256: 8eef00d310451de69faa721c157a4915a7a8401ae446d3e0a05e3a1fc9123b33
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: peanutbutter_v19_r8-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: peanutbutter_v19_r8-7b.Q8_0.gguf
+    sha256: 75ee32d14c41e609f8c0e956e44fd4eb46e4c2b00f9654615f33ef2368c1b20d
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF/resolve/main/peanutbutter_v19_r8-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-PeanutButter_v19_R8-7B-GGUF__peanutbutter_v19_r8-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:PeanutJar/PeanutButter-Train
+  - base_model:PeanutJar/LLaMa-2-PeanutButter_v19_R8-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-PeanutButter_v19_R8-7B-GGUF

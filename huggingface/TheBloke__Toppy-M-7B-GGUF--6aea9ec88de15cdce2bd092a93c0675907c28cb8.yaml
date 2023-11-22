@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q2_K.gguf
+    sha256: e117f1e1667a07d47147a9af49574b9688147f5df2ac615192ab526f73cad960
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q3_K_L.gguf
+    sha256: d71c032b817263e06910678a0f3cc508a6caddcdbeca6b343185f0b01e1ab8f3
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q3_K_M.gguf
+    sha256: 9a87614ecb07b6dc34c23650be984695eb7507f9463720a5d9785dcc9d2a0a14
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q3_K_S.gguf
+    sha256: c5718f0d0f4866a5b5e068fe9bd2542213107350f58625bcf53515af7b57e696
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q4_0.gguf
+    sha256: 86729533898765a8d405141bed9f64c4644de272adf3f7ce2ff84c950123b547
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q4_K_M.gguf
+    sha256: 9e376a201e63c71491d8b66fd77d081052470c18f20f296aff2ce5afc938e960
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q4_K_S.gguf
+    sha256: 7be0e6dbf18244dfa90e53616ea4441ec9f33a66b337dc2fea81a9fad91955f6
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q5_0.gguf
+    sha256: 066b7beb1558f4b4233aa1b58d88f54e19608f949fc582e2b7d690b643ed83f1
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q5_K_M.gguf
+    sha256: 321f4f38068ac8588f192a3e5ed2ead7396a774574330237a1209c47d3c98a9b
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q5_K_S.gguf
+    sha256: 7720bbac22ca326c460e41d942873bf64480bb6bd6139cd511307a58f97ec559
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q6_K.gguf
+    sha256: 9a36d412b8f78fd66432fbe89ceb76a46b1ddb77153260b492cfa3cc77eae4bf
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: toppy-m-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Toppy-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: toppy-m-7b.Q8_0.gguf
+    sha256: 39dfaec55266dea0562c96c5460329d44ab06c0eeec650bcac61a950c23c78db
+    uri: 
+      https://huggingface.co/TheBloke/Toppy-M-7B-GGUF/resolve/main/toppy-m-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Toppy-M-7B-GGUF__toppy-m-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Toppy-M-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Toppy-M-7B-GGUF

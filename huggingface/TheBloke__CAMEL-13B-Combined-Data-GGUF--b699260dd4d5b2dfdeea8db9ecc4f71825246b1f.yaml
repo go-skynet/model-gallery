@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q2_K.gguf
+    sha256: 0ce1272e0598953661a233946c34bf8b6a2c3705d163e2acf280ff393f1c9d18
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q3_K_L.gguf
+    sha256: f57e75343a7e5af6ca9154ad7c264f17e59239207e98695902d21748f68ce803
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q3_K_M.gguf
+    sha256: 6a3ac953be7bf69f47e5bf54809f31b2ac355819c3933e7ade1fb860bfa63813
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q3_K_S.gguf
+    sha256: 2ee1bf9f64152e9932086041ac671b86b8d707904e3908540b587339de9eb803
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q4_0.gguf
+    sha256: 8653fcc47038d48ffbdf1fdcef529e6460b5cdd38d314da2fa4819ecfa643f41
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q4_K_M.gguf
+    sha256: 7f70decffdbdea8f9b45a07a546c5f5f8b3d57652d2178ab501d6e0177b9332a
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q4_K_S.gguf
+    sha256: 3b0672f01b974d8bb71f65be11a037f3c2f46384b1f5a6594ce2b99c0fa7e321
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q5_0.gguf
+    sha256: 62d45757324d6d0f9f286f86a0bf4396b3e15e4b8a71a80a2969e6daf28f688a
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q5_K_M.gguf
+    sha256: 9119dc455e2670681e11a28c5100864f963eb0f4e2ace7abd6a893764f12f315
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q5_K_S.gguf
+    sha256: 69dc0fdf127c4f7b44d59c5cdc03f52bc2f476d8a39c19175ff74872bb96ad19
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q6_K.gguf
+    sha256: 8233957d00ffec811e8cb8fb2b69478da4e3760d8fbc94433040e4699d2aed0b
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: camel-13b-combined.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CAMEL-13B-Combined-Data-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: camel-13b-combined.Q8_0.gguf
+    sha256: cf52adecb64367b2383d4cbf684a4ae229fbe456c05ce9d5eed76d0388364b5c
+    uri: 
+      https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF/resolve/main/camel-13b-combined.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__CAMEL-13B-Combined-Data-GGUF__camel-13b-combined.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2303.17760
+  - base_model:camel-ai/CAMEL-13B-Combined-Data
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CAMEL-13B-Combined-Data-GGUF

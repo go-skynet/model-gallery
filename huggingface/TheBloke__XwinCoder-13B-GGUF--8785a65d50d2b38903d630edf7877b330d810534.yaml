@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q2_K.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q2_K.gguf
+    sha256: 63936f03fc325fed2e493f722cd51c0b5264e93102a3dfeabf055ca19acb8d7b
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q3_K_L.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q3_K_L.gguf
+    sha256: 137fd92e38e1efa2c8f425668cc54101d4eac02747642c32a2421a948a5e70a9
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q3_K_M.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q3_K_M.gguf
+    sha256: b7675186d6eea6b745e567b61ce79e8293a558c40cbb9ed1317a4566ef3b2c89
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q3_K_S.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q3_K_S.gguf
+    sha256: 67b3a2b34a161971e062e857e0cbc084d013dc655f2964f14b30974830659ab3
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q4_0.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q4_0.gguf
+    sha256: 8cb88a4d88cd4ef44d333269f3ca1e5a079b95ae67f38da9af20c4592eddebd3
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q4_K_M.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q4_K_M.gguf
+    sha256: 1aafbe45dc7f4a680dd904683bf623722ccf7d84fc2f3e7a1d6fbf759b8057e5
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q4_K_S.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q4_K_S.gguf
+    sha256: b526811fe5c7943f33322721f21e31fd8ca24e2bdc4f8bc8131f5bc3a511f5e8
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q5_0.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q5_0.gguf
+    sha256: 52d4546e9f42ffb08c1ed00fcf6785d9edb1d3e1cd0f2a19d041025cf3eec81d
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q5_K_M.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q5_K_M.gguf
+    sha256: 26346d0ba50f919a6e53c2f279709b20f7b14f4d0598c5f4687772c17f6491ec
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q5_K_S.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q5_K_S.gguf
+    sha256: dc0678a90e112acc6f8948ec30f58e9a99e0bc2cbe678f328213b11b92677d67
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q6_K.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q6_K.gguf
+    sha256: ce036a2123fc995003f5e939cd9bce5664ff4e8d89aa0d51d1b2609b5e2ef380
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: xwincoder-13b.Q8_0.gguf
+    template:
+      chat: XWin-Coder
+      completion: XWin-Coder
+  description: TheBloke/XwinCoder-13B-GGUF - llama configuration
+  files:
+  - filename: XWin-Coder.tmpl
+    sha256: 0721623dd40167aa52947e99dbffba26e69c0027c9aba6f3a01cf895671e65b5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/XWin-Coder.tmpl
+  - filename: xwincoder-13b.Q8_0.gguf
+    sha256: 43171ab22f2cee81f5cab9af27da05808d7eb18fd1f708b13c6dd3d5fa2fc953
+    uri: 
+      https://huggingface.co/TheBloke/XwinCoder-13B-GGUF/resolve/main/xwincoder-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__XwinCoder-13B-GGUF__xwincoder-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Xwin-LM/XwinCoder-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/XwinCoder-13B-GGUF

@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q2_K.gguf
+    sha256: ac215e3934e6cf59341c52736c79113bea7667fc198e12d696d475606e3e5540
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q3_K_L.gguf
+    sha256: 568edea1176eb2d2b63696ceca10c770fe74953ff417c597c98403f0c4717a19
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q3_K_M.gguf
+    sha256: c5b67a4275601ecda935ffcc8502292025e55d2565e7fbc918e41c66f817544b
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q3_K_S.gguf
+    sha256: 0b5b24c4a1e94070b379b6fb3920005a60c772e32245183f3fce8b9e38395a85
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q4_0.gguf
+    sha256: a49149df140a75c9051869ba9eb35560ab49cbe3ad75bd523be74b13ac260cae
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q4_K_M.gguf
+    sha256: a47cb0624d876b6bb0372733e401c7126006390213d5cb99772890b1478604b1
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q4_K_S.gguf
+    sha256: afc27c84988d7215cc69f698b3eac1c8ad1cd41d3d8eb7f0acdef5844162106e
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q5_0.gguf
+    sha256: 788dfc073ea8b993878849fed5e5cd55fe5320757d46340d1fa2471c179f4bfb
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q5_K_M.gguf
+    sha256: 932ba858f83ce237029e2c432b0ab94688ab8246d8e18d1f214efe1868b89008
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q5_K_S.gguf
+    sha256: 8bb26812f950b32a46afcfce2431611a977448b673c97de8403ba68740ba2b57
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q6_K.gguf
+    sha256: 691b7dbad3d4167a3762a722bd544388654110265fd97a0beac7def320e8222d
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: free_sydney_v2_13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Free_Sydney_V2_13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: free_sydney_v2_13b.Q8_0.gguf
+    sha256: 650e6b101428cd108138f1a8dcd25f30dcb8b906cb2ac56f4c0b6067ece917eb
+    uri: 
+      https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF/resolve/main/free_sydney_v2_13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Free_Sydney_V2_13B-GGUF__free_sydney_v2_13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llm
+  - llama2
+  - base_model:FPHam/Free_Sydney_V2_13b_HF
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Free_Sydney_V2_13B-GGUF

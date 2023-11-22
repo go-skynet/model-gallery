@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q2_K.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q2_K.gguf
+    sha256: d4ae1904f694936f79c6811340f66af6c5b66d9de35c8c4df0832f0d6bbc7b66
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q3_K_L.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q3_K_L.gguf
+    sha256: 0d7a30bab57b8b720763776bfa45a428bbd6c448fc09580ca50a938ddc739371
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q3_K_M.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q3_K_M.gguf
+    sha256: 4d6e4b89ab350fcf0fb874ae89c403abd46dbd1bb970b8e59d6defe59faf4a3b
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q3_K_S.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q3_K_S.gguf
+    sha256: 2634d0c7f2172ef20f54de947dff85d991b6bdf3a6d0c71839a146ab343c921a
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q4_0.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q4_0.gguf
+    sha256: b93de1922a691b97e04e762d0af806c1456de59e3685240d396c6eebd4b5747f
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q4_K_M.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q4_K_M.gguf
+    sha256: 138a8a9b29a94ab576b6e205a0fec9ce9abec03558c7ed6f2eceec93a02b9068
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q4_K_S.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q4_K_S.gguf
+    sha256: 5693b167601859285b09d0cc2f57043ed7f2362053cd1e2f5f3504d4f8e8f1af
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q5_0.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q5_0.gguf
+    sha256: ecdc50e7a3deed75c64f4528ad7eb840c9c1e115c7bac7bbff635937eb6777d6
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q5_K_M.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q5_K_M.gguf
+    sha256: d54dbe8ff3a9c0e0e9115d0a7fee1b400cad0462d952a4a4c56a85b393fc2bcd
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q5_K_S.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q5_K_S.gguf
+    sha256: ea5d1b2e18ccb1c46e8480cc0023afa38bcfaa23508de92a5a38e2601d4c1ca7
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q6_K.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q6_K.gguf
+    sha256: 2ef5fa678a563c7bc2dae707572e7d9fea8567e4633f9f7d648032a948e76408
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Guanaco-7B.Q8_0.gguf
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/guanaco-7B-GGUF - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: Guanaco-7B.Q8_0.gguf
+    sha256: 4c582cf65574a18a54295ec1a02f7df59e7425f16ff297ce2ce1c8299bd4db47
+    uri: 
+      https://huggingface.co/TheBloke/guanaco-7B-GGUF/resolve/main/Guanaco-7B.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__guanaco-7B-GGUF__Guanaco-7B.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:timdettmers/guanaco-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/guanaco-7B-GGUF

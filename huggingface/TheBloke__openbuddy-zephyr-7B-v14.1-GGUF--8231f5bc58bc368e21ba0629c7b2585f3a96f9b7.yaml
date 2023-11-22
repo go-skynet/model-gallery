@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q2_K.gguf
+    sha256: 180af89d4b5951bf41c1b348f523a121dc21a7708a2f18bd25bbf42d7ba10360
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q3_K_L.gguf
+    sha256: 28e1ffa8f210a0facc8cb695341ddab584fdf62ada79a48db6ebae887a71efcc
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q3_K_M.gguf
+    sha256: c1ef6317b95dc03dded596f8a087c0f5677e3df8126b290c3bbe94f739bbae91
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q3_K_S.gguf
+    sha256: 19b46145a2bf0770b57f2fa700655d75bd7f53ed20ad2c74fe19676045180cd3
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q4_0.gguf
+    sha256: a44e16e45cda3cf2fd5a6361587196d2103404fd03d7fc6c81c97a1a524bb238
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q4_K_M.gguf
+    sha256: 5e1abdc91242462f7831fd6a2f22985dbd1f0a9b0262707bc654aa2bccc48901
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q4_K_S.gguf
+    sha256: ac155c35f795a07f6690ac66c5825778f7de7f0687b1ecbb2841f5e88706a397
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q5_0.gguf
+    sha256: 3dd855dfd34e72170b02fb6aae64a9e89bd8cdc05d2cbd5fe4e47328b81591b5
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q5_K_M.gguf
+    sha256: b53582c1b334a950f7db170d4181c0b6734a1d1c91967d7c85572a9ae3d5194c
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q5_K_S.gguf
+    sha256: 78515672e93f8b9d25baea6d6e7bfc0ef5f054a185abb1fa25a6b100d406cae0
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q6_K.gguf
+    sha256: 8ab2aca7e4c5e2a85ce92dbf274953f3d62e57a2ea91938301597a1109bbaf8e
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openbuddy-zephyr-7b-v14.1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: OpenBuddy
+      completion: OpenBuddy
+  description: TheBloke/openbuddy-zephyr-7B-v14.1-GGUF - mistral configuration
+  files:
+  - filename: OpenBuddy.tmpl
+    sha256: fc91a4ef1aa7d8cc35731bb0aab77aad3cb589b85a8c25180d095d1f0a726f82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenBuddy.tmpl
+  - filename: openbuddy-zephyr-7b-v14.1.Q8_0.gguf
+    sha256: 419498e014b328b3810d1fddc56f3ddf9314e5c96d504435a9c097dd386d9f46
+    uri: 
+      https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF/resolve/main/openbuddy-zephyr-7b-v14.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openbuddy-zephyr-7B-v14.1-GGUF__openbuddy-zephyr-7b-v14.1.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:OpenBuddy/openbuddy-zephyr-7b-v14.1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openbuddy-zephyr-7B-v14.1-GGUF

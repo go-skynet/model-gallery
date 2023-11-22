@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q2_K.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q2_K.gguf
+    sha256: ea8223ff9c05383ea4a80f7325c107776f3a81e93de4dc781259d26e1037691a
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q3_K_L.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q3_K_L.gguf
+    sha256: 37654a9664050979172153593aa49b867a13a1fbd516c38dcabee9799d910981
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q3_K_M.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q3_K_M.gguf
+    sha256: 7f1999c94ea86dadab1eba6a9bb7dca6c9853983177bdb7974fba2bc9fba191e
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q3_K_S.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q3_K_S.gguf
+    sha256: 07d394154e2be36d3eff9a374ef63b9d7fb364dd7cd065024997fd7f185bf905
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q4_0.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q4_0.gguf
+    sha256: fda0643e3d98f8de4961e539e1abb3905fb9983119d522572c91ad0ebd9b3787
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q4_K_M.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q4_K_M.gguf
+    sha256: fa9500dc78ba77b96e80188fbb84d093a49a0efea6f61fb7f4cb24ce144bebb2
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q4_K_S.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q4_K_S.gguf
+    sha256: 6a352f4099451612bf272ec3238774daf364da2b8d9c541715c38e6d1804e343
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q5_0.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q5_0.gguf
+    sha256: 0501614dd419de713718dd23248d059f974dec7f8dc01ce4cf65d0191847c0d1
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q5_K_M.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q5_K_M.gguf
+    sha256: 5228a1361c2cb29366b3ffa3d9700e7c90ccf6f58251605ab6ca02cf14fbfa62
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q5_K_S.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q5_K_S.gguf
+    sha256: 0cf9494b705ddd5c60fb45e79fc99f8ccbd9825d98a271b13b3ddf4ebd38e356
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q6_K.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q6_K.gguf
+    sha256: f6ac15bce1623f8ec766344516d0fc5aa3f654926dc874bccee635d0ec78a703
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Karen-The-Editor.Q8_0.gguf
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Karen_theEditor_13B-GGUF - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: Karen-The-Editor.Q8_0.gguf
+    sha256: 22783be604c8786ce0a5540a94286d82b714f95d27817eddbe2249832e760154
+    uri: 
+      https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF/resolve/main/Karen-The-Editor.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Karen_theEditor_13B-GGUF__Karen-The-Editor.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - lora
+  - base_model:FPHam/Karen_theEditor_13b_HF
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Karen_theEditor_13B-GGUF

@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q2_K.gguf
+    sha256: b8671872eedac232b288ba32bf571d1c32494428223689f1e84b7e5399148bfc
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q3_K_L.gguf
+    sha256: bc456746131c42f59f9bde528805cc5d9638a231f390b01558e997f02ce49ee9
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q3_K_M.gguf
+    sha256: bb8a01f03595f8d98cdecaa2da7fb93b06f07da3bd055db106d00bd9b1f6d8eb
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q3_K_S.gguf
+    sha256: e25fd8ba5372d426232e0d23d5e7ff1b39028ad1724d0d0584268cf38ebffb35
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q4_0.gguf
+    sha256: 9cb9ea638949ee4dbf751ea821f2265008b74779259161838a44cf22a34b132f
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q4_K_M.gguf
+    sha256: 0e56df82969ec5d6dc40a82ae449d2fdfeadeb3f5d0dc94ee3204060473b303f
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q4_K_S.gguf
+    sha256: bc351fe4bf0600f33ee098abbd6d8906a9ee81ace803c7f229ad6087660e5e30
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q5_0.gguf
+    sha256: 6edc81fe07697daff5006ee04d9e33a87d77dc645769f93d544d76e203ebc10a
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q5_K_M.gguf
+    sha256: a13ed6b0e6bcf60ae4459b9cb0c0491b811cf72a7df41abc8249173c51ee97c2
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q5_K_S.gguf
+    sha256: fc1ab0e45d0e2d1c612bc9e71843128f9adfc488229224f502679fd36adaac58
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q6_K.gguf
+    sha256: d43b1c72a34b1b66b7d95412a8586dbc74770b8df4308a59f89b6cf44f2f7eb0
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistrp-airoboros-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MistRP-Airoboros-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistrp-airoboros-7b.Q8_0.gguf
+    sha256: 9dfe2db1a0ea3612e0a21004739d420733392b0d706c68d346bf914eaaf460e7
+    uri: 
+      https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF/resolve/main/mistrp-airoboros-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MistRP-Airoboros-7B-GGUF__mistrp-airoboros-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/MistRP-Airoboros-7B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MistRP-Airoboros-7B-GGUF

@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q2_K.gguf
+    sha256: 97c7e96ae776c10e46279d98a309abd1263d6bd44295d4d352e0a1a815b9fe8e
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q3_K_L.gguf
+    sha256: 353b07d6fc4439670368f170de2ae3ed46d82fbdfd148f02a72d9477d1759af3
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q3_K_M.gguf
+    sha256: 5594581248446d03a80722751952e96c3e2942c6103cfc97801ed95d1dd13084
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q3_K_S.gguf
+    sha256: b81a8956e7f1608f463b3ab3f1a48f1514dc95af3c789713953cb60ee307cd52
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q4_0.gguf
+    sha256: 2e0a671911b5446cbae32ebba1ed2901d2da7e3f88b93eb59ef42421e6e682ba
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q4_K_M.gguf
+    sha256: 5512e8914b6d646b4710b930a5569ca0db365d490fefb6c9f2ffa228284e585b
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q4_K_S.gguf
+    sha256: 036efa15a364c7de78b0654e8390df4307a2038d8fc4f380ad5adf760fd115da
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q5_0.gguf
+    sha256: 764832bc9fdf6faaa211e720f0768750e4abe9ca0b429027714f1a12c495a616
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q5_K_M.gguf
+    sha256: b83e621395d01fa4bcb7f6fdb8c20f07acbb96b94dddd389119e1ac0f0262075
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q5_K_S.gguf
+    sha256: 92e571da5c1ec5ff0284d263b81fce465d919ec6d42fa56b0337d76ff96c78ac
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q6_K.gguf
+    sha256: 864e556b1d2f5ba58ccde2e503d120522744b4bda039fb39878014f3c242352c
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mythomist-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca-InstructOnly2
+      completion: Alpaca-InstructOnly2
+  description: TheBloke/MythoMist-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca-InstructOnly2.tmpl
+    sha256: 6c7aa423a69d062f5738823f36ca3b5468880bbaea69c2b17098974174267b3f
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly2.tmpl
+  - filename: mythomist-7b.Q8_0.gguf
+    sha256: b35746a3ada553c9a4f4b08e54a8527bd9cd8c6789a849620ce9cce076abc06d
+    uri: 
+      https://huggingface.co/TheBloke/MythoMist-7B-GGUF/resolve/main/mythomist-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoMist-7B-GGUF__mythomist-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - base_model:Gryphe/MythoMist-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMist-7B-GGUF

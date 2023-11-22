@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q2_K.bin
+    sha256: 4ebbfffa6009d88ca40d285415457c1b7303f6e0f9913f8aab73135325e907c3
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q3_K_L.bin
+    sha256: 9b38e015ce76045e77ab884132727ede5aa39127994f741f8fb205423b954f7d
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q3_K_M.bin
+    sha256: 735ca8e752baaa2fbed3622f5389875739bd2e6207939532d9b3c1673fac5cd0
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q3_K_S.bin
+    sha256: 8d824f68f5f62e836084b4501eadd1d10fc2660d1016829ad47765c6de23d6c2
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q4_0.bin
+    sha256: f26443db1f58d6940c97b255d43c2d10d88c99ae466e321ed1ec67ec2f1fffae
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q4_1.bin
+    sha256: 8b4c7130784c906511bcd6e24b22f62d1bbfadd63634d22cf4804c4864f0d68a
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q4_K_M.bin
+    sha256: f306891ac555b4c90b85ec6108d6902dc5dc069cb19ab5f4cf413250726b848d
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q4_K_S.bin
+    sha256: bda198369e7fb3a11eb430b97883dc41b922d2480ea6783c2d69957c19165c34
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q5_0.bin
+    sha256: 992b9110f85e2d4fd4799287e710780f604f2ec07e3845417189392b581aedd9
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q5_1.bin
+    sha256: b11c31ae4f9fde7083e8065a73707b81f3d1a0a6868584e1e751311d778599b1
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q5_K_M.bin
+    sha256: 7ead0953faab838c49a9f5f4690da4805514684c3fd54c6776f70e6bbd685dcd
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q5_K_S.bin
+    sha256: 919b5850df4d1753be8d0b3236b11c52fe0aa7b2223875d3f4be4b5db18e24ae
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q6_K.bin
+    sha256: f4d9eee2a879e5d81cb9d50df2a596bb2db5b0101a960368a074e2edc7269b52
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginn-22b-prototype.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Huginn-22B-Prototype-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginn-22b-prototype.ggmlv3.Q8_0.bin
+    sha256: 2cff0890a27334e9b720e9097ddac88e3c63e8d3aedbf99f23df04ec776a6276
+    uri: 
+      https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML/resolve/main/huginn-22b-prototype.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Huginn-22B-Prototype-GGML__huginn-22b-prototype.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/Huginn-22b-Prototype
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Huginn-22B-Prototype-GGML

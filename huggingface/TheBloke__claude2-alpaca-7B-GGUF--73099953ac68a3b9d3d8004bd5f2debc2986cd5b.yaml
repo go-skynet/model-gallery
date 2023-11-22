@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q2_K.gguf
+    sha256: 512d945fcd869e3fcaf2cf7f986ddbfc669ff190c0eb97e3986a1d9b8d72f7d9
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q3_K_L.gguf
+    sha256: 5bb6dee8479bc36b962e27b5263a04cb0dde2e1d90e7b8a0b0d7ad2ed049e221
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q3_K_M.gguf
+    sha256: 9b1ed0db6756244bd0287ca4fe2f74b45f5d5564d2e7b40ccfc5eeeb85395d98
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q3_K_S.gguf
+    sha256: 516ff0a794b27c40b83348c0ee7a07753cb537c4c842fd4ca153c96329b0ae36
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q4_0.gguf
+    sha256: 573c2020cbd44981ece28cf2d12128a058346cc4ec9747a7250b0950f0fa7750
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q4_K_M.gguf
+    sha256: 6c3152b4c37fc5930599d187be74461584cfe0a94420d3bb8db88283325ebdc3
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q4_K_S.gguf
+    sha256: a1e4519b2b2468036ba743d1b27234940febb2a56d7a8b9c0893c44168406bfc
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q5_0.gguf
+    sha256: 4be4e5c88d484b1ac6d93cd60b45b1a6da808fbeca5dac497b7270f5d599ae97
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q5_K_M.gguf
+    sha256: 5ab8896b73a30f70f9a9fe9f4525d3848a3d0cd5c6cb4cb7ac9c82736fae85ee
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q5_K_S.gguf
+    sha256: b316741dda3f9618801c42d0a687437720d871a5f530e783496e9afc7d57a436
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q6_K.gguf
+    sha256: 0e691219f605446f535c0b0b06378f262fd34980d0d06db4ac68f7b0fa41e88b
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: claude2-alpaca-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/claude2-alpaca-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: claude2-alpaca-7b.Q8_0.gguf
+    sha256: 5053a76676e3dfb8b3c19d6c990ed5499fcd5a7261f0f293c33b0e94e3a0e6e4
+    uri: 
+      https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF/resolve/main/claude2-alpaca-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__claude2-alpaca-7B-GGUF__claude2-alpaca-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:umd-zhou-lab/claude2_alpaca
+  - base_model:umd-zhou-lab/claude2-alpaca-7B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/claude2-alpaca-7B-GGUF

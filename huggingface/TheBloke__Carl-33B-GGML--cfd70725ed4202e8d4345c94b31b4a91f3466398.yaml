@@ -1,0 +1,448 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q2_K.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q2_K.bin
+    sha256: d258367c313d6d020a5f6331c7195754a088182a9ea52c49598e5ec8ad190343
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q3_K_L.bin
+    sha256: 9a37e038119ba85e9c441a0afa8a6eaa7b65403c4f99ab5c77567cc80c530805
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q3_K_M.bin
+    sha256: c8a483d06eb96ab77223fc6d7fe03fa0975086c27f0b7090007ddd92d3c59279
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q3_K_S.bin
+    sha256: b692722cadced86e4edcde7f3e2e154277e12c972028353c1d3840c5fd953d09
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q4_0.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q4_0.bin
+    sha256: c7a70f9521785497c4513d51b07e4fa54465d319ee8e8c679869e1bfcf14eef0
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q4_1.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q4_1.bin
+    sha256: 385c2a117ca5e5c406604b23caaacd6b438338519c41186e1a5eb06845365c73
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q4_K_M.bin
+    sha256: 066bde33be9d45761c0b3439d0b843e44005dcefb9f80008b0c1ae9a3303ec45
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q4_K_S.bin
+    sha256: d2dd5c9e2a2e8d5dfa8dccae778a81636f32a9e9786baee7c054a61419bd7f1c
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q5_0.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q5_0.bin
+    sha256: bfe66edc2307b791abcd2e461d1edd58098755a3e5b487d171a833294248ad1c
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q5_1.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q5_1.bin
+    sha256: 855f5d13082167a1cbf753dfb1cd538017f0c48b423b068e1141b58113a400f0
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q5_K_M.bin
+    sha256: 7e313bdb5879be6019cbd29e28b60067006882a613a428e68a680e31495a85a9
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q5_K_S.bin
+    sha256: 6d612df1e73d4e16dfc23141a8c047d039929e7a5b24fc99903fd9be255fa580
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q6_K.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q6_K.bin
+    sha256: dc18cafc7e10bc545de7a05da9834a7b277985c04960de1d68e40087ce44f00e
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: carl-33b.ggmlv3.q8_0.bin
+    template:
+      chat: Carl
+      completion: Carl
+  description: TheBloke/Carl-33B-GGML - llama configuration
+  files:
+  - filename: Carl.tmpl
+    sha256: e7b8ed313a19f9b7a7d0776ea57a3ee9380a528fa4cd5e80d582338b466aa329
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Carl.tmpl
+  - filename: carl-33b.ggmlv3.q8_0.bin
+    sha256: 08d05f5fd31236bd6b0e8dc9cdd7e98c28722aa7d3043b8965ff41cdd88819bf
+    uri: 
+      https://huggingface.co/TheBloke/Carl-33B-GGML/resolve/main/carl-33b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Carl-33B-GGML__carl-33b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:jerryjalapeno/nart-100k-synthetic
+  - base_model:ajibawa-2023/carl-33b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Carl-33B-GGML

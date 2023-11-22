@@ -1,0 +1,696 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q2_K.gguf
+    sha256: 1ec39be91da7bcfdfbffc96214c5c887d5879e55abfe6638ab1aad700404db46
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_L.gguf
+    sha256: 159d984d7341dc3b4a591c06954cd347a5a5eb6cbf3f07d7c6d27aab4ae208a8
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_M.gguf
+    sha256: 50197b4604b44bcaf572356f64ce82928547ea0a5c7514f689f3d4c3a76e75ee
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_S.gguf
+    sha256: 9236db3dde4187947c30b484265b6285fe2b2c3fc1997fe0793ac3c000bf7e93
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_0.gguf
+    sha256: aa4934e02f29c0175d8284f88f0ee2157df0709db05e2d43e710894b57f92612
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_M.gguf
+    sha256: 28697a9589f3993d04589790c37f6ebec89acf3f910442cef09b3c0d4a34b34e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_S.gguf
+    sha256: 2e4ea2b952da8cefde03ee895fcc0a309bc5c14c7361bca0439514938e07d95f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_0.gguf
+    sha256: 7faef68024b2ac8688df24d48ed9751c4ab1effb2b8ece1ae974c5a40375a054
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_M.gguf
+    sha256: 3a05aaad5e3d7003ce5b809a1c61528003712207e2fdf97968c9db3631255daf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_S.gguf
+    sha256: d0d4b369f8d8ab20989ed06ca8f2df50bc57ec93a12ce4bc47678ee53bfacb07
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q6_K.gguf
+    sha256: d049f6f81d7f2b58c5e7354ae04e8baeddac3fc4b4f299ab81b66d9f0525b026
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF - mistral
+    configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q8_0.gguf
+    sha256: e4e7bba202417ba43e13b67851379ed78243e45189c221030c2d3a2a94a8e3d7
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF/resolve/main/mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF__mistral-7b-openorca-oasst_top1_2023-08-25-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - bg
+  - ca
+  - cs
+  - da
+  - de
+  - en
+  - es
+  - fr
+  - hr
+  - hu
+  - it
+  - nl
+  - pl
+  - pt
+  - ro
+  - ru
+  - sl
+  - sr
+  - sv
+  - uk
+  - dataset:Open-Orca/OpenOrca
+  - dataset:OpenAssistant/oasst_top1_2023-08-25
+  - base_model:NickyNicky/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-oasst_top1_2023-08-25-v1-GGUF

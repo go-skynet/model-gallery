@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q2_K.gguf
+    sha256: 60b1e49e1d74a080b1ee0b05cc24965053aa83abc407f83d0fa39b5607993d54
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q3_K_L.gguf
+    sha256: 141682cd02f56275b5cb9712728539a806538cc002bba23e46f2af7b2f76d485
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q3_K_M.gguf
+    sha256: 848d45b390d47f96e53ec93a880ddcd673950c638dcccc9948f5fe69694ba276
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q3_K_S.gguf
+    sha256: 1e51362faa1c02b7ecb143c9ff6739d08e3c7a6d6c1aaab28ecdfac6d7657f82
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q4_0.gguf
+    sha256: dce76f3ad9931d70573ab7f8c1829f7a7062c034d83bed14a54a1eb8318aae4b
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q4_K_M.gguf
+    sha256: b801954cec320ba17eabab19413ffb2fd79e74d417767c68946b0d90032ff3a9
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q4_K_S.gguf
+    sha256: 4e682994ac0c5734ca0e2ec07d0b48b5a0a7d2ad18dccb85c9f2b023e6c3920e
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q5_0.gguf
+    sha256: 22f8662f9450832656623886eb1d90a7294bb89d423af6cfb1770a294e22f239
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q5_K_M.gguf
+    sha256: 6a4c1bb282252c88b604da90292c611b8ffd87f88d37f6488e5794d3144c9299
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q5_K_S.gguf
+    sha256: 66dc9e0fc1993958ab361c980b0263e0c15c215e03bf14b8992c670643cfb336
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q6_K.gguf
+    sha256: cf20ae2f22363129fa63c7ef5a1bcdc3b7a51584acca8aa81974db77554320da
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13B-Chimera.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Chimera-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13B-Chimera.Q8_0.gguf
+    sha256: 765c5d7ebd7539b9d03a130a12f20a0abc45a7bfc0764697857831e96c9054f3
+    uri: 
+      https://huggingface.co/TheBloke/13B-Chimera-GGUF/resolve/main/13B-Chimera.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__13B-Chimera-GGUF__13B-Chimera.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - gptq
+  - base_model:digitous/13B-Chimera
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Chimera-GGUF

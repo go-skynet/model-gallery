@@ -1,0 +1,448 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q2_K.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q2_K.bin
+    sha256: f98a144ae61e1cc40e5cba4bc71d6ef9d70f5243cb6310c18e309058719c2497
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q3_K_L.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q3_K_L.bin
+    sha256: b3e2ae7a4a28cf760be19db4c5baf0ba5c88502f07b4df8bd776eaeef76a1b8a
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q3_K_M.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q3_K_M.bin
+    sha256: 6c0173a41265f9207a5a16718237aee3adc25451fc1313e916f97977c8ea0842
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q3_K_S.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q3_K_S.bin
+    sha256: 349d16fcbc8001a1ab1267e0177486c50d85d76d15b0a3d28e4c3ca4067c4704
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q4_0.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q4_0.bin
+    sha256: d07cc0b913589ff5b37d98b9381e6d7b73a0bf44c11e88a24a5358f28e99e533
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q4_1.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q4_1.bin
+    sha256: ceaccd3abdb353e946ffcfca89444d9f9714c3d841f4864423df26e7cbf07df3
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q4_K_M.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q4_K_M.bin
+    sha256: 8364b101a0c79b4713b9c4591a7169ea802f4887d314393b58bee53890377da0
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q4_K_S.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q4_K_S.bin
+    sha256: e6d7b24ae6776de3a1b671699d9c0724dc488c3d196c4291d9f805ca1a4a863c
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q5_0.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q5_0.bin
+    sha256: 9b116dbf1680de096db6438fc28a2d3c882cf001e679ee19ba3e598ec5adf319
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q5_1.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q5_1.bin
+    sha256: ae0f10979efb5208e2ebcd299f61cdcc0184e0b2bb9f62f0fec739ff163a129a
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q5_K_M.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q5_K_M.bin
+    sha256: 5b1a316196bb66c884d47d788a57f0adbcacce745fb300a2c20a4da0fe070302
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q5_K_S.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q5_K_S.bin
+    sha256: 0334e9ac4393aa89d541156937720d500e95a4ce75e01ff6dccb770598c7a93d
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q6_K.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q6_K.bin
+    sha256: db632bbb05a7bd8e45e95020062ff26b84ba26b32f045fb305eb9f30cbf244a9
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llongma-2-7b.ggmlv3.q8_0.bin
+    template:
+      chat: TheBloke__LLongMA-2-7B-GGML
+      completion: TheBloke__LLongMA-2-7B-GGML
+  description: TheBloke/LLongMA-2-7B-GGML - llama configuration
+  files:
+  - filename: TheBloke__LLongMA-2-7B-GGML.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLongMA-2-7B-GGML.tmpl
+  - filename: llongma-2-7b.ggmlv3.q8_0.bin
+    sha256: 412d9510c3698a2360f513d06b6e2eaf4a99d3366904cdc0515234feb036d410
+    uri: 
+      https://huggingface.co/TheBloke/LLongMA-2-7B-GGML/resolve/main/llongma-2-7b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLongMA-2-7B-GGML__llongma-2-7b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2108.12409
+  - arxiv:2212.10554
+  - base_model:conceptofmind/LLongMA-2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLongMA-2-7B-GGML

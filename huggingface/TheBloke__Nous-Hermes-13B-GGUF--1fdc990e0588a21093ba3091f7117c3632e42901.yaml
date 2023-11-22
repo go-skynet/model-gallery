@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q2_K.gguf
+    sha256: 2908868c6be5dc585ee341d83dbb4003cf0b15fe72d3c49b2a8c76bfd95f6038
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q3_K_L.gguf
+    sha256: a8570a2f6aca1b04251f4ce8377ee4f9d37e2dbef0c2b03cb02b30288c17d4c8
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q3_K_M.gguf
+    sha256: bbb12bbbffb00f9f5d4559b3c3c6b38d9dfb395ec2278ff2ea966b5b03ab283d
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q3_K_S.gguf
+    sha256: 1b8a0a63a8e4d8379e83514273e2339be816f8e009b60007bc8904b826597a20
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q4_0.gguf
+    sha256: bf95d7764c2b798e51a25a1407e3b3127837a792015bf1958d533856a0e0acfc
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q4_K_M.gguf
+    sha256: eba8071d02a3925795749578f07ec373c853230afa5fed667fe5dd768ead48c5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q4_K_S.gguf
+    sha256: 65a350f12db4275887a53d46e565030e48313b05500243dced829fbbaf6aa714
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q5_0.gguf
+    sha256: ebc340cdae96b4d8fc3579db6a55cf7768b43aae499bbf3d36570d7c260f0a89
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q5_K_M.gguf
+    sha256: 3739fc4dfa9525bd8d16cacba6714dae828aade30857a84028e4d23e45fd3edf
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q5_K_S.gguf
+    sha256: 973294cf73f27f738dfb5a3fae0f897b0f6a598a7224a8ba8887147711ef0900
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q6_K.gguf
+    sha256: c6ea3f9bbcc2132dea5f4633a222513016b7995da97fd30f76b2d25d10b34c26
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: Nous-Hermes-13B.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Nous-Hermes-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: Nous-Hermes-13B.Q8_0.gguf
+    sha256: 6742e19794f6ce38a0f81d7d48ad7ae5bd82af5556a167dfd2844774b1ac2f72
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF/resolve/main/Nous-Hermes-13B.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Nous-Hermes-13B-GGUF__Nous-Hermes-13B.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - self-instruct
+  - distillation
+  - en
+  - base_model:NousResearch/Nous-Hermes-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-13B-GGUF

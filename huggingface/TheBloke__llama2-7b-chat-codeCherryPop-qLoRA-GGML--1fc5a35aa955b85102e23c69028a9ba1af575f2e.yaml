@@ -1,0 +1,448 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin
+    sha256: bdad26e61fe1f93299d3bea4ea9fbac1898c735fa620e416bb402bee5ccb0ab8
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_L.bin
+    sha256: 58986f932c29a99af5b879c537491a8e0905bd48ff6ae31b347f4cab1341941e
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_M.bin
+    sha256: c756fd4df072ea9390a957ead55b440a01258e3b31e66bec00dab9c108f0fca8
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_S.bin
+    sha256: 7c83d0faaf94a50219c693c62ba3b30194a96210943ee610443b09da88ac8c91
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_0.bin
+    sha256: 8daa9615cce30c259a9555b1cc250d461d1bc69980a274b44d7eda0be78076d8
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_1.bin
+    sha256: b379a454d32593089f663914c5a4687d95fd37e3bcddf826f9fb107598a8ff50
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_M.bin
+    sha256: 0652a35e3d8cde0632e03a97924b51adf3945b22c7e000da1d21e81e52ac75e5
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_S.bin
+    sha256: 32b758bf5e4f16fb5944b75d577fbca18c11c57000b41c6cc04bb281632d58f3
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_0.bin
+    sha256: 0466f1518671c07bfbad17b63a0ea591dd16315f17be43fedc7bb41827e15c6f
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_1.bin
+    sha256: 0b6e7a06c1a26df8628f10c5953dec64d247184b641f917ed4ca9c477715950f
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_M.bin
+    sha256: 9011251750b26faab388d9fa05422cb47e2ced6676d3da188c5805072a0d4654
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_S.bin
+    sha256: 89e4f03c73bb2a76cdcbf21a08b714f05457dafec471cb0f6390ce39dd4157b3
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q6_K.bin
+    sha256: 24a2097aba9bc63395654515618fb2ceeaea64452147ee5299990b636e4c00ce
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-chat-codeCherryPop.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-2-7b-chat-codeCherryPop.ggmlv3.q8_0.bin
+    sha256: 3bfdde943555c78294626a6ccd40184162d066d39774bd2c98dae24943d32cc3
+    uri: 
+      https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML/resolve/main/llama-2-7b-chat-codeCherryPop.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama2-7b-chat-codeCherryPop-qLoRA-GGML__llama-2-7b-chat-codeCherryPop.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:TokenBender/llama2-7b-chat-hf-codeCherryPop-qLoRA-merged
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2-7b-chat-codeCherryPop-qLoRA-GGML

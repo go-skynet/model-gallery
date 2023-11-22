@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q2_K.gguf
+    sha256: c6ca9a0ad815325d0298992717ae9c844e3c5d01ae9d445ddcb2850e84ef41a0
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q3_K_L.gguf
+    sha256: 8df3509ccafe92034a97f9ac94dbe8925aa6528009ba0d0c171b31626f1f5636
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q3_K_M.gguf
+    sha256: 31c11387a466e8bda92fa916e343d5ea7c378950f65e09ab76d161d75b32617a
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q3_K_S.gguf
+    sha256: a043046b0e58860d89325d93e90d9446d456eec1259c3dbf31cec07afbcd4795
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q4_0.gguf
+    sha256: ff7c9023de46d1bc409731996a902c6160120d0a67a4f6fd7d1ca58673fe98b6
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q4_K_M.gguf
+    sha256: c8702ceb08dcf3d3360d7ca35b2c553d21a6e46f494180aa5fb3fa2577352ba6
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q4_K_S.gguf
+    sha256: f6f63cd6b9cf4d9f7bd7a03daeb0ad9f50b7791f0eacfd9ed4ae21cdeff89bc9
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q5_0.gguf
+    sha256: 9c0955af8ddb6a6fe36ee28cbe93e6d88252bafa010bfa0926862846a96851ab
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q5_K_M.gguf
+    sha256: c690913bee1fce1f97183c26cf1fa1c84cbb4933b660de91575fcde53a71889e
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q5_K_S.gguf
+    sha256: 7db8e2e9fb4ee6ca15ec38e444160686fd1a4c9be7859a7bd6d0014a31631a4f
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q6_K.gguf
+    sha256: f37cd8979239469978c9eaac5afb2a4671ddedf8230d48781669125548bb3c27
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mxlewd-l2-20b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MXLewd-L2-20B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mxlewd-l2-20b.Q8_0.gguf
+    sha256: 88b1169ddd38a67f6d2d05fe8eb8fb264009dfc42c375debd51e2b7b148716a5
+    uri: 
+      https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF/resolve/main/mxlewd-l2-20b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__MXLewd-L2-20B-GGUF__mxlewd-l2-20b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/MXLewd-L2-20B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MXLewd-L2-20B-GGUF

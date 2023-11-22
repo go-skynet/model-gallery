@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q2_K.gguf
+    sha256: 737baf29cd5a1d642ca113a57bf816ae9aecb072b0d340d8691c195edab84a5b
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q3_K_L.gguf
+    sha256: ca555a939ae074f8f15aaccc85740427a018368e9bc51a78d7349f26c5848ea9
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q3_K_M.gguf
+    sha256: 87e83acebfe161e44ea9768b06c0b5c3cf4b0869fa8af3989a5213638f11045b
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q3_K_S.gguf
+    sha256: c3d6b527e61c47e696a4c0bd4d2678e38b0322b4da7a10e46c3bf9c8fe011429
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q4_0.gguf
+    sha256: a7c16f85eeaff50fde6600b3919dcd8b558ad27c82eac66195d0946e2a9c42cf
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q4_K_M.gguf
+    sha256: 4a325b98229450e869501ad6dfbafd8bea4ba533125f957aad92c6e9f690f77e
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q4_K_S.gguf
+    sha256: 96054c6ca030ba896d595597e58c9286b4c13e0e3cd233cb7500f8ac5a06aa94
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q5_0.gguf
+    sha256: 4b85de7f0412285c340e55d439683278e8df21d89a4cdeb059a267c7e3801eea
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q5_K_M.gguf
+    sha256: 7c57c9d859aeb74d33b2b70409ffadfab1dfb93b21e489e092a2e4a37e5128a6
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q5_K_S.gguf
+    sha256: f756d09e62a8ed80f22448f0b31d367ca6e3be14e518028091c24ddf70cbdff8
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q6_K.gguf
+    sha256: fc78e76636aeaae6b0c7030d66b43747f977348667fe1047c7935e39905ba6f8
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: cat-v1.0-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/cat-v1.0-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: cat-v1.0-13b.Q8_0.gguf
+    sha256: aae8028fe025774e754d364915a51fd858e0647d2ba986575d81d37a7b360b03
+    uri: 
+      https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF/resolve/main/cat-v1.0-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__cat-v1.0-13B-GGUF__cat-v1.0-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama 2
+  - en
+  - base_model:Doctor-Shotgun/cat-v1.0-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/cat-v1.0-13B-GGUF

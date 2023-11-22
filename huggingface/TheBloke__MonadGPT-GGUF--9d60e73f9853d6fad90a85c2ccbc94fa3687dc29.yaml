@@ -1,0 +1,444 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q2_K.gguf
+    sha256: afe13a754214c9d20fd5a7000cdfacfaa9848fcaff721fa6517214a9c4314ab0
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q3_K_L.gguf
+    sha256: d2b17ffc45b8d71e48c5349420a18356950a542d4ac9f5c951fe7ff04a14b877
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q3_K_M.gguf
+    sha256: a81d28278dd5007f74f15aaef0d81660a05fb56502190340140fc5d9c2ee392d
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q3_K_S.gguf
+    sha256: 7ed7b967f67597fd293f9e676549670ef700f1460d469f58304f52679b131109
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q4_0.gguf
+    sha256: b88557f929594b5983d6f94d16cb861bf149aa3e9efe846c34ca82cfdd41bcaa
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q4_K_M.gguf
+    sha256: 76d28c55c34c8ffcac066dc53c3a537068afdeaadb7f3a5a44925a4b893305ee
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q4_K_S.gguf
+    sha256: 474e967adb0950b01eb41f5f1f073d330c6ef0f180e8ac13c9ef739d3286edf3
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q5_0.gguf
+    sha256: 0669fbeaac85c7b092f99b172de4d8d7c721d74d84eff8effc387be685d7d3b7
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q5_K_M.gguf
+    sha256: 553162797369fb3068da43493f8ee67003185e6f97e6f4490950ecd3cc8d1e3e
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q5_K_S.gguf
+    sha256: 93e8df22737c880fa1ccaf1b8b5dc39acd5d98fa706ca6dea735a3761cbcea9d
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q6_K.gguf
+    sha256: 519db98309026e1b5d7831d79dc6bf83b479ae3d553affce2256a583a8626eb7
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: monadgpt.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/MonadGPT-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: monadgpt.Q8_0.gguf
+    sha256: f02c35d5296482133e0ed8f01127cec4689cb03be560123786ac59734729e28c
+    uri: https://huggingface.co/TheBloke/MonadGPT-GGUF/resolve/main/monadgpt.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MonadGPT-GGUF__monadgpt.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - conversational
+  - en
+  - fr
+  - la
+  - base_model:Pclanglais/MonadGPT
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MonadGPT-GGUF

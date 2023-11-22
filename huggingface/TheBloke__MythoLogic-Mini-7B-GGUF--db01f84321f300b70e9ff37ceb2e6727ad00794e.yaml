@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q2_K.gguf
+    sha256: 99a47f8de077e0ac8ad1a331edd7cd8fc9b04e2d7874338db973ed2fe51e995c
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q3_K_L.gguf
+    sha256: 0e2a28906c3e40aa58254eff0df800ea992783dca4073b67e59abf34bc028a1c
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q3_K_M.gguf
+    sha256: ccdff6a66e9069404779346b7d8db6278055e0563d1c4555f42be45ca8546ecb
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q3_K_S.gguf
+    sha256: f15a84a9a9d1bbd6da35c832f5f7a7db2c61a715a312c46aad3614849b18afce
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q4_0.gguf
+    sha256: 4b6d0db96305a2f047420ac3c431e6ce15a565cd25480cd2d9879e000e2c7a54
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q4_K_M.gguf
+    sha256: 10efc3466b38cdf418dadf931a96aaeea6b1effeb11ae1090ad01440a93b8283
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q4_K_S.gguf
+    sha256: c7fc5242a84a8379238da24d270a6b01eb20b5d6ab3528af81f892b75e685734
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q5_0.gguf
+    sha256: fc5327779d6decff5bae09cbbf1486558ff2358bbb8976a9f5c01fba2a64ccf3
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q5_K_M.gguf
+    sha256: cfcd504801c18fb106a54fa76e2372f1c508e707bedc019717b9ef5302f21cd9
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q5_K_S.gguf
+    sha256: 52459e8a9ceb05770772e346a6a14a92a75e9483ec22de8fa21c09138f9315c9
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q6_K.gguf
+    sha256: ff364c35255ecd87fade0e5146e4b87073a7f292afa95b0fd4b9dfd6001bc15e
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythologic-mini-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoLogic-Mini-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythologic-mini-7b.Q8_0.gguf
+    sha256: 9af7a247d26b99800f791eca613b0c0f2773f859a762fff8a1cc35b4528f3d4f
+    uri: 
+      https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF/resolve/main/mythologic-mini-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoLogic-Mini-7B-GGUF__mythologic-mini-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoLogic-Mini-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoLogic-Mini-7B-GGUF

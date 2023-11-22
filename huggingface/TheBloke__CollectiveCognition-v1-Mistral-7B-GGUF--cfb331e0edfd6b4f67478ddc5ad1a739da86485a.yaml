@@ -1,0 +1,528 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q2_K.gguf
+    sha256: 8f4aa798fecf3ee6669ee564db10f2cec3548e9f9572c176473f889d6352a162
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q3_K_L.gguf
+    sha256: fbda8ec82813283ac7878e0664a2f63d2e8158e3ea0911b28377a1c1d4a56513
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q3_K_M.gguf
+    sha256: bfdbe9677e77bc7d209a35379d3b94d16ffb21b45bb864e2add453ee68adb7da
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q3_K_S.gguf
+    sha256: e72bf83c3dbf3448f0d81510f416c828b00189b938df21c662a8559ab1bca516
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q4_0.gguf
+    sha256: bed3abffdb8421c80b5d7037405940f5c9dbfd5ec19375a6b1ea8da8735c2017
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q4_K_M.gguf
+    sha256: 00faca247b5d64c704bb8696948c3dca33b511dcadd9c6e0438a23b6b67b3986
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q4_K_S.gguf
+    sha256: 74ce886e1a5653599e35198414ca655e8b94c384682b24883e061372db743de2
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q5_0.gguf
+    sha256: 41503e7c1305eb18b5fa821fbdc50f4ff3e911e23180a0ee18196af40e222fff
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q5_K_M.gguf
+    sha256: 6340fdf888eb1e79dfcee7236359a4046a0a7b64c87ca2686a4228bb71eafde3
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q5_K_S.gguf
+    sha256: b482d655cdf8f3c789774e2d930efc392e459a4fbe4ef6ec87f929656843dbb2
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q6_K.gguf
+    sha256: 94f9e069891ff99f31c903171648dc438fd5faf45028d1628f0f9cdd41365f61
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: collectivecognition-v1-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: collectivecognition-v1-mistral-7b.Q8_0.gguf
+    sha256: f739570b410f3f9a71e6eb632fb4c85272fd7208f7f9d52b92a0ecb10dfd320e
+    uri: 
+      https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF/resolve/main/collectivecognition-v1-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__CollectiveCognition-v1-Mistral-7B-GGUF__collectivecognition-v1-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - sharegpt
+  - en
+  - dataset:CollectiveCognition/chats-data-2023-09-27
+  - base_model:teknium/CollectiveCognition-v1-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CollectiveCognition-v1-Mistral-7B-GGUF

@@ -1,0 +1,468 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q2_K.gguf
+    sha256: 98fa903c7597a6f2a463182c41014b573d5276fd190e6745e7c0e56b56659c90
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q3_K_L.gguf
+    sha256: 540ea03993b07a002fb9e039706f0c6b8af6300205c3ba5d11f8fdfd5a68d2cc
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q3_K_M.gguf
+    sha256: c7c199f6da5755aba1a0d48eb63b4317fa6d1034c734dadc580e864577d2bb21
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q3_K_S.gguf
+    sha256: da239ac38ac350ca86c02ee79238e34ca81a5114308d8d12dc30cd518ac7cee6
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q4_0.gguf
+    sha256: 5e51d1f6a9727faf1970046b83c0b704317971cc8651cf7f3ad42a42af0174fe
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q4_K_M.gguf
+    sha256: f520b3246dff77648b0ab8fda08ecab6a0c03cfcab0ce99a074f3ed22133353d
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q4_K_S.gguf
+    sha256: 8c23d90309587e3f29ce3ae21de1d1a75f7e20eb6a536952aafa16e16b76fa00
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q5_0.gguf
+    sha256: 40f2d9dd4ca8b7e1d2c72eda8cb5dc1964e575232ec006d70ca8b84bf05cf636
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q5_K_M.gguf
+    sha256: b4d23cb7b7a611ecfb6fd51f45f52e3f1864c30de93024c485da65731b858e9a
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q5_K_S.gguf
+    sha256: a934d0049e78996aed6016c35e9e9d2b2aba2c3e5274f57820104d8ea545847c
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q6_K.gguf
+    sha256: 66e930b5b51c89384a5e5330850a0ef554581e2a65d86170753a64bd03d247a6
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: autolycus-mistral_7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Autolycus-Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: autolycus-mistral_7b.Q8_0.gguf
+    sha256: ce5d2543c8d5b1cab8a73053fe381346010a374f64760227e3f4b8f192d2ce89
+    uri: 
+      https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF/resolve/main/autolycus-mistral_7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Autolycus-Mistral_7B-GGUF__autolycus-mistral_7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Autolycus-Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Autolycus-Mistral_7B-GGUF

@@ -1,0 +1,456 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q2_K.gguf
+    sha256: 9752e7c765c60fc73cd61a8c6223ce625d99203da8f5ed5521284e446a5d8965
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q3_K_L.gguf
+    sha256: a2dae84439d3298b6711f9d689c4c3de8ebfc9054b0ab208c1acf318d69c1e24
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q3_K_M.gguf
+    sha256: c2cf6688543d54dfc1fb99bdac67555433a114cae33d49f4177b6e04b294ecc9
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q3_K_S.gguf
+    sha256: 889aa1ccaaf6b41940bb6216d117171a31a8eb0e6941cca4b7f66ec02d1295c1
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q4_0.gguf
+    sha256: 58574ee4e4553d0f748e4237fe3fd041fdde15cbdc707e094b231057a77ed8b0
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q4_K_M.gguf
+    sha256: 01ed558e52ff30eb7f8c389d44996ab70ed0330c3eae0b52d7627eaeaa94b6b4
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q4_K_S.gguf
+    sha256: a3caca761a1061f645a050537c2b2c7c24b06051e529ca648196ceee7777c477
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q5_0.gguf
+    sha256: 9565abf2d53c8bf53b6493eb5c1e2d8e615ed7b07d8ee23db1713a8c1ff9dac2
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q5_K_M.gguf
+    sha256: 0541ab8ddad3dce990c08ba22eb23f5a966f1296bee77915d26a7d91566bf8a3
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q5_K_S.gguf
+    sha256: 971a88f15a485e356412cc844c431c0cf0168ccfeda079c5abee9f9b491d371d
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q6_K.gguf
+    sha256: 50545499bbcc087d044fc4ae4f406ad304d04189a3d7c183686fcd3fb69bed28
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: yarn-mistral-7b-64k.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: TheBloke__Yarn-Mistral-7B-64k-GGUF
+      completion: TheBloke__Yarn-Mistral-7B-64k-GGUF
+  description: TheBloke/Yarn-Mistral-7B-64k-GGUF - mistral configuration
+  files:
+  - filename: TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__Yarn-Mistral-7B-64k-GGUF.tmpl
+  - filename: yarn-mistral-7b-64k.Q8_0.gguf
+    sha256: f8e37916cb9f24011b9a958a37b284357680da64c3f1be32ce88eff618ab2312
+    uri: 
+      https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF/resolve/main/yarn-mistral-7b-64k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Yarn-Mistral-7B-64k-GGUF__yarn-mistral-7b-64k.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:emozilla/yarn-train-tokenized-16k-mistral
+  - arxiv:2309.00071
+  - base_model:NousResearch/Yarn-Mistral-7b-64k
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Yarn-Mistral-7B-64k-GGUF

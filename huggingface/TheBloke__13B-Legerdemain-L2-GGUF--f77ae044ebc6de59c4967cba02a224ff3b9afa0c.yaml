@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q2_K.gguf
+    sha256: 6ebfb6f2458c1a341a364364af408f971cdfa7b6344faea1cd837157d255e398
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q3_K_L.gguf
+    sha256: 63a0c884ceda0ab86f92f650b00b6631a37d357b15c7a3bb8373faffcdcad5e4
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q3_K_M.gguf
+    sha256: 50f399e1bd6b842730e3b4d58cfb843b9090f96b848d8e8b948e9ad5c12f319e
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q3_K_S.gguf
+    sha256: 00f66826a36ce08d24642e11d1edc5d88be2ecabee5beec0c7f649054a69fcff
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q4_0.gguf
+    sha256: e22ac44dd5b5073de81bac08d78690db35369955b747910a4e3f387815540c55
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q4_K_M.gguf
+    sha256: 075c1624e537f4498adf039cbd4327c23ebe6f33ee1ba3fb2fbc5b00a679a632
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q4_K_S.gguf
+    sha256: 92a700ad9a34dcb5c4aa316016ab2f19d5a18ec6294c4acd7f635108a2a44193
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q5_0.gguf
+    sha256: b3d021c044a4049e4cf1c1c981b0b642e4689c4acb93dad3fce9103097e7c64d
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q5_K_M.gguf
+    sha256: 811accd41367b486c579c09eb746e3cc97d26e6e8e9ba7f856fe56ab9348063c
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q5_K_S.gguf
+    sha256: a5c58fc20cf470f56c64d52a81a2337fb313610603317d29d560b27911d3f930
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q6_K.gguf
+    sha256: 4e95742a0d1178c246c0ee8c02f3199378443d409b1d9712b202889a4be42a93
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-legerdemain-l2.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Legerdemain-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-legerdemain-l2.Q8_0.gguf
+    sha256: 0640d9b4414c5971610170ead4e604db2f343e7a16eb18ffe86afac17665435b
+    uri: 
+      https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF/resolve/main/13b-legerdemain-l2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Legerdemain-L2-GGUF__13b-legerdemain-l2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:CalderaAI/13B-Legerdemain-L2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Legerdemain-L2-GGUF

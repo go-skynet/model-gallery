@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q2_K.gguf
+    sha256: 1c3708462b1a8965077bdd53bdd840861da2a5470378b0fc3ad5d9bb6570bf49
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q3_K_L.gguf
+    sha256: 70f57f073878ac7a627fbbbc6935e0a651eb17968381cb4d3ffc27e256fd9009
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q3_K_M.gguf
+    sha256: e5e0de1339a646d9ffc5dc120ab674a4f77c661d8ec185223baa6d0937d1e59d
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q3_K_S.gguf
+    sha256: 524a193c24cc3a8cd8b6220041ec79a90f21b79fed029318689118893b819ba4
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q4_0.gguf
+    sha256: 7dd1c27eda62807bece0809a5d7f3acd7fcbb0a791645a300111ee1e871cdabc
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q4_K_M.gguf
+    sha256: c8a35dd69c848672000d63d88ecd1f7d543edf75ed603c98828e5d3a67a2afb7
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q4_K_S.gguf
+    sha256: 5b5d749c0074cb7858bd88394284c8e147635f4494fff4369ce89a9d92c59cb8
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q5_0.gguf
+    sha256: 3375374c9710125d2c639f1c23c74155a675420cb4e357b3d50b419fe5b9bfe1
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q5_K_M.gguf
+    sha256: bb8ac404e2ce008863659ecd354013e053f4efe5a3723e8849e84790911b2668
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q5_K_S.gguf
+    sha256: 1dc5799d3a61bc3f943229aca26506220c309547638a899d1d780748e092730e
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q6_K.gguf
+    sha256: a0528d68efb85259596442454c6478bce7650361fb76bce07cad6dd72ceb30f3
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: losslessmegacoder-llama2-13b-min.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: losslessmegacoder-llama2-13b-min.Q8_0.gguf
+    sha256: 25c7c249d88dc33b96914db9c3de4598e5a1296902e7eb711812e618c1cf514d
+    uri: 
+      https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF/resolve/main/losslessmegacoder-llama2-13b-min.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__LosslessMegaCoder-Llama2-13B-Mini-GGUF__losslessmegacoder-llama2-13b-min.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:rombodawg/LosslessMegaCodeTrainingV2_1m_Evol_Uncensored
+  - base_model:rombodawg/LosslessMegaCoder-llama2-13b-mini
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LosslessMegaCoder-Llama2-13B-Mini-GGUF

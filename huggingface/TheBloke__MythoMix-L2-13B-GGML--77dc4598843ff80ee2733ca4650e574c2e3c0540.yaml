@@ -1,0 +1,434 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q2_K.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q2_K.bin
+    sha256: 83b0bf73f1024e11946083ee7809416a15bebc8bcdcfe515202f10fe3a333397
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q3_K_L.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q3_K_L.bin
+    sha256: cb0bdcbb6af2c8d0d287d890c2a91fe22d21c5d69c3785c1627ee9cb43c7386a
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q3_K_M.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q3_K_M.bin
+    sha256: 57d343db0d4b4bf09e62668968a480622b17929469feb15940249ccfcd1c2cd4
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q3_K_S.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q3_K_S.bin
+    sha256: 2f064a1ed525ef465106d65eb9c9755ef9d3556833535bfef47b862faef7424b
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q4_0.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q4_0.bin
+    sha256: 051339bab284067e2d013d912477870473fdca6978c176d4edbd6260613a8fcc
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q4_1.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q4_1.bin
+    sha256: e1bb0459505c20f6d3a7281d2b6fee0e168997af93f5d8fbbd91c7cc21668b78
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q4_K_M.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q4_K_M.bin
+    sha256: 6840a0d392f211d61c47681df2c17dda0f92e4b6b65823a04ba839bd81823e1b
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q4_K_S.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q4_K_S.bin
+    sha256: e23d344d07b4c4734f18e387ddc5ba71a3524b6ef0121f2f2644c68a2fb0ba57
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q5_0.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q5_0.bin
+    sha256: d515eb7c951fd878a9b86d69601a5969f6367ddeac815ce5b9ffaff60229b5b7
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q5_1.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q5_1.bin
+    sha256: b02b20cfe0634313e60d2b9b6b8195522885a36f8fee7b7b2ba47e1e362f59db
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q5_K_M.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q5_K_M.bin
+    sha256: c00a471c72ec2d63b18467f8e1ca4e336e427b0ae644e14fba9acb18011abf6f
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q5_K_S.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q5_K_S.bin
+    sha256: 026ec3c6df250d5d572c355cfb79362990bc8366572d5c5000694c9702dbca7b
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q6_K.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q6_K.bin
+    sha256: a821f25adcdac21668c037b03bd57d4ceb39c2e24a39ff18b541b0502730d7ad
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: mythomix-l2-13b.ggmlv3.q8_0.bin
+    template:
+      chat: TheBloke__MythoMix-L2-13B-GGML
+      completion: TheBloke__MythoMix-L2-13B-GGML
+  description: TheBloke/MythoMix-L2-13B-GGML - llama configuration
+  files:
+  - filename: TheBloke__MythoMix-L2-13B-GGML.tmpl
+    sha256: 55836fb662f1038a32426f8a7b97b93927fbad2ca5b609c3da0ad619dc0dcd22
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__MythoMix-L2-13B-GGML.tmpl
+  - filename: mythomix-l2-13b.ggmlv3.q8_0.bin
+    sha256: d0aaff6037837d58848ab1c2420f71abdde34fb9eb5764b72fe3eb57ffc071fa
+    uri: 
+      https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML/resolve/main/mythomix-l2-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMix-L2-13B-GGML__mythomix-l2-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoMix-L2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMix-L2-13B-GGML

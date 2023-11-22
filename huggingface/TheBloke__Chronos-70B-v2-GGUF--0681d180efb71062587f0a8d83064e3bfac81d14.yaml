@@ -1,0 +1,330 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q2_K.gguf
+    sha256: 54560e889e9641fdfbd61af81caf2a42651aa143193ffbbfcb7af43fef1599ae
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q3_K_L.gguf
+    sha256: 876924dc14b9819dfd639ae4491641df59c75cc4429bcbe1f133e129eb76078f
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q3_K_M.gguf
+    sha256: 783b3a552ce21aa0447ae500bb967bed440ea535d2e0d4043ca96ec186092e1e
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q3_K_S.gguf
+    sha256: ba61bf871d4e1bda81c59b9e0b5612f4fee822ef2e114cbae904a38fa5dc360e
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q4_0.gguf
+    sha256: ce29a7679317f72adf63da2b1909be1ce20f7813895dbd95e50c0f9b842a08a4
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q4_K_M.gguf
+    sha256: e670eac5066c3625c5442045d0b3f2b37f36f0c5c43847dc3f76d7f825bf6608
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q4_K_S.gguf
+    sha256: 4f5ce5cfffdba398f4dfb667ad9465e88424004bcd997edfffb867ea4d57d613
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q5_0.gguf
+    sha256: a1025f1d9e068d4d3c8de7294bbbb10cd5c1306c7c6dc310d3a0b61efb73e417
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q5_K_M.gguf
+    sha256: 1339e9b476894db455c50429098cf20063e4f1506b62f073ff2e0652cab40d31
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chronos-70b-v2.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chronos-70B-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chronos-70b-v2.Q5_K_S.gguf
+    sha256: 28c61c4767af5b1566585740e8a3065c09f1edc331ae92c340074921b46a9366
+    uri: 
+      https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF/resolve/main/chronos-70b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Chronos-70B-v2-GGUF__chronos-70b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - chat
+  - roleplay
+  - storywriting
+  - base_model:elinas/chronos-70b-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chronos-70B-v2-GGUF

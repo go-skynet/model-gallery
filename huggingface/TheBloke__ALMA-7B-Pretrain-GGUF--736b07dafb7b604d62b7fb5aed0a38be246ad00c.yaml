@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q2_K.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q2_K.gguf
+    sha256: 67d7ca05ca00f3b262dc9111abf5cbb0533e756078af50cf24cbb86c3800ee28
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q3_K_L.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q3_K_L.gguf
+    sha256: c79b6a11e44c2e9f8ef38c736b2fbca3d9a33a4c8687e647116bba767df90f43
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q3_K_M.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q3_K_M.gguf
+    sha256: 084b2114d0d2c8cb57e9d55683b0d516e8e2290f48eb43983d971f9cf1107873
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q3_K_S.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q3_K_S.gguf
+    sha256: 82a5ae96597b22d2ae956bb524c9a586d226333f91c71477b5dfdad979f7285a
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q4_0.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q4_0.gguf
+    sha256: 6f9e6377918212a7c21356bb389be5a962531d4a906f595357aa70f04a2f78f0
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q4_K_M.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q4_K_M.gguf
+    sha256: c1a4964f1460562df396c4086e51e17441c5787cf035d504b221486fb7c1c966
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q4_K_S.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q4_K_S.gguf
+    sha256: 0d8c86b751f3009bdb3234a6f763b4f06312780141952588db018db9c3cfdd6d
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q5_0.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q5_0.gguf
+    sha256: b8b4eaafc51fcdc219e5754743855a20b50da4f6a7b1e7f274aeca83aed49652
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q5_K_M.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q5_K_M.gguf
+    sha256: aa62a2a39d4227b720c8d6be16bb46b61af72dcf3058b14a1dbc07b4e94006bd
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q5_K_S.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q5_K_S.gguf
+    sha256: fd60dc5b472dfabcc756ba344f36d85c17be64fa8f71acbd6857c5eaf495a7dd
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q6_K.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q6_K.gguf
+    sha256: a3cc2071ffee600de2b6e1290e1212f8fef984231dddae0db0f7a42eb0d86fc4
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: alma-7b-pretrain.Q8_0.gguf
+    template:
+      chat: ALMA
+      completion: ALMA
+  description: TheBloke/ALMA-7B-Pretrain-GGUF - llama configuration
+  files:
+  - filename: ALMA.tmpl
+    sha256: 33942a06c87e5e5816901d0872ccab8456224630931dd47f12fb058b4ad814cb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ALMA.tmpl
+  - filename: alma-7b-pretrain.Q8_0.gguf
+    sha256: 9eaf2628b787be4a4dcbb6225bc2e589b5bf5810c7f1340720164a4ab759d556
+    uri: 
+      https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF/resolve/main/alma-7b-pretrain.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__ALMA-7B-Pretrain-GGUF__alma-7b-pretrain.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.11674
+  - base_model:haoranxu/ALMA-7b-Pretrain
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/ALMA-7B-Pretrain-GGUF

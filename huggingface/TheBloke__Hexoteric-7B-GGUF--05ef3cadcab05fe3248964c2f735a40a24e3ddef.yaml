@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q2_K.gguf
+    sha256: 46efc07af1860d45bea1ad2196b259a242bd2a454ff4fff87e38a71394e3b38e
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q3_K_L.gguf
+    sha256: 97cc439274e8fa1a702f672011158f5091100c234f4697a7c56926d187a8485f
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q3_K_M.gguf
+    sha256: d732273d921bf42e775e099ec5e733bd1eff690f8a34f6d4a6445b13c541fde5
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q3_K_S.gguf
+    sha256: 30bf9ac7d9cc930943a359cbe8f7b0c47867c3afdf98e8b911c1c9eea623d23e
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q4_0.gguf
+    sha256: bc5179ae1f781fd0c3bb10a7f4c272ba45c4665b05bdb48e6a059b521632f013
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q4_K_M.gguf
+    sha256: f015c34542873829f2a068e60e691e17bd663cabb6b7ccd9810e18a03bd86332
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q4_K_S.gguf
+    sha256: 73d91de0ccdb4c3177cac395fd6f27b7f2468d216d5b499cd19b833703cf3657
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q5_0.gguf
+    sha256: 09432fdebed0748a92ced0d457868b5a182406d02e093ceb6f5a21ec2ec17a93
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q5_K_M.gguf
+    sha256: 037ffd47ffc4fe9dc9a9b9212316136f14886bcbacacc30da125e53570cfbb6b
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q5_K_S.gguf
+    sha256: 8bcaec3d15583cdbba16003faf74252d9a901ec3f23e0491ba6889334e174347
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q6_K.gguf
+    sha256: e86ce8a3803e863d66aa739c4e59faf37b00c31826b1af77fd52d02ec415e870
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hexoteric-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Hexoteric-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: hexoteric-7b.Q8_0.gguf
+    sha256: 2cfc62a8eeac1657a0288d4244e56d2fa6a2a68a43a3581372f91400e6ba7e4d
+    uri: 
+      https://huggingface.co/TheBloke/Hexoteric-7B-GGUF/resolve/main/hexoteric-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Hexoteric-7B-GGUF__hexoteric-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:CalderaAI/Hexoteric-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hexoteric-7B-GGUF

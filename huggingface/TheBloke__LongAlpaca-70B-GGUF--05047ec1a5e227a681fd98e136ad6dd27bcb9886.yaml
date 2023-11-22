@@ -1,0 +1,310 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q2_K.gguf
+    sha256: b5f895c928aca18a97382a00d1579600ebe24c242c36c66dfaccf13be6ea478a
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q3_K_L.gguf
+    sha256: 726e12a9f7b0d3d240b26c4a18362fecdaa04fe5699d7953bfc7c910c7a2b370
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q3_K_M.gguf
+    sha256: a2aee806d0f3e552bfd974a21f2e9ffdc3e1153838ce3de7048e7130406ff99d
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q3_K_S.gguf
+    sha256: 42498f3f8af421cbe41fe76eddd19229d196ba0598e5fcbb5ba848bc7fe73c0f
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q4_0.gguf
+    sha256: 8f6026e0df3910a9627760465d69e01255b753c37c0b8f426424439c60ee3d8b
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q4_K_M.gguf
+    sha256: 1c878dbf175a9110daa54cef68cf1fab1d716412842fc7d12aa2fd71e547f296
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q4_K_S.gguf
+    sha256: 6ed2da965175d6251e0370ec178615758db5e0d42efa7beccc2dcd250c660b9b
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q5_0.gguf
+    sha256: ebfb6869811995eeecad2b19297e0fa1d02503e18720864023e84a57c0d38749
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q5_K_M.gguf
+    sha256: b51c89aa403c804ac649df4273f722bef3e21a4990a727ede3c486ee47857439
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: longalpaca-70b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LongAlpaca-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: longalpaca-70b.Q5_K_S.gguf
+    sha256: 291f39ef6d5552b1be50f8c906a825e6a89a323b872fa07dc58ff0e35852b1a1
+    uri: 
+      https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF/resolve/main/longalpaca-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LongAlpaca-70B-GGUF__longalpaca-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - arxiv:2309.12307
+  - base_model:Yukang/LongAlpaca-70B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LongAlpaca-70B-GGUF

@@ -1,0 +1,516 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q2_K.gguf
+    sha256: ed82dc02c93253ceb3ab4a97d1e17be0f79ab3ed3b11ddd9218d5fced4ce0fd3
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q3_K_L.gguf
+    sha256: 203183474b89d598f8d1e329c73a84df7428c4d0dd3b46dde52e85003e57413c
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q3_K_M.gguf
+    sha256: edb1e89ce713d70101877db47a9b8c93ed09feb6a40e1e02bff806c0b5bbcb53
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q3_K_S.gguf
+    sha256: fdedd10464561aab20939e8c9147b02f989f5e47bdb64a6afcbdd42a12954d19
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q4_0.gguf
+    sha256: 7ad40bc2db1cf43f08576abf66f052e5386565f0cdaa6c3019daa8891a282f09
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q4_K_M.gguf
+    sha256: b5bf6c776465b6392f315a67b0565a7b09868359728c3a11b31016001fe74c18
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q4_K_S.gguf
+    sha256: 5519438b07580ce075a9c828c38ea04027ac78a43241d74831c6eb8123f68e32
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q5_0.gguf
+    sha256: a4c50a25dcdac43a3d32abd9a58978981b4f84d67abeaf3641d7957b11b7dafe
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q5_K_M.gguf
+    sha256: 2e25f9d0b7b50107b6ca3b520a89e88fbac107e48e687c5188300a4069d1f043
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q5_K_S.gguf
+    sha256: 91442101b0d63d3dacbd479a25abc5c52e393c32679ca8224d1e3fd6b6a9a603
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q6_K.gguf
+    sha256: 29eda38978be13c5c7f7f6531fd8765f3a07bfb77f9d51c9354c7e98740ef46e
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: hermes-trismegistus-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: hermes-trismegistus-mistral-7b.Q8_0.gguf
+    sha256: eb18ba469b545f152a1b8fe0e0ffc442f3b033491473f6a45da738280ac0d229
+    uri: 
+      https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF/resolve/main/hermes-trismegistus-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Hermes-Trismegistus-Mistral-7B-GGUF__hermes-trismegistus-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - mistral-7b
+  - instruct
+  - finetune
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:teknium/trismegistus-project
+  - base_model:teknium/Hermes-Trismegistus-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Hermes-Trismegistus-Mistral-7B-GGUF

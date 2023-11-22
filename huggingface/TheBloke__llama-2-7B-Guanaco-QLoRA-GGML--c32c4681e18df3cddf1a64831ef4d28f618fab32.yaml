@@ -1,0 +1,490 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q2_K.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q2_K.bin
+    sha256: 116ecdb6be06058d09b018907850809dfe003b4d66edb7ee6f3c676d1da9ed20
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_L.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_L.bin
+    sha256: d892071d967a9e7d4de730248505b335d75926cb1dd3906c37e3e7881cd50983
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_M.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_M.bin
+    sha256: 7a0dd41f3bfd4665b8dfd2f775d1f60cdbab8e8cf076c8a56cb8a824ffaa0f8e
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_S.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q3_K_S.bin
+    sha256: ec532297318e1e199d164f5144a7609cc7416a4b2ddee86e20238f01e188bb45
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q4_0.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q4_0.bin
+    sha256: 5d728f7b0d46edfbbfb9c82e676b1965ecb70de483bd3699a9e34c5dbccbcfc8
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q4_1.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q4_1.bin
+    sha256: 3f7edbb73748fb8ebae1ee1382f514f102f8ec4e5275071406cf85f929211cad
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q4_K_M.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q4_K_M.bin
+    sha256: 5c893bf0c3a33fa2fd8dccf58afcabbff544b6240b6d9e799a611e5730f080c3
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q4_K_S.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q4_K_S.bin
+    sha256: b73c32a5093102d8f5810deeb5ece5789a0a9857cf596eb4fbfdb3ed08489e42
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q5_0.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q5_0.bin
+    sha256: d99d78d571993de8ad8740e63c8fcea3cc9aa9eed30306da3b027c8edc06528c
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q5_1.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q5_1.bin
+    sha256: 26015215aa06c18d7d58534f8fe25a2338e10b6a76760645aed7cde5dde8be77
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q5_K_M.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q5_K_M.bin
+    sha256: 2fd9364bcffe6c28a1de8b203025ed2fbb60097a80c7b79016937bdf4e95f665
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q5_K_S.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q5_K_S.bin
+    sha256: c9bb9cfcd24d60e3812e5c050681953b92f3b5b3fd84e351af2f6b05a5c0989e
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q6_K.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q6_K.bin
+    sha256: b974121bab0fc8f35536bea800a0bad9235fb0378c4f6e218fa6802e70d47809
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-guanaco-qlora.ggmlv3.q8_0.bin
+    template:
+      chat: Guanaco
+      completion: Guanaco
+  description: TheBloke/llama-2-7B-Guanaco-QLoRA-GGML - llama configuration
+  files:
+  - filename: Guanaco.tmpl
+    sha256: ac55aec4bc4c77920c5232062d0ab29d09e3466684de80fbf3917c7c028b6f74
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Guanaco.tmpl
+  - filename: llama-2-7b-guanaco-qlora.ggmlv3.q8_0.bin
+    sha256: f47266107ac6dfd0b3bd9c4347e39ced7e22ff526d519a2eaf38ce2e436c03ea
+    uri: 
+      https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML/resolve/main/llama-2-7b-guanaco-qlora.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__llama-2-7B-Guanaco-QLoRA-GGML__llama-2-7b-guanaco-qlora.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - text-classification
+  - en
+  - base_model:Mikael110/llama-2-7b-guanaco-fp16
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-2-7B-Guanaco-QLoRA-GGML

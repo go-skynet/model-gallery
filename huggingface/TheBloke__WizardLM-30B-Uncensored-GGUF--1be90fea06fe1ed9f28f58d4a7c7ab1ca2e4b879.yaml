@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q2_K.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q2_K.gguf
+    sha256: 5dac07fc181ace5c213d36583b5d36c7b1b64d7c2b535f6b6640f183989d970e
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q3_K_L.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q3_K_L.gguf
+    sha256: f717481b9775eba223b51664f5d9c326b58672b2b63512d7c4777ad0d6afa491
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q3_K_M.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q3_K_M.gguf
+    sha256: 3312fb60c2dbd187d2483da98c3619fdc0b3b690b5ae98c15289d6be28b0ea3c
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q3_K_S.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q3_K_S.gguf
+    sha256: 39bcc6c6400f5670c78a065e393dde59d59dc9bed082805b56e1dc896032d99c
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q4_0.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q4_0.gguf
+    sha256: 141f84fbc06560c898f53e08d749979cffc270c0cf5fd7af7c3f201c26be3097
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q4_K_M.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q4_K_M.gguf
+    sha256: 05c2d5c7d3bfcf3c8c14b823fb994cdff69fdb8778ea6272bee08b233dcdd775
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q4_K_S.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q4_K_S.gguf
+    sha256: e46aba4a3b8069ae3b5a94f3d17b69a40673802aa6fbfd10cfb15d1fed104900
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q5_0.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q5_0.gguf
+    sha256: 72593a8d7296915e4952280e4528c1bcee0ef3cb0188d44082dc457006fba5b9
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q5_K_M.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q5_K_M.gguf
+    sha256: 9dbb31ac4bf6a60e8a66db0c4f763478b7b5c5c65ad27f166a838d5b057241c9
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q5_K_S.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q5_K_S.gguf
+    sha256: a988c2a2787ffdce43e8f5aca9c9665ad0b2f9840bf3dca503a7859984522741
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q6_K.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q6_K.gguf
+    sha256: 9d89b2d2bcb992fe1f12d1e0d641539aa99d5be9471e00c9907fd43c44679dd8
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: WizardLM-30B-Uncensored.Q8_0.gguf
+    template:
+      chat: WizardLM
+      completion: WizardLM
+  description: TheBloke/WizardLM-30B-Uncensored-GGUF - llama configuration
+  files:
+  - filename: WizardLM.tmpl
+    sha256: b0240aedb71967232a70769b08568b72efb84c2f18895c58039517dc4e71cae0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/WizardLM.tmpl
+  - filename: WizardLM-30B-Uncensored.Q8_0.gguf
+    sha256: 9fc350150bda35573d547a5a5783a15e6f1d12e31717b082dc54a11a05b87041
+    uri: 
+      https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF/resolve/main/WizardLM-30B-Uncensored.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__WizardLM-30B-Uncensored-GGUF__WizardLM-30B-Uncensored.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - uncensored
+  - dataset:ehartford/WizardLM_alpaca_evol_instruct_70k_unfiltered
+  - base_model:ehartford/WizardLM-30B-Uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardLM-30B-Uncensored-GGUF

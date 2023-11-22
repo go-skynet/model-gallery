@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q2_K.gguf
+    sha256: 02e6f5457c7ee4fb10126ef0c18e3da162774ecc099d467e007230d087c0f988
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q3_K_L.gguf
+    sha256: 3e782d119a307c98c87807c55b7fe930980dbf101d3ee0331f4e84bbcda8c09c
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q3_K_M.gguf
+    sha256: b5c35058d82ed50a82d97da444c0572561559f4e71fb1222bd71748f0344c08e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q3_K_S.gguf
+    sha256: b2f15201a968824f44eb710fc1375d96f1361471c35d2294da271e4e525bd121
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q4_0.gguf
+    sha256: d18893ac80ede8ac8f46bebe630cf512ef5685523f41580d59864a9519fc8dbf
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q4_K_M.gguf
+    sha256: 1a0d7550ae35149371e1712daa51107b8eca84ee8adbf44998723a8dad03503c
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q4_K_S.gguf
+    sha256: c38f822711157ceb6d4d9c88111065d05e87d6367ba59498e9a13edfc2664dc6
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q5_0.gguf
+    sha256: 9cee45bfaa0425ade00ba28702724e6fdb83b5ab9ef98983af4d95e67f03602d
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q5_K_M.gguf
+    sha256: 711b742dda8be99981aabe7492895b8c9e2c175386667a3375c8ce1da4715f51
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q5_K_S.gguf
+    sha256: 5b5038369714a6b093d4b0101f3907c5caf00a713dde53d1b5a46c50681ba4d5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q6_K.gguf
+    sha256: d3a899aea663ea2b2a8949b132378d276844211ef4ddc695dc5ddfa8b3c212c5
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-claude-chat.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/Mistral-7B-Claude-Chat-GGUF - mistral configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: mistral-7b-claude-chat.Q8_0.gguf
+    sha256: 03458d74d3e6ed650d67e7800492354e5a8a33aaaeabc80c484e28766814085a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF/resolve/main/mistral-7b-claude-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Mistral-7B-Claude-Chat-GGUF__mistral-7b-claude-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:Norquinal/claude_multiround_chat_1k
+  - base_model:Norquinal/Mistral-7B-claude-chat
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-Claude-Chat-GGUF

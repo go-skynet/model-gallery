@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q2_K.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q2_K.gguf
+    sha256: f3d9b8716d8e2999bd507b6fb2f617c07e311776a69a83a8480baa67789ae042
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q3_K_L.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q3_K_L.gguf
+    sha256: d686c0f039400a931766495c2e9aafee8dad062fa400bbb2f2a7d468c3cd0f93
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q3_K_M.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q3_K_M.gguf
+    sha256: b6f64299a887a8ce0892ea830a37090421c40d43cb9df2f537fd8e1a9c6de272
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q3_K_S.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q3_K_S.gguf
+    sha256: 148a27d4ece0ad8d5504539c37bb1cdbe0723b4371a61a5e97636f40df1ca18c
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q4_0.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q4_0.gguf
+    sha256: ad8fcdd0b5493b91a49bfcc7b70e6355bc013f47b5b23c5bd5ec6c790b73af3a
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q4_K_M.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q4_K_M.gguf
+    sha256: 7b3f3e69200fafa5b73c4720f89d62d2af7fcbf983e862b75c05c8d0da117c15
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q4_K_S.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q4_K_S.gguf
+    sha256: 8fa04e99289947b7729558acc91c0e0b587dd5bd46980e6dae7478dc8cfe4799
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q5_0.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q5_0.gguf
+    sha256: 531399845333fe26df348250ea560f0e3f81956564f21aef30ce1cccd465a468
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q5_K_M.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q5_K_M.gguf
+    sha256: e2258d58261c6c0428d15d81dc5b845049b8e53318707299c92eff389d6c5270
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q5_K_S.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q5_K_S.gguf
+    sha256: 61973135a2ff4ef8aee2ebae0e9fd2ab8f31c17ab7281f2d081c0873a8655744
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q6_K.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q6_K.gguf
+    sha256: c6f8e921358a39a805e93ebc93588c7124633953f1647506c5003f992d5a67f0
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: prometheus-7b-v1.0.Q8_0.gguf
+    template:
+      chat: Prometheus
+      completion: Prometheus
+  description: TheBloke/prometheus-7B-v1.0-GGUF - llama configuration
+  files:
+  - filename: Prometheus.tmpl
+    sha256: ea22b7e8d99a1201c2a0f2910b4b007b03a6351b6e342d7d76e337964d1b3883
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Prometheus.tmpl
+  - filename: prometheus-7b-v1.0.Q8_0.gguf
+    sha256: 6ca6987302e6b4fac7b1f663fdf8fe21533c463ed907ca1037b082bee52938c4
+    uri: 
+      https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF/resolve/main/prometheus-7b-v1.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__prometheus-7B-v1.0-GGUF__prometheus-7b-v1.0.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - text2text-generation
+  - en
+  - dataset:kaist-ai/Feedback-Collection
+  - arxiv:2310.08491
+  - base_model:kaist-ai/prometheus-7b-v1.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/prometheus-7B-v1.0-GGUF

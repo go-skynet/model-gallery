@@ -1,0 +1,350 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q2_K.gguf
+    sha256: e7e7aa624f691646e6f3bd132c0386e3cc90d2fa85080b5997ec7895e4f6bd32
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q3_K_L.gguf
+    sha256: 6751713d4f3be76bffb0e7a56e03a3e8647370387cbd6b4bb46ac3d29e42d7b5
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q3_K_M.gguf
+    sha256: 5ff1580813bc742fc8f064c39bcbf4ba3df96728593f902f6becebb5d86823ea
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q3_K_S.gguf
+    sha256: a5af461ccb25b6823aa21239186ef66b06586fc16849dd7f0802aef88c2015b1
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q4_0.gguf
+    sha256: f2c3810266e1ab0c2d3c84bafb0e5f6d51b8318e3388538d5fc182565820fd9e
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q4_K_M.gguf
+    sha256: 8a65c7d27323aa9480e8b0e9591229157dfb522b170bfa19610e0893abb67346
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q4_K_S.gguf
+    sha256: 2b2aaf3f3a30235fc8151008106d49476d02410108d17649a96afad0afe8d741
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q5_0.gguf
+    sha256: c4f32927265d108a3121f9e1784b6f9bc6a243231681e47f7ab301492cb68ffd
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q5_K_M.gguf
+    sha256: 5f6c16a2e213edf31f81467cdbc059c384bf63c8a84936cc10050323e5e2ca5e
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: dolphin-2.2-70b.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/dolphin-2.2-70B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: dolphin-2.2-70b.Q5_K_S.gguf
+    sha256: 9399f5f038a2ab1a9bc2bf414dad5e4e96a216b5e3aaa4e1614cd9e99c895793
+    uri: 
+      https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF/resolve/main/dolphin-2.2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__dolphin-2.2-70B-GGUF__dolphin-2.2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:ehartford/dolphin
+  - dataset:jondurbin/airoboros-2.2.1
+  - dataset:ehartford/samantha-data
+  - dataset:ehartford/WizardLM_evol_instruct_V2_196k_unfiltered_merged_split
+  - base_model:ehartford/dolphin-2.2-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/dolphin-2.2-70B-GGUF

@@ -1,0 +1,300 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q2_K.gguf
+    sha256: cac5652aafe49b239b442319d3faa5a5ad3a2a30b4d22ef4a567ae4096ef0dc0
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q3_K_L.gguf
+    sha256: f832ba2048f79c565b4a2713d5cf1af0fbc9ad2587c49fc88e4ade780d71e80e
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q3_K_M.gguf
+    sha256: 47da9a7289a2eb89b294bbc27f9489270d3db87e44619c50b6ce5d88af8bfff2
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q3_K_S.gguf
+    sha256: 9be6b13250c02fb65510ae792e4d51c69424e7c68d0c3b71e1b0530bca062524
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q4_0.gguf
+    sha256: 159410b898031d2c38ad3dee6fca1e10e118d70791eb88dd068864cfa0e4cadf
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q4_K_M.gguf
+    sha256: d1d19b51c2c3aa536cc70aae7670906bea0d661179fa5157c99fadee1a75867f
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q4_K_S.gguf
+    sha256: 9ea9015fc365e2ff347a3787677caaf10383701248dc0e150fe040bc5df772fa
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q5_0.gguf
+    sha256: 6133f347188a027eb51fcca4dbf3af826b07554b45add2aba7ba060e7e9fb640
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q5_K_M.gguf
+    sha256: b3514a25060f3ec5c512cf93c7d43c9ee0b52b27e40877b814f6293a68182fbb
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kaori-70b-v1.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Kaori-70B-v1-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: kaori-70b-v1.Q5_K_S.gguf
+    sha256: 7747de4be07367e21b469dca5502121ad629a5045d0cc7b2d3ff83cef97f3e65
+    uri: 
+      https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF/resolve/main/kaori-70b-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kaori-70B-v1-GGUF__kaori-70b-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KaeriJenti/Kaori-70b-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kaori-70B-v1-GGUF

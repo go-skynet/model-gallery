@@ -1,0 +1,490 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q2_K.bin
+    sha256: af9f9843854ca950e67961671a4fb2997b1e846613601dc696db0d5030be7efb
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_L.bin
+    sha256: c741d015435d9c88675f74bb15f1b5d091a13265940730e2fc6ee4f9bf654547
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_M.bin
+    sha256: d4542084b9b071f2c86b9924cb731f9981c6e73c44d223c81668182a5afa0333
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
+    sha256: c266d30df4c4ac746b6d0e23fe8c3ea02fb17799ec6ebc0cff96b6a4b956bf0c
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q4_0.bin
+    sha256: a7356fa9c03a3a23a7757c79beb726eb95fd4d300b69c195624018bc1cb5a070
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q4_1.bin
+    sha256: 7d732700c02dcec4df853f319de1314bfca810e2292a65f5cfa1860996d7fced
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_M.bin
+    sha256: 1c6bd5bf0a98c3b25564855410e702717f2bb19aeb052db7135be511c1278c38
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_S.bin
+    sha256: df5eb630834bd427d9d709db4427f05bfcb1514e451a36ade64e610cb134e0ad
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q5_0.bin
+    sha256: 7e945332ff676c5c305e12b656465aeb3bf9571eb84b5e93c40c0283642a3b85
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q5_1.bin
+    sha256: deddcf339fd783103c3a730a84b543995e6d06cf31625b9b1364271bcd307ab1
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_M.bin
+    sha256: a95313aaa095c5a698c5ee0f19ccf94ac813d767e4de1452a4ab6795b9510a4d
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_S.bin
+    sha256: 72c3b48de03526d198d1a4cc57d1cb827fc118e986fd99749aea2d15e037baeb
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q6_K.bin
+    sha256: 35d00600e772da08eae3b46b60e55a2beb2bef53bb13631f6215930f62522ed4
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: codeup-llama-2-13b-chat-hf.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: codeup-llama-2-13b-chat-hf.ggmlv3.q8_0.bin
+    sha256: 0a7da3c524ccdc5d55ea07d31f6623ecfd4210c49424630956b937801b2bca2b
+    uri: 
+      https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML/resolve/main/codeup-llama-2-13b-chat-hf.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeUp-Llama-2-13B-Chat-HF-GGML__codeup-llama-2-13b-chat-hf.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - text-to-code
+  - multilingual-code-generation
+  - en
+  - arxiv:2106.09685
+  - base_model:deepse/CodeUp-Llama-2-13b-chat-hf
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML

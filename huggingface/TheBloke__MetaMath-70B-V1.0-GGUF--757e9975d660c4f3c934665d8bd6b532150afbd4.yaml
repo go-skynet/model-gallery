@@ -1,0 +1,300 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q2_K.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q2_K.gguf
+    sha256: 28d1a1de4de0680f07d79cdc690134add1f9d068ec092a8cd2531b420219b686
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q3_K_L.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q3_K_L.gguf
+    sha256: 26fb6e64ff0c961e54c56c48af74cb565fc81e221984fba4fc5c7705643a954b
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q3_K_M.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q3_K_M.gguf
+    sha256: f73a3ea6c5ae6849ac856be75e0f668cb8e158f0f324ea23d6a09d7130251997
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q3_K_S.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q3_K_S.gguf
+    sha256: 566561a29384fc9040cc17e98fae9cbf9ab5ffd8b17c67b44745b252cfeb9ff7
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q4_0.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q4_0.gguf
+    sha256: 64b6cb503be5268c4a15e6080b32a1bc5908057650878c9b39db4b871fc0f837
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q4_K_M.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q4_K_M.gguf
+    sha256: 7a9e9f59c3d83f5d6bd605c20927f57d115ef18fdf2ef36bac7a13929acda555
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q4_K_S.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q4_K_S.gguf
+    sha256: 749fdc74e9f365ba671f643c792a783ba474cc2008db21e9727eb265b29506ee
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q5_0.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q5_0.gguf
+    sha256: 7c5fda3a3fb29db092bd4d1c5524958bde5776947368ea8119eecb3fd79851ff
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q5_K_M.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q5_K_M.gguf
+    sha256: 7bd04634ee7175025a6c1767b5801bdebbc9ce946562a20268dc1ae7a8bc27c4
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: metamath-70b-v1.0.Q5_K_S.gguf
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/MetaMath-70B-V1.0-GGUF - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: metamath-70b-v1.0.Q5_K_S.gguf
+    sha256: c219924038acc99622889e4028f875f3449a3bf7aee30e79bba774fa27ea6121
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF/resolve/main/metamath-70b-v1.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MetaMath-70B-V1.0-GGUF__metamath-70b-v1.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:meta-math/MetaMath-70B-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-70B-V1.0-GGUF

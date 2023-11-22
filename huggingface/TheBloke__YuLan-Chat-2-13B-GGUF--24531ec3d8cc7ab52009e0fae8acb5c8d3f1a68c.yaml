@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q2_K.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q2_K.gguf
+    sha256: 5db29275efb7eb6283bdee0bb977be166db8d9c008238484c8fc8dcf97299f85
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q3_K_L.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q3_K_L.gguf
+    sha256: 36bfee8ab3096adab89248f089b106b5de281aed0eaa8e6928c5c947982490c9
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q3_K_M.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q3_K_M.gguf
+    sha256: 8c0c5aab599c5819d8e60240644ce7e7bf34206b762bd7924ef7a689e8684a6a
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q3_K_S.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q3_K_S.gguf
+    sha256: d046a8a115dc847be2f0dcb49a00604a43b403c246d10c03e760f1c9ad4da22a
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q4_0.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q4_0.gguf
+    sha256: edc9194e42559a9927ee6e92338be2d232186d4c39aa70d176f820600bfaa5a6
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q4_K_M.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q4_K_M.gguf
+    sha256: ad3ccb6de46d413be003eb99a924711feeaaa0072498982732a7a953bf8d2613
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q4_K_S.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q4_K_S.gguf
+    sha256: 8c17b960fb823c01e2448774945c54567555cdf6d2a878090edd2dba17b83cbe
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q5_0.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q5_0.gguf
+    sha256: ab7d9090a1c731ae01eba5d6465ca7ab304857cee114493be17715305345f879
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q5_K_M.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q5_K_M.gguf
+    sha256: 18922743b4c68587fa4d65be08746ec57c4695011a898805fd059ccb36f24cc0
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q5_K_S.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q5_K_S.gguf
+    sha256: fdc72e8a59cd77c8ee0c58d9230bdd783008b758873415426948e8749699d575
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q6_K.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q6_K.gguf
+    sha256: 726ce514a6d9cc8276d992632e1dfed9f7f5ea24bb31a9d28802840ce97aa8df
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: yulan-chat-2-13b.Q8_0.gguf
+    template:
+      chat: YulanChat
+      completion: YulanChat
+  description: TheBloke/YuLan-Chat-2-13B-GGUF - llama configuration
+  files:
+  - filename: YulanChat.tmpl
+    sha256: 108e26957be031529aed34c38025a79ccfbb3f06b35c3e9f93cb066442b2dfb4
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/YulanChat.tmpl
+  - filename: yulan-chat-2-13b.Q8_0.gguf
+    sha256: 646376fb0d1df04f9f869b6b0350f0aed7bc30394b75c1c01149a54ac90e77c2
+    uri: 
+      https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF/resolve/main/yulan-chat-2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__YuLan-Chat-2-13B-GGUF__yulan-chat-2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:yulan-team/YuLan-Chat-2-13b-fp16
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/YuLan-Chat-2-13B-GGUF

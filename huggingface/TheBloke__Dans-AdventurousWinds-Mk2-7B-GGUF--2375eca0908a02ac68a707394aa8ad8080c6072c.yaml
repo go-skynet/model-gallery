@@ -1,0 +1,456 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q2_K.gguf
+    sha256: a3a52dd743f7e5b4afa9be307f3b86d483dccb15ec487a9d175e00b45f40e3b2
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q3_K_L.gguf
+    sha256: cdd8d6cf4dda1bb1a19f4f5c1ae34c3ddeb0c7f9bf2718e86f81b10019ab0a0e
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q3_K_M.gguf
+    sha256: a65aa17b300aca9facba44b78f669fb23fd7712f314402f666aa7c6aa32aa63b
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q3_K_S.gguf
+    sha256: 741bcf2d0ac59554ddce9e203b797d1b0f7fef8104dff280e9badef2752bda8f
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q4_0.gguf
+    sha256: 65584ce3d40b56d73ddb60afe935360716375ea90b4ade456ccfdd2e87a2ab5c
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q4_K_M.gguf
+    sha256: 38e7d64af0f9ed2566f4a12b9925ba4b1a420880cc8483eaf88d45133a21398b
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q4_K_S.gguf
+    sha256: 205e746eb5504a05fe07ffc2c5f4834b32dd1ef6722d8e3312e52b8eb036ef91
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q5_0.gguf
+    sha256: dd226e1cb4c5d570a23c20ffff67dc9aae913bc42d8ded65e41d13600a3a10e6
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q5_K_M.gguf
+    sha256: 7ed5be9452569e1c98c7541e32879885796caac38e4f567cffd4d551ba478202
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q5_K_S.gguf
+    sha256: 31f918ffd794abdd69b30db088d83565cdaa1322c30d46a6a7f5e6c80db6f4a3
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q6_K.gguf
+    sha256: e52cc8185a0d5b69716e916ea581518cbfac03753144f4dc26cfba56b7c29d24
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: dans-adventurouswinds-mk2-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Adventure
+      completion: Adventure
+  description: TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF - mistral configuration
+  files:
+  - filename: Adventure.tmpl
+    sha256: 7a8ee895e2283fd1ab5982fe15140120ce3cca5a683be2356acac3a59a9eb68d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Adventure.tmpl
+  - filename: dans-adventurouswinds-mk2-7b.Q8_0.gguf
+    sha256: a0928f5e99417f46ddf86e88386f8bdc85331a2437bbf98db01dbdce86f0119d
+    uri: 
+      https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF/resolve/main/dans-adventurouswinds-mk2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Dans-AdventurousWinds-Mk2-7B-GGUF__dans-adventurouswinds-mk2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - dataset:PocketDoc/Floyd-Text-Adventures
+  - dataset:PocketDoc/Choose-Your-Story-Long-Text-Adventures
+  - base_model:PocketDoc/Dans-AdventurousWinds-Mk2-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Dans-AdventurousWinds-Mk2-7B-GGUF

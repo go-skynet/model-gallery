@@ -1,0 +1,427 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q2_K.gguf
+    sha256: c134aef5723e77fc052a0453bc014c45a2dc8255b370a79a8034a1a38a0e66d2
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q3_K_L.gguf
+    sha256: 4fff60368963ea6245670d08f2a2870e9e52daefd077a1f5da2821f6ba8dcae8
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q3_K_M.gguf
+    sha256: bb5559d21bb490fb6f9960c70b6edd435adacb7fe9490e8054d3f56ea130d7bc
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q3_K_S.gguf
+    sha256: de3849b60ffe2a84ceff3fc8af75f7b7946882455a4184de560a2eb0ab96aaa9
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q4_0.gguf
+    sha256: 817a4dcf00e020decdfc11ff7e1de21e2cae14244ea5fe2a9d6e5bcda09de43b
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q4_K_M.gguf
+    sha256: 69c07f27f682ca8da59fcd8a981335876882a2577f0f9df51b49cf6b97fd470f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q4_K_S.gguf
+    sha256: 6ca9eb551badf2df12e1d609f75bca8d0a61299142dfbc46745d29fefa258d85
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q5_0.gguf
+    sha256: a8ce4f6201bdf928622f3df262d15c91283b743729c6f339bde1b28701639245
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q5_K_M.gguf
+    sha256: 172ea44b88141829a7521680c4781861912fdc197820bf63e4c809b89293dda4
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q5_K_S.gguf
+    sha256: f5ecca1c3bb3df5c40fe1c9dc07dece73e3d9ec652fea1c8e32fa78ad547864f
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q6_K.gguf
+    sha256: 8eb820f551b78d9691834b54ca5d557b955e73f82d8cf95a40d48b7cf7c0ed49
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-7b-codealpaca-lora.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Mistral-7B-codealpaca-lora-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mistral-7b-codealpaca-lora.Q8_0.gguf
+    sha256: 860af75bdd098172f8a1bbfab8bccee1c186c872d6325b980280f0ba0b69f222
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF/resolve/main/mistral-7b-codealpaca-lora.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-7B-codealpaca-lora-GGUF__mistral-7b-codealpaca-lora.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - code
+  - base_model:Nondzu/Mistral-7B-codealpaca-lora
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-7B-codealpaca-lora-GGUF

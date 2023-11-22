@@ -1,0 +1,462 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q2_K.bin
+    sha256: bbb1a76a7eafe81b50775edb6b10237e61fff88af702966a1735930b2b04299b
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q3_K_L.bin
+    sha256: 7b1c4246522a0372c2630389bc08908486dfe9c90b9c92d974df28c9be7d552d
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q3_K_M.bin
+    sha256: 157e603d2951f58056a4345c09509847279e8154c136472c7fe7eb0ee36043e8
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q3_K_S.bin
+    sha256: ec3948984dc04d2a8ff3e573a7518e60d4709c8eeb8379d79745c79a4a6bfaba
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q4_0.bin
+    sha256: 4d5309e42f4979467a82b02aea37c1c906287110382a6a1f2109cd70c7274a82
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q4_1.bin
+    sha256: 466dc10d142c448402adc8772e37f756f5a0765e0ce8199a1f396d00c72bcb55
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
+    sha256: 0967413f1be942bb9ed230f9192b94d1ec4cbbbb71d99d3500b91a67f0bfbcb1
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+    sha256: dceb93f8f6e8caab1bf75cf44bd383912078de637ae213382a8fa165039c6ec9
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+    sha256: ee4877a30cbdeb6b2ef6ee2530fc8963c5623ca02cf6f99fb5452553f608f450
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+    sha256: c8708707dc9f40233c7577f91650dbfc3b2f63bdda990377263370a3793beeb7
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+    sha256: 1ec1b55f9637c1733f65663bdcfafca62ef76c88ecc478936395e6928c4e8c3b
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+    sha256: e054ae804b0e9703f701fa957cc7c75102639cec678f3da5f75aa1de5acdf9b1
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+    sha256: 3c4e092c0b500b80efbcb76ba77fc0e5e5eba0cd8ae000092b4ac402077e93b4
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca-CoT
+      completion: Alpaca-CoT
+  description: TheBloke/WizardMath-7B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca-CoT.tmpl
+    sha256: 1945709c9cf3537da2045a5570ecf9e89fac530b04b4ac20b421a25bc904596e
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-CoT.tmpl
+  - filename: wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+    sha256: d10ca96161a8b2f0f1354eedb219e76f165320bbecbf73f4229fbe95c7ea950f
+    uri: 
+      https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML/resolve/main/wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__WizardMath-7B-V1.0-GGML__wizardmath-7b-v1.0.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - base_model:WizardLM/WizardMath-7b-V1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardMath-7B-V1.0-GGML

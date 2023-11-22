@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q2_K.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q2_K.gguf
+    sha256: c9c17d063a9252bb796786f3a60b0239f1a1fbb84606aa6b40674400d880eea5
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q3_K_L.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q3_K_L.gguf
+    sha256: e6f20fae0ce962ae64f5c68c30c159cdb25fce9f3325cd6cb69854142291f743
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q3_K_M.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q3_K_M.gguf
+    sha256: 0281b86e05d8b9ac541f4d46c246d759d957bb9864981c77fb4a1aaa4e6b56f5
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q3_K_S.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q3_K_S.gguf
+    sha256: 9b32fb2bfb549a208b8fa3c3ba13f48ef188ee8f096c30397346a7e8640af83f
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q4_0.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q4_0.gguf
+    sha256: b4b272bcdaca010bce95f72bd1532743ba53739eec86f6f5283752dabfba6dc9
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q4_K_M.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q4_K_M.gguf
+    sha256: 381b5560b22d53881efcaa53e31133d9c1519e3e9f6c89f706020234b66af946
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q4_K_S.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q4_K_S.gguf
+    sha256: b358a486518cf150704e1fabe99bde53944ec88fd99bcbb9b5321e62e3e07837
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q5_0.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q5_0.gguf
+    sha256: 6baf394d2fcb68a3117e74985aeb1a18325297ae9ed7a77a21da3aee0e6cb04a
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q5_K_M.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q5_K_M.gguf
+    sha256: d1cd6db149b2dbbb11b1d545d94ec92e14b620969e4610fa53ff9e46dc432dee
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q5_K_S.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q5_K_S.gguf
+    sha256: 60dd8c0a2f64708878f92005a197fbd056237dad7eb4f2ee3d6abee864c54de3
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q6_K.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q6_K.gguf
+    sha256: 14f28dea4d7269815cc05662a15e4576be5faec081ccfe0c9695540a19184f17
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: augmental-13b-v1.50_a.Q8_0.gguf
+    template:
+      chat: SillyTavern
+      completion: SillyTavern
+  description: TheBloke/Augmental-13B-v1.50_A-GGUF - llama configuration
+  files:
+  - filename: SillyTavern.tmpl
+    sha256: ef07fede5c43989d79f2c34a24c6382e99db5f4694325fe8a4084fe10a198760
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SillyTavern.tmpl
+  - filename: augmental-13b-v1.50_a.Q8_0.gguf
+    sha256: 85eb2b88fe009c52ba89e0f3a93729f11d1b56588d7bccd61a69aea9a4507b17
+    uri: 
+      https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF/resolve/main/augmental-13b-v1.50_a.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Augmental-13B-v1.50_A-GGUF__augmental-13b-v1.50_a.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Heralax/Augmental-13b-v1.50_A
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Augmental-13B-v1.50_A-GGUF

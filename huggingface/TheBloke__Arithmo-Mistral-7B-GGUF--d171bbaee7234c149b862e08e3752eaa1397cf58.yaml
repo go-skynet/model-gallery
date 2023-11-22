@@ -1,0 +1,444 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q2_K.gguf
+    sha256: afb8328fdb4f47da00a13829c3813238d900aef64027796576fc1d3a5df6b7ce
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q3_K_L.gguf
+    sha256: 41496c57104b043d0fc46d8899184c6fd62d9a72108f99a1b4f7cfc2b5e1a8e5
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q3_K_M.gguf
+    sha256: 4e5498e9b39de753820fed18a14eb7cfbaafd56af8f87fc8ea79d2c78a52037e
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q3_K_S.gguf
+    sha256: 8ab877339d219c079ada4de67bf5cd0a14f04afc3bc23f998bed63811da4191b
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q4_0.gguf
+    sha256: 107756cb5375310cda645a3cdf28cc595510850db82b13b4599268a60b61bd64
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q4_K_M.gguf
+    sha256: 358c8ac5ed3023b803513caa5a4011df8ee2115525d91de505413b1c37cecbc1
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q4_K_S.gguf
+    sha256: 7b751c03abde5444e54f293a2cee1f915e045a9543a4a1cafaf5ee40f857d639
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q5_0.gguf
+    sha256: 018fd3970849da18adbda9bc5078ab43a967c29b38732d837295ed3e01152198
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q5_K_M.gguf
+    sha256: bf3733d5291ed2e09b15637f4d7971947e4cffed16b7f9ec07a5331db7537032
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q5_K_S.gguf
+    sha256: c244524cdfa1a51e11ada87818c101dfbaa5c8a8cd776721b7fd20ffcf7c8a5b
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q6_K.gguf
+    sha256: 691739d0f966112005c984a873ad4c41066773e4b7824997da7a1b6bf2f341be
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: arithmo-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: QA
+      completion: QA
+  description: TheBloke/Arithmo-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: QA.tmpl
+    sha256: e7d19767a9fc71462a019006396b0a8328a03b2bd3ca1702dae628f822f09fe0
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/QA.tmpl
+  - filename: arithmo-mistral-7b.Q8_0.gguf
+    sha256: 40d81397d4404dfa3e106b0ff58de9e087b964265574c55a3e6d92fd1e6fe116
+    uri: 
+      https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF/resolve/main/arithmo-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Arithmo-Mistral-7B-GGUF__arithmo-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mathematical Reasoning
+  - en
+  - dataset:akjindal53244/Arithmo-Data
+  - base_model:akjindal53244/Arithmo-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Arithmo-Mistral-7B-GGUF

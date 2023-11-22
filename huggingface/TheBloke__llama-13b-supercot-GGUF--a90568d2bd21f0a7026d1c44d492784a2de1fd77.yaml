@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q2_K.gguf
+    sha256: 25aaa09ffed822e793964cfc3265ccbb414c52c1b18fadd2b3984f104f4ec4bc
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q3_K_L.gguf
+    sha256: 6ffea24d403b850fa2439f50f78172a22f1f971634ed11c2f12946e2d6317295
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q3_K_M.gguf
+    sha256: ac416795d9315afa202c1d24ffa735995e5d415f885d3ff9a5988e11001fd371
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q3_K_S.gguf
+    sha256: af04eabfc477d9501d9e6c45c3e6f1188c47ccde074d5f4cb301ab87e8087a4e
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q4_0.gguf
+    sha256: 137aeaa19658d1d360ad6301b11c9e489b21d017b821e75c6eaf38a1465b7a9c
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q4_K_M.gguf
+    sha256: 01159cea204efd38886daea37c58ae05c0f69a855f4f26f1ff3aadd6aeccecf7
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q4_K_S.gguf
+    sha256: e27fc2bb8bc040491965c7dd24bab2a41566a0624205ecdb51ef294005aa8e0d
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q5_0.gguf
+    sha256: ddd5330d0c3ccbf031a10c0e1f59550aed4e761e3b421743653de4fb95bc97db
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q5_K_M.gguf
+    sha256: 48c6865397b56a99040d30f9226acfff546effaabedc285075c2a4a79b59909c
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q5_K_S.gguf
+    sha256: 257d0bc8e4a9eb219f0ff0e32b7578f3272eba3e33ad56d1faaf136121be309d
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q6_K.gguf
+    sha256: bceb19d12647912321bc27aa8a0041a4865416b27ed03c234927eeb997205c21
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama-13b-supercot.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/llama-13b-supercot-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama-13b-supercot.Q8_0.gguf
+    sha256: 4dc3d7df4dc2dfd21d4ec4b57a35aabe35b72b01dca9c567cb16b5bf6378a6ea
+    uri: 
+      https://huggingface.co/TheBloke/llama-13b-supercot-GGUF/resolve/main/llama-13b-supercot.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama-13b-supercot-GGUF__llama-13b-supercot.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ausboss/llama-13b-supercot
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama-13b-supercot-GGUF

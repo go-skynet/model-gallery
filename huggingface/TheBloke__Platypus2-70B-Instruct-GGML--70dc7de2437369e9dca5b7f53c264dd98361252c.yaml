@@ -1,0 +1,595 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q2_K.bin
+    sha256: af7e2e09dd665fd3be8b2f9483f71e0f01ac5cc71556d90c068d311d62470d73
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q3_K_L.bin
+    sha256: d6fc2e810e071a12d7b9f7b521f378e245b779945dd2a2949f284f202cfa9a70
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q3_K_M.bin
+    sha256: 2757455a77e217cb3b2017f6138eb653077d68dbf77986cec71d7bec604187d0
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q3_K_S.bin
+    sha256: 01684afbcef476ffcbf2cd67764457742302e73bc79a16ed00d0d641e657d572
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q4_0.bin
+    sha256: ffeb7dacfbd6c90182cb8f7cc09fdecc58ed4f44bb7ea2bbc4b01951a760736d
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q4_1.bin
+    sha256: 4b15ac0cf7124d07c8941b24df8098e000d89cb7963ab9a024f00536b496bf5b
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q4_K_M.bin
+    sha256: 05681090a054fec8714173424160f6df5b67597d7d0e9b22b991410ed3e5b246
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q4_K_S.bin
+    sha256: d29fa5a39133048846631862fc5238a0cb6ca4581c1c9f77c1939d32bb53faf6
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q5_0.bin
+    sha256: 441d0064cac403a6a4679b079c782aeda0c62760671b5f81a715b6ff74c57b82
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q5_1.z01
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q5_1.z01
+    sha256: 63663f1b232d4a4b17f40579896aa6a5532d653f2de807ab5fb93ec7ac5695c2
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q5_1.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q5_1.z01
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q5_1.zip
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q5_1.zip
+    sha256: 42fbf017523cdf7c2cf2905640667a4bc9496ece098b662570e4136f0b40ceef
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q5_1.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q5_1.zip
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q5_K_M.bin
+    sha256: 344b3c3918420b3631d7e360543c3aff16cff3e006d23604aa611b8faf1d05d7
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q5_K_S.bin
+    sha256: f6ebbbb1190a9df8943131235ceeb77c43e319045bf8a457e83c9ac69e4012da
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q6_K.z01
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q6_K.z01
+    sha256: b9d355e56f070653cf6768196ed9ebe9ec967630f3ea1635bf1030ae4e85d071
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q6_K.zip
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q6_K.zip
+    sha256: e7c6cca810e43f8f3662e72871898bd8a6e11c3507a391d2e7406a066a2cac6c
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q8_0.z01
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q8_0.z01
+    sha256: a287f77d4a16d2c5da0f50bb2f8b57e04a32507e187133726adee7f82316a923
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: platypus2-70b-instruct.ggmlv3.q8_0.zip
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Platypus2-70B-Instruct-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: platypus2-70b-instruct.ggmlv3.q8_0.zip
+    sha256: 822d1741f6d68da842db81af3c6743b50333f0cac4f46efab13525964baa8547
+    uri: 
+      https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML/resolve/main/platypus2-70b-instruct.ggmlv3.q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Platypus2-70B-Instruct-GGML__platypus2-70b-instruct.ggmlv3.q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - arxiv:2308.07317
+  - arxiv:2307.09288
+  - base_model:garage-bAInd/Platypus2-70B-instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Platypus2-70B-Instruct-GGML

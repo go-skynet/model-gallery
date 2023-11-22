@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q2_K.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q2_K.bin
+    sha256: f330969988e3510f380626bdfa8fc960a0e329284b257f0496089a1a3649ccb4
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q3_K_L.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q3_K_L.bin
+    sha256: 002d688ec50bb7690089e53e0f5d560ace028c38f238c8665bf9771cf3af23f5
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q3_K_M.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q3_K_M.bin
+    sha256: 293457a14f2b7b4e0096e171eca917913f7f830ebc8eba93afc9d12ef38533eb
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q3_K_S.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q3_K_S.bin
+    sha256: 563b28d6f5becf8d70b6ff3db382fa9518a27d37abd0261eb0be17aa1e670d16
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q4_0.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q4_0.bin
+    sha256: c3eb2239c9557a45b44fc823b5f9d6448b2e45791b9b0152e3ecc662e0178984
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q4_1.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q4_1.bin
+    sha256: 9264417d8f8ca0937d00f89264305ab0b5e91ede33d9cbd9cc82f9735e1c3f91
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q4_K_M.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q4_K_M.bin
+    sha256: b98c1144e612ebba6fe194f5bb0f213c9be039984e0bfe9d89f0da2c7610a74c
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q4_K_S.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q4_K_S.bin
+    sha256: 2cb314fe45992686eb5cc4c2ff1418f3fb57e62943b238131565277fbf9ed9fa
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q5_0.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q5_0.bin
+    sha256: 94fda03db5870a981d53e4930ce9f2a18cf60f5286903f1230a0a2b373bb987b
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q5_1.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q5_1.bin
+    sha256: a4f142ecd87da7700b3428e966f4284a763fe6fbd465ce7ca0510deab157609f
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q5_K_M.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q5_K_M.bin
+    sha256: de7680e897131877dfda792dd58ed13e344a4e15b2dc7b89896a8b52a452f522
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q5_K_S.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q5_K_S.bin
+    sha256: 5b61a6309c24f4e7c502540bdcd11ee88e9802cfb4aa0d291ae7854c2889f973
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q6_K.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q6_K.bin
+    sha256: 1bbdf862f55decf2a402bcd12c61a371e7a9930fa126c7641040386204429208
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: openchat_v3.2.ggmlv3.q8_0.bin
+    template:
+      chat: OpenChat
+      completion: OpenChat
+  description: TheBloke/OpenChat_v3.2-GGML - llama configuration
+  files:
+  - filename: OpenChat.tmpl
+    sha256: b4d27f23122060734aa642fb088617eab824af808cafa68b0970f72e5cb45196
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/OpenChat.tmpl
+  - filename: openchat_v3.2.ggmlv3.q8_0.bin
+    sha256: 1e5afd38833318c8766e6d6da51e761a83b704f20e4398f1c83a9a99dc54c515
+    uri: 
+      https://huggingface.co/TheBloke/OpenChat_v3.2-GGML/resolve/main/openchat_v3.2.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__OpenChat_v3.2-GGML__openchat_v3.2.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:openchat/openchat_v3.2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenChat_v3.2-GGML

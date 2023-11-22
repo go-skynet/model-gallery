@@ -16,7 +16,7 @@ class PromptTemplateCache:
     def __init__(self, templateRoot: Path, downloadRoot: str, bannedPromptNames: Optional[Set[str]]):
         self.templateRoot = templateRoot
         self.downloadRoot = downloadRoot
-        self.bannedPromptNames: Set[str] = bannedPromptNames or {"", "None", "Custom"}
+        self.bannedPromptNames: Set[str] = bannedPromptNames or {"", "none", "custom"}
         self.downloadableFileCache: Dict[str, DownloadableFile] = {}
 
     def get_prompt_template_directory_path(self) -> Path:
@@ -27,6 +27,8 @@ class PromptTemplateCache:
             outputFile.writelines(template)
 
     def get_prompt_path(self, promptTemplateResult: AutomaticPromptTemplateResult) -> Optional[Path]:
+        if promptTemplateResult.templateName.lower() in self.bannedPromptNames:
+            promptTemplateResult.templateName = promptTemplateResult.modelInfo.modelId.replace("/", "__")
         promptTemplatePath = self.templateRoot / f"{promptTemplateResult.templateName}.tmpl"      
         if promptTemplatePath.exists():
             # TODO: Consider checking how different it is from the text match, since we already have the text body?

@@ -1,0 +1,434 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q2_K.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q2_K.bin
+    sha256: ccd251334cda10f1040ab369e928e430e1b8bc5cf33b0224acd08d44168e9b66
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q3_K_L.bin
+    sha256: a885b842b090257c931ab03211c160014c8f005448dc51220692a20d22b3ad86
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q3_K_M.bin
+    sha256: cb64789105e705f85a38667563b4c35a843e5047104d84b8f69723ab8de7de7c
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q3_K_S.bin
+    sha256: 6fd38a5d04abfc51af158d8e19e54b0e87687fafbb4b03bb953fb6b032f2faf9
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q4_0.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q4_0.bin
+    sha256: 4fbeda6d2705490a76dd59311fd2d56fbc3a95c121e56dada7047a9a368ce124
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q4_1.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q4_1.bin
+    sha256: 4f9d586074308438d7b85e40ecdfd5e48a26830e9360e9f1cc741422bafa714a
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q4_K_M.bin
+    sha256: 7d805f5f533b7fb81b6e9344a08d6c05857292470088cd9608334484ec00d01a
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q4_K_S.bin
+    sha256: aaff1807053fd027f18cf108ac90cf1e8ee9a62b06cdd824893d12adf1122a97
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q5_0.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q5_0.bin
+    sha256: 36298a39ff6272a765575863c9fa36ca1bd91cc315a1079350547ec3cd990cac
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q5_1.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q5_1.bin
+    sha256: 5461ff9cc79d37d8b62e3cc055f5c7cc3c97c85c2e05867927bfd3c8362faba9
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q5_K_M.bin
+    sha256: 63a024fdabbbca0ad98a83092965893efde6d4634d2687946c6aff337c4e309c
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q5_K_S.bin
+    sha256: 2afd3093128266bd5c60eea761c1febf638088151069be3fd1ce6cc29a9aa2ab
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q6_K.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q6_K.bin
+    sha256: 1ab62bda0fddcc74496770b8e3f79210dbc1b3f4b8a0873b8e8135ab038372da
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: kimiko-13b.ggmlv3.q8_0.bin
+    template:
+      chat: Kimiko
+      completion: Kimiko
+  description: TheBloke/Kimiko-13B-GGML - llama configuration
+  files:
+  - filename: Kimiko.tmpl
+    sha256: aa2cf15eba3b0f445330773e72999a1ce4653ce1ed4f2de2dc30c22178f938c5
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Kimiko.tmpl
+  - filename: kimiko-13b.ggmlv3.q8_0.bin
+    sha256: a4718128aaecfbbd37af752caf2d86e953becad006d7bec3bd8858ac2687a9d6
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-13B-GGML/resolve/main/kimiko-13b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Kimiko-13B-GGML__kimiko-13b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:1910.09700
+  - base_model:nRuaif/Kimiko_13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-13B-GGML

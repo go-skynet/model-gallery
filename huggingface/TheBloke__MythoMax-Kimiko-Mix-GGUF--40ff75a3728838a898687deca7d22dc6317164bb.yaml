@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q2_K.gguf
+    sha256: 3c4834b47f3cbd8b15869252199f0b268596e1620f0ca86942606f4ca8a9394d
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q3_K_L.gguf
+    sha256: e37ee0c0b187380600b89f1da8b7ae8a64b317f5f99006037b2640be3448c339
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q3_K_M.gguf
+    sha256: fee03bc8d6f06fb4e8cc9d8327c87ab24f180bcd46f35d0207d97a3414c60628
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q3_K_S.gguf
+    sha256: 2de2e3f50c73b2742b36b7a8176fd35a9a8e8310c77e5d0c74631ef8a0084022
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q4_0.gguf
+    sha256: 1346083879fb3c2d20c858cdf226a2b9d151f55f48ccf1df06461b14ba433bc8
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q4_K_M.gguf
+    sha256: b6132ded5f7cf6bd4d7d66aec245bb020ecb3cde7f9fbe911d754cfb12184cbf
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q4_K_S.gguf
+    sha256: 312336aa6c4034a4f09d92eacbcaf3027a098261ed614a806318ded4f3c04258
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q5_0.gguf
+    sha256: 8a23d968ecb8a11cbd57f94e33950586bd8ce43952b36f510eed5dbb2d1d0c81
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q5_K_M.gguf
+    sha256: 44a1054e33c3f8a8ca41552231bfee1eb3f9666cb395ab5de693f6902830f50d
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q5_K_S.gguf
+    sha256: 8a3cd9a6e83efd1a53570ca3935a7015b279bae44c5773dfc912895790ddb91f
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q6_K.gguf
+    sha256: ad10d4b1c0c1079a091672ae7c688aa0f9129905f393d91c5eaff69b2b8841d6
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythomax-kimiko-mix.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoMax-Kimiko-Mix-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythomax-kimiko-mix.Q8_0.gguf
+    sha256: 720ad72e88d20bcdde05a88fcfc7234c37b07e8ccfda7ab1c9810a83518fa544
+    uri: 
+      https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF/resolve/main/mythomax-kimiko-mix.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MythoMax-Kimiko-Mix-GGUF__mythomax-kimiko-mix.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:taozi555/MythoMax-Kimiko-Mix
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoMax-Kimiko-Mix-GGUF

@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q2_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q2_K.gguf
+    sha256: 05ba4704416e5bf97f42d3ae7b82785e092eea425a3ddbf47a4315eb21ca272a
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q3_K_L.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q3_K_L.gguf
+    sha256: 6c9ced5aa15b624fbacaf5203f87e9a3765903f093ec9c69c5412f08e9990a4c
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q3_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q3_K_M.gguf
+    sha256: 6f1bcb5d9e48ecb2f70e8de105fda01252d861864612f668b3c39600e63b9446
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q3_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q3_K_S.gguf
+    sha256: c9515d0777f27d1f8778904e829ef33d710956af6ab3deb980113a8cd78a64fd
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q4_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q4_0.gguf
+    sha256: 2284c193fc1ebaf07705e5b458efa476a8f4c39622e9f3ef7887051eb017bcfb
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q4_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q4_K_M.gguf
+    sha256: 42e829c19100c5d82c9432f0ee4c062e994fcf03966e8bfb2e92d1d91db12d56
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q4_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q4_K_S.gguf
+    sha256: 6ad6222d73601e58f658483bb98957cee477abec818f47deb707880d5b1eaa43
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q5_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q5_0.gguf
+    sha256: 3ca45e2570a09f07c7ed11680811493268e0e2d7770b3c7a4a89448c0f8dd0c4
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q5_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q5_K_M.gguf
+    sha256: e3064350910093e94d9a869335d8f9b9fc6bd9e39a6ca6a99f1a2fc38cfa1a4d
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q5_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q5_K_S.gguf
+    sha256: c8553d964f2b7f937f6efdaf6786618a74cec3381f91405de2c167808fea06ec
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q6_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q6_K.gguf
+    sha256: 3e192137d593aa8816ad7746e9e0109c78817ec23897a9f251a14bca4a67f7ab
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: calm2-7b-chat.Q8_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/calm2-7B-chat-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: calm2-7b-chat.Q8_0.gguf
+    sha256: ab79eac3acade151d560299d472b923e6acf0748034cb62befb0c0f846172b5b
+    uri: 
+      https://huggingface.co/TheBloke/calm2-7B-chat-GGUF/resolve/main/calm2-7b-chat.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__calm2-7B-chat-GGUF__calm2-7b-chat.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - japanese
+  - causal-lm
+  - ja
+  - en
+  - base_model:cyberagent/calm2-7b-chat
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/calm2-7B-chat-GGUF

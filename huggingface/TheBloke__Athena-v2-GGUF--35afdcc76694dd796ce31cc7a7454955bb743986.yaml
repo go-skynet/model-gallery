@@ -1,0 +1,355 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q2_K.gguf
+    sha256: 45f8fb85d4503764e3dec7d0f018bfca9d07b3e25bc0ef7887c77ce0c9e9c382
+    uri: https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q3_K_L.gguf
+    sha256: e30181591dceb8335507121a509e612d8e9600f17f3ba8fc4a4bdc897081b732
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q3_K_M.gguf
+    sha256: da938a90f39168fb636e454fffb0cf68d8a4659164e2d7109ec8a757067f1d5c
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q3_K_S.gguf
+    sha256: d767ef4d3855b4b5b43b683b7d07b1d744342916e1f2fe81c68d6bf0ef55873d
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q4_0.gguf
+    sha256: a662acafacc480c5500ea759750e3acd3403bde71b92de45359d88f20d5c6cdf
+    uri: https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q4_K_M.gguf
+    sha256: 2799466aadc8eab6242f8197b8fa942a5143b8a8f7b15ffae178190e205a339e
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q4_K_S.gguf
+    sha256: c4f16e3e769b3ec768cdb9ede1643b4e313670a82688fa2bbbb4c37cf5e70b6e
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q5_0.gguf
+    sha256: beba0cdcaeedf43c6e670ef11340bae8550e52d8e7d88d8583484aab2c818bb4
+    uri: https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q5_K_M.gguf
+    sha256: e18bffff98be197b02331237a7b46aad1a9d4c547131dca0368c47200a8b6b2b
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q5_K_S.gguf
+    sha256: 472fc36145409063ecfd9bad13a05507e8a4f2c6ed267877d292a7de8d77496c
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q6_K.gguf
+    sha256: 7c9311410e93f65cc455e6fae210bf57f69358704286b5a0ccf851544fb2eef5
+    uri: https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v2.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v2.Q8_0.gguf
+    sha256: 4d3c2d2b4c0a5b3ac8a2dc234c29385d078afaa69f1e55f68cfcf1b29f032527
+    uri: https://huggingface.co/TheBloke/Athena-v2-GGUF/resolve/main/athena-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Athena-v2-GGUF__athena-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v2
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v2-GGUF

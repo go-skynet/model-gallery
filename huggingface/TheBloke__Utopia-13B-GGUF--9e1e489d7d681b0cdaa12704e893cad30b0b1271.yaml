@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q2_K.gguf
+    sha256: f5d9c5540f5df3f6b5fa46ec24bc1b6f9ac433cd85e16cefdd8bf00fb548e0f2
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q3_K_L.gguf
+    sha256: dd62f4912ce08c06183579eaceaaa229e1cf6e08fd9397ef295c5acdc29394b2
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q3_K_M.gguf
+    sha256: ecaeb09a0d5b6c981c98273ec62026135131cfb3f4f1e90a30a50bc00dcd3064
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q3_K_S.gguf
+    sha256: 3dae00647768e995c8761621fb02f2a032502d472185c06d71c0e77ac4b9f7ea
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q4_0.gguf
+    sha256: 0253e7c7e8733b67c6e0533b2966ff0ac5cfc55cbb14475af80e58eb89eb5774
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q4_K_M.gguf
+    sha256: c7f669f8b5627c95963fcea69a3c612b01dd4f1a37c499b620c49d79d1464a3c
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q4_K_S.gguf
+    sha256: 3a310fa6314433a35d2d3004ed497e7668fa0aa2938e7a8f86ead86e2f3306b5
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q5_0.gguf
+    sha256: ab2a1953094e5cbb40a8ff892481f0d8549765b49494c55bdd5a08dd30b693a7
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q5_K_M.gguf
+    sha256: 831e1a09bad842e32f40c99ae5c6dddac33ddd8a19f2afebe29a9054378423c3
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q5_K_S.gguf
+    sha256: 00d6fb18bf54c2bed06595cb735582893a1f0360574eede58396afafe752654a
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q6_K.gguf
+    sha256: c261324634c68e8d66e49f27ce0882675f8b950e96f7e94f25418278a35df32d
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: utopia-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Utopia-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: utopia-13b.Q8_0.gguf
+    sha256: f6e0295475a577f10846fb371347d2881c17209224785b1a80c74a872f14c308
+    uri: 
+      https://huggingface.co/TheBloke/Utopia-13B-GGUF/resolve/main/utopia-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Utopia-13B-GGUF__utopia-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/Utopia-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Utopia-13B-GGUF

@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q2_K.gguf
+    sha256: 4c287a6a7b0ddcea1cf0bb4dda0ae843c4575195c2cda28d0a8e772889b5e4e4
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q3_K_L.gguf
+    sha256: ea6e1ffeaa5d0b5c6c9ff9b0f253eb94476bba470bb34df579fcf4c97b3a1516
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q3_K_M.gguf
+    sha256: 53a88dc24141179ed6a902f21f56de7e229309392d678a9ee3454679de3b4440
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q3_K_S.gguf
+    sha256: a8a1a58ff203b43dd5e9e6ff87a5410c793f05f2555404e2a19ff0f120764cd8
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q4_0.gguf
+    sha256: 5d80f6790f829cf79f109e2f3a55294299b7610696ecc985e207c7844648d8fb
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q4_K_M.gguf
+    sha256: df9c9f871d9e1d4e4e3c43f4298562d3f2e892027e2a9bbb501558d01f0cc438
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q4_K_S.gguf
+    sha256: 9631c3ed28091ffe7876bcde212ef5f3e334334f40ab50dbb5b3871ab0ed9bf4
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q5_0.gguf
+    sha256: 925580fe9f3bc8ba845a3239a0284cfc85b561b2727435c76c3279288fe7d7f6
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q5_K_M.gguf
+    sha256: d566e4fe43ef9ec0a2382d2e035fca403b9ce1f79df1023832ba2fa057cc0ab7
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q5_K_S.gguf
+    sha256: 77280d33b95377854dab5b0d5e2013cde5523b2afaac8adef291159d298fd9d7
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q6_K.gguf
+    sha256: 9b4b62fb5ed4eef29fdd08dae6ced9fe71b507540bbe8049777fa2de557038e3
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 30b-Lazarus.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/30B-Lazarus-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 30b-Lazarus.Q8_0.gguf
+    sha256: c5ba04468505bef65636f417ae6ca0420aea1ccaf77a6edde497f5b3ad4a3f2f
+    uri: 
+      https://huggingface.co/TheBloke/30B-Lazarus-GGUF/resolve/main/30b-Lazarus.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__30B-Lazarus-GGUF__30b-Lazarus.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/30B-Lazarus
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/30B-Lazarus-GGUF

@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q2_K.gguf
+    sha256: 9996ecf7727f46ad6acabd49d97476472b70e9e6cc01d463f8a6cf7dd08e85ba
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q3_K_L.gguf
+    sha256: 1d694cc686dcd89ab327e59106693fb23b352f613593a21867c7ba260a80db62
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q3_K_M.gguf
+    sha256: 6e74fa4dcf0423e5ad219cdfd5148319b32cc5bbd3e6b292b79dc5fbfa65c6b1
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q3_K_S.gguf
+    sha256: 7d3cc6d76d8e5d9ba63eebbc5d2c9aa8ab985c7afaf2abf8e24ec687bf92a74e
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q4_0.gguf
+    sha256: 8c95809aa5d71a70fe40238d8cfb6b7ea7b633554442c7be863a68ae5e86a9a3
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q4_K_M.gguf
+    sha256: 36b499a413a35c73fd080f1eff3869df5e63245cef57a1ebf80544baa75a6e1b
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q4_K_S.gguf
+    sha256: 00c5a1fad907e85bb6bc1fb5d5781c628759bfabc691dcce52ecc91fab48aebc
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q5_0.gguf
+    sha256: aadec0a156a8040379f9f81f6180d75121149e84ca824ea5f4d061cb58f7e083
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q5_K_M.gguf
+    sha256: 757bdb349929ea9b4e95381914d71df61bdcfd8c86dc517ecb03c29066565626
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q5_K_S.gguf
+    sha256: 43f109c22fab4da80366e91148ca8b8a038c0b9e7153087f02cb50841018fae3
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q6_K.gguf
+    sha256: 6a205719e269aa160235423969ee36c750a514220a1c2513100882d4ae7a5268
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: fin-llama-33b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/fin-llama-33B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: fin-llama-33b.Q8_0.gguf
+    sha256: 7fc901fd2864da1c48dc3d41dda72933949ed0c3e52c3d3d7cabf319be08e52e
+    uri: 
+      https://huggingface.co/TheBloke/fin-llama-33B-GGUF/resolve/main/fin-llama-33b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__fin-llama-33B-GGUF__fin-llama-33b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - finance
+  - llm
+  - trading
+  - dataset:bavest/fin-llama-dataset
+  - base_model:bavest/fin-llama-33b-merged
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/fin-llama-33B-GGUF

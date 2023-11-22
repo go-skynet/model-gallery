@@ -1,0 +1,448 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q2_K.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q2_K.bin
+    sha256: 95039dc52acef42a4dd9f2085de8a74325bd43609b2cb631b3e526c7f32d159c
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q3_K_L.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q3_K_L.bin
+    sha256: d4d0dc8548fa2ad56e9c1c8f425e2fcdc1a28b5653bc02c0ad37546e603b2423
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q3_K_M.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q3_K_M.bin
+    sha256: 4d74f42b10f434fd5f55f079f8bc20b256979469f0132834a8d4fe4a1df83e4f
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q3_K_S.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q3_K_S.bin
+    sha256: e8682cdc2988506a83230e84aa102e57e06b693a6f00789d70bcb4029c0df4df
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q4_0.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q4_0.bin
+    sha256: a1f0db73dfc8bbcbbcc3bc9e908a11aaa6e050d1cce974e7102d72f4f0819d42
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q4_1.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q4_1.bin
+    sha256: 9c4c820c87d12225f8913c3f8f958cdb6e6cca8ed2f1ac42f41ee39fd67a61a5
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q4_K_M.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q4_K_M.bin
+    sha256: 5fe5ec7c23d08a961cd0e1bbc4944ba36254c887a50a5d94ce173c488da10a9e
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q4_K_S.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q4_K_S.bin
+    sha256: 8c51dabd450d154c09048bd18bebb387d1ea542b16a3d55eeace1dc71ae58ad1
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q5_0.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q5_0.bin
+    sha256: a00278436c6552a927fa88efbe91af7753c7c13e85475673410d5c198f90af11
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q5_1.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q5_1.bin
+    sha256: 9486f08b833c9fd926426b5840e7a3b16a30741045438878faae1786dd15d6ed
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q5_K_M.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q5_K_M.bin
+    sha256: 83beddf50cabf16e7c07868eb53ba0c87a7fa94c85d38b8cfd60464b679adb59
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q5_K_S.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q5_K_S.bin
+    sha256: 8dc9ed01f5e51b1e66a344ca53a7eb83c9c5d707e63ad6f5e5ba3a988b88e5b5
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q6_K.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q6_K.bin
+    sha256: 3806b8b19393a498097a3b791bf8a2243dfa920af3c440c482cc0df45d86d720
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: vicuna-13b-v1.5.ggmlv3.q8_0.bin
+    template:
+      chat: Vicuna
+      completion: Vicuna
+  description: TheBloke/vicuna-13B-v1.5-GGML - llama configuration
+  files:
+  - filename: Vicuna.tmpl
+    sha256: e4f62a2354991f17f4da27228ce9416adc416db370ee9fbb8f4d114ed014a221
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna.tmpl
+  - filename: vicuna-13b-v1.5.ggmlv3.q8_0.bin
+    sha256: 94707dffc4712f680e6ca27febe26ce97d7e3e96cbca907af25ee86f623c022d
+    uri: 
+      https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML/resolve/main/vicuna-13b-v1.5.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__vicuna-13B-v1.5-GGML__vicuna-13b-v1.5.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - arxiv:2307.09288
+  - arxiv:2306.05685
+  - base_model:lmsys/vicuna-13b-v1.5
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/vicuna-13B-v1.5-GGML

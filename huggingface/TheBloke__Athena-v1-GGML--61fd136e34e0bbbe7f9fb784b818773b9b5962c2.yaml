@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q2_K.bin
+    sha256: 58bdd14904da69f73ef4ee1a862f6ae37164fd6a983c4c3c38f65c787d7c31e0
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q3_K_L.bin
+    sha256: 0a3ddfef4e49a30f0687239da6bd035b0eecb786a0d8c39bfd5a830aa9ff3a1b
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q3_K_M.bin
+    sha256: 9472cdc53ace28a087495dd9becf70773eaeebdc8bafd40b050ecc2b721b477c
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q3_K_S.bin
+    sha256: 2a65fd60664e4870abd28e10431095883601346e4793f7959330f9772ff11833
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q4_0.bin
+    sha256: 515a708093e9c47c2fc8a6db4a5fbcf7a8994ecccb27dc0f48d6d3bbd4d39aef
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q4_1.bin
+    sha256: 67a03317bd5958b6a2d9ee66bd13c55d5c41954f5126e5edec3524eb5f2595b1
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q4_K_M.bin
+    sha256: ad6a4eb21313e72d5b356a768853e864b0a050000716669a642c3e2ebda9203c
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q4_K_S.bin
+    sha256: 3f37795bde035d2a7c6bb7e25a4d4c029f035116b89152854efbbbd142bd3884
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q5_0.bin
+    sha256: 6e3d3905212b7b15d6483a4eba73933f40bed1cc7c0a268d957a63eb2235f2b7
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q5_1.bin
+    sha256: 60c7132a013cf494d990fd15035f16b065bf6fd8283f61a49d4e300df44dac00
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q5_K_M.bin
+    sha256: 5c05b92d21cf1d5cc234c0ac147cf188bb5923ab493e3294d06bcd6ae3cb8f9b
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q5_K_S.bin
+    sha256: 71ec4bc1c8fdee5e6caa7944a8c4c21efe1c1961a79d2a08c5307ee1c2dae47d
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q6_K.bin
+    sha256: 1f4e835d6c530a3032950da38511af53e7ad38e6050b87911dcd855536596e35
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: athena-v1.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.ggmlv3.Q8_0.bin
+    sha256: 39019cd0229e41402666dc54798aa9ea5cb2356a10b4619f8990c149633b19dd
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGML/resolve/main/athena-v1.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGML__athena-v1.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGML

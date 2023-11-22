@@ -1,0 +1,462 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q2_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q2_K.bin
+    sha256: 932832dabb2a17078856cdd8906509b7e5b3b636eb717ff1de5822660f9fd396
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q3_K_L.bin
+    sha256: 48286c1341d93829a313b149fe5990e779bb11328fddfa5cbba8bc1998d09b06
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q3_K_M.bin
+    sha256: 78646c161c2f47f3d066ccd976d1808d35984f4576e09ba784599e990ab745b8
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q3_K_S.bin
+    sha256: ac04d7ef107bd1f79a2132f73908ce281fd90b914e6c71c553fbf4a1e4d0012b
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q4_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q4_0.bin
+    sha256: 06500f55b929b6f3ed7411e29c6ad6dc364162e36eb7ef154a99cdd41600754c
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q4_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q4_1.bin
+    sha256: c5ad8a0366abb61c798d00408da354739ae34be8a20aee26c1a59becc6709304
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q4_K_M.bin
+    sha256: 7c21a78716df60492f04f20111d5a1ddda7e434d0e00fe5180faebd877b21168
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q4_K_S.bin
+    sha256: f8cfc798f38aae59d00a3da6c17123d5bfdba418744569ff3aa290a440956b42
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q5_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q5_0.bin
+    sha256: 912a63ca0474994119eddbf568a713cb80432b979bad83b17f1fc1bf7ad53ad5
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q5_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q5_1.bin
+    sha256: 114d02154fcbfb92570b0cf2cae5796ded14ec94d90b6cf484e0676932300813
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q5_K_M.bin
+    sha256: b5e3dad7d50f664b10f38fbcecb03e4a74a450bdc3881cdac1ddfba78a5cceff
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q5_K_S.bin
+    sha256: 04b750010afd549a1bdd6fc4093cb958cf3d2b4742228c5ede170175b1acbdb6
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q6_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q6_K.bin
+    sha256: 5c332f610d8113a9dbea6777bf4b9309fbc0e0f87645de1bac7ca9ed042c9b8e
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b.ggmlv3.Q8_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/PuddleJumper-13B-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: puddlejumper-13b.ggmlv3.Q8_0.bin
+    sha256: 57caaba3e9863b6b9fd8f35e2eea59e068ec1e63e25495e2668e88cbff1559b8
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-GGML/resolve/main/puddlejumper-13b.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__PuddleJumper-13B-GGML__puddlejumper-13b.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - dataset:garage-bAInd/Open-Platypus
+  - dataset:Open-Orca/OpenOrca
+  - base_model:totally-not-an-llm/PuddleJumper-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-GGML

@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q2_K.gguf
+    sha256: 03b9ba9ffc772334c96cd3db5b8cecf8cb072d6d7bf4f1a819ad5a5143a88564
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q3_K_L.gguf
+    sha256: 79112c05cc0c1bdbd09d941650ba5dacef0998e89aa28429880ccd94c0ea5ff1
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q3_K_M.gguf
+    sha256: 13dd717a88c593db03d1d7a3fced7ced5f24c9c11ebc79db5011a48165968207
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q3_K_S.gguf
+    sha256: e773c99cb8ba1af5047a0c86de2eca01e72327eec554dfc32f38db685c7e5d20
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q4_0.gguf
+    sha256: c0bc27a1bb74c20fba873654ad7760eacd488a02b3d5b5dcde8cede7b801bfe8
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q4_K_M.gguf
+    sha256: 72f6608df07200015a6aac44cc6270c408d4a65632d2ff1792a8d17086bc15de
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q4_K_S.gguf
+    sha256: 14a34d0b9f56f87f90996115a9274afe09506d453c0b438fed19e8b7a6661ac0
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q5_0.gguf
+    sha256: f76911291da8f157e62f526180254ee87a080e7d80885c3fc56973a3bbdf454b
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q5_K_M.gguf
+    sha256: 680c90b745f12a7da47ddf2d9e87251f854d5e651b59bb829fac88dc2b0ea494
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q5_K_S.gguf
+    sha256: 60f8c739398cd81a7ba6dab6252f5932c910d13a63c81285b7982492c5e5f97b
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q6_K.gguf
+    sha256: 447e98bd69c6af5e55c239fa34bd25fae10f823b3147145c206acbef6e269e37
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2-13b-tiefighterlr.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LLaMA2-13B-TiefighterLR-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: llama2-13b-tiefighterlr.Q8_0.gguf
+    sha256: 284ad010a83d96ff72ca66847c5a19cea57c006d5c3a5932cf68ce52afea718c
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF/resolve/main/llama2-13b-tiefighterlr.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LLaMA2-13B-TiefighterLR-GGUF__llama2-13b-tiefighterlr.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:KoboldAI/LLaMA2-13B-TiefighterLR
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA2-13B-TiefighterLR-GGUF

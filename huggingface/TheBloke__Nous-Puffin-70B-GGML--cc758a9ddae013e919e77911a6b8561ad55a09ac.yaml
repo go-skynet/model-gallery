@@ -1,0 +1,578 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q2_K.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q2_K.bin
+    sha256: b1ddf3734edd78453083abdf8bc405d339deddda876b870f24f3d8330ef1dae9
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q3_K_L.bin
+    sha256: 1815a2083f8098b4192209fcfb7a3728f44897dc37e5b7a18f638c8decfa647c
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q3_K_M.bin
+    sha256: ec5bf6e4bb61a682019726f25011c646691fa29e91370aae427342ba757ca4a0
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q3_K_S.bin
+    sha256: 9d141fcd70cbac7cc05b577aa4a0c2bac30075b199bc8e0afef4e8ef19b65cb5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q4_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q4_0.bin
+    sha256: f8883060bb534cc2267e80ccb89889a6d8a6a38683ebdf57ef78e0798d407ab4
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q4_1.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q4_1.bin
+    sha256: d9efeceb91733600ff29fda9341ce18b380f8710e539488bae2094f3b470eb1e
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q4_K_M.bin
+    sha256: a19c30b802fb14758a826c5a6317fd0413deeac5ff74425614e68e902aebd950
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q4_K_S.bin
+    sha256: f8d6d0194ce00b4973669f60475dc1189670b1a1e4ee88a3a9e9de9846e8a2a5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q5_0.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q5_0.bin
+    sha256: 3dac635f26f3be89c651a5174419488fee75988abe124918da3fc7722d9f359f
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q5_1.z01
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q5_1.z01
+    sha256: 8e6f596190cca9b69dbdf751738000f97bc85304457feca587cc46230c0aafd5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q5_1.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q5_1.z01
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q5_1.zip
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q5_1.zip
+    sha256: 8f9b0b55b5ff61d217452aef8995f25c9829e692c5c641973ded2b9f9c7b1579
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q5_1.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q5_1.zip
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q5_K_M.bin
+    sha256: 3dce58f13ca2765e302fd5e60ffb83042a24c9cd8376fe20546197fb4a6285e1
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q5_K_S.bin
+    sha256: 16f752890d69902d5e813ffa49ad79dce05f91657a0b06d6111be367367721eb
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q6_K.z01
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q6_K.z01
+    sha256: ae1561f6e83a80039e25a9f84d7ab47c710c29f84ac7be2d43afe2145c2740ae
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q6_K.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q6_K.z01
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q6_K.zip
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q6_K.zip
+    sha256: 48168bd306a9b1b1e39abea5448a50b5498b56744a35e5209c5911609a927eb5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q6_K.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q6_K.zip
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q8_0.z01
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q8_0.z01
+    sha256: a276821f1e071991a6befe7ee355cf4d7cfb3836c091161f9740423d5bc893c6
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q8_0.z01
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q8_0.z01
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: nous-puffin-70b.ggmlv3.Q8_0.zip
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/Nous-Puffin-70B-GGML - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: nous-puffin-70b.ggmlv3.Q8_0.zip
+    sha256: bcc1256cd754dc9f48a7f0d38e2e47423a126bcb310e260a5d441cc09aead1a4
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML/resolve/main/nous-puffin-70b.ggmlv3.Q8_0.zip
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Nous-Puffin-70B-GGML__nous-puffin-70b.ggmlv3.Q8_0.zip
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/Puffin
+  - base_model:NousResearch/Nous-puffin-70b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Puffin-70B-GGML

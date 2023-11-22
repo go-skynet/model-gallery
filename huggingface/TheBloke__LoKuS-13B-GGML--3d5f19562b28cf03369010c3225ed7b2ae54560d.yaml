@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q2_K.bin
+    sha256: 305bb420f2c2509536715fa9c4f5d048bd47d985471d63bebacca50c85840762
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q3_K_L.bin
+    sha256: 0109a8a943585370c266cc5ed04061f7f1e0b57e1aba8b2c9883fc9b80c8ebc5
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q3_K_M.bin
+    sha256: 85a0eda9352e7fba0ecb6d1c8ea43d8e865dc1d173542f5551f29f7c045607f5
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q3_K_S.bin
+    sha256: aac84dbe7d7c58d82cb1f1b19e6bcfb7c867ae849c8a6010110d59fc8d746a91
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q4_0.bin
+    sha256: 2e88ed9e080ff6dac51c096128082598ad77b6dc1cfb9a2d6e9367235f8cc2c9
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q4_1.bin
+    sha256: de5bbe7ae47a59fae271e32b8219be6382da6f2407a0a15514f73b480e495bf8
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q4_K_M.bin
+    sha256: bf492d178d60f67dc5be567a62a02d7e28f0689d620d7b6859626b05fdafa1af
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q4_K_S.bin
+    sha256: 502530ab5da6a20c8d53dfeee4b32a4194e4ec30c028e8ce30f72ded473fed6a
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q5_0.bin
+    sha256: fc39c9b2a1f2966d918d6fc1c195219808d5b380e77f2293ab17c8b9fad7d882
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q5_1.bin
+    sha256: e24f78429b609b0a4ac16ae843b550f183fec66658235a005bae0b95ca9b45e3
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q5_K_M.bin
+    sha256: bcb680f9ff55c330f52a6f5d54d45261ad3865ab8e0416e5b95e9e7bc9661b88
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q5_K_S.bin
+    sha256: 071cce028301916394ff69474b7a6ea4b53a29f1003432129070ac7e65080242
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q6_K.bin
+    sha256: e593274f9f382edbbd7129d7f75f795d7045fe9df4c623aaa5b8ca56a609fa9c
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: lokus-13b.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/LoKuS-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: lokus-13b.ggmlv3.Q8_0.bin
+    sha256: 85113120471c4b1abc86bb44d1333a20ed584dedc528990771906e99181b4d9b
+    uri: 
+      https://huggingface.co/TheBloke/LoKuS-13B-GGML/resolve/main/lokus-13b.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__LoKuS-13B-GGML__lokus-13b.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:JoSw-14/LoKuS-13B
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LoKuS-13B-GGML

@@ -1,0 +1,355 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q2_K.gguf
+    sha256: ba5c695ce502a3aaee4ba8205bd58e10d82b32de9e9005c44a858869697d4c5f
+    uri: https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q3_K_L.gguf
+    sha256: c3d138fa1355eb1bd80d9fb93e0d60f48cf18c40b528426b17ce883b2642cd2f
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q3_K_M.gguf
+    sha256: aa9dd9d21ec0afdf424875a8bb48eb50652c8a8e7ffa6600dc0997f68592b091
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q3_K_S.gguf
+    sha256: ff9e0f9d7631b6f544fd7700e0e24ce06ea4e59918718ddfcccce3a5c3e93b68
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q4_0.gguf
+    sha256: d125b351b393eed69e0cad1ba26eb2354b9a99703a3e087fbbd8b9bc9ed5199b
+    uri: https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q4_K_M.gguf
+    sha256: 3de0d26ec78360b0ea25d6ef546d1069de5d34c7efe8c0a917d2a72f194a1785
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q4_K_S.gguf
+    sha256: 9ea6f8a130751069fa1ae1c924edf3fd229d5f250a79bce3dbecdd52216185d5
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q5_0.gguf
+    sha256: d10288db0e5b8defd3b08abe5019b413063960f1fcc390e873d9b892ac9ba321
+    uri: https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q5_K_M.gguf
+    sha256: 08f672e799ec5361be40530deede149fa39476311c2453ddcee3744ec32aeab0
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q5_K_S.gguf
+    sha256: ca0226a8cfb30f8a2f6a95d18680d3c98daddc698ff319d39109ec03121928ea
+    uri: 
+      https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q6_K.gguf
+    sha256: ffc411108dc36ddceffbad84a428e9fa25924aba2d20b5c4a05abb3491d2c912
+    uri: https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: athena-v1.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Athena-v1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: athena-v1.Q8_0.gguf
+    sha256: f8dbaf40e4bfa10a256badbf1e627dd4f6a664468be6a11991127a1863072df2
+    uri: https://huggingface.co/TheBloke/Athena-v1-GGUF/resolve/main/athena-v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Athena-v1-GGUF__athena-v1.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:IkariDev/Athena-v1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Athena-v1-GGUF

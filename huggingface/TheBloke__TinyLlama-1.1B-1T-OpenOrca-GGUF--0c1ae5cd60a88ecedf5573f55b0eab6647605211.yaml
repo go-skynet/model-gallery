@@ -1,0 +1,415 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q2_K.gguf
+    sha256: bbeabeb18901ed1f0c5a35b58deb2b94ec2c8f065183f7ebc29af3eec49170d9
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q3_K_L.gguf
+    sha256: 839cd0609ee0df00712d95a60ca8ffda0217a13d1090b69db05ea530fb42a0ca
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q3_K_M.gguf
+    sha256: 3904dd4a190f18dee74a23a031b79dfb9198f42a5312ca3b6764799ec8eb7b37
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q3_K_S.gguf
+    sha256: 0748ff0c0eb36e3e6da7ad5b934b283caa435633a37a5ac5efbc05d3e37c7b60
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q4_0.gguf
+    sha256: bd07d1c53b833d422272259b17b393270b8f81c937d14332dfa044fe1b349884
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q4_K_M.gguf
+    sha256: bc76f45afb7a256428a7e1968b81aaaab7afd92ba174a623867003347d66aaac
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q4_K_S.gguf
+    sha256: e151556eddb7962659a27c77914dd8103b213e2ac7a36605f72564eacd5e1178
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q5_0.gguf
+    sha256: 8768e418211605c3b2bdbae5d17f9b5cd43a322e25599cdeb2e9845922803d0b
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q5_K_M.gguf
+    sha256: 2bca3a6a28ffcd10f9f2f7cc6f3aa1a2ef08e087f4e49bae6065fedd3a09523c
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q5_K_S.gguf
+    sha256: 9ccbb7ed72b5e12de92e67992c2f0eb436443225ea68507dc0a675b7580fdf65
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: 
+    TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q6_K.gguf
+    sha256: f258b95da77d80b1552b728678e2a781f5bccddd0fe2f53936fb5023abe32db0
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tinyllama-1.1b-1t-openorca.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: tinyllama-1.1b-1t-openorca.Q8_0.gguf
+    sha256: e7f8e717d1b899be66c8159694a2655b1b98f4484da3823d26952c044164bf3d
+    uri: 
+      https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF/resolve/main/tinyllama-1.1b-1t-openorca.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__TinyLlama-1.1B-1T-OpenOrca-GGUF__tinyllama-1.1b-1t-openorca.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:Open-Orca/OpenOrca
+  - dataset:bigcode/starcoderdata
+  - dataset:cerebras/SlimPajama-627B
+  - base_model:jeff31415/TinyLlama-1.1B-1T-OpenOrca
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/TinyLlama-1.1B-1T-OpenOrca-GGUF

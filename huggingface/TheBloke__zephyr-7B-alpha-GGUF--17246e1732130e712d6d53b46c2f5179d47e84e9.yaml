@@ -1,0 +1,480 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q2_K.gguf
+    sha256: bb98f254b9f77ae036587d27a81a8b760b77052900ee810b115484a9a6be68d5
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q3_K_L.gguf
+    sha256: 13b384fdaf99b5e3c3bfab8effc0cdb8313b4f3ffeb85f65c80b315a84af3dd7
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q3_K_M.gguf
+    sha256: 1b6a1f15a6188a2fe7af1bfc352d04ab8de3d7d5f85c01ae566e8a2488279a5c
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q3_K_S.gguf
+    sha256: b391934a9e2c7688777ab12b04c6ba551454cbe3ff899daa57ae0562306f94b4
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q4_0.gguf
+    sha256: f0b10ccb8529d74361724522b991938d56b2cba821de3879ff0f515be9f657e8
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q4_K_M.gguf
+    sha256: 59877734fb4a22e81130b5d9b5155fbabdd5e338bba6a27391c93e77bd672004
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q4_K_S.gguf
+    sha256: fce08dc6030438aac72036360f29345ff43c9ddc71ba921232521ab727a8c476
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q5_0.gguf
+    sha256: 9b034a1efcf35d578c1632cae5cfd6e70be81759b9f06a92db406175cb54f0c9
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q5_K_M.gguf
+    sha256: 2ad371d1aeca1ddf6281ca4ee77aa20ace60df33cab71d3bb681e669001e176e
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q5_K_S.gguf
+    sha256: 0c834dcfb61be4135b803ff0f1d00fbe2f96aa91bce933bd218649f6add996f1
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q6_K.gguf
+    sha256: f9c0b71b46f0c82c717e1c2806b0250373b58d1fdbf2059a26f860d372a70102
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: zephyr-7b-alpha.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Zephyr
+      completion: Zephyr
+  description: TheBloke/zephyr-7B-alpha-GGUF - mistral configuration
+  files:
+  - filename: Zephyr.tmpl
+    sha256: 19072339d853fd6ed07115c1d3483e60d7cfad449c82842f775bef4b33ec82fe
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Zephyr.tmpl
+  - filename: zephyr-7b-alpha.Q8_0.gguf
+    sha256: 35555cc49f457c61bb335bf0a09107e8c2d583d5a8f06dddc50c5b18033612c6
+    uri: 
+      https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF/resolve/main/zephyr-7b-alpha.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__zephyr-7B-alpha-GGUF__zephyr-7b-alpha.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - en
+  - dataset:stingning/ultrachat
+  - dataset:openbmb/UltraFeedback
+  - arxiv:2305.18290
+  - base_model:HuggingFaceH4/zephyr-7b-alpha
+  - license:mit
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/zephyr-7B-alpha-GGUF

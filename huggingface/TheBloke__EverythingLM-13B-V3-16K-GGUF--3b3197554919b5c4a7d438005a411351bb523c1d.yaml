@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q2_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q2_K.gguf
+    sha256: 225c041d5a55943210943d872bb4aeaf35fa9d3cf990f75e3dac532c0f2ab02e
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q3_K_L.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q3_K_L.gguf
+    sha256: e77c774af5549b74a89d69becfcda5fae73a561b12e198e1af05e944e3a2e60e
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q3_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q3_K_M.gguf
+    sha256: 754b18273736f31dad5147ef5854464484d58ced8cd2aac3b5a0c9a49102af6b
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q3_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q3_K_S.gguf
+    sha256: eecaf677bf198d9f75e540f2e6f615e95528be795ab6a608dd16741d0cee4a22
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q4_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q4_0.gguf
+    sha256: 22a6a2d86ce87ed050964eef86c453786dc740e8451d4091394c280686c3cc0d
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q4_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q4_K_M.gguf
+    sha256: 28af9a0640c0a72b1e02ff3b2ff362c614fe3b85021af2596b9f6db6af6272ca
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q4_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q4_K_S.gguf
+    sha256: 768d5702e7aec53442ded3e3a8820134fe840a8d515c9a50d703392aeeba9f02
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q5_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q5_0.gguf
+    sha256: e47da93b5649a9e9da2749e628976cd7685ecee10f7640e2b5faadf25efb4ceb
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q5_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q5_K_M.gguf
+    sha256: 8a6084b22fe23784cb2468b769a1deacbe71b940784746089caf644d260d1184
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q5_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q5_K_S.gguf
+    sha256: 0c3804a9ab5b8731d7efbc09d463b97c1e7885bc58930d9d7aaa257173d2f3fb
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q6_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q6_K.gguf
+    sha256: 8a90a6f32c94ef411383105cacf1233995c095497d9c251cb54c7c34af95f18d
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v3-16k.Q8_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/EverythingLM-13B-V3-16K-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: everythinglm-13b-v3-16k.Q8_0.gguf
+    sha256: cb08ddea3c4ee6b886a6892e51baede24ece0b3828305f78838a098c0e4f369c
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF/resolve/main/everythinglm-13b-v3-16k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13B-V3-16K-GGUF__everythinglm-13b-v3-16k.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - base_model:totally-not-an-llm/EverythingLM-13b-V3-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13B-V3-16K-GGUF

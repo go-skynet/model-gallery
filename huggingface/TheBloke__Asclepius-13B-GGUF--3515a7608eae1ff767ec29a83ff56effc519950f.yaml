@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q2_K.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q2_K.gguf
+    sha256: ed76326548a4028b1ae0d3b156b43be4e596685bc43cfe4c7c11881249313cf7
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q3_K_L.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q3_K_L.gguf
+    sha256: b0dba77458b292a2b63b1591d806b2e723b909eeccf967231f5d66cbcba35485
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q3_K_M.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q3_K_M.gguf
+    sha256: 6f76c1ccd32753cc53a5101cc193c603cfef043c045a76e46e9206b7e538f020
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q3_K_S.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q3_K_S.gguf
+    sha256: 63432dd5db40012fda479f551e4ec8de97dab70a917e9c4b6522e43bb0fdd776
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q4_0.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q4_0.gguf
+    sha256: b7b30db2936f5a7e255729e802e549917f6e3a59b915343be1f6218991f837ca
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q4_K_M.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q4_K_M.gguf
+    sha256: c98d946054291b1120965c1dad012d8f7574f077cffb92279520298cfa2066df
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q4_K_S.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q4_K_S.gguf
+    sha256: cde892f3391f10b76da2593a9850e766f411de63be3b0ebe4fa7b0fc774a7c77
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q5_0.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q5_0.gguf
+    sha256: c223ab4c208fc1f1a1fca3bd131aea6d5b825d122b5d1d409cdfd4fcc8846ca6
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q5_K_M.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q5_K_M.gguf
+    sha256: 03f563d16ace1c7447b3f80e953885ed69e1e4c2d205355f690344f347458803
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q5_K_S.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q5_K_S.gguf
+    sha256: 221f8ff2c1b478ac9541939b9a1c982c242c120209240e69cda2d2ceb8e67a3d
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q6_K.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q6_K.gguf
+    sha256: a2d51cbe68ca6ce6562c86b3109c6fbd00d0a592be086a43be30383291205856
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: asclepius-13b.Q8_0.gguf
+    template:
+      chat: Asclepius
+      completion: Asclepius
+  description: TheBloke/Asclepius-13B-GGUF - llama configuration
+  files:
+  - filename: Asclepius.tmpl
+    sha256: 8839e30b7bc034315078c580fe555d2543245753b4dddd474ee8b3b10c77c064
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Asclepius.tmpl
+  - filename: asclepius-13b.Q8_0.gguf
+    sha256: f300e2d2ac1f0892040cf4441e0215d6e64a9625f8376cc181bee0986817a5f9
+    uri: 
+      https://huggingface.co/TheBloke/Asclepius-13B-GGUF/resolve/main/asclepius-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Asclepius-13B-GGUF__asclepius-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - medical
+  - text2text-generation
+  - en
+  - dataset:starmpcc/Asclepius-Synthetic-Clinical-Notes
+  - base_model:starmpcc/Asclepius-13B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Asclepius-13B-GGUF

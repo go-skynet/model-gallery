@@ -1,0 +1,441 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q2_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q2_K.bin
+    sha256: 8fe677096e01e8333416eddcce256114162feb56f1f33166526c509a0b9d9163
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q3_K_L.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q3_K_L.bin
+    sha256: 86dfad4245835d0a3cf00baa99607c1e11f1a8dbb16b28dd92161f9387fe43e4
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q3_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q3_K_M.bin
+    sha256: 44210645c2c6311dc8fa89b488aa204f8b984ad15b1600f98adf1ce346ef63de
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q3_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q3_K_S.bin
+    sha256: e767a235848a4211260de469df42bad284cc1b15384ec04fe9c93e68ea5ebec1
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q4_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q4_0.bin
+    sha256: 132cd3aca6e645a35415744f8293919627e029777419148b2cfb97bc13349908
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q4_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q4_1.bin
+    sha256: bfe2be96c07c2daaae0dae0e127e16838792343da418dbf1a66797e7d5af907d
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q4_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q4_K_M.bin
+    sha256: ebdcb814f8926f828bdc799b021d7334f03fd5162f5c46d004fca1e0ce082c4b
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q4_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q4_K_S.bin
+    sha256: 3204c88c14de17f78bd7f6ca73f93978639f7fcb86f595bf52893b27877acbc8
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q5_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q5_0.bin
+    sha256: f27a2ec14ea6108ee055be36fe4fb5756936f087bce45f135fd88f4299e38efe
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q5_1.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q5_1.bin
+    sha256: 982a5d9fb21af5459e2e0c8b749f37ecc6fd1ba8668a7f24c1e04f3ae32c188b
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q5_K_M.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q5_K_M.bin
+    sha256: c052b52a65b24bdf3b68d6973f6d678bbc89edd8c4c3b2a0a19fad874d4dadb1
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q5_K_S.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q5_K_S.bin
+    sha256: 9240a8c5837a183b87cf0c33bb391857ed80d1fcf83d61e7fa14159fd438dd1d
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q6_K.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q6_K.bin
+    sha256: c94b913f1f0611982d36b305db473beca685d6e3d34a8107d89aa6fb1d7d1ae1
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: everythinglm-13b-v2-16k.ggmlv3.q8_0.bin
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/EverythingLM-13b-V2-16K-GGML - llama configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: everythinglm-13b-v2-16k.ggmlv3.q8_0.bin
+    sha256: bd913583eca4df873889f0a6c7589ddf8f0bf874b58f5e34e97c3baab89855cd
+    uri: 
+      https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML/resolve/main/everythinglm-13b-v2-16k.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__EverythingLM-13b-V2-16K-GGML__everythinglm-13b-v2-16k.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V2
+  - base_model:totally-not-an-llm/EverythingLM-13b-V2-16k
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/EverythingLM-13b-V2-16K-GGML

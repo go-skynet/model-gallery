@@ -1,0 +1,984 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q2_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q2_K.gguf
+    sha256: e6ec89ebfd8ce6085391b92f0c57d5ada7db86df954adc75b3e01a45b3a1b0bc
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_L.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_L.gguf
+    sha256: 66386e1ece7b3b2f32cb90de9def1956cc6200a17a44f4a130e1415a74945b38
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_M.gguf
+    sha256: d509f0eb38c9aabd831801cc21df89a5c2dd1eb55416d54653e92e0984d9b965
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_S.gguf
+    sha256: ebc3cacbd97ff069c539492bd0ff05a4d210112ad0a26217f1edd1a6597fb39e
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_0.gguf
+    sha256: e2e0554b3a8d067846ccb50f5a7defa4d8d0a82c51bc29e9f1941f51e6738917
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_K_M.gguf
+    sha256: b40fd4df5c4d298a95a497e19aee66e367381d5cd2b3fc73875aca458210515f
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_K_S.gguf
+    sha256: ea9a7c819b0c661684b3b459ddeee5662ef9b2b41c258adbc86caef54f556537
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_0.gguf
+    sha256: 787a890ccb3537d08cb8724233b6a319f75597f40ca49339f68fe605c04c4171
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_K_M.gguf
+    sha256: d0bcba762a2b5ab734f05dc970c97b5871b70f4d2567657ba82f41adcdbdf393
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_K_S.gguf
+    sha256: 8b57ba1bca386c3521c211797632c530dcaeb98b81a5d17a91e1fe23d708c386
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q6_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q6_K.gguf
+    sha256: e4bb92363afaebd2a654a223c366506a4fd934a07cba17315729131240767393
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-mistral2.2-7b.Q8_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q8_0.gguf
+    sha256: 9b18ce492f3dfa4ae2ca6c5d9bc738a79ba0ad61b71e930b76879c87c798a3b5
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q2_K.gguf
+    sha256: e6ec89ebfd8ce6085391b92f0c57d5ada7db86df954adc75b3e01a45b3a1b0bc
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_L.gguf
+    sha256: 66386e1ece7b3b2f32cb90de9def1956cc6200a17a44f4a130e1415a74945b38
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_M.gguf
+    sha256: d509f0eb38c9aabd831801cc21df89a5c2dd1eb55416d54653e92e0984d9b965
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q3_K_S.gguf
+    sha256: ebc3cacbd97ff069c539492bd0ff05a4d210112ad0a26217f1edd1a6597fb39e
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_0.gguf
+    sha256: e2e0554b3a8d067846ccb50f5a7defa4d8d0a82c51bc29e9f1941f51e6738917
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_K_M.gguf
+    sha256: b40fd4df5c4d298a95a497e19aee66e367381d5cd2b3fc73875aca458210515f
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q4_K_S.gguf
+    sha256: ea9a7c819b0c661684b3b459ddeee5662ef9b2b41c258adbc86caef54f556537
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_0.gguf
+    sha256: 787a890ccb3537d08cb8724233b6a319f75597f40ca49339f68fe605c04c4171
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_K_M.gguf
+    sha256: d0bcba762a2b5ab734f05dc970c97b5871b70f4d2567657ba82f41adcdbdf393
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q5_K_S.gguf
+    sha256: 8b57ba1bca386c3521c211797632c530dcaeb98b81a5d17a91e1fe23d708c386
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q6_K.gguf
+    sha256: e4bb92363afaebd2a654a223c366506a4fd934a07cba17315729131240767393
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-mistral2.2-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/airoboros-mistral2.2-7B-GGUF - mistral configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: airoboros-mistral2.2-7b.Q8_0.gguf
+    sha256: 9b18ce492f3dfa4ae2ca6c5d9bc738a79ba0ad61b71e930b76879c87c798a3b5
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF/resolve/main/airoboros-mistral2.2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__airoboros-mistral2.2-7B-GGUF__airoboros-mistral2.2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - llama-2
+  - instruct
+  - finetune
+  - alpaca
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:teknium/airoboros-mistral2.2-7b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-mistral2.2-7B-GGUF

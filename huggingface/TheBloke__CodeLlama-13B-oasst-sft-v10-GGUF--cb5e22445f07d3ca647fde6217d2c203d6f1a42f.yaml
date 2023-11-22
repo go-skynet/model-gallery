@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q2_K.gguf
+    sha256: 50b9f90bafdf6bc14205060e6c8296df28044705d4773206ba75ed15f401199c
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q3_K_L.gguf
+    sha256: 3522c239ac6c52ed5b1754af9ea90a2ef86eea5e3e4ccda0457a47e2b9ba96a7
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q3_K_M.gguf
+    sha256: 3b8f527ae9f0fd92aa257a2dcf2cf1ed3b6727ae3262289b42139f70e3cbe9bf
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q3_K_S.gguf
+    sha256: 2c7be3f1c69200145fbff08851ffe6842cc4b945b8a00c07a1d97a2dd772f17c
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q4_0.gguf
+    sha256: 6f989aab99f51f1c13f47b69f6513434d8ee2d49196ebf3b93ed61747be92305
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q4_K_M.gguf
+    sha256: 191e9fecac2bfc0b6d9f9cdf0866b311e27696f4825385a1459bc7fdbc76b465
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q4_K_S.gguf
+    sha256: 5792d26987078802845cdc2c306556d22793f70d78836b1fb6311c27bb971c68
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q5_0.gguf
+    sha256: 0f1988ba478368731ce40fde7484866c90204d4dca00ee957de6f7b25264a420
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q5_K_M.gguf
+    sha256: b47977a2cde1a17a5c07e56bc077125f62caf5ae6cd992764105801b0610980a
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q5_K_S.gguf
+    sha256: 7e6f6e8f77a86b9ebf48c91a4d7e359fee352214198a03a9c4f29a4b4b08a976
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q6_K.gguf
+    sha256: c83d76e1727f10701cd5c763582b2072573e33e8b1e9803a4d65c6d43941110d
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: codellama-13b-oasst-sft-v10.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: codellama-13b-oasst-sft-v10.Q8_0.gguf
+    sha256: f761deb315f03f07b94df9589e934e0301e8f6615be6a81b14ff2313aecfee8a
+    uri: 
+      https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF/resolve/main/codellama-13b-oasst-sft-v10.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__CodeLlama-13B-oasst-sft-v10-GGUF__codellama-13b-oasst-sft-v10.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:OpenAssistant/oasst1
+  - dataset:shahules786/orca-best
+  - base_model:OpenAssistant/codellama-13b-oasst-sft-v10
+  - license:llama2
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/CodeLlama-13B-oasst-sft-v10-GGUF

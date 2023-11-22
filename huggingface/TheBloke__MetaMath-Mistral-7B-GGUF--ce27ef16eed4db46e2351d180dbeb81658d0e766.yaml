@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q2_K.gguf
+    sha256: f6503ffd8d440fae86ad6bcbfa5c2663c28140345617bae01e391d212019a9ff
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q3_K_L.gguf
+    sha256: c1518d580608ab65d51aa4707bbd548532eb7dc846dd91352bc9bb5f0ad9963b
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q3_K_M.gguf
+    sha256: 2ecf88d143d16ac9b1c1ef3602e1b767b6ddb63cfce2a563c81c28c7b46f1c69
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q3_K_S.gguf
+    sha256: e884d300af1ed69cfd5a06d287d631b767795d312ca1e302c2039b6711322bce
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q4_0.gguf
+    sha256: 8443d320be02f90b4b57e66bdd2a9d63482be196f858273d254d2a186c38bf8d
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q4_K_M.gguf
+    sha256: 92b903a69b7824260515ebd4fe9feb6988ab3c68b2d141836c83df8b0c662386
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q4_K_S.gguf
+    sha256: b08baca6dbcb7982fbfe0ef94d3e391e4b7a88c4803965d5d04acb702c4eea03
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q5_0.gguf
+    sha256: 1bc7a34000ec1c4c572a0250c24a58693fa4874829e98e3f518ccb1e1d93bd8d
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q5_K_M.gguf
+    sha256: 31ad02ec68e43ea73fc0372c29d6ba23f3da8ff3347a82b7fabd2b6c74287208
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q5_K_S.gguf
+    sha256: e69901875d2de804cf624fd415f0c2061a8a74205761e28664dc8659e7582bfe
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q6_K.gguf
+    sha256: 0fbf73ea636d4abebf27b9615a5e2c54eb875323b4af60b6726fc0b6e8e87867
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: metamath-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MetaMath-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: metamath-mistral-7b.Q8_0.gguf
+    sha256: 7fb07a636d92a5d36a0f8589652743a08fd0de01106fcf4aec01d85847649221
+    uri: 
+      https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF/resolve/main/metamath-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__MetaMath-Mistral-7B-GGUF__metamath-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:meta-math/MetaMathQA
+  - arxiv:2309.12284
+  - base_model:meta-math/MetaMath-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MetaMath-Mistral-7B-GGUF

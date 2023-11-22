@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q2_K.gguf
+    sha256: c6cff1c98755732276c3d5572d195cd2d1f1eaadd7c1eb5dfa244bcc79f8cf45
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q3_K_L.gguf
+    sha256: 7e9f40eb7a208f7a9473ebcfc1b26944febb2ab787a05dcc71c750b2dff9538a
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q3_K_M.gguf
+    sha256: 52bc3786c1e29dd95f11da4860e50938076575e2d5809cfb7333a41c4d84a29b
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q3_K_S.gguf
+    sha256: 8edf9f42c9d6c6ff4f828f8770f3e430363164597a23829f7b2dbc75a36e91dd
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q4_0.gguf
+    sha256: bdef9dc96c9128cf9aede02617e99e203648799a328fd3e666492b7099fcf923
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q4_K_M.gguf
+    sha256: ae0d404844dfcf0b4848ad90ce5565a0da0286595f8625b71d9a21fa7f3a96ba
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q4_K_S.gguf
+    sha256: 4851adde3152a05881a91ca3c1325cb420ded64ed262679934e610c99aa85913
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q5_0.gguf
+    sha256: 230cdac51aa1041060e26abad51f5f3f97dfe9dcdfc13dd2584def184b7d8dea
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q5_K_M.gguf
+    sha256: 101e7014200725cc7f79c255a45da1fa4d53819905a34f8138885f2e25f0d0b7
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q5_K_S.gguf
+    sha256: 6e7f7a1324b1216c328c7f8b6ed15619070310a1c03649eacd54952eb24e049f
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q6_K.gguf
+    sha256: 28745e2415a0e277825394d9f3a51ebc10d61a595b988ca904760e82369630b7
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: rpguild-chatml-13b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/rpguild-chatml-13B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: rpguild-chatml-13b.Q8_0.gguf
+    sha256: c86532cc0960ecc90029f764567bdc7ed27e2e7719f52635677923bb80d9c63b
+    uri: 
+      https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF/resolve/main/rpguild-chatml-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__rpguild-chatml-13B-GGUF__rpguild-chatml-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - roleplay
+  - en
+  - dataset:chargoddard/rpguild
+  - base_model:chargoddard/rpguild-chatml-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/rpguild-chatml-13B-GGUF

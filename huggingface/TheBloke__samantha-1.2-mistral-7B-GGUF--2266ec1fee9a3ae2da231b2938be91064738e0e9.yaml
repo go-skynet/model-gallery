@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q2_K.gguf
+    sha256: cf0d0c1b9a7e84bed951497382137b800f9be05dfaf8e51cd98dfba4ab204b8d
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q3_K_L.gguf
+    sha256: b7a2c8ff6a66a8343ba3fc94643e79ce24acd756a41f42e4cb8a5d4b6b987335
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q3_K_M.gguf
+    sha256: 7b351595fa9f21d1d14a620f71f38cd6d50c28f29097807caa236040fc285777
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q3_K_S.gguf
+    sha256: 415e667fa5b209af38202e5ce62408834ce209216d1084d4e3fdec93648d7dc0
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q4_0.gguf
+    sha256: bf8defa0b0326d31e5137ac59b50697603795703c04cbda84dea6dca02ff2c6c
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q4_K_M.gguf
+    sha256: ec0ad00f7ed4a942154d2913b582da99b0602c20da1730f502d7d2557f30b10d
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q4_K_S.gguf
+    sha256: 1aed204fdb9f6031630af5c3b2bec05b4ed6086900976f566c8b9ac98d3a713b
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q5_0.gguf
+    sha256: def35530888dc3bcc89babad7bbe99e0038a05abbe35637ce582f97b5e647e05
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q5_K_M.gguf
+    sha256: 655047dca2966377e5ccd61a0890fc5128c07fc307baa6a3c5868de1ef7b229b
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q5_K_S.gguf
+    sha256: 7a9e05a548bcb27a2e7191bdcfe0d79a86e022fd5263f0053f07aedfaf3ddaf7
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q6_K.gguf
+    sha256: 0c2e3ddc746b18c980e3efc8c1359227899c136ac3a1deebaf324a9de179d276
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: samantha-1.2-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/samantha-1.2-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: samantha-1.2-mistral-7b.Q8_0.gguf
+    sha256: 56e0d95c5280f0b5fa82d8007583403f83c5d93d3885a730e115f08306d4023d
+    uri: 
+      https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF/resolve/main/samantha-1.2-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__samantha-1.2-mistral-7B-GGUF__samantha-1.2-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:ehartford/samantha-1.2-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/samantha-1.2-mistral-7B-GGUF

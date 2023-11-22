@@ -1,0 +1,439 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q2_K.gguf
+    sha256: eff99074560e24a9fd38ab57ac071f04b6344543fc811d97769d030c80ee59a3
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q3_K_L.gguf
+    sha256: 82677073492809dac1131a43569c1a6a6f59e734f081c6a80e5b6e888f5a8690
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q3_K_M.gguf
+    sha256: 5234b32d4edf97047561e57df69d71448b67c0c8ae15808900e5eecfe78b3747
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q3_K_S.gguf
+    sha256: 636ad60cf84602a4f49e4045f3a1497bfb78ae4356a224695a4755645a047674
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q4_0.gguf
+    sha256: c438b28c2780fb1d42ac7a6f983e669ebee0923737d23653f785c94d4349ec98
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q4_K_M.gguf
+    sha256: 0c32daeae5d72350c25830f61ce9ec40a9663b03999f3dcbd7dc403e410663e0
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q4_K_S.gguf
+    sha256: 414e4eab6d40b2b7a66e66ba1db47e8ed3d32bb6c22b2acf1588347e55b49b6a
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q5_0.gguf
+    sha256: fc174ee99afb03939bde26beeecabe1e7b02b346fce47a480f3db35accd19741
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q5_K_M.gguf
+    sha256: d7614a3dc6a9a5983f56634000e9ceedad627d9f1c9a71f3b6df901e5b639889
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q5_K_S.gguf
+    sha256: 578e2300519e633ef4174ada4de2b2324d3aa5867465c5a260f25c3e11184e94
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q6_K.gguf
+    sha256: ea1fc6c38a87bbd043eca4794d33b87e032319209c95accc552f4de9c539bf9e
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: mistral-claudelimarp-v3-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: mistral-claudelimarp-v3-7b.Q8_0.gguf
+    sha256: 41cb13d6a0f1bfb06d4da30a9699693bc12d3f2e4f043da4aa7145cfd788f76c
+    uri: 
+      https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF/resolve/main/mistral-claudelimarp-v3-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Mistral-ClaudeLimaRP-v3-7B-GGUF__mistral-claudelimarp-v3-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Mistral-ClaudeLimaRP-v3-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Mistral-ClaudeLimaRP-v3-7B-GGUF

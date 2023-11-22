@@ -1,0 +1,504 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q2_K.gguf
+    sha256: 955c580244e89127ae06813e0c4b58e70009f8339c69bad49d70aa0e7e076f49
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q3_K_L.gguf
+    sha256: ae195c1b8393de61a579dd95d263304c473ff328190ef30688c72c69b49f8de4
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q3_K_M.gguf
+    sha256: 089e035126b7e81a2526099d675cc5ce926633f53e93bd980f443ef6447497ae
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q3_K_S.gguf
+    sha256: dba8c099b6ffbbc1fd41bd9f722acbb6075d005cd8b3a2ae3363725e3416b8c5
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q4_0.gguf
+    sha256: 1cc33160d409caaa941ea782e6c4774608b7fb8f2bfca443198f590164c9c7ab
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q4_K_M.gguf
+    sha256: 7ed56a86e70adf644dc4f5d0b40aead3a9bb316db5f06587b0597251f3697ef4
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q4_K_S.gguf
+    sha256: fe5935732c231a4182f2f2d5f4a375ea464227f374f861fc307ec9b3fd7aa562
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q5_0.gguf
+    sha256: baaeba575c971c9607b65e657e764c866d511e98a5593761667105d22b19dc72
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q5_K_M.gguf
+    sha256: 11b6d5eff77485fe39f54e1612cc42f82b5fd4d9d5473be683e7a5c09ccfdbc1
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q5_K_S.gguf
+    sha256: d7ba73aed76b869d32ed5db2e025e7c590bc8566a13074026c2f2668cf284009
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q6_K.gguf
+    sha256: ed31a5b353abcd90988f2e1646d757cc868809d86244d8fc1cf79b9c07fe017a
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openhermes-2-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/OpenHermes-2-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: openhermes-2-mistral-7b.Q8_0.gguf
+    sha256: a39c7eedec41ed1a7b7a152fb68a0349fc4b11b5331058997104ef1a37f72ccc
+    uri: 
+      https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF/resolve/main/openhermes-2-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__OpenHermes-2-Mistral-7B-GGUF__openhermes-2-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - synthetic data
+  - distillation
+  - en
+  - base_model:teknium/OpenHermes-2-Mistral-7B
+  - license:apache-2.0
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/OpenHermes-2-Mistral-7B-GGUF

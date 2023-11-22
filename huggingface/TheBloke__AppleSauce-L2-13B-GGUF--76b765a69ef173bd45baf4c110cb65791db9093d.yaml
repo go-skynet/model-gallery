@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q2_K.gguf
+    sha256: 679f5192a01b4383e865c07f09b547a45625cf8fa5678dc38fb8f9986a042ed9
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q3_K_L.gguf
+    sha256: a099356b5b2a991ee3505ec5a383e53ff607cd4adbff8479df31b9a4ad6a628e
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q3_K_M.gguf
+    sha256: c1f1274de1d0d13ce4e49df21560bdf0227bec37ee0bab0101b02370e8e836b4
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q3_K_S.gguf
+    sha256: e5b44428b17f61cba0cd905a89684a4c79e81db8c6c54e79f3edd2dba75c3114
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q4_0.gguf
+    sha256: ccf11650253b9238b12966f7f4c97db3dfb6432808cd3a996b4fafd948e23797
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q4_K_M.gguf
+    sha256: ebcdd43983d564475058de398c16479f080ef2e91c41bb08e57c090ecf32795c
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q4_K_S.gguf
+    sha256: 3856bd0ddac80a81c1cba4fa6a7b5871584e66c8b0f9b7cf4b41de3edf397be8
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q5_0.gguf
+    sha256: 3e5ffef891adb60120c810b41f48bfdd4d8836fbba7cf26335fc3c91c5e7ebd6
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q5_K_M.gguf
+    sha256: 840f301e87bb453f2acfd86bf2d3b0d27bc42f408e2c176e891e1e8fe690e361
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q5_K_S.gguf
+    sha256: 3828c637fe469d592b3538f5988f9405130372db65ca716405afaa8c5a941cac
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q6_K.gguf
+    sha256: a6ef04f1f64f092f80c0271aef944a1dae911b8855c500f4446d8600bd8538d9
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: applesauce-l2-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/AppleSauce-L2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: applesauce-l2-13b.Q8_0.gguf
+    sha256: 6836d79ebc780d960f7cdb99d2a6311f7da5aa6905996d24b7a88a15cd24b081
+    uri: 
+      https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF/resolve/main/applesauce-l2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__AppleSauce-L2-13B-GGUF__applesauce-l2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:sauce1337/AppleSauce-L2-13b
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AppleSauce-L2-13B-GGUF

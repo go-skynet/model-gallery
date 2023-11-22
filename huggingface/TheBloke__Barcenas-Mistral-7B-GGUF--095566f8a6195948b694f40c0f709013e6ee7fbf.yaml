@@ -1,0 +1,444 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q2_K.gguf
+    sha256: f463447bdcf4d3376224e3f5b13380551b3b77c9c1f300d75249d90c3b2432f5
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q3_K_L.gguf
+    sha256: c0c0d9e302142d32d0e25cc4ef9ee5860fb58f295736704003458075cf98d954
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q3_K_M.gguf
+    sha256: 3405fc4645d0ffdb3086e908eb3c97b267127884f6f7727b74ccdfe6abd26c46
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q3_K_S.gguf
+    sha256: 3c293569854a2a66be1c1fe8fa1e3db07fef935a4df15418146b3c3cbc25add2
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q4_0.gguf
+    sha256: b2c491fe51d8231c3e6db603cc9a0b5d1ce39dcdd9815ab58a3adb328f74cd42
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q4_K_M.gguf
+    sha256: 384f4efb3c7e622e63f2217e9b8dbb1a368cd960a5e1c37b5910b368725a7b81
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q4_K_S.gguf
+    sha256: 4c93219dff80c688744ea56400806217f81dbccc030aafe2038bdb059a5318f9
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q5_0.gguf
+    sha256: 743b64d5c2cd44ea4ab57faed55230ff07a45699b3d0d02dcae22bea04a08d0b
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q5_K_M.gguf
+    sha256: 33dce09f1af01d7573777d86a0ddd1c6a0033b426fa5d2214e8a29bb04ab4cdc
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q5_K_S.gguf
+    sha256: 3e9229613a70e8b7e90d882cf4165786e57af1f70634830e4d88af162562ea33
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q6_K.gguf
+    sha256: 92daef30351d70677a82462d3825213386f9d725d06a8ce482ee7dd66072481d
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: barcenas-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Barcenas-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: barcenas-mistral-7b.Q8_0.gguf
+    sha256: d625ef7bb58128690893bed3698b975342bcdbf637de204a2c825775c6debf05
+    uri: 
+      https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF/resolve/main/barcenas-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Barcenas-Mistral-7B-GGUF__barcenas-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - en
+  - es
+  - dataset:Danielbrdz/Barcenas-lmsys-Dataset
+  - base_model:Danielbrdz/Barcenas-Mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Barcenas-Mistral-7B-GGUF

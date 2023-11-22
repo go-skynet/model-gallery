@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q2_K.gguf
+    sha256: 1d698866b8a1e0eab871971f9914e7b9c996f21fbe313ed3d70789cea143f0b3
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q3_K_L.gguf
+    sha256: 4969ebc9d9f635b9b3f7b54a86b0d912e8096f9d267d8854a2830c60a747e0b1
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q3_K_M.gguf
+    sha256: ef8f5df2c99c6451cfb6267360cab2607432d30438343508f2117086304308ff
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q3_K_S.gguf
+    sha256: 38d512e66b39c78dfd3d57d4cd397854980cee9c39e0fa92c3d0dbcb8dbe9a76
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q4_0.gguf
+    sha256: 5aa42cdfdc6d7636fac1b9a0f99499d09c5029852f02f31cecc3df30796189d5
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q4_K_M.gguf
+    sha256: ed028fade7fd745994afdadc17a67a5015293f5c86adaf16fd6f7d461dd9af63
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q4_K_S.gguf
+    sha256: 8d69bfed9d09d16c16b4f3501381bafd4b8cab4f6ffd7a258ba321574ad76a73
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q5_0.gguf
+    sha256: 473fa3a874b553c6ef96aa8b45016e2c82bdafa7853768e570359d30b68bf90b
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q5_K_M.gguf
+    sha256: 949157492c9d472598b4279a6647c2fbb47773c2f680ee30bb7f863c7b9dbe6e
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q5_K_S.gguf
+    sha256: ef6468751bb2a241f13ac5ca7e34be8cdf140afd980faed39f7db8479a2f2311
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q6_K.gguf
+    sha256: 3e6cc0605f205b9fcc09024c9d4bca8276f255144549fbd5eda6b91421595d56
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: kuchiki-l2-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Kuchiki-L2-7B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: kuchiki-l2-7b.Q8_0.gguf
+    sha256: 54c62fd8c409adcfa19dd3259cf0305ad05a4eefa59c49b2d27bb615cff54fb4
+    uri: 
+      https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF/resolve/main/kuchiki-l2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Kuchiki-L2-7B-GGUF__kuchiki-l2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/kuchiki-l2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kuchiki-L2-7B-GGUF

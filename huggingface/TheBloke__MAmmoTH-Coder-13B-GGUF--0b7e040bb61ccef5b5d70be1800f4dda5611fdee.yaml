@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q2_K.gguf
+    sha256: bc0f66055426b4c89022cf92a7cfd6d2423c814b25746d82f6121d6eaae3e587
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q3_K_L.gguf
+    sha256: e4d6c531a692a04229d24f45a595da5c0150facca5608cd093c294c3f2fd6dbe
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q3_K_M.gguf
+    sha256: 2f4328695ac5389c5dcd4f03eb3ba00ff3491cf534643db024cddf590be2f107
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q3_K_S.gguf
+    sha256: fb10a63256c9df8b807973b855e9a339c0e5a9e99f97424d5ff8c96bc756c705
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q4_0.gguf
+    sha256: bba8671b2fe42c14abe3f339f318b117437e03cc88c43a74c95099cf7d82f311
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q4_K_M.gguf
+    sha256: cbcbdd763addf5b702d0f1d11b76e81f46a648c900f2fd050192079f7156669e
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q4_K_S.gguf
+    sha256: b0e8fe3de9237925b5767dd95445a7f6bee72cd3ed38aea357947a02e89294a3
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q5_0.gguf
+    sha256: a83ec1c245608bc7570feff983b34252d7639f0cf4e3c2241d3a31e332b01f0a
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q5_K_M.gguf
+    sha256: 1172111aeb91476c45cef70121d73ae11a0dc180a463810b587f2df1fa2e4d85
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q5_K_S.gguf
+    sha256: faa90175f87e2a413bc6eed7a2e851ce1febcf869b5d60342729afc50c6ebf99
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q6_K.gguf
+    sha256: e941046ae4a22c84d79c9ee948ebae172377733ba267f3f9901699a41d9daadc
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mammoth-coder-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MAmmoTH-Coder-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mammoth-coder-13b.Q8_0.gguf
+    sha256: 1de16c9c9a3aeb1b916b3dfc20566459c476c883687be6220ed89443c345c37a
+    uri: 
+      https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF/resolve/main/mammoth-coder-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: TheBloke__MAmmoTH-Coder-13B-GGUF__mammoth-coder-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:TIGER-Lab/MathInstruct
+  - arxiv:2309.05653
+  - base_model:TIGER-Lab/MAmmoTH-Coder-13B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MAmmoTH-Coder-13B-GGUF

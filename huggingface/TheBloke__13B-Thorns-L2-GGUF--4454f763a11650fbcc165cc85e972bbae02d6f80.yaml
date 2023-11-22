@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q2_K.gguf
+    sha256: 1579aafcb917e37e0f5a6bb547f9940a31306187a173334361e3beea380f6c8f
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q3_K_L.gguf
+    sha256: 3067994aa713dfa0d8cf59c72df2afa3540a8f9fb7919e145ff405898dc71242
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q3_K_M.gguf
+    sha256: 74f1c30128a47acda705cd351fd01611f01c8ab2600f7d2a335ba2827bd20a14
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q3_K_S.gguf
+    sha256: 08067d22c68e401f63068495dc7e2fb1d157a70224c5b89d562c4b971e719104
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q4_0.gguf
+    sha256: 313c4452223496202ec37850efbc374d6bc39991ca0836c4bc1107c0e8cc5778
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q4_K_M.gguf
+    sha256: fd8cae1c9fa8091ef748a84ad3ea51df1aa4b8ed37fc0596711587896248a9fd
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q4_K_S.gguf
+    sha256: 537df602566c4d91d031d49475ae02fd04a36d0278c6babe8fdedfbfee264815
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q5_0.gguf
+    sha256: 3bf2cca02cd4d6948b2be405586d44d663fb5a3c4ab3ae18763579dcd0672e21
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q5_K_M.gguf
+    sha256: 5775244dfd71ea6ee562c303cb2bccb19fd63b45c7d346dfd77ac22b66acd3db
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q5_K_S.gguf
+    sha256: b55dfeca75c392fe88e7e3bf155fbd5678c12dd58c25f15bb842ad080ef526f5
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q6_K.gguf
+    sha256: 6c9a093e84c969dbbb06161d26a33078423f4dca65a9706c90834e2f1ef184be
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: 13b-thorns-l2.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/13B-Thorns-L2-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: 13b-thorns-l2.Q8_0.gguf
+    sha256: 86554db3fd18360220c2f15ebbb4c0879e286d2cdf7d0cee2c57317e998d1376
+    uri: 
+      https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF/resolve/main/13b-thorns-l2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__13B-Thorns-L2-GGUF__13b-thorns-l2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - alpaca
+  - cot
+  - vicuna
+  - uncensored
+  - merge
+  - mix
+  - base_model:CalderaAI/13B-Thorns-l2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/13B-Thorns-L2-GGUF

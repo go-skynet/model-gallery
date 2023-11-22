@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q2_K.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q2_K.gguf
+    sha256: de8e701463dae75bc22b062b37d1f3850951a6c31206a507afb68ae8f7e494e2
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q3_K_L.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q3_K_L.gguf
+    sha256: 9981b6e5dd0d60aceb83a7df83bceb6d34c93a332175c406fe92e657247c3466
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q3_K_M.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q3_K_M.gguf
+    sha256: e1b181419c5b60a82768564ead960433e2dcb0aaf6f37f08c9f8d96d7581a97c
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q3_K_S.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q3_K_S.gguf
+    sha256: d0cfb44d1509e20c24bd8d64ccbabca0f900e47fa79f3125f0af1d4fc9a6ed81
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q4_0.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q4_0.gguf
+    sha256: d353d55093bed040faa8a5e130b1ce4745e301675ee539ce25791a8a1d0726d8
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q4_K_M.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q4_K_M.gguf
+    sha256: b560e0f265f2bf43e6fed7f1355ca8ad9114478375b3c153c4340235368ff1c2
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q4_K_S.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q4_K_S.gguf
+    sha256: e9a6abfa8d5a6be0282b3dea835eeb73f070f9d538764793eb96829984386084
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q5_0.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q5_0.gguf
+    sha256: a00f246c7cdd89798cee0e074aba563d0055f7d147f47c1ffac0e3b7eb03e96a
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q5_K_M.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q5_K_M.gguf
+    sha256: f8da7cb627a361bf0ae1f313a7257944872b66049ec27ef4eb732eecbcf81ed9
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-hermes-llama2-70b.Q5_K_S.gguf
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Nous-Hermes-Llama2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: nous-hermes-llama2-70b.Q5_K_S.gguf
+    sha256: 719d0c662006f17852df5c9d453fea8dd9854b75e9c7f5194b214746885c4c62
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF/resolve/main/nous-hermes-llama2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Hermes-Llama2-70B-GGUF__nous-hermes-llama2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - self-instruct
+  - distillation
+  - synthetic instruction
+  - en
+  - base_model:NousResearch/Nous-Hermes-Llama2-70b
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Hermes-Llama2-70B-GGUF

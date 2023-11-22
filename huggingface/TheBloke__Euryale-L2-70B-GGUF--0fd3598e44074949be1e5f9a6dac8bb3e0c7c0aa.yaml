@@ -1,0 +1,310 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q2_K.gguf
+    sha256: 4a21d5e740ff2bc46376e067ec83e633cbc86b41a368da668d662f978377e602
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q3_K_L.gguf
+    sha256: 5f54238cf8c4eef8478d8b04331298d30cbfc5853e3445af87926579b0f07f26
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q3_K_M.gguf
+    sha256: 2f07328a879ecc2c1deccfb7fe5beafe32f8ff4edecc939e25c24e103cd7411e
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q3_K_S.gguf
+    sha256: fc9aa102b639d5976d47c56b93d6eedbd427cfd224b52ce8358bfd09dbd56315
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q4_0.gguf
+    sha256: 67c38713e65e842ec096b34d1ffb19a3b90eae4b3f26a966651b5475a3f5f6aa
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q4_K_M.gguf
+    sha256: 363d51fdf699fc0cebaf668600e2003d72d74c82b41dc70c5e00fd614cca2204
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q4_K_S.gguf
+    sha256: 6eb538f3ca98837aceac1c7a180dbe3e28480c60b956aec04b7d02f8dcd566e1
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q5_0.gguf
+    sha256: 1c3197dd3d5dfab38e8d3b76ebe6759c3da2220c2e3032ecc997fc1b9a71a31c
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q5_K_M.gguf
+    sha256: 1b3b78644dd1f59143b221b3294497deedaca641bb9a28c930ab939516e1f93e
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: euryale-l2-70b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Euryale-L2-70B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: euryale-l2-70b.Q5_K_S.gguf
+    sha256: aa5b0131381e09dfbb0eed9cf3b5e8053cffe69a7f030857f4d215d53d9e4cc0
+    uri: 
+      https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF/resolve/main/euryale-l2-70b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Euryale-L2-70B-GGUF__euryale-l2-70b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Sao10K/Euryale-L2-70B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Euryale-L2-70B-GGUF

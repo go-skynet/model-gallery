@@ -1,0 +1,432 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q2_K.gguf
+    sha256: 25707a997b7d8d89dcd7869b7dfa9f373ebbd7d636e78c1cd28414e57a1b9824
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q3_K_L.gguf
+    sha256: 97978f777e4c3f9270f70f93d61429da525af293b4cf7b769661a6ec837ec589
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q3_K_M.gguf
+    sha256: 85a88b8a0a40a2572270143331fde12394c048b994b117ec77f8494ba515da1e
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q3_K_S.gguf
+    sha256: 6b5780c22e4d4285dd790d0452d54a44b2bfe8a48703e8576a1957d9991eba95
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q4_0.gguf
+    sha256: 1ff0038cb33c3d6c0bdaf6c8b8e73c3a1d0b95c87da5264adf239283c6fda0da
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q4_K_M.gguf
+    sha256: 561c9de5e89581e6bc198a81a38f47f41721029ebb7ef85c9b4ca9d0aca1165b
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q4_K_S.gguf
+    sha256: 2cc7cd98a2d0d35f452ff030a74a7f74f317f2a777ea63b372fbf548e729a277
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q5_0.gguf
+    sha256: 6ad888bda051a993a7d44e57beca1973fb9f82b3dbadadde70f2115545743924
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q5_K_M.gguf
+    sha256: 56be2095b1de3ee97aef29b4e3b9937a481a18c06f93336ec06d550cae3c6bb0
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q5_K_S.gguf
+    sha256: 6ad2a888b44229b0f7e0369f99cb278746215317f285fca0b3e6176252cdc8e6
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q6_K.gguf
+    sha256: c1e6944a14652d6a835a85fd138887de38ef3f6a6070ef4037aca8da631d38bc
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: trion-m-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Trion-M-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: trion-m-7b.Q8_0.gguf
+    sha256: c16555acdacbe2ac5e7dfca7f7e3f16df697fcd4a4cca5c0e1a06e3cb6b14fb9
+    uri: 
+      https://huggingface.co/TheBloke/Trion-M-7B-GGUF/resolve/main/trion-m-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Trion-M-7B-GGUF__trion-m-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - Mistral
+  - en
+  - base_model:BlueNipples/Trion-M-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Trion-M-7B-GGUF

@@ -1,0 +1,408 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q2_K.gguf
+    sha256: 01e216411437fd4c2da8fe5bddc3fd3ce85dd2ed90a277cbc969de5d32390ec5
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q3_K_L.gguf
+    sha256: 90544c14f90c1f5f970b39bd071936aaf438eabfc9e6312b9c768fdb68d8a1e6
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q3_K_M.gguf
+    sha256: c4bd9a4ef76456d386d5ce065a047c2e3419f0cbd691d2843ed032e779e38b81
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q3_K_S.gguf
+    sha256: 591ada3f9f270118148c0888804c8b4635268fdd319184c5b18602856ad4c734
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q4_0.gguf
+    sha256: 9b60819f01c8411a727b166f73bb9522a7997854405b334a359fb59f9ac52c99
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q4_K_M.gguf
+    sha256: 0e5cec9f614f89e03586a1687712cc6ba493af3e636e8a2adf800e686ff5df18
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q4_K_S.gguf
+    sha256: a4651d63318995af92a0076aa54031a551edae549ef6e9473b2098a42b895224
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q5_0.gguf
+    sha256: cd75a7158a454615dcd176db86861e109bfedf3b7e171e2900fab78f2c9186f7
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q5_K_M.gguf
+    sha256: 854f11778da4a1854bde5ad3f78eb56a9c57798e0e6360b20b1adbf3051b9400
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q5_K_S.gguf
+    sha256: 1a79f5cfa8c0414c29026f7c4aab7414cf0d5a6c512c58213ef7e67bebdeb1d7
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q6_K.gguf
+    sha256: cfbe41b1d20796f8654784ae13f971203361fbfcf2bf90f2087be48e54feb684
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: ashhlimarp-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: LimaRP-Alpaca
+      completion: LimaRP-Alpaca
+  description: TheBloke/AshhLimaRP-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: LimaRP-Alpaca.tmpl
+    sha256: 73dce1fa27c01bd740c6834fd2e6c18fcd60192c50fb95740acb093662b656f8
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/LimaRP-Alpaca.tmpl
+  - filename: ashhlimarp-mistral-7b.Q8_0.gguf
+    sha256: a20952cd9390b9ede5dafc3d9379bf6527215362263086f6bda3e5e9a5d8b79f
+    uri: 
+      https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF/resolve/main/ashhlimarp-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__AshhLimaRP-Mistral-7B-GGUF__ashhlimarp-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:lemonilia/AshhLimaRP-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/AshhLimaRP-Mistral-7B-GGUF

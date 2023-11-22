@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q2_K.gguf
+    sha256: fc990cb2b8ffe43a02a7403c58ee41cf855295992ee7dacf5976007f6e5e2b7f
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q3_K_L.gguf
+    sha256: 77e0568d642b32198ef84e9c62565eefc70e449f7527b23c88ce4f26edcbb7a3
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q3_K_M.gguf
+    sha256: b3b046c17299a737c5a60245c993577f63c40a6b9774c07e9dda66c0e8af7efe
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q3_K_S.gguf
+    sha256: 7fbd50b196cad0f48c919159f2f5046805bf553989d060e87d5afa0cfdc229ee
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q4_0.gguf
+    sha256: 03c78bed1725e1e5c80659381bb35c3ce5cbb76139304445b9fad23d1bc74fb0
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q4_K_M.gguf
+    sha256: 1619bc98b7de7fd300307e9c2045309467b89a4182b037719b90a7380fccfed6
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q4_K_S.gguf
+    sha256: bd1fcc55d7f69de91a1be39da8f3c3fac23aaf783c1da24ff6364a97998748d3
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q5_0.gguf
+    sha256: 18716c941e2593567106a342b84fb52733bc65944077b90dcc3d0f6592dc08c6
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q5_K_M.gguf
+    sha256: 3ab78a67c47e621a76a5b74a4bae96451b38995fa94d0873282df9e0dde25025
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q5_K_S.gguf
+    sha256: 6a2650a252e42b17da6eed8330b82ea9f84928eacf7c9f85ae035ee8b69bf4e9
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q6_K.gguf
+    sha256: b97d6491d5d3a43e6e975fcf02d57a751a9c8c32c9822091dc1842384742a099
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: airoboros-m-7b-3.0.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Llama-2-Uncensored
+      completion: Llama-2-Uncensored
+  description: TheBloke/airoboros-m-7B-3.0-GGUF - mistral configuration
+  files:
+  - filename: Llama-2-Uncensored.tmpl
+    sha256: 147f4b9f399aa680792d5d6b363cf7de146c63980ebcb024609e7726bca81e4a
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama-2-Uncensored.tmpl
+  - filename: airoboros-m-7b-3.0.Q8_0.gguf
+    sha256: 7e21aab439e4b1ea6f1516c48405fad8c6dd53ea33d27acb0032b209c0424df8
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF/resolve/main/airoboros-m-7b-3.0.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__airoboros-m-7B-3.0-GGUF__airoboros-m-7b-3.0.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - dataset:jondurbin/airoboros-3.0
+  - base_model:jondurbin/airoboros-m-7b-3.0
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-m-7B-3.0-GGUF

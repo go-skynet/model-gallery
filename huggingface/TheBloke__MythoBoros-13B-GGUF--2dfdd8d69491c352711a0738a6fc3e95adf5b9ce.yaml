@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q2_K.gguf
+    sha256: 07b8d6bcbb7d55667ee80c82bf6905ad17af415aa3580c3b15ce4de9cca5566f
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q3_K_L.gguf
+    sha256: 3b993134a04b95ff5a9f7f9fab9b63e4ba2d39f12c54a80e1515f464376aa63a
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q3_K_M.gguf
+    sha256: b2d00c72a0fdb0f32c2063e5341bdd8ce56e38a12b06c27ef60232daaed7dd18
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q3_K_S.gguf
+    sha256: 08102d8582502026c361c12a45c4cc6384105261b74ecd063a91c064c8e80d67
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q4_0.gguf
+    sha256: fcb2db8bc9d0c7a48bde5896bad73b3135f748b6143eb57e14a6f411014f4bf6
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q4_K_M.gguf
+    sha256: 27d3622f492bcb0a46013934c1ddaf9f4653bfd35d0dcac593c1db71076146a5
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q4_K_S.gguf
+    sha256: 157cb0c60fd6eff1b278c567bc87f7c52da2dedff41c5339520becacedbac1d9
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q5_0.gguf
+    sha256: c07d338803c3ebaf6bb22a65e0f3a0feae386b8cb05062e80df40d2a902c2537
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q5_K_M.gguf
+    sha256: f1477e33cbcd2b1036fd2cccf9195e7b1fea9010bb82edbde125829f1b61442d
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q5_K_S.gguf
+    sha256: 3f52e2b2a4cf5e6f06da59a1652f6a7db1ccb37817459dcc18e72e381c2b438b
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q6_K.gguf
+    sha256: e0a7055a0c325e312cc4ecef6cf4d178147554d29b5b0cbb1bc1e1c8e0f90496
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: mythoboros-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MythoBoros-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: mythoboros-13b.Q8_0.gguf
+    sha256: 6c96dda6164487554864cbafdbd33f0787ca5c9f7ba3a8c54f47e4261209336c
+    uri: 
+      https://huggingface.co/TheBloke/MythoBoros-13B-GGUF/resolve/main/mythoboros-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__MythoBoros-13B-GGUF__mythoboros-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:Gryphe/MythoBoros-13b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MythoBoros-13B-GGUF

@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q2_K.gguf
+    sha256: d8c14fcd8038bd73368e28476802aaa603edc5909b3db25e5fff06597b014aa3
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q3_K_L.gguf
+    sha256: 06d7833d1c1026507c867c0b4f104083ff5b366980a5994291c4c8de1d6f93d2
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q3_K_M.gguf
+    sha256: efe95c721ffa7234d29cf2ace33e0ff44947c2e770677ab63ca8b669c88dfe26
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q3_K_S.gguf
+    sha256: de9d57c2ab5e665daccc1a15dab8c17ab9dc04135a3c26313072db116e323465
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q4_0.gguf
+    sha256: 96622c80c189ff051d2793e782c11bc7143141b8cb6e2c737fedcc8ba016815a
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q4_K_M.gguf
+    sha256: 42728acdb1350cfd14d0e053d266c347992da1913b61b2fcb5b65a84758db66d
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q4_K_S.gguf
+    sha256: 83299ae41a397a8f501cd93b191ab41e31047ff832fd7c54bafe0921ca7efdb6
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q5_0.gguf
+    sha256: 44c8cc13f5c28cf4ed49106b0674a308adebe3e7a1ea404f1c41d2c823ce97c4
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q5_K_M.gguf
+    sha256: 0736ed7abf688f6f839cc9526f04bdce047e7262c12b1d3a65f0372729176067
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q5_K_S.gguf
+    sha256: 3081e1f9ccbef757f6f41b9beda839c5ad1dcf64c150d05326ad85a4117e9fb2
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q6_K.gguf
+    sha256: ab000c4c911a38fa81b91c35ce7af60fd346f1dffa15fcf4cf8c26219d9f3ea1
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: chinese-llama-2-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Chinese-Llama-2-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: chinese-llama-2-13b.Q8_0.gguf
+    sha256: a7835d28d86f83ba3891842c6bb0a0abbb0e3bf86bd81899f77d06f10004fb8d
+    uri: 
+      https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF/resolve/main/chinese-llama-2-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Chinese-Llama-2-13B-GGUF__chinese-llama-2-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:ziqingyang/chinese-llama-2-13b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Chinese-Llama-2-13B-GGUF

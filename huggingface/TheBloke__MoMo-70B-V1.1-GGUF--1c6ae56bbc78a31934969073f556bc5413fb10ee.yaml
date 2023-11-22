@@ -1,0 +1,310 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q2_K.gguf
+    sha256: 44f7f0891df7fdd708e773ccbaa840ce7fddab1d0feed0aa79a83150b1ccea28
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q3_K_L.gguf
+    sha256: 440d216745d11cfd1968a8c92216ecb581e2f5d020bd7243c5d0b12a744fdb04
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q3_K_M.gguf
+    sha256: af8f9810341d79c1be5e4e8468c89a37a9aac471cad7bfdfa7ce28e3f28125bd
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q3_K_S.gguf
+    sha256: 4338b6776c3a8ba6c1b92a0e9e722df301ec6968fbb3e8318fe3be76e6b4194f
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q4_0.gguf
+    sha256: 60dd5fb3f01c4efb164ac27c7c622545c04a6fd5e189fda4f161b2f85a1734cd
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q4_K_M.gguf
+    sha256: 3556578d39e13c27601db4d23dc20be0f8f5c5c90d76c206d08c522e8b5cb95d
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q4_K_S.gguf
+    sha256: 9eddb800d8b54cfa9f955d7e0fd9b90ee1baf9f3eb9f79e67b02358cda409266
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q5_0.gguf
+    sha256: 1269b41cc20a5e02a077ecddd4e4c47e22f3cb262143b92b27eb9efc6b023be8
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q5_K_M.gguf
+    sha256: 1e983cdbc914736e64ce938b51e0f174857772953b0c130576b19620ab49e417
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: momo-70b-v1.1.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/MoMo-70B-V1.1-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: momo-70b-v1.1.Q5_K_S.gguf
+    sha256: 7e1e692f8496c5347adb8dea776be8d6e120e5abba94e58c82c95eb955daf516
+    uri: 
+      https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF/resolve/main/momo-70b-v1.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__MoMo-70B-V1.1-GGUF__momo-70b-v1.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:bongchoi/MoMo-70B-V1.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/MoMo-70B-V1.1-GGUF

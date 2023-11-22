@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q2_K.gguf
+    sha256: 6fcb74c2f69268e1682cd8d8f0030a86d85fdc2d941d9d97d3d6dc6b5b5f8fd2
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q3_K_L.gguf
+    sha256: f892d1425334eb6d80f806b260454fb6a0496ae6225ef13a445fd69f165dfb36
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q3_K_M.gguf
+    sha256: 9b4f372e8b28561f3666f836745d9e6fab85742430420d626b18a87c8e353a44
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q3_K_S.gguf
+    sha256: f5e37055603973e03fd6992e4d9f88694bc1a2e451ad3df8b9d2fd6973b8b768
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q4_0.gguf
+    sha256: 6920157b07f0588d452bd7fbe170dd8b9ffa8b5654b2ca189c982e9b4efdae1d
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q4_K_M.gguf
+    sha256: 627d86b415d9a42dbbbea35cb65b2375ce68cbd48c5c7422b0b4b10853fd6284
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q4_K_S.gguf
+    sha256: 443a5648c9bca06cc7202aa98924c1fda8eebee0561c4a11dbcbc44ae28b4454
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q5_0.gguf
+    sha256: 29eea584f47f9b7c9783677d30c6f5beacf07760a398e86bbc851a6bace81ca0
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q5_K_M.gguf
+    sha256: a45ed725077ee147c2cbe528458c1882edccaaea5a958f5519287b495ff523e9
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q5_K_S.gguf
+    sha256: a677a0c0850fa73e651bde2ad3421f6c4ced3e94b2e8b49319f225777263b407
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q6_K.gguf
+    sha256: a3cee37bff5c4c7510b76d409a3851c4bcddd62c74f90167ed8d46d89c2bbc9a
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: kimiko-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Vicuna-Short
+      completion: Vicuna-Short
+  description: TheBloke/Kimiko-Mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Vicuna-Short.tmpl
+    sha256: 4f2e4df7367ee6f177bcb043807911366ca9b4d17bed618d08f34ebb89c50117
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Vicuna-Short.tmpl
+  - filename: kimiko-mistral-7b.Q8_0.gguf
+    sha256: 7dcf4d88280ce6b39ba1ca501d39402428d4c0eb62aadd7401fb144413e7d3e8
+    uri: 
+      https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF/resolve/main/kimiko-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Kimiko-Mistral-7B-GGUF__kimiko-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - generated_from_trainer
+  - base_model:nRuaif/Kimiko-Mistral-7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Kimiko-Mistral-7B-GGUF

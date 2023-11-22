@@ -7,6 +7,8 @@ from huggingface_hub import ModelCard, HfApi
 
 from lib.utils import purge_folder, json_dump
 
+from main import ALL_CONFIG_RECOGNIZERS
+
 ##############################
 #       MAIN ENTRY POINT
 ##############################
@@ -22,6 +24,7 @@ if __name__ == "__main__":
     parser.add_argument("--purgeDevDumps", default=False, type=bool)
     parser.add_argument("--dumpCardAST", default="", type=str)
     parser.add_argument("--dumpModelInfo", default="", type=str)
+    parser.add_argument("--testCR", default="", type=str)
 
     args = parser.parse_args()
 
@@ -58,3 +61,11 @@ if __name__ == "__main__":
         ast = ast_renderer.get_ast(Document(modelCard.text.split('\n')))
         path = ddAst / f"{args.dumpCardAST}.json"
         json_dump(path, ast)
+
+    if len(args.testCR) > 0:
+        print(f"Testing Config Recognizer matches for {args.testCR}...")
+        api = HfApi()
+        modelInfo = api.model_info(args.testCR)
+        for cr in ALL_CONFIG_RECOGNIZERS:
+            if cr.filter(modelInfo):
+                print(f"Filter passes for {cr.id}")

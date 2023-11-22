@@ -1,0 +1,469 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q2_K.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q2_K.bin
+    sha256: a1582c1d1e3d4283eaf5532d6297dd9c50ec92edb725b3ffa7a7a12e00da00fd
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q3_K_L.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q3_K_L.bin
+    sha256: 2c2a1fb4fbda6a9c0cdaff7c807953829139c6bc9ec44bc0d68e65636fa7dc56
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q3_K_M.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q3_K_M.bin
+    sha256: c2920ed071bda658e04135be4949baa0197f646c36b809e46259629067808550
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q3_K_S.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q3_K_S.bin
+    sha256: 3986f13bf7755768a7dab47bbbfa9617a04189426499fa1feaa23e8e93f62496
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q4_0.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q4_0.bin
+    sha256: f1b695eda359793af85adedd8dd660cf0060b018a2e41d215a2e75d1c3c6c7af
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q4_1.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q4_1.bin
+    sha256: d9d201dcf1e21e16d634162f850404b92f317040ed748aec76d0123887f7c919
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q4_K_M.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q4_K_M.bin
+    sha256: 7d1daa2caa05df2bee59bd68b737563b4a1f7208622fbbb7b2046add8543a01c
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q4_K_S.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q4_K_S.bin
+    sha256: b9c9b640a4b1b06771975e45fbe9ee5351e280e10691a243dc1c0eec5461c1a0
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q5_0.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q5_0.bin
+    sha256: b434df1d1a0cb975df810e1e9faccb96d15b98c8abc3d7e8e87bd1749ec2d279
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q5_1.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q5_1.bin
+    sha256: 53a48bdc1a0d06847dc536da46ea29db9b05097391c3dccf7ccbaf18f767ff0e
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q5_K_M.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q5_K_M.bin
+    sha256: 68508332274df17420130f4e997a0690bf40c0b2464790afebe19c3b03342550
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q5_K_S.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q5_K_S.bin
+    sha256: 5c2645be820074825bdd9e939a1461c8911fc266ebe33a11c90a6e5abc6f452f
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q6_K.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q6_K.bin
+    sha256: d22384061431db109df461e3238055a99eaae4e22a55167578b20afb15f7e1f7
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: llama-2-7b-32k-instruct.ggmlv3.q8_0.bin
+    template:
+      chat: Llama2-Instruct-Only
+      completion: Llama2-Instruct-Only
+  description: TheBloke/Llama-2-7B-32K-Instruct-GGML - llama configuration
+  files:
+  - filename: Llama2-Instruct-Only.tmpl
+    sha256: 44705e1aabf121c4772e2c5aa869e649da6551249a66c0a4b3fc987801e2b243
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Llama2-Instruct-Only.tmpl
+  - filename: llama-2-7b-32k-instruct.ggmlv3.q8_0.bin
+    sha256: d80e426c03334f14928c46f22d2296fdc20bd442105a1027fcc32bd8c9b51d18
+    uri: 
+      https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML/resolve/main/llama-2-7b-32k-instruct.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Llama-2-7B-32K-Instruct-GGML__llama-2-7b-32k-instruct.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - en
+  - dataset:togethercomputer/llama-instruct
+  - arxiv:2307.03172
+  - base_model:togethercomputer/Llama-2-7B-32K-Instruct
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGML

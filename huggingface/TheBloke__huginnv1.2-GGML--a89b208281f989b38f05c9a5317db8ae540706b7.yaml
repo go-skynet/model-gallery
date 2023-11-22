@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q2_K.bin
+    sha256: 5c674facbe3afe468c70ef50add109a97ded86b129802d7de70f9f24b0fe8cf6
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q3_K_L.bin
+    sha256: 1e99935d7408a9c29f0195c65f804f744cf504ba34e1d27bc908ee00145dbd0e
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q3_K_M.bin
+    sha256: 3c01801e21bee0c2c9c0ca713d2c85310a1b6e0e85b3d03d127a486b534d55df
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q3_K_S.bin
+    sha256: 255a57c3f76fa74343682927c01ee31e7102883c4f7602d9fed44f763952f3aa
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q4_0.bin
+    sha256: 4ad173bdbe90e486abeb132d8d0f3c4bea2f4990f58c365dc3a5e1eb3c5b57ae
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q4_1.bin
+    sha256: 1c575f9d8ba96451aea121a62f54de7e9ec46b83437ff95e3149cbf9907395d6
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q4_K_M.bin
+    sha256: c148b547677f91448f6dbb2ac582d7ead93283789372e81ff507b922af8977ad
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q4_K_S.bin
+    sha256: ddcae705cf97da79691594d2a19a4330e2306eae3b100a7389781a66fdd6d641
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q5_0.bin
+    sha256: f437da2a3be4035dd95837228ad62f920ce0938e2d4cab5a2153f004dc0003b5
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q5_1.bin
+    sha256: 454ceb709689035ba4f08165ce7f28507008cf86e400e8c5fcfef85f5c09e1db
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q5_K_M.bin
+    sha256: 362d5d1833a6c633fcf3f7e9f72b0f8b91f01236647b4fb304253607914f3704
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q5_K_S.bin
+    sha256: 017b243ee0099822ff7939c1bcc2945e2408f60e70b376a7c7fbc152523782e5
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q6_K.bin
+    sha256: 4f0fedb2572e200bc3fd4f337c385df51be8f3b89de434032cfb956a2a258704
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: huginnv1.2.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/huginnv1.2-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: huginnv1.2.ggmlv3.q8_0.bin
+    sha256: 4512360e1a5b125d8b3fbe722f4d1fec579f9cfd8bd3271db0a6d03f40e71006
+    uri: 
+      https://huggingface.co/TheBloke/huginnv1.2-GGML/resolve/main/huginnv1.2.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__huginnv1.2-GGML__huginnv1.2.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:The-Face-Of-Goonery/huginnv1.2
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/huginnv1.2-GGML

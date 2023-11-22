@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q2_K.gguf
+    sha256: d70b835f3121ed1476ef2fb5edc89bb68328df2f08b2625b18e60edce07b379a
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q3_K_L.gguf
+    sha256: af88c263cb4f4c2e72f9f6564b127080ea4f82116db288773ef698b9210e1bca
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q3_K_M.gguf
+    sha256: fd813d583812186f742f004630a1296f6838ddc5efd1d7525cae5ced5d265760
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q3_K_S.gguf
+    sha256: 7c5c87ec4653f1e2ed0b0221d8399d745a63c662139c2e33dbf85954558a44c2
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q4_0.gguf
+    sha256: 8268153b5819106ab02891d5260083326be7dd5cc5636620d5ec4dfe481fe617
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q4_K_M.gguf
+    sha256: 8918e47c108151829cb10c4a026d9c9d7ab46ae5ac20ad39c60b7f0b9f6e029a
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q4_K_S.gguf
+    sha256: 035b7fe7352ee2a31f2356127493dc2d27a8d68a0185851b70ef67612f763eb4
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q5_0.gguf
+    sha256: d4126c91a27b617e7bf6933d000e907e35d483b6e5e1c1451ccac6cc5eb9e0eb
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q5_K_M.gguf
+    sha256: cd74016c07faa4b5b35e765f4b44a550964d29e6efa186d8b2e4b3f863f7e352
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q5_K_S.gguf
+    sha256: 0fad64ed2beec0bb9afde545f6530bb453d50979163171cb133446685f6bdfc4
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q6_K.gguf
+    sha256: b7d5d8b2c6de1053143fb3e68122ab813b67787300a36f36612f57ef849a6a2c
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: amethyst-13b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/Amethyst-13B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: amethyst-13b.Q8_0.gguf
+    sha256: 5a12c8d6d41c0d96f3116aee6d5d5a5374e527605ba8cf5e49bee2958f7d0558
+    uri: 
+      https://huggingface.co/TheBloke/Amethyst-13B-GGUF/resolve/main/amethyst-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: cc-by-nc-4.0
+  name: TheBloke__Amethyst-13B-GGUF__amethyst-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - not-for-all-audiences
+  - nsfw
+  - base_model:Undi95/Amethyst-13B
+  - license:cc-by-nc-4.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Amethyst-13B-GGUF

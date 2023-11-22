@@ -1,0 +1,475 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q2_K.gguf
+    sha256: 23c588696ee84d600bb9a11db8122a4c1905bcd195488b1bbe5ba688d6d9733b
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q3_K_L.gguf
+    sha256: 39da1a1a4b64f915fcc05f154e9a8e4aed4abeba88cb59165b8fa8d8b06204c7
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q3_K_M.gguf
+    sha256: c09877f51c6eddbb943644ba62130077e761835ea3eb64d64ce55c1e47fdb3d1
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q3_K_S.gguf
+    sha256: 50bed140428293debb6ede73d0971a3518c1f7f3fa63064489e4c51774468ac6
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q4_0.gguf
+    sha256: 6984baae039d4fb806b3dd109827f7427abb356ff43769e02994f6541be71c93
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q4_K_M.gguf
+    sha256: 59170e93c19698159e2d36c1436d5e11a9cf754f12cd8ebdf7552b5db2db753f
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q4_K_S.gguf
+    sha256: 9dac87a238a0e193d18e245846ea97850570e0b46770a36ce3ad594c43d6eab3
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q5_0.gguf
+    sha256: 8678efdd5f58a91c02e0284b36488635ca27f49ef42f3d11bc1135c16aefed35
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q5_K_M.gguf
+    sha256: fb3ddeac9918d086429e28825428415edd145ad27b4efb5d1e0b70fefe2fedcc
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q5_K_S.gguf
+    sha256: 73670c3dfdd07e7144b11807670bdef5b468d5d7dba0a8ff69c5e6636c484d66
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: 
+    TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q6_K.gguf
+    sha256: 36384fb4b0586e3e9954864c40a52bb3172a6df6d641836046fd205a96218f38
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: writing_partner_mistral_7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Writing_Partner_Mistral_7B-GGUF - mistral configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: writing_partner_mistral_7b.Q8_0.gguf
+    sha256: b0482bf620d325a9e3f381907420e639594b2108a8e2d631b154371fd46452ac
+    uri: 
+      https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF/resolve/main/writing_partner_mistral_7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__Writing_Partner_Mistral_7B-GGUF__writing_partner_mistral_7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - instruct
+  - finetune
+  - chatml
+  - gpt4
+  - en
+  - base_model:FPHam/Writing_Partner_Mistral_7B
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Writing_Partner_Mistral_7B-GGUF

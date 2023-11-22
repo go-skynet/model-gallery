@@ -1,0 +1,434 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q2_K.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q2_K.bin
+    sha256: 1b95d38e8cc682c604c257b027a97c2be20482fe527ad8764a6971f1fa9cf144
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q3_K_L.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q3_K_L.bin
+    sha256: fafd48a6efc50706103999f6d41168b07e5ee9c21faa0ae979a842209b50fb1f
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q3_K_M.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q3_K_M.bin
+    sha256: 620f94101224a0d6f95777b1aa2a991c632060fe0ce7546fca1ae0906de6c8b0
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q3_K_S.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q3_K_S.bin
+    sha256: 8ad1d49196b33ccaf2801b8183e9cea7d8d1d2ae721984f0dc9bbe6a2514c714
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q4_0.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q4_0.bin
+    sha256: ec8d18aa6c926f44637181a609a5a0303bdaebeaa3852f3a8127f435a2c9212a
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q4_1.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q4_1.bin
+    sha256: c30ab8cf06530c7332c0a71e9def08020988b81c3ebf054ebebcb746b3af71f0
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q4_K_M.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q4_K_M.bin
+    sha256: d7d073d00aa614642423a330b5336bbb2d2b18d4ae9523a621500f97a4795cbd
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q4_K_S.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q4_K_S.bin
+    sha256: 2bde9451b8844c55a399b22406ee5b75620b3af280bd556c53496ea20a137867
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q5_0.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q5_0.bin
+    sha256: dcbbe2cb1627206ed2c713500206fc968ae0bc81f851aa47040e33dbacc79b26
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q5_1.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q5_1.bin
+    sha256: 0a459c1cee869696b3a624db1b2e30b9f170aae987dee7ea230c457d23bce930
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q5_K_M.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q5_K_M.bin
+    sha256: 39659e163cbf3a42ae600ed00d8928ddf09945db45aa9eda42dce6197d7f0641
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q5_K_S.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q5_K_S.bin
+    sha256: 8489d80f242013c423ee1af03d1a54cbaafcee4f36a87fa33c260be1540168dc
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q6_K.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q6_K.bin
+    sha256: 43cf56ac003c7a008bb6a85bf2ff1661ef6de7df35c79235d3654a1d0fe774b5
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: zarablend-l2-7b.ggmlv3.q8_0.bin
+    template:
+      chat: Alpaca-InstructOnly
+      completion: Alpaca-InstructOnly
+  description: TheBloke/Zarablend-L2-7B-GGML - llama configuration
+  files:
+  - filename: Alpaca-InstructOnly.tmpl
+    sha256: 4b4fd7f11087f785465f2526887d609474bd9ffb7a61f2972918a246250b50bb
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca-InstructOnly.tmpl
+  - filename: zarablend-l2-7b.ggmlv3.q8_0.bin
+    sha256: a8adfe979841c5cdf9cacdae2e5451231afc3127e1ba388b3f0f38c9c8ffe426
+    uri: 
+      https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML/resolve/main/zarablend-l2-7b.ggmlv3.q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Zarablend-L2-7B-GGML__zarablend-l2-7b.ggmlv3.q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - llama2
+  - base_model:zarakiquemparte/zarablend-l2-7b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Zarablend-L2-7B-GGML

@@ -1,0 +1,384 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q2_K.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q2_K.gguf
+    sha256: 70e1b034cb41b3c6b78fcbdf4806d855fc8bdb5c931b4dc796d9c68664435f49
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q3_K_L.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q3_K_L.gguf
+    sha256: 4c93161776e7aec9971704da5c689207f38d7b3a07e95ad1032f3d4f88946ddb
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q3_K_M.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q3_K_M.gguf
+    sha256: a828be251379b6fb177475d86b0e36458da889f5c698d5293c1fa5a062e36282
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q3_K_S.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q3_K_S.gguf
+    sha256: 4aff16214cea2d61a467005ea405e68c6029cbb65c4c5e229975944b46c83437
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q4_0.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q4_0.gguf
+    sha256: bb640adfc9796bf5a8e5535352daf9e4d2f95f26ee523b9d5032bfeade6e9827
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q4_K_M.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q4_K_M.gguf
+    sha256: 4459d6449ea83a8269dde8641499dd3198d42816dd7dcd559f6463ff7eb88f20
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q4_K_S.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q4_K_S.gguf
+    sha256: 6cdf413ffd262e87dd3be199e5bf0a74ae6dfa52962778b4e6a7f34fbaa5cad7
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q5_0.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q5_0.gguf
+    sha256: 6a8b88c1f9dad9c9cce7676c046060b3be13954d834755be82302299092f9227
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q5_K_M.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q5_K_M.gguf
+    sha256: 9309ec93cb1ec1fe5ef74b36b8f515c5ef9a043e3b709f9ff2145a333eaee5d8
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q5_K_S.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q5_K_S.gguf
+    sha256: a0324d2546c34bb77b9249b6593a0b87a3338dd47b2385086027e26b25cc14ea
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q6_K.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q6_K.gguf
+    sha256: 9c263f30d4d6a6468ea72e5771fcd41f2116e699bdc56ffbbc4d3e7742e2207d
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: agentlm-13b.Q8_0.gguf
+    template:
+      chat: THUDM-Llama-2-Chat
+      completion: THUDM-Llama-2-Chat
+  description: TheBloke/agentlm-13B-GGUF - llama configuration
+  files:
+  - filename: THUDM-Llama-2-Chat.tmpl
+    sha256: c0fe725f82f30d72b197377c981c54cfe1af95e8ce12facece5ddc85157d4786
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/THUDM-Llama-2-Chat.tmpl
+  - filename: agentlm-13b.Q8_0.gguf
+    sha256: e03b78aae25fdf4bd6893dc1981f90cc1b936e606ca4e5c471081a49fba093d8
+    uri: 
+      https://huggingface.co/TheBloke/agentlm-13B-GGUF/resolve/main/agentlm-13b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__agentlm-13B-GGUF__agentlm-13b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:THUDM/AgentInstruct
+  - arxiv:2310.12823
+  - base_model:THUDM/agentlm-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/agentlm-13B-GGUF

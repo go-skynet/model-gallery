@@ -1,0 +1,444 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q2_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q2_K.gguf
+    sha256: 88b47c0fbe7e2475420c197fe03fa6d6b21290bb59bc2df898907e4c26705232
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q3_K_L.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q3_K_L.gguf
+    sha256: e7c1ce689dbe4c35a8a1f4cc0ec02e9365b44ee849b57b25308441e2760ff994
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q3_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q3_K_M.gguf
+    sha256: 26aa9c33193698f65507b8f25341487899af8613185ccafcb9bb548b1b3f6a41
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q3_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q3_K_S.gguf
+    sha256: 2138fe6243da9c3ba1e03b4e3309b0601f2f1fc4eae30471ee6baa95c1cc7230
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q4_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q4_0.gguf
+    sha256: 110fa008c894414b8810ecd05f7089a6ef1e365d65a6e4732e52c413b782df22
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q4_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q4_K_M.gguf
+    sha256: de2f6d82c5258f2a0c3693d1d13a122fa306a7af117625b97e59995adf95cc04
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q4_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q4_K_S.gguf
+    sha256: 10defe6e4ee100073223da37dc302db7290308907a45bd33167aee3b3f3351c5
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q5_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q5_0.gguf
+    sha256: 4ca4df1199bfcce67a89b9da900a4d6793466cb251d785fbbff8ff501e1a86df
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q5_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q5_K_M.gguf
+    sha256: 1a13b94db3e396a3a91aad1b47a7ab0dd3458e0c26c5c3eae54afab5bade394a
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q5_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q5_K_S.gguf
+    sha256: 8d697575ab0d8c28ab5199a560c3d9ff910c2b7a2b46abfa57697c9c380316e2
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q6_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q6_K.gguf
+    sha256: c84ef0ad758bf1d3331d558fdefc27b77aab73fab7fb7e73eff79aa7a3ab315c
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: nous-capybara-7b.Q8_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/Nous-Capybara-7B-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: nous-capybara-7b.Q8_0.gguf
+    sha256: 9b8f289d7e08601591a063a322641b16f40177afd8974acc72f403e23c690013
+    uri: 
+      https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF/resolve/main/nous-capybara-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license:
+  - mit
+  name: TheBloke__Nous-Capybara-7B-GGUF__nous-capybara-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - llama-2
+  - sft
+  - eng
+  - dataset:LDJnr/LessWrong-Amplify-Instruct
+  - dataset:LDJnr/Pure-Dove
+  - dataset:LDJnr/Verified-Camel
+  - base_model:NousResearch/Nous-Capybara-7B
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Nous-Capybara-7B-GGUF

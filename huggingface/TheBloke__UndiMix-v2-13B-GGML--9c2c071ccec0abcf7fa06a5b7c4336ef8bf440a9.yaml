@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q2_K.bin
+    sha256: 5ac6054188f73201cbdef4878ac779a99ef3e0b061fe8500eba9497cf358d46a
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q3_K_L.bin
+    sha256: a8b384eb0daa59ce66f910127d0ce5a42c25c599378ded0d3cf625b59b239186
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q3_K_M.bin
+    sha256: 7896e021c586120b67eb1b78bce04eea891a1be38ccb757ffa639694968a1c8f
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q3_K_S.bin
+    sha256: ab754905f27782adb2e77e69baf95d98bf416b1c7ca8499daa50ba1b654a1324
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q4_0.bin
+    sha256: ef5002ab22d49e5a034bbb7c0103ce8f6b337bf2abc1d7aff9a27d9dee582f36
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q4_1.bin
+    sha256: 758745037cd986d2dad061f38498832923830db50a97bf56a4af934f15bd4b97
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q4_K_M.bin
+    sha256: 401c241e129f495c555e8b4ed6adbc63d1a5f18624981b4fba5697340ee71a93
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q4_K_S.bin
+    sha256: 3f5879b82b04d442115bf4f1759704b72845a580bba9d4f0d87e623db320be09
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q5_0.bin
+    sha256: 48c843c5e8c99c039156e4de5310b02e423b6553fcbb094a0c72cecc6b5604d8
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q5_1.bin
+    sha256: 9d8be78932f57c3e02e2b0311357f5c80bba365114e5f271b976fad48e7115b0
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q5_K_M.bin
+    sha256: ea8d09fcdbf9de5b1a56dd6a994bb331aa269cdccb8f008937c7c1afb3bc5eef
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q5_K_S.bin
+    sha256: 3b7780320a42049e3c21af44f14f1f66cf925902fe316c913ab5a03819914519
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q6_K.bin
+    sha256: b4625dfed0b34762a87d20e20318707178dcd8e48d4fad3f8894c9c20521bb1a
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: undimix-v2-13b.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/UndiMix-v2-13B-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: undimix-v2-13b.ggmlv3.Q8_0.bin
+    sha256: 442991409ba307456e28a51db7db8db693b09c98dd3948b392f377ee7ab89140
+    uri: 
+      https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML/resolve/main/undimix-v2-13b.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__UndiMix-v2-13B-GGML__undimix-v2-13b.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - base_model:Undi95/UndiMix-v2-13b
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/UndiMix-v2-13B-GGML

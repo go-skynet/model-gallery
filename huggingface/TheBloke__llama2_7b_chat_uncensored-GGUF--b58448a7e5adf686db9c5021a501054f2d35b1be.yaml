@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q2_K.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q2_K.gguf
+    sha256: 1de84363f892a3c9b8d80014a14a63bb8f535e165634f50bbc77e27b6d927e07
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q3_K_L.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q3_K_L.gguf
+    sha256: 4d4a86e73783ea67677a0f481689a1785e9d03213c21ad4963299d59decb127a
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q3_K_M.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q3_K_M.gguf
+    sha256: 468265d1e9ec67112763937c879c4df385f542afd3035c50ef254e7f4c66a18f
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q3_K_S.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q3_K_S.gguf
+    sha256: 312471f84c880b4f14bf1bc141c89f53a688e11939a82b30f6296da557c008a7
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q4_0.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q4_0.gguf
+    sha256: 913f25027327843632e357a3a68ec5c6e939a656ff2645b25ba023deff27ddfd
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q4_K_M.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q4_K_M.gguf
+    sha256: 1fb48157c793b50b4e7acd2a417a6eef17a887271e8adc50e5ce7b80234793ba
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q4_K_S.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q4_K_S.gguf
+    sha256: 19649213bd2f2cb244fb594f8839725974f0029a442e4764886557c41f2971ba
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q5_0.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q5_0.gguf
+    sha256: b63f46a79bf109207bfd36736cf2a8da83598504bc3ddf47f9062930a31bbad4
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q5_K_M.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q5_K_M.gguf
+    sha256: 5597c297e81774e476a0d56d153dafa32b0f5043d6e90cb13eb19db6651df791
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q5_K_S.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q5_K_S.gguf
+    sha256: aa34b6f6765a21d01ed13db055f75efb67c4167104d72a5105ef3eee1b2aa7d2
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q6_K.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q6_K.gguf
+    sha256: 250e99785d09763a0134f1061c1d1c2384df9b254ea79c8c0b4e2190893c161c
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama2_7b_chat_uncensored.Q8_0.gguf
+    template:
+      chat: Human-Response
+      completion: Human-Response
+  description: TheBloke/llama2_7b_chat_uncensored-GGUF - llama configuration
+  files:
+  - filename: Human-Response.tmpl
+    sha256: 406532872e871689f25c4232515fbd6ab93d0f967999796581ee197730d6fd58
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Human-Response.tmpl
+  - filename: llama2_7b_chat_uncensored.Q8_0.gguf
+    sha256: 831f096bd15fc2d5cdda52b1cb7f096a68a18b939af1d3018d97be99303f6370
+    uri: 
+      https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF/resolve/main/llama2_7b_chat_uncensored.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__llama2_7b_chat_uncensored-GGUF__llama2_7b_chat_uncensored.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:ehartford/wizard_vicuna_70k_unfiltered
+  - base_model:georgesung/llama2_7b_chat_uncensored
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/llama2_7b_chat_uncensored-GGUF

@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q2_K.gguf
+    sha256: 80b349a5fe35725cfb92b213460aaacfadb3085f002c4bd3348102454000d0dc
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q3_K_L.gguf
+    sha256: 80bd8d27103272ee494b9584fc1a0fd1fe882eb1b8e3a3a90a0e49365e64a393
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q3_K_M.gguf
+    sha256: 21377f93c5175659993a4db16046360fcc3005bf3d605869f1d2cf017e74542f
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q3_K_S.gguf
+    sha256: 199d9c71c687a33002315775dc8a6454fa4c6ea35780166164de4bc8eea0634c
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q4_0.gguf
+    sha256: 1333546d1fbfad45fbfdb24112560f386fc9bed9e61b01f898fb48f0ef014895
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q4_K_M.gguf
+    sha256: c3ccbc810cc9243cabe3aec0e5a81bef1f0a05e335e7f6aa8e11781b37254c11
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q4_K_S.gguf
+    sha256: 022fd821dd6a5a928fb0ae986409c3b22b42e926197f1e1adc43dbf834e8b6b2
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q5_0.gguf
+    sha256: 299635bbb2c9aa7a29914ed15a0ec317b3974764bcd607c7a833c7c8ef24ba78
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q5_K_M.gguf
+    sha256: e59843e4efafeae31edb671e808553de25d9cfc6f75dfe04a1200eb4ee9a9074
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q5_K_S.gguf
+    sha256: 2067ca0174c773a58fe618117cc63e8ffb70672d3060c54f2bfc8c55fda64553
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q6_K.gguf
+    sha256: 05f9fcc1b08056f72c0e2b35ef242daf4da97e3f58511c6472673b8c8c15f48e
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: superplatty-30b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/SuperPlatty-30B-GGUF - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: superplatty-30b.Q8_0.gguf
+    sha256: 7a0bcb6fbbba6ad6261b8774f2d178caeb33b0eadd5f00215fe3e69d2fa34711
+    uri: 
+      https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF/resolve/main/superplatty-30b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__SuperPlatty-30B-GGUF__superplatty-30b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - en
+  - base_model:ariellee/SuperPlatty-30B
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SuperPlatty-30B-GGUF

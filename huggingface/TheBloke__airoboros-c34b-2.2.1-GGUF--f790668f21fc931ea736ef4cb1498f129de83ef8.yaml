@@ -1,0 +1,372 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q2_K.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q2_K.gguf
+    sha256: ba426ce4d8da040634e36cd8577f3c2c2fe3dce64a81ef2f665195c2d47daab9
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q3_K_L.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q3_K_L.gguf
+    sha256: a4131e27130121fb75413c42032466a5ebb27710c5565d2e6afab5356c6fae01
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q3_K_M.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q3_K_M.gguf
+    sha256: a35a07aab5fa2a3b56c6fe2bc97de383f0bfe311b8268d25dd8fdc82e7fd8113
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q3_K_S.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q3_K_S.gguf
+    sha256: de802b5583b7e91599094625e3fc0ce3eda1b8392b31738fc3f3c134a3f281da
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q4_0.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q4_0.gguf
+    sha256: f3009eb7ac8a0f4c4e29c3d5ebd65ed9dc8d5347985e00493fc44c1ca3dc4177
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q4_K_M.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q4_K_M.gguf
+    sha256: 1da3993b6add596ea45de229b8e4328d38bdbe7361c538b6ec419022c0a79407
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q4_K_S.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q4_K_S.gguf
+    sha256: 84deb0fadbf79e9ce592b6537e0d9c4fe9b70ceb4d3a3e3aad8b1c6324ea4196
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q5_0.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q5_0.gguf
+    sha256: 9fabba1fe213318879b7022330718efea35f8f6ae77a07bef696f6ac1e37cdd0
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q5_K_M.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q5_K_M.gguf
+    sha256: 5097dede20365994ac57594a5731e4f37a1b6b27337a63125359edd573081754
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q5_K_S.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q5_K_S.gguf
+    sha256: c3b0d0b98dcd5542a010c1046227ea5acf54f664f7f399e8fe57bd97b10eb7c8
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q6_K.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q6_K.gguf
+    sha256: 1af46bed78bdd1a870d598713d010da680d0addc39ba777037461fae9b89900c
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: airoboros-c34b-2.2.1.Q8_0.gguf
+    template:
+      chat: Chat
+      completion: Chat
+  description: TheBloke/airoboros-c34b-2.2.1-GGUF - llama configuration
+  files:
+  - filename: Chat.tmpl
+    sha256: 7270864ac04fb7a373fd2c10e377b77b01a35d204b4c3a78c26c312e5421e5dd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Chat.tmpl
+  - filename: airoboros-c34b-2.2.1.Q8_0.gguf
+    sha256: 180c6779479f014b2eb147c9027b24fb3bd73d53271ca40bf0fe6fe361231cba
+    uri: 
+      https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF/resolve/main/airoboros-c34b-2.2.1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__airoboros-c34b-2.2.1-GGUF__airoboros-c34b-2.2.1.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:jondurbin/airoboros-2.2.1
+  - base_model:jondurbin/airoboros-c34b-2.2.1
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/airoboros-c34b-2.2.1-GGUF

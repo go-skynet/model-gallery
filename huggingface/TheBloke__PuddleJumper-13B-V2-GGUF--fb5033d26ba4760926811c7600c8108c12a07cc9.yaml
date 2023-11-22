@@ -1,0 +1,396 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q2_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q2_K.gguf
+    sha256: ba8afd021e981b6c5090a06ecc55b907a6eb479a06c3931b9df42a4ffdc0e79e
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q3_K_L.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q3_K_L.gguf
+    sha256: 989bcad34f009e55cb4121c0dfc1a5809b3e86e64ed59aaa096ad6fb974d9e57
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q3_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q3_K_M.gguf
+    sha256: fc35513e607346bce864abed8599991bd923d17bcfda8e0945f94c8cd6a8df81
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q3_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q3_K_S.gguf
+    sha256: e620b78e0ce88233e4b88e4f7d5f0158507d3d45edc7ed71eaad53e7b12519a1
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q4_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q4_0.gguf
+    sha256: 4d26940ca51546c6eb8dc01fdb772535820d9b5c2b025ba24ce8c58506563b86
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q4_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q4_K_M.gguf
+    sha256: 10d029ab87c28bbed1f55e228111fb151b0aac931eaba527f4c005e41bac9560
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q4_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q4_K_S.gguf
+    sha256: f1fb8c2d0461e7f11b71708d445a29e53f1fbf90969ba6542d5961ec692f039e
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q5_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q5_0.gguf
+    sha256: a344dcd7c149ba439cae83e01b75af416b40626b56c7507d2e0a8565bdeafa39
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q5_K_M.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q5_K_M.gguf
+    sha256: 99a85c845149dc1373e50413e6ebe707c2521284aa54f3588bc69ba3394eac05
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q5_K_S.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q5_K_S.gguf
+    sha256: 4acc8becff13a790b42ab653924f4cc17116b7724448c2c68bc100a48b20df63
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q6_K.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q6_K.gguf
+    sha256: 45f801b361c5429a96dd014b4e7a4ac5d47c6b1edeb8e79b6343d70a5bf63628
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: puddlejumper-13b-v2.Q8_0.gguf
+    template:
+      chat: User-Assistant
+      completion: User-Assistant
+  description: TheBloke/PuddleJumper-13B-V2-GGUF - llama configuration
+  files:
+  - filename: User-Assistant.tmpl
+    sha256: 59a71b1808c2da03653c7e1f494ee2dbb59ee81bb43f838c991289c6c75e16bd
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/User-Assistant.tmpl
+  - filename: puddlejumper-13b-v2.Q8_0.gguf
+    sha256: ef38964aa6dc284615a4d4537d7655f331953ec8a6254fca97b41e7cd6ffbb89
+    uri: 
+      https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF/resolve/main/puddlejumper-13b-v2.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__PuddleJumper-13B-V2-GGUF__puddlejumper-13b-v2.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - dataset:totally-not-an-llm/EverythingLM-data-V3
+  - dataset:Open-Orca/OpenOrca
+  - dataset:garage-bAInd/Open-Platypus
+  - base_model:totally-not-an-llm/PuddleJumper-13b-V2
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/PuddleJumper-13B-V2-GGUF

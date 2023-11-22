@@ -1,0 +1,30 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: tess-xl-v1.0.Q2_K.gguf
+    template:
+      chat: Synthia-CoT
+      completion: Synthia-CoT
+  description: TheBloke/Tess-XL-v1.0-GGUF - llama configuration
+  files:
+  - filename: Synthia-CoT.tmpl
+    sha256: 8ccbd4eea3e95d5267cdd00b2d362528462446e6cade1b9baba8a5613a83fc82
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Synthia-CoT.tmpl
+  - filename: tess-xl-v1.0.Q2_K.gguf
+    sha256: 2b5df3720ac7b6d99d42025e7bb633d330ba84dcee3878b6b152511c05971727
+    uri: 
+      https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF/resolve/main/tess-xl-v1.0.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: TheBloke__Tess-XL-v1.0-GGUF__tess-xl-v1.0.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:migtissera/Tess-XL-v1.0
+  - license:llama2
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Tess-XL-v1.0-GGUF

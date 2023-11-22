@@ -1,0 +1,360 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q2_K.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q2_K.gguf
+    sha256: 3fa8e19da1dab7b012b68eb939fd1c8f076f82c31c17d91bc49c2601c22d185d
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q3_K_L.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q3_K_L.gguf
+    sha256: 6df888c93992b540a3a9ad04d76b59b40c689e40902fe110896c7705d17fe1ee
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q3_K_M.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q3_K_M.gguf
+    sha256: 33ca1ac2d8afdbf1d8a91663378ef8a35a6f94946f8ae0b7b42da5afcc150e98
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q3_K_S.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q3_K_S.gguf
+    sha256: 20226532d6a7a3757a163e1258ef2299833a62d422c76b15f4fe528348283e38
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q4_0.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q4_0.gguf
+    sha256: b20fb143bbc662abb50531fefa3dcdafb7fe04344f12276fd18ecfe842dcb6af
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q4_K_M.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q4_K_M.gguf
+    sha256: e1d2605b225aa75f1b90209557ec3aa8247ea0f01b608a9f265a70af8c4222c7
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q4_K_S.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q4_K_S.gguf
+    sha256: a470a2064c7cef7355186390af79efc168619e5c65f6951c08b28988ad327d52
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q5_0.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q5_0.gguf
+    sha256: be6889fa5abaee6b3ac990352eab22ddafa8d3a90a46bb2c38a6315cd307893d
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q5_K_M.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q5_K_M.gguf
+    sha256: 285fb9c08972a4e18c4649fe60d6ffbff35a1a280475cc93891ebd31dbaacc5a
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q5_K_S.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q5_K_S.gguf
+    sha256: ac3b96c782e92f5d49abd5ac0d1925f397eb7ceaf06eab5985b5dd5e32b97564
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q6_K.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q6_K.gguf
+    sha256: aadf25a51d825a1d3e15bced27feeaae6810c6e7a181037b293c53ce5fdc6e01
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: llama_2_13b_sft_v1.Q8_0.gguf
+    template:
+      chat: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+      completion: TheBloke__LLaMA_2_13B_SFT_v1-GGUF
+  description: TheBloke/LLaMA_2_13B_SFT_v1-GGUF - llama configuration
+  files:
+  - filename: TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+    sha256: b1ea7f3b90b87ed8a88b3936b3ff1d5d69829debc137df3bdb4933e2b8688c56
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/TheBloke__LLaMA_2_13B_SFT_v1-GGUF.tmpl
+  - filename: llama_2_13b_sft_v1.Q8_0.gguf
+    sha256: 4fa81dbdf8135df770ec229ceabb331fd8019789933553271ef9a2d8c733014b
+    uri: 
+      https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF/resolve/main/llama_2_13b_sft_v1.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__LLaMA_2_13B_SFT_v1-GGUF__llama_2_13b_sft_v1.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - base_model:adonlee/LLaMA_2_13B_SFT_v1
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/LLaMA_2_13B_SFT_v1-GGUF

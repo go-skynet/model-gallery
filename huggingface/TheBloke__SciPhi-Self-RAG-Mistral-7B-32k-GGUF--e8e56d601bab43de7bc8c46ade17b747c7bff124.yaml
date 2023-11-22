@@ -1,0 +1,420 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q2_K.gguf
+    sha256: 490d9502e09642d1653197e31226312537bab0fcb49da13623b1e23fb52e170f
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q3_K_L.gguf
+    sha256: 1e9fe1c80e5e9d483e0a5c724800348f3785c67e962e26b808e782e3e7853796
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q3_K_M.gguf
+    sha256: 3d225e7e53652b343bb0f8f31383470be94119c7ccaf6e0709c09408f9389ef7
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q3_K_S.gguf
+    sha256: c3eb0789e464877ed3aee20c4609cfa6497c605c7fcf3a1f2a388a8c8f2baab0
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q4_0.gguf
+    sha256: 22da733aceb017f717861fc9a4d5c02d897506cb2701c9f0cb1a4b9f0e61a112
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q4_K_M.gguf
+    sha256: 2a158fb75172fc38543b654f4d0022f245512d1b5aed574e50792a910cf9b3f7
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q4_K_S.gguf
+    sha256: 379a88890018c08dc856d1bab60ae074990650694fc0c0add88f43f96d060d89
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q5_0.gguf
+    sha256: 63c8f6125f48ab990bd41c951e377684d1d5c6ad95be30549b1de4ec432b2804
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q5_K_M.gguf
+    sha256: c0fa6640de2a7b4f9843f5577864495599d9137ab3cff7f765bb02aa555262f7
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q5_K_S.gguf
+    sha256: 4fa6285c7c70cf9667cea3ed85da28ed2a44191a1636752fbde464bb1044ba97
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q6_K.gguf
+    sha256: 81e48394c661fceb9b850b584ee51fd1dc4bb010b305a6c156a05917ff125d9b
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: sciphi-self-rag-mistral-7b-32k.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: SciPhi
+      completion: SciPhi
+  description: TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF - mistral configuration
+  files:
+  - filename: SciPhi.tmpl
+    sha256: 24d9aee53f70b80c98d4d5436189d7b0a58411bc63165d4620f3ca3c5ae4e63d
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/SciPhi.tmpl
+  - filename: sciphi-self-rag-mistral-7b-32k.Q8_0.gguf
+    sha256: 963c148abdb60974153f1602e3e9500abd6d351e54fba87236b21ea6956985db
+    uri: 
+      https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF/resolve/main/sciphi-self-rag-mistral-7b-32k.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: mit
+  name: 
+    TheBloke__SciPhi-Self-RAG-Mistral-7B-32k-GGUF__sciphi-self-rag-mistral-7b-32k.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - base_model:SciPhi/SciPhi-Self-RAG-Mistral-7B-32k
+  - license:mit
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/SciPhi-Self-RAG-Mistral-7B-32k-GGUF

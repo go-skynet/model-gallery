@@ -1,0 +1,532 @@
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q2_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q2_K.bin
+    sha256: 3b8749832a889b72f50d771246cb5f6778511822ad8f3ad2c95c28c850179c5e
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q2_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q2_K.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_L.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_L.bin
+    sha256: d83d9c46195380de5840aaebc183bb7e9286d0e42087716c36e944fbbc5b2ed6
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_L.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_L.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_M.bin
+    sha256: cd5f77c5f92a5b9f171fbff44b58cc8e04d5f4666791e29b3ffa01c65bd96e9f
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_S.bin
+    sha256: 9d3ae082abe2866d37d1c1a9bdc7d1fffe1e37063bc8830a1833523da5329d27
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q3_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q4_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q4_0.bin
+    sha256: da8f497cebb4c9c998c0bf8d15d46f725135363b327f7180b55084ca1c0ac9db
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q4_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q4_0.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q4_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q4_1.bin
+    sha256: c74fb22c76f8c2ac912845110dc69dd8f2bfb8cc3a37f3e133db30ce9a9dac3f
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q4_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q4_1.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_M.bin
+    sha256: 0e18230a3c62d8b3208640f805c270bfc09eb21566eaca60b8ce3a9c3d6e81b8
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_S.bin
+    sha256: 598a08b3a9bdbd8f69edacd4d83d560dc50e23e3f1421bd5c3ae55a66a724665
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q4_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q5_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q5_0.bin
+    sha256: 67e99ca51f9dd814915246c8754733bcc301a45b54e05cbb8c4530ca04f22a84
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q5_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q5_0.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q5_1.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q5_1.bin
+    sha256: b9ae606dcf630d6e187633b168de68c8fa6552f5bf978d164728d326087f7794
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q5_1.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q5_1.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_M.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_M.bin
+    sha256: 4ba5c6540a4f5d8fbd6e08380a67d0bf55447fcc67c27d4849f9472983002b21
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_M.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_M.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_S.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_S.bin
+    sha256: 67a9ae94d2475945298559e356dfd4dcef0e90219aed752d6123e8d13016b2be
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_S.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q5_K_S.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q6_K.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q6_K.bin
+    sha256: 036bd79b5f920f81f347b6d13db50e787a7816422cec3939aec2d684444f56dc
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q6_K.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q6_K.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
+- config_file:
+    backend: llama-stable
+    context_size: 1024
+    parameters:
+      model: wizardcoder-python-13b-v1.0.ggmlv3.Q8_0.bin
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/WizardCoder-Python-13B-V1.0-GGML - llama configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: wizardcoder-python-13b-v1.0.ggmlv3.Q8_0.bin
+    sha256: 2172909c117cbc38ac8a83cd5346ce130b6b0f4375a65dc6cf536fb4eb42def0
+    uri: 
+      https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML/resolve/main/wizardcoder-python-13b-v1.0.ggmlv3.Q8_0.bin
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: llama2
+  name: 
+    TheBloke__WizardCoder-Python-13B-V1.0-GGML__wizardcoder-python-13b-v1.0.ggmlv3.Q8_0.bin
+  tags:
+  - transformers
+  - llama
+  - code
+  - arxiv:2304.12244
+  - arxiv:2306.08568
+  - arxiv:2308.09583
+  - arxiv:2303.08774
+  - base_model:WizardLM/WizardCoder-Python-13B-V1.0
+  - license:llama2
+  - model-index
+  - has_space
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/WizardCoder-Python-13B-V1.0-GGML
