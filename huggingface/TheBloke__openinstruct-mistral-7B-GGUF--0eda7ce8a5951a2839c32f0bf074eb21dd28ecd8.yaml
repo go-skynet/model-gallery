@@ -1,0 +1,840 @@
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q2_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q2_K.gguf
+    sha256: 1edae1be004323357116bff229f504dede14e9becfafcea06a85285627475313
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_L.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_L.gguf
+    sha256: f1c39c0e9d8a7184898ff88f78aab9eda77461cd9c010e23acf6aa5137436cba
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_M.gguf
+    sha256: ce0ad7a32fbec352b4f0e0f921fe3b5891110eae3ee50d7befbd9dd1375b17a9
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_S.gguf
+    sha256: 47330d6203be9cefb72c3dddf1dacef81d544c07b495c63e91aef7a7269e8d91
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q4_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_0.gguf
+    sha256: 9892ff01e14cee10295af9104b473dd7912ec130258587c9d9d4ee5352854bac
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q4_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_K_M.gguf
+    sha256: 8c412d05dc54227e8275031e6ac58e0b101c1259b72e52fbea5ac085055c72d4
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q4_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_K_S.gguf
+    sha256: b8aabdbbf950b21ae56eba1f73c9cbd28ce736dd0a08cb0f63ab3477e542ec84
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q5_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_0.gguf
+    sha256: c6e484193730805ac343fc73c91e0cc52fc16223fe53327b908fef88608c10b6
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q5_K_M.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_K_M.gguf
+    sha256: ba65871892d3d37a1da826f67910418674313570fcae559a98a41560382b66a3
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q5_K_S.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_K_S.gguf
+    sha256: 5c00de9768f8988d814ece9663ff4f08b3ccc4d8f0cd9659cb0019917c5b5525
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q6_K.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q6_K.gguf
+    sha256: ede8552545e55ea2462a6c2e52998392badc9b65eea9201183978a70fbd4713e
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 4096
+    f16: true
+    mmap: true
+    parameters:
+      model: openinstruct-mistral-7b.Q8_0.gguf
+    stopwords:
+    - <|im_end|>
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - mistral configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q8_0.gguf
+    sha256: 1e142fc68bbefade710531bca289bcf86dfff290e2be5d79ca1b43fdac731899
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q2_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q2_K.gguf
+    sha256: 1edae1be004323357116bff229f504dede14e9becfafcea06a85285627475313
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_L.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_L.gguf
+    sha256: f1c39c0e9d8a7184898ff88f78aab9eda77461cd9c010e23acf6aa5137436cba
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_M.gguf
+    sha256: ce0ad7a32fbec352b4f0e0f921fe3b5891110eae3ee50d7befbd9dd1375b17a9
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q3_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q3_K_S.gguf
+    sha256: 47330d6203be9cefb72c3dddf1dacef81d544c07b495c63e91aef7a7269e8d91
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q4_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_0.gguf
+    sha256: 9892ff01e14cee10295af9104b473dd7912ec130258587c9d9d4ee5352854bac
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q4_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_K_M.gguf
+    sha256: 8c412d05dc54227e8275031e6ac58e0b101c1259b72e52fbea5ac085055c72d4
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q4_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q4_K_S.gguf
+    sha256: b8aabdbbf950b21ae56eba1f73c9cbd28ce736dd0a08cb0f63ab3477e542ec84
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q5_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_0.gguf
+    sha256: c6e484193730805ac343fc73c91e0cc52fc16223fe53327b908fef88608c10b6
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q5_K_M.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_K_M.gguf
+    sha256: ba65871892d3d37a1da826f67910418674313570fcae559a98a41560382b66a3
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q5_K_S.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q5_K_S.gguf
+    sha256: 5c00de9768f8988d814ece9663ff4f08b3ccc4d8f0cd9659cb0019917c5b5525
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q6_K.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q6_K.gguf
+    sha256: ede8552545e55ea2462a6c2e52998392badc9b65eea9201183978a70fbd4713e
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: openinstruct-mistral-7b.Q8_0.gguf
+    template:
+      chat: Alpaca
+      completion: Alpaca
+  description: TheBloke/openinstruct-mistral-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: Alpaca.tmpl
+    sha256: 764b3921516a52d7c43710fd695ebdddd153677b55b3bd30b4e7d60f41cd271b
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/Alpaca.tmpl
+  - filename: openinstruct-mistral-7b.Q8_0.gguf
+    sha256: 1e142fc68bbefade710531bca289bcf86dfff290e2be5d79ca1b43fdac731899
+    uri: 
+      https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF/resolve/main/openinstruct-mistral-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: apache-2.0
+  name: TheBloke__openinstruct-mistral-7B-GGUF__openinstruct-mistral-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - mistral
+  - text-generation
+  - en
+  - dataset:monology/VMware-open-instruct-higgsfield
+  - base_model:monology/openinstruct-mistral-7b
+  - license:apache-2.0
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/openinstruct-mistral-7B-GGUF

@@ -1,0 +1,830 @@
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q2_K.gguf
+    sha256: ff7616e0aab74782a1421f127f880c8389c8fd659af056fe9be48b7b3c1cfd1e
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_L.gguf
+    sha256: d0584af4fc5441063a0f7f64fa62e7dbaa5f55e5a8da8e28c26d04096d09f2e5
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_M.gguf
+    sha256: c66a432b305ee5edacae92801697f1977e78b45dce16f31a4362f43b50c73f30
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_S.gguf
+    sha256: 419a63f76801dc8f1673130ebef077288b1c49849815af24dd97b5e3020d5ebf
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_0.gguf
+    sha256: 68e5eea9231cbab3aa8b235fb3aa928d94947c5542730a86b86c6646ca12fb75
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_K_M.gguf
+    sha256: eab8e78882fe5fc9d8336ecd3e12b280b26e89d05ea97eaf1d75e5d2a1f618e4
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_K_S.gguf
+    sha256: 1404c5c81192480a79bfa2033840874851d22709b98a60a7f9987d4cf89fb554
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_0.gguf
+    sha256: 2be0299a57bd43078b0aed08bde83a05420b0e6f796e48a30267680739a10707
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_K_M.gguf
+    sha256: fa800e8b39650a568e264e8b3dce0eae57704a3fe7a920521703a24ffcaf90b8
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_K_S.gguf
+    sha256: a76a764104ad19cc034962c57c0581887f534dc4234ab87f94ca1e1c2d7b3b84
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q6_K.gguf
+    sha256: 44740a96cd3e8e3f85831e59a7d5b2dcda6a38aaa5c81853fb07fb1b1a6b9ace
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llama configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q8_0.gguf
+    sha256: eff7b66faca6807c54d3f50a4a0aa32d35e88711e83c66f0721b3c34ddb2a513
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q2_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q2_K.gguf
+    sha256: ff7616e0aab74782a1421f127f880c8389c8fd659af056fe9be48b7b3c1cfd1e
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q2_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q2_K.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_L.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_L.gguf
+    sha256: d0584af4fc5441063a0f7f64fa62e7dbaa5f55e5a8da8e28c26d04096d09f2e5
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_L.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_L.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_M.gguf
+    sha256: c66a432b305ee5edacae92801697f1977e78b45dce16f31a4362f43b50c73f30
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q3_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q3_K_S.gguf
+    sha256: 419a63f76801dc8f1673130ebef077288b1c49849815af24dd97b5e3020d5ebf
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q3_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q3_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_0.gguf
+    sha256: 68e5eea9231cbab3aa8b235fb3aa928d94947c5542730a86b86c6646ca12fb75
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_K_M.gguf
+    sha256: eab8e78882fe5fc9d8336ecd3e12b280b26e89d05ea97eaf1d75e5d2a1f618e4
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q4_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q4_K_S.gguf
+    sha256: 1404c5c81192480a79bfa2033840874851d22709b98a60a7f9987d4cf89fb554
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q4_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q4_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_0.gguf
+    sha256: 2be0299a57bd43078b0aed08bde83a05420b0e6f796e48a30267680739a10707
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_K_M.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_K_M.gguf
+    sha256: fa800e8b39650a568e264e8b3dce0eae57704a3fe7a920521703a24ffcaf90b8
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_K_M.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_K_M.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q5_K_S.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q5_K_S.gguf
+    sha256: a76a764104ad19cc034962c57c0581887f534dc4234ab87f94ca1e1c2d7b3b84
+    uri: 
+      https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q5_K_S.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q5_K_S.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q6_K.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q6_K.gguf
+    sha256: 44740a96cd3e8e3f85831e59a7d5b2dcda6a38aaa5c81853fb07fb1b1a6b9ace
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q6_K.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q6_K.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
+- config_file:
+    backend: llama
+    context_size: 1024
+    parameters:
+      model: orca-2-7b.Q8_0.gguf
+    template:
+      chat: ChatML
+      completion: ChatML
+  description: TheBloke/Orca-2-7B-GGUF - llamaFallback configuration
+  files:
+  - filename: ChatML.tmpl
+    sha256: 36b71ebc20a1756d6e36455b4f34db4925108ce7a0554f6b279a693f4079ef97
+    uri: 
+      https://raw.githubusercontent.com/dave-gray101/model-gallery/main/prompt-templates/ChatML.tmpl
+  - filename: orca-2-7b.Q8_0.gguf
+    sha256: eff7b66faca6807c54d3f50a4a0aa32d35e88711e83c66f0721b3c34ddb2a513
+    uri: https://huggingface.co/TheBloke/Orca-2-7B-GGUF/resolve/main/orca-2-7b.Q8_0.gguf
+  icon: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  license: other
+  name: TheBloke__Orca-2-7B-GGUF__orca-2-7b.Q8_0.gguf
+  tags:
+  - transformers
+  - llama
+  - orca
+  - orca2
+  - microsoft
+  - text-generation
+  - arxiv:2311.11045
+  - base_model:microsoft/Orca-2-7b
+  - license:other
+  - text-generation-inference
+  - region:us
+  urls:
+  - https://huggingface.co/TheBloke/Orca-2-7B-GGUF
