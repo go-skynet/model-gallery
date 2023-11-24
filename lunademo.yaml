@@ -10,15 +10,13 @@ urls:
 config_file: |
   backend: llama
   context_size: 4096
-  f16: true
-  gpu_layers: 35
   threads: 10
   name: lunademo
   parameters:
     model: luna-ai-llama2-uncensored.Q4_K_M.gguf
     temperature: 0.2
   template:
-    chat_message: luna-chat-message
+    chat: luna-chat-message
 
 prompt_templates:
 - name: "luna-chat-message"
