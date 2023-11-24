@@ -18,7 +18,7 @@ config_file: |
     model: luna-ai-llama2-uncensored.Q4_K_M.gguf
     temperature: 0.2
   template:
-    chat_message: luna-chat-message
+    chat: luna-chat-message
 
 prompt_templates:
 - name: "luna-chat-message"
