@@ -1,4 +1,4 @@
-name: "mixtral-8x7B-Q6_K"
+name: "mixtral-8x7B-Q3_K_M"
 
 description: |
   This is a mixtral model
@@ -8,14 +8,14 @@ urls:
 - https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
 
 config_file: |
-  name: mixtral-8x7B-Q6_K
+  name: mixtral-8x7B-Q3_K_M
   context_size: 4096
   f16: true
   mmap: true
-  gpu_layers: 200 # Comment out to disable offloading to GPU
-  threads: 24
+  #gpu_layers: 200 # uncomment to offload all layers to GPU
+  threads: 8
   parameters:
-    model: mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+    model: mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
     temperature: 0.2
     top_k: 40
     top_p: 0.95
@@ -37,6 +37,6 @@ prompt_templates:
     [INST] {{.Input}} [/INST]
     
 files:
-- filename: "mixtral-8x7b-instruct-v0.1.Q6_K.gguf"
-  sha256: "56638f9853b8fff80ac1fd4a91434a1c15c21d4c910811c5458df9ef092615fd"
-  uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q6_K.gguf"
+- filename: "mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf"
+  sha256: "bd2e1499e68195f1a6ff151e6fa5c6632acc150b80cca4a3772cbb7ca59d44cd"
+  uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf"
