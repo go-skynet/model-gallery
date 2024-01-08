@@ -12,7 +12,7 @@ config_file: |
   context_size: 4096
   f16: true
   mmap: true
-  #gpu_layers: 200 # uncomment to offload all layers to GPU
+  #gpu_layers: 90 # uncomment to offload all layers to GPU
   threads: 8
   parameters:
     model: mixtral-8x7b-instruct-v0.1.Q3_K_M.gguf
