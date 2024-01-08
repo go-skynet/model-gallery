@@ -12,8 +12,8 @@ config_file: |
   context_size: 4096
   f16: true
   mmap: true
-  gpu_layers: 200 # Comment out to disable offloading to GPU
-  threads: 24
+  gpu_layers: 90 # Comment out to disable offloading to GPU
+  threads: 10
   parameters:
     model: mixtral-8x7b-instruct-v0.1.Q6_K.gguf
     temperature: 0.2
