@@ -1,0 +1,42 @@
+name: "mixtral-8x7B-Q6_K"
+
+description: |
+  This is a mixtral model
+
+license: "https://www.apache.org/licenses/LICENSE-2.0"
+urls:
+- https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+
+config_file: |
+  name: mixtral-8x7B-Q6_K
+  context_size: 4096
+  f16: true
+  mmap: true
+  gpu_layers: 90 # Comment out to disable offloading to GPU
+  threads: 10
+  parameters:
+    model: mixtral-8x7b-instruct-v0.1.Q6_K.gguf
+    temperature: 0.2
+    top_k: 40
+    top_p: 0.95
+    frequency_penalty: 1.1
+    batch: 512
+    tfz: 1.0
+  template:
+    chat: mixtral-chat
+    completion: mixtral-completion
+  stopwords:
+  - <|im_end|>
+
+prompt_templates:
+- name: "mixtral-chat"
+  content: |
+    [INST] {{.Input}} [/INST]
+- name: "mixtral-completion"
+  content: |
+    [INST] {{.Input}} [/INST]
+    
+files:
+- filename: "mixtral-8x7b-instruct-v0.1.Q6_K.gguf"
+  sha256: "56638f9853b8fff80ac1fd4a91434a1c15c21d4c910811c5458df9ef092615fd"
+  uri: "https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF/resolve/main/mixtral-8x7b-instruct-v0.1.Q6_K.gguf"
